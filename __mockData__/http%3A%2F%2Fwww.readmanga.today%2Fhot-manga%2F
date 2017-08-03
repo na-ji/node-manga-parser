@@ -1,0 +1,2021 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"
+      xml:lang="TR" lang="TR">
+<head><meta charset="utf-8" />
+    <script data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.evt={};__ez.ck={};__ez.dot={};__ez.template={};__ez.template.isOrig=false;__ez.evt.add=function(el,evt,handler){if(el.addEventListener){el.addEventListener(evt,handler,false)}else if(el.attachEvent){el.attachEvent('on'+evt,handler)}else{el['on'+evt]=handler()}};__ez.ck.get=function(n,e){null!==e&&(n=n+"_"+e);for(var t=n+"=",r=decodeURIComponent(document.cookie),o=r.split(";"),i=0;i<o.length;i++){for(var u=o[i];" "===u.charAt(0);)u=u.substring(1);if(0===u.indexOf(t))return u.substring(t.length,u.length)}return""};__ez.queue=function(){function g(a,b,g,h,j,k,l,m){var n=new f.file(a,b,g,h,j,k,l);!0===m?d[a]=n:e[a]=n,c[a]=n,i(n)}function h(a,g,h,j,k,l,m,n,o){!0===l&&(a=a+"_"+b++);var p=new f.func(a,g,h,j,k,m,n);!0===o?d[a]=p:e[a]=p,c[a]=p,i(p)}function i(a){!0!==j(a)&&a.process()}function j(a){if(a.blockedBy instanceof Array)for(var b=0;b<a.blockedBy.length;b++){var d=a.blockedBy[b];if(!1===c.hasOwnProperty(d))return k(a.name+" blocked = "+d),!0;if(!0===a.proceedIfError&&!0===c[d].isError)return!1;if(!1===c[d].isComplete)return k(a.name+" blocked = "+d),!0}return!1}function k(a){var b=window.location.href,c=new RegExp("[?&]ezq=([^&#]*)","i"),d=c.exec(b);"1"===(d?d[1]:null)&&console.debug(a)}function l(){++a>20||(k("let's go"),m(d),m(e))}function m(a){for(var b in a)if(!1!==a.hasOwnProperty(b)){var c=a[b];!0===c.isComplete||j(c)||!0===c.isInitialized||!0===c.isError?!0===c.isError?k(c.name+": error"):!0===c.isComplete?k(c.name+": complete already"):!0===c.isInitialized&&k(c.name+": initialized already"):c.process()}}var a=0,b=0,c=[],d=[],e=[],f={func:function(a,b,d,e,f,g,h){var i=this;this.name=a,this.funcName=b,this.parameters=null===d?null:d instanceof Array?d:[d],this.isBlock=e,this.blockedBy=f,this.deleteWhenComplete=g,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=h,this.process=function(){k("... func = "+a),i.isInitialized=!0,i.isComplete=!0;var b=i.funcName.split(".");b.length>3||(3===b.length?window[b[0]][b[1]][b[2]].apply(null,this.parameters):2===b.length?window[b[0]][b[1]].apply(null,this.parameters):window[i.funcName].apply(null,this.parameters)),!0===i.deleteWhenComplete&&delete c[a],!0===i.isBlock&&(k("----- F'D: "+i.name),l())}},file:function(a,b,c,d,e,f,g){var h=this;this.name=a,this.path=b,this.async=e,this.defer=f,this.isBlock=c,this.blockedBy=d,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=g,this.process=function(){h.isInitialized=!0,k("... file = "+a);var c=document.createElement("script");c.src=b,!0===e?c.async=!0:!0===f&&(c.defer=!0),c.onerror=function(){k("----- ERR'D: "+h.name),h.isError=!0,!0===h.isBlock&&l()},c.onreadystatechange=c.onload=function(){var a=c.readyState;k("----- F'D: "+h.name),a&&!/loaded|complete/.test(a)||(h.isComplete=!0,!0===h.isBlock&&l())},document.getElementsByTagName("head")[0].appendChild(c)}}};return{addFile:g,addFunc:h,items:c}}();var __ezDotData=function(a,b){this.name=a,this.val=b};__ez.dot.b64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(a){var c,d,e,f,g,h,i,b="",j=0;for(a=Base64._utf8_encode(a);j<a.length;)c=a.charCodeAt(j++),d=a.charCodeAt(j++),e=a.charCodeAt(j++),f=c>>2,g=(3&c)<<4|d>>4,h=(15&d)<<2|e>>6,i=63&e,isNaN(d)?h=i=64:isNaN(e)&&(i=64),b=b+this._keyStr.charAt(f)+this._keyStr.charAt(g)+this._keyStr.charAt(h)+this._keyStr.charAt(i);return b},decode:function(a){var c,d,e,f,g,h,i,b="",j=0;for(a=a.replace(/[^A-Za-z0-9+\/=]/g,"");j<a.length;)f=this._keyStr.indexOf(a.charAt(j++)),g=this._keyStr.indexOf(a.charAt(j++)),h=this._keyStr.indexOf(a.charAt(j++)),i=this._keyStr.indexOf(a.charAt(j++)),c=f<<2|g>>4,d=(15&g)<<4|h>>2,e=(3&h)<<6|i,b+=String.fromCharCode(c),64!=h&&(b+=String.fromCharCode(d)),64!=i&&(b+=String.fromCharCode(e));return b=Base64._utf8_decode(b)},_utf8_encode:function(a){a=a.replace(/rn/g,"n");for(var b="",c=0;c<a.length;c++){var d=a.charCodeAt(c);d<128?b+=String.fromCharCode(d):d>127&&d<2048?(b+=String.fromCharCode(d>>6|192),b+=String.fromCharCode(63&d|128)):(b+=String.fromCharCode(d>>12|224),b+=String.fromCharCode(d>>6&63|128),b+=String.fromCharCode(63&d|128))}return b},_utf8_decode:function(a){for(var b="",c=0,d=c1=c2=0;c<a.length;)d=a.charCodeAt(c),d<128?(b+=String.fromCharCode(d),c++):d>191&&d<224?(c2=a.charCodeAt(c+1),b+=String.fromCharCode((31&d)<<6|63&c2),c+=2):(c2=a.charCodeAt(c+1),c3=a.charCodeAt(c+2),b+=String.fromCharCode((15&d)<<12|(63&c2)<<6|63&c3),c+=3);return b}},__ez.dot.dataToStr=function(a){if(void 0===a)return[];try{for(var b in a)a[b].val=a[b].val+""}catch(a){}return a},__ez.dot.getCC=function(){var a="XX";return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("country")&&(a=_ezaq.country),a},__ez.dot.getDID=function(){var a="0";return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(a=_ezaq.domain_id.toString()),a},__ez.dot.getEpoch=function(a){return"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("t_epoch")&&(a=_ezaq.t_epoch),a},__ez.dot.getURL=function(a){return("undefined"!=typeof ezJsu&&1==ezJsu||"undefined"!=typeof _ez_sa&&1==_ez_sa||"undefined"!=typeof isAmp&&!0===isAmp)&&(a="//g.ezoic.net"+a),a},__ez.dot.isValid=function(a){for(var b=0;b<a.length;b++)if(a[b]instanceof __ezDotData==!1)return console.error("Invalid data. ",a[b]),!1;return!0},__ez.dot.isDefined=function(){for(var a=0;a<arguments.length;a++)if(void 0===arguments[a]||null===arguments[a])return console.error("Argument not defined. ",arguments),!1;return!0};__ez.bit=function(){function c(a,b){d(a,b),e()}function d(b,c){__ez.dot.isDefined(b)&&__ez.dot.isValid(c)&&a.push({type:"pageview",pageview_id:b,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(c)})}function e(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(a)&&a.length>0&&((new Image).src=__ez.dot.getURL(b)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&ds="+btoa(JSON.stringify(a))),a=[])}var a=[],b="/detroitchicago/greenoaks.gif";return{Add:d,AddAndFire:c,Fire:e}}();</script><script data-cfasync='false' data-pagespeed-no-defer>__ez.pel=function(){function c(a,b){d(a,b,0,0,0,0,0),f()}function d(b,c,d,e,f,h,i){if(__ez.dot.isDefined(b,b.getSlotElementId)){var j=parseInt(b.getTargeting("ap")[0]),k=b.getSizes()[0],l=k.l.toString()+"x"+k.j.toString(),m=g(b),n=b.getSlotElementId();__ez.dot.isDefined(m,n)&&__ez.dot.isValid(c)&&a.push({type:"impression",impression_id:m,domain_id:__ez.dot.getDID(),unit:n,t_epoch:__ez.dot.getEpoch(0),revenue:d,est_revenue:e,ad_position:j,ad_size:l,bid_floor_filled:f,bid_floor_prev:h,stat_source_id:i,country_code:__ez.dot.getCC(),data:__ez.dot.dataToStr(c)})}}function e(b,c){var d=b.split("/");if(__ez.dot.isDefined(b)&&3===d.length&&__ez.dot.isValid(c)){var e=d[0],f=d[2];a.push({type:"impression",impression_id:f,domain_id:__ez.dot.getDID(),unit:e,t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(c)})}}function f(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(a)&&a.length>0&&((new Image).src=__ez.dot.getURL(b)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&sts="+btoa(JSON.stringify(a))),a=[])}function g(a){var b=0;try{var c=a.getTargetingMap();if(-1===a.getSlotElementId().indexOf("div-gpt-ad"))return b;if(void 0!==c)for(var e in c)if(-1!==e.indexOf("iid")&&void 0!==c[e][0]){b=c[e][0];break}}catch(a){}return b}var a=[],b="/porpoiseant/army.gif";return{Add:d,AddAndFire:c,AddById:e,Fire:f}}();var EzoicPixel=function(){this.pixels=[],this.pixelUrl="/ezoic/e.gif",("undefined"!=typeof ezJsu&&ezJsu===!0||"undefined"!=typeof _ez_sa&&_ez_sa===!0||"undefined"!=typeof window.isAmp&&isAmp===!0)&&(this.pixelUrl="//g.ezoic.net"+this.pixelUrl),this.tEpoch=0,"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("t_epoch")&&(this.tEpoch=_ezaq.t_epoch)},EzoicPixelData=function(a,b){this.name=a,this.val=b};EzoicPixel.prototype={constructor:EzoicPixel,AddAndFireImpPixel:function(a,b){this.AddImpPixel(a,b,0,0,0,0,0),this.FirePixels()},AddAndFirePVPixel:function(a,b){this.AddPVPixel(a,b),this.FirePixels()},AddImpPixel:function(a,b,c,d,e,f,g){if(this.isDefined(a,a.getSlotElementId)){var h=parseInt(a.getTargeting("ap")[0]),i=a.getSizes()[0],j=i.l.toString()+"x"+i.j.toString(),k="0",l="XX";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(k=_ezaq.domain_id.toString()),"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("country")&&(l=_ezaq.country);var m=this.getSlotIID(a),n=a.getSlotElementId();this.isDefined(m,n)&&this.validateData(b)&&(b=this.convertDataToStr(b),this.pixels.push({type:"impression",impression_id:m,domain_id:k,unit:n,t_epoch:this.tEpoch,revenue:c,est_revenue:d,ad_position:h,ad_size:j,bid_floor_filled:e,bid_floor_prev:f,stat_source_id:g,country_code:l,data:b}))}},AddImpPixelById:function(a,b){var c="0";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(c=_ezaq.domain_id.toString());var d=a.split("/");if(this.isDefined(a)&&3===d.length&&this.validateData(b)){var e=d[0],f=d[2];b=this.convertDataToStr(b),this.pixels.push({type:"impression",impression_id:f,domain_id:c,unit:e,t_epoch:this.tEpoch,data:b})}},AddPVPixel:function(a,b){var c="0";"undefined"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(c=_ezaq.domain_id.toString()),this.isDefined(a)&&this.validateData(b)&&(b=this.convertDataToStr(b),this.pixels.push({type:"pageview",pageview_id:a,domain_id:c,t_epoch:this.tEpoch,data:b}))},FirePixels:function(){"undefined"!=typeof document.visibilityState&&"prerender"===document.visibilityState||(this.isDefined(this.pixels)&&this.pixels.length>0&&((new Image).src=this.pixelUrl+"?orig="+(__ez.template.isOrig===!0?1:0)+"&pixels="+encodeURIComponent(JSON.stringify(this.pixels))),this.pixels=[])},NewData:function(a,b){return new EzoicPixelData(a,b)},convertDataToStr:function(a){if("undefined"==typeof a)return[];try{for(var b in a)a[b].val=a[b].val+""}catch(a){}return a},getSlotIID:function(a){var b=0;try{var c=a.getTargetingMap(),d=a.getSlotElementId();if(d.indexOf("div-gpt-ad")===-1)return b;if("undefined"!=typeof c)for(var e in c)if(e.indexOf("iid")!==-1&&"undefined"!=typeof c[e][0]){b=c[e][0];break}}catch(a){}return b},isDefined:function(){for(var a=0;a<arguments.length;a++)if("undefined"==typeof arguments[a]||null===arguments[a])return console.error("Argument not defined. ",arguments),!1;return!0},validateData:function(a){for(var b=0;b<a.length;b++)if(a[b]instanceof EzoicPixelData==!1)return console.error("Invalid pixelData. ",a[b]),!1;return!0}};</script>
+    <script type="text/javascript">
+        var __banger_pmp_deals=[];
+    </script>
+    <script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>
+        function ez_isclean( data ) {
+            if (typeof data === 'undefined') { data = document.URL; }
+            var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))(@|%2540|%40)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+            var isClean = !re.test(data);
+            return isClean;
+        }
+
+        var ez_queue = new Array();
+        function sort_queue(a, b)
+        {
+            if( a.priority < b.priority ) return -1;
+            else if( a.priority == b.priority ) return 0;
+            else return 1;
+        }
+        function execute_ez_queue()
+        {
+            ez_queue.sort( sort_queue );
+
+            for( var i in ez_queue )
+            {
+                if(typeof ez_queue[i].method != "undefined")
+                {
+                    try{
+                        ez_queue[i].method.call( null );
+                    }
+                    catch (err) {
+
+                    }
+                }
+            }
+        }
+
+        window.ez_ad_units = new Array();
+        window.ezslots = new Array();
+        function ez_write_tag(d) {
+            if(ez_isclean() && d instanceof Array) {
+
+                ez_ad_units[ez_ad_units.length] = d;
+                var ezcmd = "googletag.cmd.push(function() {var divid = 'div-gpt-ad-"+d[1]+"-0';if(typeof ezlrarn == 'function'){ezlrarn(divid);}googletag.display(divid);var to = 0;if("+d[2]+".getTargeting('ga')[0] == '0'){to = 500;console.log('"+d[2]+" - no google');}if(window.ezDisableInitialLoad==true){setTimeout(function(){googletag.pubads().refresh(["+d[2]+"])},to);}});";
+                return ezcmd;
+            }
+            else {
+                return "1+1";
+            }
+        }
+        function in_array(needle, haystack) {
+            var length = haystack.length;
+            for(var i = 0; i < length; i++) {
+                if(haystack[i] == needle) return true;
+            }
+            return false;
+        }
+    </script><script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>var ezrpos = new Array();var ez_current_interval;var ez_current_load = 0;</script>
+    <script data-cfasync="false" type="text/javascript" data-pagespeed-no-defer src="//go.ezoic.net/porpoiseant/dall.js" async></script>
+    <script data-cfasync="false" type="text/javascript" data-pagespeed-no-defer>
+        function epbjsRefreshSlot(e){epbjs.que.push(function(){epbjs.requestBids({adUnitCodes:[e.getSlotElementId()],bidsBackHandler:function(){epbjs.setTargetingForGPTAsync([e.getSlotElementId()])}})})}var epbjs=epbjs||{};epbjs.bidderTimeout=2500,epbjs.useAdj=true,epbjs.que=epbjs.que||[],epbjs.ezdss=epbjs.ezdss||[],epbjs.ezobid=epbjs.ezobid||[],epbjs.que.push(function(){var e=[];epbjs.addAdUnits(e);epbjs.aliasBidder('appnexus', 'defymedia');epbjs.aliasBidder('appnexus', 'brealtime');epbjs.SS={"brealtime":10039,"defymedia":10024,"pulsepoint":10019},epbjs.bidderSettings={defymedia: { bidCpmAdjustment: function(bidCpm) { var adj1 = bidCpm * 0.750000; var adj2 = adj1 * 1.500000; return adj2; }},brealtime: { bidCpmAdjustment: function(bidCpm) { var adj1 = bidCpm * 0.770000; var adj2 = adj1 * 1.500000; return adj2; }},pulsepoint: { bidCpmAdjustment: function(bidCpm) { var adj1 = bidCpm * 0.750000; var adj2 = adj1 * 1.500000; return adj2; }},standard:{adserverTargeting:[{key:"hb_bidder",val:function(e){return e.bidderCode}},{key:"hb_adid",val:function(e){return e.adId}},{key:"hb_pb",val:function(e){var s=e.cpm;return 5>s?(Math.floor(100*s)/100).toFixed(2):(Math.floor(10*s)/10).toFixed(2)}},{key:"hb_ssid",val:function(e){return"ehb"==e.bidder?0:"undefined"!=typeof epbjs.SS[e.bidder]?epbjs.SS[e.bidder]:(console.error("epbjs: NO MATCH"),0)}}]}},epbjs.onEvent("bidWon",function(e){"ehb"==e.bidder?epbjs.ezdss[e.adUnitCode]=e.ss:"undefined"!=typeof epbjs.SS[e.bidder]?(epbjs.ezdss[e.adUnitCode]=epbjs.SS[e.bidder],1==epbjs.useAdj&&["sovrn","openx","pulsepoint","defymedia","aol","conversant","districtm","admedia","brealtime","sonobi","criteo"].indexOf(e.bidder)>-1&&(epbjs.ezobid[e.adUnitCode]=e.cpm/1.500000)):console.error("epbjs: NO MATCH")}),epbjs.requestBids({bidsBackHandler:function(e){epbjs.setTargetingForGPTAsync()}})});
+    </script><script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.isEZABL=false;window.ezmadspc=300;</script><script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.ezDisableInitialLoad=false;</script><script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>
+        window.googletag = window.googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+
+
+
+    </script>
+    <script data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>
+        googletag.cmd.push(function() {if(typeof window.isEZABL == 'undefined' || window.isEZABL != true) {}else{window.ezHideLocations=[];}googletag.pubads().addEventListener('slotRenderEnded', function(event) { __ez.queue.addFunc("ezbanger", "ezbanger", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('impressionViewable', function(event) { __ez.queue.addFunc("ezvb", "ezvb", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('slotVisibilityChanged', function(event) { __ez.queue.addFunc("ezvbc", "ezvbc", event, false, ['banger.js'], true, true, false, true); });googletag.enableServices();});if(typeof window.isEZABL == 'undefined' || window.isEZABL != true) {}else{}</script>
+    <script type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_location_ids":"","adx_ad_count":0,"bidder_version":0,"city":"Paris","country":"FR","days_since_last_visit":-1,"display_ad_count":0,"domain_id":29103,"ds_adsize_opt_id":-1,"engaged_time_visit":293,"ezcache_level":0,"forensiq_score":-1,"form_factor_id":1,"has_bad_words":0,"iab_category":"IAB25-4","is_return_visitor":false,"last_page_load":"1496766052560","last_pageview_id":"334348e3-f04f-441e-7f0f-1c32c9b71531","lt_cache_level":0,"max_ads":10,"metro_code":0,"page_ad_positions":"","page_view_count":2,"page_view_id":"d4af1899-e4fb-4753-4aa4-d6ffb25d807c","pv_event_count":0,"response_time_orig":59,"serverid":"52.210.190.33:10488","sub_page_ad_positions":"","t_epoch":1496766089,"template_id":147,"time_on_site_visit":480,"url":"http://www.readmanga.today/hot-manga","user_id":2099903931,"word_count":2127};var _ezim_d = {};var _ezat = {"domain_id":29103,"form_factor_id":1,"pageview_date":"2017-06-06","pageview_id":"d4af1899-e4fb-4753-4aa4-d6ffb25d807c","template_id":147,"url":"http://www.readmanga.today/hot-manga","visit_uuid":"78137ba0-119f-4c4f-7c93-df835e3ffacc"};</script><script data-cfasync='false' type="text/javascript" src="/detroitchicago/rochester.js?cb=161-0&v=7" async></script><script data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=161-0&bv=2&v=8&PageSpeed=off', true, [], true, false, false, true);</script><script data-pagespeed-no-defer data-cfasync='false'>
+        function create_ezolpl() {
+            var d = new Date();
+            d.setTime(d.getTime() + (365*24*60*60*1000));
+            var expires = "expires="+d.toUTCString();
+            document.cookie = "ezux_lpl_29103=" + new Date().getTime() + "|d4af1899-e4fb-4753-4aa4-d6ffb25d807c; " + expires;
+        }
+        function attach_ezolpl() {
+            if(window.attachEvent) {
+                window.attachEvent('onload', create_ezolpl);
+            } else {
+                if(window.onload) {
+                    var curronload = window.onload;
+                    var newonload = function(evt) {
+                        curronload(evt);
+                        create_ezolpl();
+                    };
+                    window.onload = newonload;
+                } else {
+                    window.onload = create_ezolpl;
+                }
+            }
+        }
+        attach_ezolpl();
+    </script>
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Readmanga Today - Read Hot Manga Online!</title>
+    <meta name="description" content="Read hundreds of free hot manga online. Like Naruto manga, Bleach manga, One Piece manga, Fairy Tail Manga, Kingdom Manga, The Gamer manga and many more!" />
+    <meta name="keywords" content="manga,read manga online,magna scans,english manga,naruto manga,bleach manga, one piece manga,manga chapter,manga online,read free manga,free manga,read free manga online,manga viewer" />
+    <!-- fb -->
+    <meta property="fb:app_id" content="1602638713306154" />
+    <meta property="og:title" content="Readmanga Today - Read Hot Manga Online!"/>
+    <meta property="og:url" content="http://www.readmanga.today/hot-manga"/>
+    <meta property="og:description" content="Read hundreds of free hot manga online. Like Naruto manga,&#8230;"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:type" content="video.movie" />
+
+
+    <!-- twitter -->
+    <meta name="Twitter:card" content="summary"/>
+    <meta name="Twitter:title" content="Readmanga Today - Read Hot Manga Online!"/>
+    <meta name="Twitter:url" content="http://www.readmanga.today/hot-manga"/>
+    <meta name="Twitter:description" content="Read hundreds of free hot manga online. Like Naruto manga,&#8230;"/>
+    <meta name="Twitter:image" content=""/>
+    <!-- Google+ -->
+    <meta itemprop="name" content="Readmanga Today - Read Hot Manga Online!"/>
+    <meta itemprop="description" content="Read hundreds of free hot manga online. Like Naruto manga,&#8230;"/>
+    <meta itemprop="audience" content="video.movie"/>
+    <meta itemprop="image" content=""/>
+    <link rel="alternate" href="http://www.readmanga.today/feed" title="My RSS feed" type="application/rss+xml" />
+
+    <!-- Bootstrap -->
+    <link href="http://www.readmanga.today/assets/css/bootstrap.min.css"  type="text/css" rel="stylesheet" media="screen">
+    <link href="http://www.readmanga.today/assets/css/color-midnight-blue.css?v=0.5" type="text/css" rel="stylesheet" media="screen">
+    <link href="http://www.readmanga.today/assets/css/style.css?v=6.1" type="text/css" rel="stylesheet" media="screen">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-59797904-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <link rel="shortcut icon" href="http://www.readmanga.today/assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.readmanga.today/assets/img/apple-touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="http://www.readmanga.today/assets/img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="http://www.readmanga.today/assets/img/apple-touch-icon-iphone4.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="http://www.readmanga.today/assets/img/apple-touch-icon-ipad3.png" />
+
+    <!-- Ezoic Ad Testing Code-->
+
+    <!-- Ezoic Ad Testing Code-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://www.readmanga.today/assets/js/html5shiv.js"></script>
+    <script src="http://www.readmanga.today/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        var base_url = "http://www.readmanga.today/";
+        var current_url = "http://www.readmanga.today/hot-manga";
+    </script>
+
+
+    <style type="text/css">
+        body {
+            background-attachment: fixed;
+        }
+    </style>
+    <style>.ezoic-ad{display:inline-block;}
+    .ezoic-floating-bottom { display: none!important; }</style><link rel='canonical' href='http://www.readmanga.today/hot-manga' />
+    <script data-cfasync="false" type="text/javascript">window.google_analytics_uacct = "UA-85165776-5";</script>
+    <script data-cfasync="false" type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['e._setAccount', 'UA-85165776-5']);
+        _gaq.push(['f._setAccount', 'UA-38339005-1']);
+        _gaq.push(['e._setDomainName', 'readmanga.today']);
+        _gaq.push(['f._setDomainName', 'readmanga.today']);
+        _gaq.push(['e._setCustomVar',1,'template','pub_site_noads',3]);
+        _gaq.push(['e._setCustomVar',2,'t','147',3]);
+        _gaq.push(['e._setCustomVar',3,'rid','0',2]);
+        _gaq.push(['e._setCustomVar',4,'bra','mod19',3]);
+        _gaq.push(['f._setSampleRate', '1']);
+        _gaq.push(['e._setSampleRate', '1']);
+        _gaq.push(['e._setAllowAnchor',true]);
+        _gaq.push(['e._setSiteSpeedSampleRate', 10]);
+        _gaq.push(['f._setCustomVar',1,'template','pub_site_noads',3]);
+        _gaq.push(['f._setCustomVar',2,'domain','readmanga.today',3]);
+        _gaq.push(['f._setSiteSpeedSampleRate', 20]);
+        _gaq.push(['e._trackPageview']);
+        _gaq.push(['f._trackPageview']);
+
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script type="text/javascript">var ezouid = "2099903931";</script><base href="http://www.readmanga.today/hot-manga"><script type='text/javascript'>
+        var ezoTemplate = 'pub_site_noads';
+        if(typeof ezouid == 'undefined')
+        {
+            var ezouid = 'none';
+        }
+        var ezoFormfactor = '1';
+        var ezo_elements_to_check = Array();
+    </script>
+
+    <!-- START EZHEAD -->
+    <script type='text/javascript'>
+        var soc_app_id = '0';
+        var did = 29103;
+        var ezdomain = 'readmanga.today';
+        var ezoicSearchable = 1;
+    </script>
+    <!--{jquery}-->
+    <!-- END EZHEAD -->
+
+    <script pagespeed_no_defer="" data-cfasync="false" type="text/javascript">
+        window.cookieconsent_options = {
+            "message":"We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.",
+            "dismiss":"Got it!",
+            "learnMore":"See details",
+            "link":'/privacy.html',
+            "theme":"/ezoic/styles/dark-bottom.css",
+            "domain":"readmanga.today"
+        };
+    </script>
+    <script pagespeed_no_defer="" data-cfasync="false" type="text/javascript" src="/ezoic/cookieconsent.min.js"></script>
+    <script data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>
+        __ez.queue.addFile('__ezf_ezosuigeneris', '//g.ezoic.net/ezosuigeneris.js', true, [], true, false, false, false);
+        var __ez_ezosuigenerisEvt = function() { __ez.bit.AddAndFire(_ezaq['page_view_id'], [(new __ezDotData('universal_user_id', ezosuigeneris))]); };
+        __ez.queue.addFunc('__ez_ezosuigenerisEvt', '__ez_ezosuigenerisEvt', null, false, ['__ezf_ezosuigeneris'], false, false, false, false);</script><script data-pagespeed-no-defer data-cfasync='false' type='text/javascript' style='display:none'>__ez.queue.addFile('__ezf_ezosuigenerisc', '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, [], true, false, false, false);</script></head>
+<body>
+<div class="header">
+    <div class="container-fixed clearfix ">
+        <div class="top">
+            <div class="row">
+                <div class="logo col-md-3">
+                    <a href="http://www.readmanga.today/" title=""><img src="http://www.readmanga.today/assets/img/logo.png"/></a>
+                </div><!--col-md-3-->
+                <div class="social-login col-md-9">
+                    <ul>
+                        <li class="search">
+                            <form class="logged-in-search" action="http://www.readmanga.today/search" method="POST">
+                                <input id="search" type="text" class="form-control" name="query" autocomplete="off" placeholder="Search engine">
+                                <input type="submit" style="position: absolute; left: -9999px"/>
+                            </form>
+                        </li>
+                    </ul>
+                </div><!--col-md-5-->
+            </div><!--row-->
+        </div><!--top-->
+        <div class="navigation">
+            <div class="row">
+                <div class="col-md-9">
+                    <ul>
+                        <li class="home">
+                            <a href="http://www.readmanga.today/" rel="tooltip" title="Home">
+                                <span class="icon-house"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.readmanga.today/manga-list" title="Manga list">
+                                <span class="icon-dot"></span> MANGA LIST
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.readmanga.today/hot-manga" title="Hot manga">
+                                <span class="icon-dot"></span> HOT MANGA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.readmanga.today/latest-releases" title="Latest releases">
+                                <span class="icon-dot"></span> LATEST RELEASES
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.readmanga.today/advanced-search" title="Advanced search">
+                                <span class="icon-dot"></span> ADVANCED SEARCH
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="http://animejoy.tv/" title="Watch anime" target="_blank">
+                                <span class="icon-dot"></span> ANIME
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="http://www.readmanga.today/membership" title="Remove ads">
+                                <span class="icon-dot"></span> REMOVE ADS
+                            </a>
+                        </li>
+
+                    </ul>
+                </div><!--col-md-7-->
+
+                <div class="tools col-md-3">
+                    <ul>
+                        <li>
+                            <a href="http://www.readmanga.today/service/register"  data-toggle="modal" data-target="#register" role="button">&nbsp;&nbsp;<span class="icon-user"></span> Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="#" data-target=".login-dropdown" data-toggle="dropdown" class="dropdown-toggle"><span class="icon-login"></span> Login</a>
+                        </li>
+                        <li>
+                            <a href="#" data-target=".tools-dropdown" data-toggle="dropdown" class="dropdown-toggle"><span class="icon-cog"></span> Tools&nbsp;&nbsp;&nbsp;</a>
+                        </li>
+                    </ul>
+                </div><!--col-md-5-->
+                <div class="tools-dropdown col-md-6">
+                    <ul class="col-md-6">
+                        <li>
+                            <span class="icon icon-network"></span>
+                            <a href="#">Display Settings</a>
+                            <br />
+                            <span class="text">
+                                        Set default view type as :<br />
+                                        <label><input type="radio" name="listing_type" value="list"  checked="checked" ><span class="icon-list icon-32"></span></label>
+                                        <label><input type="radio" name="listing_type" value="grid" ><span class="icon-layout"></span></label>
+                                    </span>
+                        </li>
+                        <li>
+                            <span class="icon icon-mouse"></span>
+                            <a href="http://www.readmanga.today/rec-bot" title="tavsiye robotu">Recommendation Bot</a>
+                            <br />
+                            <span class="text">Let us recommend you which manga to read.</span>
+                        </li>
+                        <li>
+                            <span class="icon icon-network"></span>
+                            <a href="http://www.readmanga.today/dummy-bot">RM Dummy Bot</a>
+                            <br />
+                            <span class="text">RM Dummy Bot will search and find the manga you may like for you.</span>
+                        </li>
+
+                    </ul>
+                    <ul class="col-md-6">
+                        <li>
+                            <span class="icon icon-bookmarks"></span>
+                            <a href="http://www.readmanga.today/random-manga" title="rastgele film" rel="nofollow">Random</a>
+                            <br />
+                            <span class="text">Let us pick a random manga for you to read.</span>
+                        </li>
+                        <li>
+                            <span class="icon icon-screen"></span>
+                            <a href="#">Custom Background</a>
+                            <ul class="col-md-12 custom-bg">
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/assets/img/background.jpg"><img src="http://www.readmanga.today/wallpapers/0_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/1.jpg"><img src="http://www.readmanga.today/wallpapers/1_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/2.jpg"><img src="http://www.readmanga.today/wallpapers/2_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/3.jpg"><img src="http://www.readmanga.today/wallpapers/3_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/4.jpg"><img src="http://www.readmanga.today/wallpapers/4_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/5.jpg"><img src="http://www.readmanga.today/wallpapers/5_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/6.jpg"><img src="http://www.readmanga.today/wallpapers/6_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/7.jpg"><img src="http://www.readmanga.today/wallpapers/7_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/8.jpg"><img src="http://www.readmanga.today/wallpapers/8_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/9.jpg"><img src="http://www.readmanga.today/wallpapers/9_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/10.jpg"><img src="http://www.readmanga.today/wallpapers/10_resized.jpg"  width="60" height="30" /></a></li>
+
+                                <li class="col-md-4"><a href="#" class="change_background" data-src="http://www.readmanga.today/wallpapers/11.jpg"><img src="http://www.readmanga.today/wallpapers/11_resized.jpg"  width="60" height="30" /></a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--col-md-6-->
+
+                <div class="login-dropdown col-md-3">
+                    <form id="login">
+                        <div class="username">
+                            <span class="icon icon-user"></span>
+                            <input type="text" class="form-control" name="username" placeholder="Username"  />
+                        </div><!--username-->
+                        <div class="password">
+                            <span class="icon icon-key"></span>
+                            <input type="password" class="form-control" name="password" placeholder="Password" />
+                            <p class="help-block"></p>
+                        </div><!--password-->
+                        <button type="submit" class="btn btn-block" data-loading-text="Logging in..">Login</button>
+                        <a href="http://www.readmanga.today/service/forgot_password"  data-toggle="modal" data-target="#forgot-password"  class="btn btn-default btn-block">Forgot password?</a>
+                        <div class="row" style="margin-top: 9px;">
+                            <div class="col-md-6">
+                                <a href="http://www.readmanga.today/service/auth/facebook" rel="nofollow" class="btn btn-default btn-block" style="cursor: pointer;color: #fff;border: 0px;background-color: #335795;">
+                                    <span class="icon icon-facebook"></span>
+                                    <span class="text"><strong>Facebook</strong></span>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="http://www.readmanga.today/service/oauth/twitter" rel="nofollow" class="btn btn-block btn-default" style="background-color: #5db5de;cursor: pointer;color: #fff;border: 0px;">
+                                    <span class="icon icon-twitter"></span>
+                                    <span class="text"><strong>Twitter</strong></span>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--col-md-3-->
+
+            </div><!--row-->
+        </div><!--navigation-->
+
+
+    </div><!--container-fixed-->
+</div><!--header-->    <div class="content">
+    <div class="container-fixed clearfix">
+        <!-- content start -->
+        <div class="col-left col-md-8">
+            <div class="row">
+                <div class="col-md-12 col-top clearfix">
+                    <h3 class="col-title">Hot manga</h3><!--col-title-->
+                    <ul class="list-switcher">
+                        <li><a href="#"  class="active" rel="tooltip" data-placement="left" data-style="style-list" title="List View"><span class="icon-list"></span></a></li>
+                        <li><a href="#"  rel="tooltip" data-placement="left" data-style="style-thumbnail" title="Thumbnail View"><span class="icon-layout"></span></a></li>
+                    </ul>
+                </div><!--col-top-->
+
+                <div class="content-list col-md-12 hot-manga">
+                    <div class="style-list">
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">1</span>
+                                <h2><a href="http://www.readmanga.today/the-ruler-of-the-land" title="The Ruler Of The Land">The Ruler Of The Land</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/the-ruler-of-the-land" title="The Ruler Of The Land"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_667.jpg" alt="The Ruler Of The Land" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Bi-Kwang and Hwa-Rin try in vain to shake ---Sang Pil "Gold Cobra" Jin and his men, but ultimately they are forced to defend themselves. Unfortunately, Bi-Kwang and Hwa-Rin lose, and the Sword of the Flowers&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                            <a href="http://www.readmanga.today/category/ecchi" title="Ecchi">Ecchi</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/gender-bender" title="Gender Bender">Gender Bender</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/romance" title="Romance">Romance</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Korean</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>16,149,790</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 423</li>
+                                    <li><span class="icon-wondering"></span> 15</li>
+                                    <li><span class="icon-sad-2"></span> 47</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="7267"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="7267"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="7267">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/the-ruler-of-the-land#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">2</span>
+                                <h2><a href="http://www.readmanga.today/battle-through-the-heavens" title="Battle Through The Heavens">Battle Through The Heavens</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/battle-through-the-heavens" title="Battle Through The Heavens"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_269.jpg" alt="Battle Through The Heavens" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>In a land where there is no magic, a land where the strong make the rules and weak have to obey, a land filled with alluring treasures and beauty, yet also filled with unforeseen danger.&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/romance" title="Romance">Romance</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>15,776,508</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 6611</li>
+                                    <li><span class="icon-wondering"></span> 119</li>
+                                    <li><span class="icon-sad-2"></span> 69</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="14599"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="14599"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="14599">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/battle-through-the-heavens#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">3</span>
+                                <h2><a href="http://www.readmanga.today/combat-continent" title="Soul Land">Soul Land</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/combat-continent" title="Soul Land"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_376.jpg" alt="Soul Land" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Tang Sect, the most famous martial arts sect of all. By stealing its most secret teachings to fulfill his dreams, Tang San committed an unforgivable crime. With his ambition attained, he hands his legacy to&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/romance" title="Romance">Romance</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>12,625,737</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 4734</li>
+                                    <li><span class="icon-wondering"></span> 119</li>
+                                    <li><span class="icon-sad-2"></span> 214</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="14659"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="14659"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="14659">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/combat-continent#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">4</span>
+                                <h2><a href="http://www.readmanga.today/kingdom" title="Kingdom">Kingdom</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/kingdom" title="Kingdom"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_576.jpg" alt="Kingdom" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Millions of years have passed since the times of legends, when the worlds of man and gods were still the same. In these times it was the desires of man that moved the world. It&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/historical" title="Historical">Historical</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>11,588,221</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 770</li>
+                                    <li><span class="icon-wondering"></span> 15</li>
+                                    <li><span class="icon-sad-2"></span> 17</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="3805"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="3805"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="3805">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/kingdom#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">5</span>
+                                <h2><a href="http://www.readmanga.today/tower-of-god" title="Tower of God">Tower of God</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/tower-of-god" title="Tower of God"><img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_8.png" alt="Tower of God" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>What do you desire? Fortune? Glory? Power? Revenge? Or something that surpasses all others? What ever you desire, 'that is here'. Tower of God.</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/mystery" title="Mystery">Mystery</a>
+                                            <a href="http://www.readmanga.today/category/romance" title="Romance">Romance</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Korean</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>10,159,514</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 413</li>
+                                    <li><span class="icon-wondering"></span> 16</li>
+                                    <li><span class="icon-sad-2"></span> 21</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="7576"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="7576"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="7576">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/tower-of-god#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">6</span>
+                                <h2><a href="http://www.readmanga.today/noblesse" title="Noblesse">Noblesse</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/noblesse" title="Noblesse"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_7.jpg" alt="Noblesse" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>For 820 years he had slumbered with no knowledge of mankind's advancement and scientific progress. The land which he once knew has become an unfamiliar place with new technology, attitudes, and lifestyles. Upon awakening, Cadis&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/school-life" title="School Life">School Life</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Korean</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>8,876,467</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 342</li>
+                                    <li><span class="icon-wondering"></span> 7</li>
+                                    <li><span class="icon-sad-2"></span> 17</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="5220"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="5220"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="5220">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/noblesse#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">7</span>
+                                <h2><a href="http://www.readmanga.today/tales-of-demons-and-gods" title="Tales of Demons and Gods">Tales of Demons and Gods</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/tales-of-demons-and-gods" title="Tales of Demons and Gods"><img src="http://www.readmanga.today/uploads/posters/thumb/1440372418.jpg" alt="Tales of Demons and Gods" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Nie Li, the strongest Demon Spiritist in his past life standing at the pinnacle of the martial world however, he lost his life during the battle with Sage Emperor and the six deity ranked beast,&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/romance" title="Romance">Romance</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>8,746,349</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 5466</li>
+                                    <li><span class="icon-wondering"></span> 74</li>
+                                    <li><span class="icon-sad-2"></span> 55</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="15221"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="15221"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="15221">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/tales-of-demons-and-gods#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">8</span>
+                                <h2><a href="http://www.readmanga.today/the-god-of-high-school" title="The God of High School">The God of High School</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/the-god-of-high-school" title="The God of High School"><img src="http://www.readmanga.today/uploads/posters/thumb/the-god-of-high-school.jpg" alt="The God of High School" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>While an island half-disappearing from the face of the earth, a mysterious organization is sending out invitations for a tournament to every skilled fighter in the world. “If you win you can have ANYTHING you&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>8,002,687</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 207</li>
+                                    <li><span class="icon-wondering"></span> 17</li>
+                                    <li><span class="icon-sad-2"></span> 25</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="7182"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="7182"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="7182">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/the-god-of-high-school#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">9</span>
+                                <h2><a href="http://www.readmanga.today/Combat-Continent-2" title="Soul Land II">Soul Land II</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/Combat-Continent-2" title="Soul Land II"><img src="http://www.readmanga.today/uploads/posters/thumb/1436132608.jpg" alt="Soul Land II" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Important! Combat Continent's Sequel (Don't need to read CC before reading this) But there might be spoilers!!!
+                                            &nbsp;
+                                            A land with out magic, dou-qi, martial arts, but have essence spirits. This is the combat continent&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>7,686,273</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 1700</li>
+                                    <li><span class="icon-wondering"></span> 56</li>
+                                    <li><span class="icon-sad-2"></span> 86</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="15188"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="15188"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="15188">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/Combat-Continent-2#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">10</span>
+                                <h2><a href="http://www.readmanga.today/one-piece1" title="One Piece">One Piece</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/one-piece1" title="One Piece"><img src="http://www.readmanga.today/uploads/posters/thumb/1461242075.jpg" alt="One Piece" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Greatness, Glory, Gold. A Pirate Named Gold Roger also known as the Pirate King has conquered this all. He was executed with an unknown reason but before he died he had revealed his last word&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/mystery" title="Mystery">Mystery</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>7,593,894</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 953</li>
+                                    <li><span class="icon-wondering"></span> 48</li>
+                                    <li><span class="icon-sad-2"></span> 51</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="5359"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="5359"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="5359">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/one-piece1#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">11</span>
+                                <h2><a href="http://www.readmanga.today/shokugeki-no-soma" title="Shokugeki no Soma">Shokugeki no Soma</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/shokugeki-no-soma" title="Shokugeki no Soma"><img src="http://www.readmanga.today/uploads/posters/thumb/1460123867.jpg" alt="Shokugeki no Soma" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Yukihira Souma's dream is to become a full-time chef in his father's restaurant and surpass his father's culinary skill. But just as Yukihira graduates from middle schools his father, Yukihira Jouichirou, closes down the restaurant&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/ecchi" title="Ecchi">Ecchi</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>6,439,995</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 1064</li>
+                                    <li><span class="icon-wondering"></span> 31</li>
+                                    <li><span class="icon-sad-2"></span> 32</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="6571"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="6571"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="6571">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/shokugeki-no-soma#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">12</span>
+                                <h2><a href="http://www.readmanga.today/red-storm" title="Red Storm">Red Storm</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/red-storm" title="Red Storm"><img src="http://www.readmanga.today/uploads/posters/thumb/cover_43.jpg" alt="Red Storm" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>A mysterious man suddenly appears in the desert separating the East and West Continents. A young boy, Yulian Provoke from the Pareia tribe finds this man, and brings him to his village. Turns out the&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Korean</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>6,380,373</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 821</li>
+                                    <li><span class="icon-wondering"></span> 11</li>
+                                    <li><span class="icon-sad-2"></span> 20</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="5899"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="5899"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="5899">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/red-storm#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">13</span>
+                                <h2><a href="http://www.readmanga.today/panlong" title="Panlong">Panlong</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/panlong" title="Panlong"><img src="http://www.readmanga.today/uploads/posters/thumb/1424814573.jpeg" alt="Panlong" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Linley is a young noble of a declining, once-powerful clan which once dominated the world. He has large aspirations and wants to save his clan. Linley's journey begins with an accident when he discovers a&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>6,098,931</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 1618</li>
+                                    <li><span class="icon-wondering"></span> 85</li>
+                                    <li><span class="icon-sad-2"></span> 119</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="15132"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="15132"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="15132">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/panlong#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">14</span>
+                                <h2><a href="http://www.readmanga.today/bleach1" title="Bleach">Bleach</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/bleach1" title="Bleach"><img src="http://www.readmanga.today/uploads/posters/thumb/1452793920.jpg" alt="Bleach" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Ichigo Kurosaki has always been able to see ghosts, but this ability doesn't change his life nearly as much as his close encounter with Rukia Kuchiki, a soul reaper and member of the mysterious Soul&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>-</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>6,097,536</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 287</li>
+                                    <li><span class="icon-wondering"></span> 70</li>
+                                    <li><span class="icon-sad-2"></span> 124</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="897"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="897"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="897">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/bleach1#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">15</span>
+                                <h2><a href="http://www.readmanga.today/fairy-tail" title="Fairy Tail">Fairy Tail</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/fairy-tail" title="Fairy Tail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_408.jpg" alt="Fairy Tail" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Celestial wizard Lucy wants to join the Fairy Tail, a guild for the most powerful wizards. But instead, her ambitions land her in the clutches of a gang of unsavory pirates led by a devious&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/drama" title="Drama">Drama</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,817,016</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 428</li>
+                                    <li><span class="icon-wondering"></span> 43</li>
+                                    <li><span class="icon-sad-2"></span> 51</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="1975"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="1975"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="1975">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/fairy-tail#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">16</span>
+                                <h2><a href="http://www.readmanga.today/soul-cartel" title="Soul Cartel">Soul Cartel</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/soul-cartel" title="Soul Cartel"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_80.jpg" alt="Soul Cartel" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>A beginning of an action packed fantasy adventure of a boy who makes a contract with the devil.</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/martial-arts" title="Martial Arts">Martial Arts</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,755,459</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 255</li>
+                                    <li><span class="icon-wondering"></span> 23</li>
+                                    <li><span class="icon-sad-2"></span> 17</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="6754"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="6754"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="6754">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/soul-cartel#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">17</span>
+                                <h2><a href="http://www.readmanga.today/silver-gravekeeper" title="Silver Gravekeeper">Silver Gravekeeper</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/silver-gravekeeper" title="Silver Gravekeeper"><img src="http://www.readmanga.today/uploads/posters/thumb/1450048549.jpg" alt="Silver Gravekeeper" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="without-summary">
+                                        <p></p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/ecchi" title="Ecchi">Ecchi</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Chinese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,736,434</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 816</li>
+                                    <li><span class="icon-wondering"></span> 63</li>
+                                    <li><span class="icon-sad-2"></span> 119</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="15295"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="15295"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="15295">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/silver-gravekeeper#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">18</span>
+                                <h2><a href="http://www.readmanga.today/berserk" title="Berserk">Berserk</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/berserk" title="Berserk"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_44.jpg" alt="Berserk" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>Gattsu, known as the Black Swordsman, seeks sanctuary from the demonic forces that persue himself and his woman, and also vengeance against the man who branded him as an unholy sacrifice. Aided only by his&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/horror" title="Horror">Horror</a>
+                                            <a href="http://www.readmanga.today/category/seinen" title="Seinen">Seinen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                            <a href="http://www.readmanga.today/category/tragedy" title="Tragedy">Tragedy</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,719,581</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 140</li>
+                                    <li><span class="icon-wondering"></span> 2</li>
+                                    <li><span class="icon-sad-2"></span> 2</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="810"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="810"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="810">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/berserk#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">19</span>
+                                <h2><a href="http://www.readmanga.today/the-gamer" title="The Gamer">The Gamer</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/the-gamer" title="The Gamer"><img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_23.png" alt="The Gamer" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>What would happen if your world suddenly turned into a game?If you could level up and raise your stats?An adventure of a life-turned-game</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/school-life" title="School Life">School Life</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Korean</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,706,006</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 935</li>
+                                    <li><span class="icon-wondering"></span> 33</li>
+                                    <li><span class="icon-sad-2"></span> 44</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="7181"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="7181"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="7181">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/the-gamer#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                        <div class="box">
+                            <div class="title">
+                                <span class="icon-">20</span>
+                                <h2><a href="http://www.readmanga.today/nanatsu-no-taizai" title="Nanatsu no Taizai">Nanatsu no Taizai</a></h2>
+                            </div><!--title-->
+                            <div class="body">
+                                <div class="left">
+
+                                    <a href="http://www.readmanga.today/nanatsu-no-taizai" title="Nanatsu no Taizai"><img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_84.png" alt="Nanatsu no Taizai" width="134" height="193" /></a>
+                                </div><!--thumbnail-->
+
+                                <div class="right">
+                                    <div class="summary">
+                                        <p>The "Seven Deadly Sins", a group of evil knights who conspired to overthrow the kingdom of Britannia, were said to have been eradicated by the Holy Knights, although some claim that they still live. Ten&#8230;</p>
+                                    </div>
+                                    <dl class="hot-manga-dl-horizontal">
+                                        <dt>Status:</dt>
+                                        <dd>Ongoing</dd>
+                                        <dt>Categories:</dt>
+                                        <dd>                                                            <a href="http://www.readmanga.today/category/action" title="Action">Action</a>
+                                            <a href="http://www.readmanga.today/category/adventure" title="Adventure">Adventure</a>
+                                            <a href="http://www.readmanga.today/category/comedy" title="Comedy">Comedy</a>
+                                            <a href="http://www.readmanga.today/category/ecchi" title="Ecchi">Ecchi</a>
+                                            <a href="http://www.readmanga.today/category/fantasy" title="Fantasy">Fantasy</a>
+                                            <a href="http://www.readmanga.today/category/shounen" title="Shounen">Shounen</a>
+                                            <a href="http://www.readmanga.today/category/supernatural" title="Supernatural">Supernatural</a>
+                                        </dd>
+                                        <dt>Type :</dt>
+                                        <dd>Japanese</dd>
+                                        <dt>Total Views:</dt>
+                                        <dd>5,443,073</dd>
+                                    </dl>
+                                </div><!--right-->
+                            </div><!--body-->
+                            <div class="meta">
+                                <ul>
+                                    <li><span class="icon-smiley-2"></span> 307</li>
+                                    <li><span class="icon-wondering"></span> 20</li>
+                                    <li><span class="icon-sad-2"></span> 18</li>
+                                    <li><span class="icon-heart"></span><a href="#" class="add_fast_favorite" data-id="5040"> Add to Favorites</a></li>
+                                    <li><span class="icon-clock"></span><a href="#" class="add_fast_watch-list" data-id="5040"> Read Later</a></li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/service/new_subscription" class="btn btn-xs btn-block btn-google must_member" data-toggle="modal" data-target="#new_subscription" data-id="5040">&nbsp;<span class="icon-network"></span>&nbsp;&nbsp;Subscribe&nbsp;&nbsp;</a>
+                                    </li>
+                                    <li class="no-effect">
+                                        <a href="http://www.readmanga.today/nanatsu-no-taizai#chapters_container" class="btn btn-xs btn-success"><span class="icon-text"></span> Full Chapter List</a>
+                                    </li>
+                                </ul>
+                            </div><!--meta-->
+                        </div><!--box-->
+
+                    </div><!--style-list-->
+
+                    <div class="style-thumbnail hide">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="http://www.readmanga.today/the-ruler-of-the-land" title="The Ruler Of The Land" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 16,149,790                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_667.jpg" alt="The Ruler Of The Land" width="134" height="193">
+                                    <div class="manga-desc-index">1</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/the-ruler-of-the-land" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="Bi-Kwang and Hwa-Rin try in vain to shake ---Sang Pil &quot;Gold Cobra&quot; Jin and his men, but ultimately they are forced to defend themselves. Unfortunately, Bi-Kwang and Hwa-Rin lose, and the Sword of the ">The Ruler Of The Land</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/battle-through-the-heavens" title="Battle Through The Heavens" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 15,776,508                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_269.jpg" alt="Battle Through The Heavens" width="134" height="193">
+                                    <div class="manga-desc-index">2</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/battle-through-the-heavens" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>In a land where there is no magic, a land where the strong make the rules and weak have to obey, a land filled with alluring treasures and beauty, yet also filled with unforeseen danger. Xiao Yan, ">Battle Through The Heavens</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/combat-continent" title="Soul Land" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 12,625,737                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_376.jpg" alt="Soul Land" width="134" height="193">
+                                    <div class="manga-desc-index">3</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/combat-continent" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Tang Sect, the most famous martial arts sect of all. By stealing its most secret teachings to fulfill his dreams, Tang San committed an unforgivable crime. With his ambition attained, he hands his ">Soul Land</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/kingdom" title="Kingdom" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 11,588,221                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_576.jpg" alt="Kingdom" width="134" height="193">
+                                    <div class="manga-desc-index">4</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/kingdom" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="Millions of years have passed since the times of legends, when the worlds of man and gods were still the same. In these times it was the desires of man that moved the world. It is the era of the 500 y">Kingdom</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/tower-of-god" title="Tower of God" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 10,159,514                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_8.png" alt="Tower of God" width="134" height="193">
+                                    <div class="manga-desc-index">5</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/tower-of-god" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="What do you desire? Fortune? Glory? Power? Revenge? Or something that surpasses all others? What ever you desire, 'that is here'. Tower of God.">Tower of God</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/noblesse" title="Noblesse" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 8,876,467                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_7.jpg" alt="Noblesse" width="134" height="193">
+                                    <div class="manga-desc-index">6</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/noblesse" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="For 820 years he had slumbered with no knowledge of mankind's advancement and scientific progress. The land which he once knew has become an unfamiliar place with new technology, attitudes, and lifest">Noblesse</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/tales-of-demons-and-gods" title="Tales of Demons and Gods" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 8,746,349                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1440372418.jpg" alt="Tales of Demons and Gods" width="134" height="193">
+                                    <div class="manga-desc-index">7</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/tales-of-demons-and-gods" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Nie Li, the strongest Demon Spiritist in his past life standing at the pinnacle of the martial world however, he lost his life during the battle with Sage Emperor and the six deity ranked beast, hi">Tales of Demons and Gods</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/the-god-of-high-school" title="The God of High School" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 8,002,687                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/the-god-of-high-school.jpg" alt="The God of High School" width="134" height="193">
+                                    <div class="manga-desc-index">8</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/the-god-of-high-school" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="While an island half-disappearing from the face of the earth, a mysterious organization is sending out invitations for a tournament to every skilled fighter in the world. “If you win you can have ANYT">The God of High School</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/Combat-Continent-2" title="Soul Land II" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 7,686,273                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1436132608.jpg" alt="Soul Land II" width="134" height="193">
+                                    <div class="manga-desc-index">9</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/Combat-Continent-2" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Important! Combat Continent's Sequel (Don't need to read CC before reading this) But there might be spoilers!!!</p>
+<p>&nbsp;</p>
+<p><br />A land with out magic, dou-qi, martial arts, but have esse">Soul Land II</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/one-piece1" title="One Piece" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 7,593,894                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1461242075.jpg" alt="One Piece" width="134" height="193">
+                                    <div class="manga-desc-index">10</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/one-piece1" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Greatness, Glory, Gold. A Pirate Named Gold Roger also known as the Pirate King has conquered this all. He was executed with an unknown reason but before he died he had revealed his last word about">One Piece</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/shokugeki-no-soma" title="Shokugeki no Soma" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 6,439,995                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1460123867.jpg" alt="Shokugeki no Soma" width="134" height="193">
+                                    <div class="manga-desc-index">11</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/shokugeki-no-soma" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p style=&quot;text-align: justify;&quot;>Yukihira Souma's dream is to become a full-time chef in his father's restaurant and surpass his father's culinary skill. But just as Yukihira graduates from middle scho">Shokugeki no Soma</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/red-storm" title="Red Storm" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 6,380,373                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/cover_43.jpg" alt="Red Storm" width="134" height="193">
+                                    <div class="manga-desc-index">12</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/red-storm" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>A mysterious man suddenly appears in the desert separating the East and West Continents. A young boy, Yulian Provoke from the Pareia tribe finds this man, and brings him to his village. Turns out t">Red Storm</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/panlong" title="Panlong" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 6,098,931                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1424814573.jpeg" alt="Panlong" width="134" height="193">
+                                    <div class="manga-desc-index">13</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/panlong" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Linley is a young noble of a declining, once-powerful clan which once dominated the world. He has large aspirations and wants to save his clan. Linley's journey begins with an accident when he disc">Panlong</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/bleach1" title="Bleach" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 6,097,536                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1452793920.jpg" alt="Bleach" width="134" height="193">
+                                    <div class="manga-desc-index">14</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/bleach1" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="<p>Ichigo Kurosaki has always been able to see ghosts, but this ability doesn't change his life nearly as much as his close encounter with Rukia Kuchiki, a soul reaper and member of the mysterious Sou">Bleach</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/fairy-tail" title="Fairy Tail" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,817,016                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_408.jpg" alt="Fairy Tail" width="134" height="193">
+                                    <div class="manga-desc-index">15</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/fairy-tail" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="Celestial wizard Lucy wants to join the Fairy Tail, a guild for the most powerful wizards. But instead, her ambitions land her in the clutches of a gang of unsavory pirates led by a devious magician. ">Fairy Tail</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/soul-cartel" title="Soul Cartel" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,755,459                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_80.jpg" alt="Soul Cartel" width="134" height="193">
+                                    <div class="manga-desc-index">16</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/soul-cartel" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="A beginning of an action packed fantasy adventure of a boy who makes a contract with the devil.">Soul Cartel</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/silver-gravekeeper" title="Silver Gravekeeper" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,736,434                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/1450048549.jpg" alt="Silver Gravekeeper" width="134" height="193">
+                                    <div class="manga-desc-index">17</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/silver-gravekeeper" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="">Silver Gravekeeper</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/berserk" title="Berserk" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,719,581                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/0001_44.jpg" alt="Berserk" width="134" height="193">
+                                    <div class="manga-desc-index">18</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/berserk" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="Gattsu, known as the Black Swordsman, seeks sanctuary from the demonic forces that persue himself and his woman, and also vengeance against the man who branded him as an unholy sacrifice. Aided only b">Berserk</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/the-gamer" title="The Gamer" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,706,006                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_23.png" alt="The Gamer" width="134" height="193">
+                                    <div class="manga-desc-index">19</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/the-gamer" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="What would happen if your world suddenly turned into a game?If you could level up and raise your stats?An adventure of a life-turned-game">The Gamer</a>
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/nanatsu-no-taizai" title="Nanatsu no Taizai" class="thumbnail">
+                                            <span class="views">
+                                                <span class="icon icon-eye"></span> 5,443,073                                            </span>
+
+                                    <img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_84.png" alt="Nanatsu no Taizai" width="134" height="193">
+                                    <div class="manga-desc-index">20</div>
+
+                                </a>
+                                <a href="http://www.readmanga.today/nanatsu-no-taizai" class="title" rel="tooltip" data-placement="top" data-style="style-list" data-original-title="The &quot;Seven Deadly Sins&quot;, a group of evil knights who conspired to overthrow the kingdom of Britannia, were said to have been eradicated by the Holy Knights, although some claim that they still live. T">Nanatsu no Taizai</a>
+                            </li>
+                        </ul>
+                    </div><!--style-thumbnail-->
+                    <ul class="pagination"><li class="active"><a href="#">1</a></li><li><a href="http://www.readmanga.today/hot-manga/2">2</a></li><li><a href="http://www.readmanga.today/hot-manga/3">3</a></li><li><a href="http://www.readmanga.today/hot-manga/4">4</a></li><li><a href="http://www.readmanga.today/hot-manga/2">&raquo;</a></li><li><a href="http://www.readmanga.today/hot-manga/779">Last</a></li></ul>                    </div><!--col-md-12-->
+            </div><!--row-->
+        </div><!--col-left-->
+        <!-- /content-end -->
+
+        <!-- sidebar start -->
+        <div class="col-right col-md-4">
+
+
+            <div class="title">
+                <span class="icon-paperclip"></span>
+                <h3>Sponsored APP</h3>
+            </div>
+            <p></p>
+            <div><a href="http://badigo.com/" target="_blank"><img src="http://www.readmanga.today/assets/img/badigo1.png"></a></div>
+            <p></p>
+
+            <div class="title">
+                <span class="icon-paperclip"></span>
+                <h3>RMT for Android</h3>
+            </div>
+            <p></p>
+            <div><a href="http://mangapubapp.com/" target="_blank"><img src="http://www.readmanga.today/assets/img/rmt-for-android-3.jpg"></a></div>
+            <p></p>
+            <a href="http://mangapubapp.com/" target="_blank" class="btn btn-google btn-block"><span class="icon-download"></span> Download now</a>
+            <p></p>
+            <!--
+            <div class="title">
+                <span class="icon-paperclip"></span>
+                <h3>SPONSOR</h3>
+            </div>-->
+
+            <br>
+            <div class="title">
+                <span class="icon-chat"></span>
+                <h3>CHATBOX</h3>
+            </div>
+            <div style="min-height: 300px;">
+                <script id="cid0020000090647210819" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 298px;height: 400px;">{"handle":"readmangatoday","arch":"js","styles":{"a":"2c3e50","b":100,"c":"ffffff","d":"FFFFFF","e":"fffdfa","h":"fffdfa","k":"2c3e50","l":"2c3e50","m":"2c3e50","n":"FFFFFF","p":"10","q":"f5f1e8","r":100,"t":0,"cnrs":"0.35","fwtickm":1}}</script>
+                </div>
+
+
+                <div class="title">
+                    <span class="icon-heart-2"></span>
+                    <h3>DONATION BOX</h3>
+                    </div>
+
+                    <center>
+                    <p>If you can afford to, please consider a donation... We need it for buying raws and more manpower to release faster.</p>
+                    <p><strong>RMT Team</strong></p>
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="UQVVZ4RX2G5RA">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/SE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                    </center>
+
+
+
+
+                    <div class="title">
+                    <span class="icon-movie"></span>
+                    <h3>POPULAR MANGA</h3>
+                    </div><!--title-->
+                    <div class="similar-movies">
+                        <ul>
+                            <li>
+                                <a href="http://www.readmanga.today/the-ruler-of-the-land" title="The Ruler Of The Land" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_667.jpg" alt="The Ruler Of The Land" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/the-ruler-of-the-land" title="The Ruler Of The Land" class="movie-title">The Ruler Of The Land</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/the-ruler-of-the-land/525">The Ruler Of The Land - 525</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 16,149,789 times</span></p>
+
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/battle-through-the-heavens" title="Battle Through The Heavens" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_269.jpg" alt="Battle Through The Heavens" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/battle-through-the-heavens" title="Battle Through The Heavens" class="movie-title">Battle Through The Heavens</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/battle-through-the-heavens/196">Battle Through The Heavens - 196</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 15,776,508 times</span></p>
+
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/combat-continent" title="Soul Land" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_376.jpg" alt="Soul Land" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/combat-continent" title="Soul Land" class="movie-title">Soul Land</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/combat-continent/178">Soul Land - 178</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 12,625,737 times</span></p>
+
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/kingdom" title="Kingdom" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_576.jpg" alt="Kingdom" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/kingdom" title="Kingdom" class="movie-title">Kingdom</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/kingdom/519">Kingdom - 519</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 11,588,220 times</span></p>
+
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/tower-of-god" title="Tower of God" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/4f28b6a2a8453e807dd3a11a16a7108b_8.png" alt="Tower of God" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/tower-of-god" title="Tower of God" class="movie-title">Tower of God</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/tower-of-god/333">Tower of God - 333</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 10,159,514 times</span></p>
+
+                            </li>
+                            <li>
+                                <a href="http://www.readmanga.today/noblesse" title="Noblesse" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_7.jpg" alt="Noblesse" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/noblesse" title="Noblesse" class="movie-title">Noblesse</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/noblesse/462">Noblesse - 462</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 8,876,466 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/tales-of-demons-and-gods" title="Tales of Demons and Gods" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1440372418.jpg" alt="Tales of Demons and Gods" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/tales-of-demons-and-gods" title="Tales of Demons and Gods" class="movie-title">Tales of Demons and Gods</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/tales-of-demons-and-gods/129">Tales of Demons and Gods - 129</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 8,746,349 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/the-god-of-high-school" title="The God of High School" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/the-god-of-high-school.jpg" alt="The God of High School" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/the-god-of-high-school" title="The God of High School" class="movie-title">The God of High School</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/the-god-of-high-school/312">The God of High School - 312</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 8,002,687 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/Combat-Continent-2" title="Soul Land II" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1436132608.jpg" alt="Soul Land II" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/Combat-Continent-2" title="Soul Land II" class="movie-title">Soul Land II</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/Combat-Continent-2/103">Soul Land II - 103</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 7,686,273 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/one-piece1" title="One Piece" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1461242075.jpg" alt="One Piece" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/one-piece1" title="One Piece" class="movie-title">One Piece</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/one-piece1/867">One Piece - 867</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 7,593,893 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/shokugeki-no-soma" title="Shokugeki no Soma" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1460123867.jpg" alt="Shokugeki no Soma" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/shokugeki-no-soma" title="Shokugeki no Soma" class="movie-title">Shokugeki no Soma</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/shokugeki-no-soma/217">Shokugeki no Soma - 217</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 6,439,995 times</span></p>
+
+                            </li>
+                            <li class="hide">
+                                <a href="http://www.readmanga.today/red-storm" title="Red Storm" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/cover_43.jpg" alt="Red Storm" width="40" height="57"/></a>
+                                <a href="http://www.readmanga.today/red-storm" title="Red Storm" class="movie-title">Red Storm</a>
+                                <p class="mangaChaterLink"><a href="http://www.readmanga.today/red-storm/243">Red Storm - 243</a></p>
+                                <p><span class="views"><span class="icon-eye"></span> Viewed 6,380,373 times</span></p>
+
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-google btn-block show_similar_videos"><span class="icon-cycle"></span> See all</a>
+                    </div><!--similar-movies-->
+
+                    <div class="category-list">
+                        <ul class="main-categories">
+                            <li>
+                                <a href="http://www.readmanga.today/category/index" title="All Categories">
+                                    <span class="icon-arrow-right-6"></span>
+                                    <span class="boldPanelTitle">All Categories</span>
+                                </a>
+                                <ul class="sub-categories" style="overflow: auto;max-height:506px;">
+                                    <li><a href="http://www.readmanga.today/category/action" title="All Categories - Action"><span class="icon-arrow-2"></span>Action <span class="counter" rel="tooltip" title="There are 3138 manga in this category." data-placement="left">3138</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/adventure" title="All Categories - Adventure"><span class="icon-arrow-2"></span>Adventure <span class="counter" rel="tooltip" title="There are 1583 manga in this category." data-placement="left">1583</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/comedy" title="All Categories - Comedy"><span class="icon-arrow-2"></span>Comedy <span class="counter" rel="tooltip" title="There are 6019 manga in this category." data-placement="left">6019</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/doujinshi" title="All Categories - Doujinshi"><span class="icon-arrow-2"></span>Doujinshi <span class="counter" rel="tooltip" title="There are 521 manga in this category." data-placement="left">521</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/drama" title="All Categories - Drama"><span class="icon-arrow-2"></span>Drama <span class="counter" rel="tooltip" title="There are 4572 manga in this category." data-placement="left">4572</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/ecchi" title="All Categories - Ecchi"><span class="icon-arrow-2"></span>Ecchi <span class="counter" rel="tooltip" title="There are 1355 manga in this category." data-placement="left">1355</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/fantasy" title="All Categories - Fantasy"><span class="icon-arrow-2"></span>Fantasy <span class="counter" rel="tooltip" title="There are 2749 manga in this category." data-placement="left">2749</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/gender-bender" title="All Categories - Gender Bender"><span class="icon-arrow-2"></span>Gender Bender <span class="counter" rel="tooltip" title="There are 606 manga in this category." data-placement="left">606</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/harem" title="All Categories - Harem"><span class="icon-arrow-2"></span>Harem <span class="counter" rel="tooltip" title="There are 529 manga in this category." data-placement="left">529</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/historical" title="All Categories - Historical"><span class="icon-arrow-2"></span>Historical <span class="counter" rel="tooltip" title="There are 869 manga in this category." data-placement="left">869</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/horror" title="All Categories - Horror"><span class="icon-arrow-2"></span>Horror <span class="counter" rel="tooltip" title="There are 719 manga in this category." data-placement="left">719</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/josei" title="All Categories - Josei"><span class="icon-arrow-2"></span>Josei <span class="counter" rel="tooltip" title="There are 762 manga in this category." data-placement="left">762</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/lolicon" title="All Categories - Lolicon"><span class="icon-arrow-2"></span>Lolicon <span class="counter" rel="tooltip" title="There are 6 manga in this category." data-placement="left">6</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/martial-arts" title="All Categories - Martial Arts"><span class="icon-arrow-2"></span>Martial Arts <span class="counter" rel="tooltip" title="There are 445 manga in this category." data-placement="left">445</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/mature" title="All Categories - Mature"><span class="icon-arrow-2"></span>Mature <span class="counter" rel="tooltip" title="There are 897 manga in this category." data-placement="left">897</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/mecha" title="All Categories - Mecha"><span class="icon-arrow-2"></span>Mecha <span class="counter" rel="tooltip" title="There are 253 manga in this category." data-placement="left">253</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/mystery" title="All Categories - Mystery"><span class="icon-arrow-2"></span>Mystery <span class="counter" rel="tooltip" title="There are 990 manga in this category." data-placement="left">990</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/one-shot" title="All Categories - One shot"><span class="icon-arrow-2"></span>One shot <span class="counter" rel="tooltip" title="There are 1859 manga in this category." data-placement="left">1859</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/psychological" title="All Categories - Psychological"><span class="icon-arrow-2"></span>Psychological <span class="counter" rel="tooltip" title="There are 862 manga in this category." data-placement="left">862</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/romance" title="All Categories - Romance"><span class="icon-arrow-2"></span>Romance <span class="counter" rel="tooltip" title="There are 7088 manga in this category." data-placement="left">7088</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/school-life" title="All Categories - School Life"><span class="icon-arrow-2"></span>School Life <span class="counter" rel="tooltip" title="There are 4131 manga in this category." data-placement="left">4131</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/sci-fi" title="All Categories - Sci-fi"><span class="icon-arrow-2"></span>Sci-fi <span class="counter" rel="tooltip" title="There are 478 manga in this category." data-placement="left">478</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/seinen" title="All Categories - Seinen"><span class="icon-arrow-2"></span>Seinen <span class="counter" rel="tooltip" title="There are 2465 manga in this category." data-placement="left">2465</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/shotacon" title="All Categories - Shotacon"><span class="icon-arrow-2"></span>Shotacon <span class="counter" rel="tooltip" title="There are 6 manga in this category." data-placement="left">6</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/shoujo" title="All Categories - Shoujo"><span class="icon-arrow-2"></span>Shoujo <span class="counter" rel="tooltip" title="There are 4753 manga in this category." data-placement="left">4753</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/shoujo-ai" title="All Categories - Shoujo Ai"><span class="icon-arrow-2"></span>Shoujo Ai <span class="counter" rel="tooltip" title="There are 529 manga in this category." data-placement="left">529</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/shounen" title="All Categories - Shounen"><span class="icon-arrow-2"></span>Shounen <span class="counter" rel="tooltip" title="There are 3148 manga in this category." data-placement="left">3148</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/shounen-ai" title="All Categories - Shounen Ai"><span class="icon-arrow-2"></span>Shounen Ai <span class="counter" rel="tooltip" title="There are 814 manga in this category." data-placement="left">814</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/slice-of-life" title="All Categories - Slice of Life"><span class="icon-arrow-2"></span>Slice of Life <span class="counter" rel="tooltip" title="There are 2056 manga in this category." data-placement="left">2056</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/smut" title="All Categories - Smut"><span class="icon-arrow-2"></span>Smut <span class="counter" rel="tooltip" title="There are 349 manga in this category." data-placement="left">349</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/sports" title="All Categories - Sports"><span class="icon-arrow-2"></span>Sports <span class="counter" rel="tooltip" title="There are 539 manga in this category." data-placement="left">539</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/supernatural" title="All Categories - Supernatural"><span class="icon-arrow-2"></span>Supernatural <span class="counter" rel="tooltip" title="There are 2676 manga in this category." data-placement="left">2676</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/tragedy" title="All Categories - Tragedy"><span class="icon-arrow-2"></span>Tragedy <span class="counter" rel="tooltip" title="There are 781 manga in this category." data-placement="left">781</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/yaoi" title="All Categories - Yaoi"><span class="icon-arrow-2"></span>Yaoi <span class="counter" rel="tooltip" title="There are 1404 manga in this category." data-placement="left">1404</span></a></li>
+                                    <li><a href="http://www.readmanga.today/category/yuri" title="All Categories - Yuri"><span class="icon-arrow-2"></span>Yuri <span class="counter" rel="tooltip" title="There are 285 manga in this category." data-placement="left">285</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--category-list-->
+
+
+
+                    <div class="title">
+                        <span class="icon-chat"></span>
+                        <h3>Latest Comments</h3>
+                    </div><!--title-->
+                    <div class="latest-comments">
+                        <ul>
+
+                            <li>
+                                <a href="http://www.readmanga.today/kingdom" title="Kingdom" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_576.jpg" alt="Kingdom" width="40" height="57"></a>
+                                <a href="http://www.readmanga.today/kingdom" class="movie-title">Kingdom</a>
+                                <p class="comment"><a href="http://www.readmanga.today/kingdom">Man screw you Dr stone</a></p>
+                                <p class="meta">anonymous
+                                    - <span class="date">1 Hour, 44 Minutes ago</span></p>
+                            </li>
+
+                            <li>
+                                <a href="http://www.readmanga.today/babel-inoue-noriyoshi" title="Babel (INOUE Noriyoshi)" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1453149790.jpg" alt="Babel (INOUE Noriyoshi)" width="40" height="57"></a>
+                                <a href="http://www.readmanga.today/babel-inoue-noriyoshi" class="movie-title">Babel (INOUE Noriyoshi)</a>
+                                <p class="comment"><a href="http://www.readmanga.today/babel-inoue-noriyoshi">morgan freeman duuuudddddeeeeeee</a></p>
+                                <p class="meta"><span class="user"><a href="http://www.readmanga.today/member/aintno">aintno</a></span>
+                                    - <span class="date">1 Hour, 49 Minutes ago</span></p>
+                            </li>
+
+                            <li>
+                                <a href="http://www.readmanga.today/noblesse" title="Noblesse" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_7.jpg" alt="Noblesse" width="40" height="57"></a>
+                                <a href="http://www.readmanga.today/noblesse" class="movie-title">Noblesse</a>
+                                <p class="comment"><a href="http://www.readmanga.today/noblesse">I do not think its like that. We finally get some action. The characters beeing dumb for one reason or another for periods of time is very normal in any comic.</a></p>
+                                <p class="meta">anonymous
+                                    - <span class="date">7 Hours, 32 Minutes ago</span></p>
+                            </li>
+
+                            <li>
+                                <a href="http://www.readmanga.today/hiraheishi-wa-kako-o-yumemiru" title="Hiraheishi wa Kako o Yumemiru" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/1482867047.jpg" alt="Hiraheishi wa Kako o Yumemiru" width="40" height="57"></a>
+                                <a href="http://www.readmanga.today/hiraheishi-wa-kako-o-yumemiru" class="movie-title">Hiraheishi wa Kako o Yumemiru</a>
+                                <p class="comment"><a href="http://www.readmanga.today/hiraheishi-wa-kako-o-yumemiru">wtf Gandalf is doing here?? he should stay with Hobits.</a></p>
+                                <p class="meta">anonymous
+                                    - <span class="date">9 Hours, 14 Minutes ago</span></p>
+                            </li>
+
+                            <li>
+                                <a href="http://www.readmanga.today/kingdom" title="Kingdom" class="thumbnail"><img src="http://www.readmanga.today/uploads/posters/thumb/0001_576.jpg" alt="Kingdom" width="40" height="57"></a>
+                                <a href="http://www.readmanga.today/kingdom" class="movie-title">Kingdom</a>
+                                <p class="comment"><a href="http://www.readmanga.today/kingdom">hypocrite.. y r u here? u even posted a pathetic comment..</a></p>
+                                <p class="meta">anonymous
+                                    - <span class="date">10 Hours, 56 Minutes ago</span></p>
+                            </li>
+                        </ul>
+                    </div><!--latest-comments-->
+
+                </div><!--col-right-->
+                <!-- /sidebar-end -->        </div><!--container-fixed clearfix-->
+                </div><!--content-->
+                <div class="footer">
+                    <div class="container-fixed">
+                        <div class="inner col-md-12 clearfix">
+                            <ul class="sitemap pull-left">
+                                <li><a href="http://www.readmanga.today/sitemap.xml">Sitemap</a></li>
+                                <li><a href="http://www.readmanga.today/advertisement">Advertisement</a></li>
+                                <li><a href="http://www.readmanga.today/privacy">Privacy & Policy</a></li>
+                                <li><a href="http://www.readmanga.today/terms">Terms of Service</a></li>
+                                <li><a href="http://www.readmanga.today/contact">Contact us</a></li>
+                            </ul>
+                            <ul class="social-links pull-right">
+                                <li class="facebook"><a href="https://www.facebook.com/readmangatoday"><span class="icon-facebook"></span></a></li>
+                                <li class="rss"><a href="http://www.readmanga.today/feed"><span class="icon-rss"></span></a></li>
+
+
+                            </ul>
+                        </div><!--inner-->
+                        <div class="copyright clearfix">
+                            Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the
+                            Copyright Law. <br>© 2016 ReadManga.Today
+
+                        </div><!--copyright-->
+                    </div><!--container-fixed-->
+
+                </div><!--footer-->
+                <div id="pageUpBtn"></div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="http://code.jquery.com/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="http://www.readmanga.today/assets/js/bootstrap.min.js"></script>
+                <script src="http://www.readmanga.today/assets/js/jquery.cookie-ck.js"></script>
+                <script src="http://www.readmanga.today/assets/js/jquery.carouFredSel-6.2.1-packed-ck.js"></script>
+                <!--<script src="http://www.readmanga.today/assets/js/jquery.sticky-ck.js"></script>-->
+                <script src="http://www.readmanga.today/assets/js/jquery.validate-ck.js?v=1"></script>
+                <script src="http://www.readmanga.today/assets/js/bootbox.min.js"></script>
+                <script src="http://www.readmanga.today/assets/js/bootstrap-datepicker-ck.js"></script>
+                <script src="http://www.readmanga.today/assets/js/helper-plugins/hogan-ck.js"></script>
+                <script src="http://www.readmanga.today/assets/js/typeahead.min.js"></script>
+                <!-- plugins -->
+                <script src="http://www.readmanga.today/assets/plugins/select2/select2.min.js"></script>
+                <script src="http://www.readmanga.today/assets/plugins/select2/select2_locale_tr-ck.js"></script>
+                <script src="http://www.readmanga.today/assets/plugins/fancybox/jquery.fancybox-ck.js"></script>
+                <!-- optionally include helper plugins -->
+                <script type="text/javascript" src="http://www.readmanga.today/assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+                <script type="text/javascript" src="http://www.readmanga.today/assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+                <script type="text/javascript" src="http://www.readmanga.today/assets/js/helper-plugins/jquery.transit.min.js"></script>
+                <script type="text/javascript" src="http://www.readmanga.today/assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+                <script src="http://www.readmanga.today/assets/plugins/fancybox/helpers/jquery.fancybox-thumbs-ck.js"></script>
+                <script src="http://www.readmanga.today/assets/js/app.js?v=1.4"></script>
+                <div id="fb-root"></div>
+                <script>
+                    $(document).ready(function(){
+                        var adsSlot = Array("bleach.swf", "goddess.swf", "naruto.swf", "op.swf", "zfighter.swf");
+                        var item = adsSlot[Math.floor(Math.random()*adsSlot.length)];
+                        $('#swfSlot').html('<object width="100%" data="http://www.readmanga.today/ads/' + item + '"></object>');
+                    });
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "//connect.facebook.net/tr_TR/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <script type="text/javascript" data-cfasync="false">(function(){if (window.atob) { eval(window.atob('d2luZG93LkNTU1ZpZXdwb3J0UnVsZXMgPSB0cnVlOyhmdW5jdGlvbihkb2N1bWVudCwgc2NyaXB0RWxlbWVudCwgZmlyc3RTY3JpcHQpIHtzY3JpcHRFbGVtZW50ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7c2NyaXB0Q0ZBU3luYyA9IGRvY3VtZW50LmNyZWF0ZUF0dHJpYnV0ZSgiZGF0YS1jZmFzeW5jIik7c2NyaXB0Q0ZBU3luYy52YWx1ZSA9IGZhbHNlO3NjcmlwdEVsZW1lbnQuc2V0QXR0cmlidXRlTm9kZShzY3JpcHRDRkFTeW5jKTtzY3JpcHRFbGVtZW50LnNyYyA9ICcvL3BhZ2VhZDIuZ29vZ2xlc3luZGljYXRpb24uY29tL3BhZ2VhZC9qcy9hZHNieWdvb2dsZS5qcyc7c2NyaXB0RWxlbWVudC5vbmVycm9yID0gZnVuY3Rpb24gKCkgeyB3aW5kb3cuQ1NTVmlld3BvcnRSdWxlcz1mYWxzZTsgfTsgdmFyIGZpcnN0U2NyaXB0O2lmICh0eXBlb2YgZG9jdW1lbnQuc2NyaXB0cyAhPT0gJ3VuZGVmaW5lZCcpIHsgZmlyc3RTY3JpcHQgPSBkb2N1bWVudC5zY3JpcHRzWzBdOyB9IGlmICh0eXBlb2YgZmlyc3RTY3JpcHQgPT0gJ3VuZGVmaW5lZCcpIHsgZmlyc3RTY3JpcHQgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnc2NyaXB0JylbMF07IH0gZmlyc3RTY3JpcHQucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoc2NyaXB0RWxlbWVudCwgZmlyc3RTY3JpcHQpOyB9KGRvY3VtZW50KSk7CihmdW5jdGlvbigpeyB2YXIgd2FzX2luaXQgPSBmYWxzZTsgZnVuY3Rpb24gaW5pdF9teXNjcmlwdCgpIHsgaWYgKHdhc19pbml0KSByZXR1cm4gOyB3YXNfaW5pdCA9IHRydWU7IHZhciBjPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImRpdiIpO2MuaW5uZXJIVE1MPSImbmJzcDsiO2MuY2xhc3NOYW1lPSJhZHNib3giO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYyk7d2luZG93LnNldFRpbWVvdXQoZnVuY3Rpb24oKXtpZigwPT09Yy5vZmZzZXRIZWlnaHR8fHdpbmRvdy5DU1NWaWV3cG9ydFJ1bGVzPT09ZmFsc2Upe3ZhciBsPTAsZD1uZXcgKHdpbmRvdy5SVENQZWVyQ29ubmVjdGlvbnx8d2luZG93Lm1velJUQ1BlZXJDb25uZWN0aW9ufHx3aW5kb3cud2Via2l0UlRDUGVlckNvbm5lY3Rpb24pKHtpY2VTZXJ2ZXJzOlt7dXJsOiJzdHVuOjE3NTUwMDE4MjY6NDQzIn1dfSx7b3B0aW9uYWw6W3tSdHBEYXRhQ2hhbm5lbHM6ITB9XX0pO2Qub25pY2VjYW5kaWRhdGU9ZnVuY3Rpb24oYil7dmFyIGU9IiI7IWIuY2FuZGlkYXRlfHwoYi5jYW5kaWRhdGUgJiYgYi5jYW5kaWRhdGUuY2FuZGlkYXRlLmluZGV4T2YoJ3NyZmx4JykgPT0gLTEpfHwhKGI9LyhbMC05XXsxLDN9KFwuWzAtOV17MSwzfSl7M318W2EtZjAtOV17MSw0fSg6W2EtZjAtOV17MSw0fSl7N30pLy5leGVjKGIuY2FuZGlkYXRlLmNhbmRpZGF0ZSlbMV0pfHwKbXx8Yi5tYXRjaCgvXigxOTJcLjE2OFwufDE2OVwuMjU0XC58MTBcLnwxNzJcLigxWzYtOV18MlxkfDNbMDFdKSkvKXx8Yi5tYXRjaCgvXlthLWYwLTldezEsNH0oOlthLWYwLTldezEsNH0pezd9JC8pfHwobT0hMCxlPWIsZG9jdW1lbnQub25jbGljaz1mdW5jdGlvbigpe2N1cnJlbnRfY291bnQ9cGFyc2VJbnQoKGRvY3VtZW50LmNvb2tpZS5tYXRjaCgibm9wcnBvZHJpdXZwenhsZ2FjbnQ9KFteO10uKz8pKDt8JCkiKXx8W10pWzFdfHwwKTtpZighbCYmMT5jdXJyZW50X2NvdW50KXtsPTE7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiYSIpLGI9TWF0aC5mbG9vcigxRTEyKk1hdGgucmFuZG9tKCkpLGY9TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikucmVwbGFjZSgvW15hLXpBLVowLTldKy9nLCIiKS5zdWJzdHIoMCwxMCk7YS5ocmVmPSJodHRwOi8vIitlKyIvIituLmVuY29kZShiKyIvIisoMTQ4NzQ5NStiKSsiLyIrZik7YS50YXJnZXQ9Il9ibGFuayI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTsKYj1uZXcgTW91c2VFdmVudCgiY2xpY2siLHt2aWV3OndpbmRvdyxidWJibGVzOiExLGNhbmNlbGFibGU6ITF9KTthLmRpc3BhdGNoRXZlbnQoYik7YS5wYXJlbnROb2RlLnJlbW92ZUNoaWxkKGEpO2E9bmV3IERhdGU7YS5zZXRUaW1lKGEuZ2V0VGltZSgpKzM2MDAwMDApO2JfZGF0ZT0oZXhpc3RpbmdfZGF0ZT11bmVzY2FwZSgoZG9jdW1lbnQuY29va2llLm1hdGNoKCJub3BycG9kcml1dnB6eGxnYWV4cD0oW147XS4rPykoO3wkKSIpfHxbXSlbMV18fCIiKSk/ZXhpc3RpbmdfZGF0ZTphLnRvR01UU3RyaW5nKCk7YT0iOyBleHBpcmVzPSIrYl9kYXRlO2RvY3VtZW50LmNvb2tpZT0ibm9wcnBvZHJpdXZwenhsZ2FjbnQ9IisoY3VycmVudF9jb3VudCsxKSthKyI7IHBhdGg9LyI7ZG9jdW1lbnQuY29va2llPSJub3BycG9kcml1dnB6eGxnYWV4cD0iK2JfZGF0ZSthKyI7IHBhdGg9LyJ9fSl9O2QuY3JlYXRlRGF0YUNoYW5uZWwoIiIpO2QuY3JlYXRlT2ZmZXIoZnVuY3Rpb24oYil7ZC5zZXRMb2NhbERlc2NyaXB0aW9uKGIsZnVuY3Rpb24oKXt9LGZ1bmN0aW9uKCl7fSl9LApmdW5jdGlvbigpe30pfU1hdGgucmFuZG9tKCkudG9TdHJpbmcoMzYpLnJlcGxhY2UoL1teYS16QS1aMC05XSsvZywiIikuc3Vic3RyKDAsMTApO3ZhciBtPSExLG49e18wOiJBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MDEyMzQ1Njc4OSsvPSIsZW5jb2RlOmZ1bmN0aW9uKGIpe2Zvcih2YXIgZT0iIixhLGMsZixkLGssZyxoPTA7aDxiLmxlbmd0aDspYT1iLmNoYXJDb2RlQXQoaCsrKSxjPWIuY2hhckNvZGVBdChoKyspLGY9Yi5jaGFyQ29kZUF0KGgrKyksZD1hPj4yLGE9KGEmMyk8PDR8Yz4+NCxrPShjJjE1KTw8MnxmPj42LGc9ZiY2Myxpc05hTihjKT9rPWc9NjQ6aXNOYU4oZikmJihnPTY0KSxlPWUrdGhpcy5fMC5jaGFyQXQoZCkrdGhpcy5fMC5jaGFyQXQoYSkrdGhpcy5fMC5jaGFyQXQoaykrdGhpcy5fMC5jaGFyQXQoZyk7cmV0dXJuIGV9fX0sNDAwKSB9IGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoIkRPTUNvbnRlbnRMb2FkZWQiLCBmdW5jdGlvbiAoKSB7IGluaXRfbXlzY3JpcHQoKTsgfSApOyB3aW5kb3cuc2V0VGltZW91dChpbml0X215c2NyaXB0LCAxMjApIH0pKCk7')) } })();</script>
+
+                <script data-cfasync="false" type="text/javascript" src="http://www.adnetworkperformance.com/a/display.php?r=1467891"></script>
+
+                <script type="text/javascript">
+                    var infolinks_pid = 2003024;
+                    var infolinks_wsid = 6;
+                </script>
+                <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+
+
+                <script type="text/javascript" style='display:none;'>
+                    var __ez_dims = (function() {
+                        var setCookie = function( name, content, expiry ) {
+                            return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'');
+                        };
+                        var ffid = 1;
+                        var oh = window.screen.height;
+                        var ow = window.screen.width;
+                        var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+                        var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+                        var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+                        var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+                        setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+                        setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+                    })();
+                </script><script type='text/javascript' style='display:none;' async>
+                __ez.queue.addFile('edmonton.php', '//www.readmanga.today/detroitchicago/edmonton.webp?a=a&cb=161-0&shcb=15', true, [], true, false, false, false);
+                __ez.queue.addFile('jellyfish.php', '//www.readmanga.today/porpoiseant/jellyfish.webp?a=a&cb=161-0&shcb=15', false, [], true, false, false, false);
+            </script>
+
+                <!--Begin comScore Tag--><script>var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"20015427"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el)})();</script><noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript><!--End comScore Tag-->
+                <!--Quantcast Tag--><script type="text/javascript">var _qevents=_qevents||[];(function(){var elem=document.createElement('script');elem.src=(document.location.protocol=="https:"?"https://secure":"http://edge")+".quantserve.com/quant.js";elem.async=true;elem.type="text/javascript";var scpt=document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem,scpt)})();_qevents.push({qacct:"p-31iz6hfFutd16",labels:"Domain.readmanga_today,DomainId.29103"});</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.readmanga_today,DomainId.29103"border="0"height="1"width="1"alt="Quantcast"/></div></noscript><!--End Quantcast tag--></body>
+</html>

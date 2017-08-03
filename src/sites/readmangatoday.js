@@ -1,0 +1,214 @@
+// @flow
+import { parseDateAgo, trimSpaces } from "../utils";
+import AbstractCatalog from "../abstract-catalog";
+import ChapterRecognition from "../chapter-recognition";
+import { Chapter, Manga } from "../models";
+
+type CheerioObject = any;
+
+class ReadMangaToday extends AbstractCatalog {
+  constructor() {
+    super();
+    this.name = "ReadMangaToday";
+    this.catalogName = "readmangatoday";
+    this.baseUrl = "http://www.readmanga.today";
+    this.lang = "en";
+  }
+
+  /**
+   * @returns {string}
+   */
+  popularMangaUrl(): string {
+    return `${this.baseUrl}/hot-manga/`;
+  }
+
+  /**
+   * @param $
+   * @returns {Array.<Manga>}
+   */
+  popularMangaList($: CheerioObject): Array<Manga> {
+    let mangas: Array<Manga> = [];
+    let provider = this;
+
+    $(
+      "div.hot-manga > div.style-list > div.box"
+    ).each((i: number, elem: CheerioObject) => {
+      let manga: Manga = this.extractMangaSummary(
+        $,
+        elem,
+        provider.getNextIndex()
+      );
+
+      mangas.push(manga);
+    });
+
+    return mangas;
+  }
+
+  /**
+   * @param $
+   * @returns {{hasNext: boolean, nextUrl: string}}
+   */
+  popularMangaPaginator(
+    $: CheerioObject
+  ): { hasNext: boolean, nextUrl: string } {
+    let pagination: CheerioObject = $(
+      "div.hot-manga > ul.pagination > li > a:contains(»)"
+    );
+
+    this.popularPaginator = {
+      hasNext: Boolean(pagination.length),
+      nextUrl: pagination.attr("href")
+    };
+
+    return this.popularPaginator;
+  }
+
+  /**
+   * @param $
+   * @param manga
+   * @returns {Manga}
+   */
+  mangaDetail($: CheerioObject, manga: Manga): Manga {
+    let container: CheerioObject = $("div.content-list").first();
+
+    manga.author = trimSpaces(
+      container.find("ul.cast-list li.director > ul a").text()
+    );
+    manga.artist = trimSpaces(
+      container.find("ul.cast-list li:not(.director) > ul a").text()
+    );
+    manga.genre = trimSpaces(
+      container.find("dl.dl-horizontal > dd").eq(2).text()
+    );
+    manga.description = trimSpaces(container.find("li.movie-detail").text());
+    manga.status = trimSpaces(
+      container.find("dl.dl-horizontal > dd").eq(1).text()
+    );
+    manga.thumbnailUrl = trimSpaces(
+      container.find("img.img-responsive").attr("src")
+    );
+    manga.detailsFetched = true;
+
+    return manga;
+  }
+
+  /**
+   * @param $
+   * @param manga
+   * @returns {Array}
+   */
+  chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
+    let chapters: Array<Chapter> = [];
+
+    $("ul.chp_lst > li").each((i, elem) => {
+      let chapter = new Chapter();
+
+      chapter.url = trimSpaces($(elem).find("a").first().attr("href"));
+      chapter.title = trimSpaces(
+        $(elem).find("a").first().find("span.val").text()
+      );
+      chapter.publishedAt = parseDateAgo(
+        trimSpaces($(elem).find("span.dte").first().text())
+      );
+
+      chapter.generateId();
+
+      ChapterRecognition.parseChapterNumber(chapter, manga);
+
+      chapters.push(chapter);
+    });
+
+    return chapters;
+  }
+
+  /**
+   * @param $
+   * @returns {Array}
+   */
+  pageList($: CheerioObject): Array<string> {
+    let pages: Array<string> = [];
+    let options = $("ul.list-switcher-2 > li > select.jump-menu")
+      .first()
+      .find("option");
+
+    options.each((i, elem) => {
+      let page = $(elem).attr("value");
+
+      pages.push(page);
+    });
+
+    return pages;
+  }
+
+  /**
+   * @param $
+   * @returns {string}
+   */
+  imageUrl($: CheerioObject): string {
+    return $("img.img-responsive-2").first().attr("src");
+  }
+
+  /**
+   * @param query
+   * @returns {{url: string, headers: any, method: string, form: any}}
+   */
+  searchOptions(
+    query: string
+  ): { url: string, headers: any, method: string, form: any } {
+    return {
+      url: `${this.baseUrl}/service/advanced_search`,
+      headers: {
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      method: "POST",
+      form: {
+        type: "all",
+        status: "both",
+        "manga-name": query
+      }
+    };
+  }
+
+  /**
+   * @param $
+   * @returns {Array}
+   */
+  search($: CheerioObject): Array<Manga> {
+    let mangas: Array<Manga> = [];
+
+    $("div.style-list > div.box").each((i, elem) => {
+      let manga = this.extractMangaSummary($, elem, Infinity);
+
+      mangas.push(manga);
+    });
+
+    return mangas;
+  }
+
+  /**
+   * @param $
+   * @param elem
+   * @param catalogId
+   * @returns {Manga}
+   */
+  extractMangaSummary(
+    $: CheerioObject,
+    elem: CheerioObject,
+    catalogId: ?number
+  ): Manga {
+    let manga: Manga = new Manga();
+    let link: CheerioObject = $(elem).find("div.title > h2 > a");
+
+    manga.url = trimSpaces(link.attr("href"));
+    manga.title = trimSpaces(link.attr("title"));
+    manga.thumbnailUrl = trimSpaces($(elem).find("img").attr("src"));
+    manga.catalogId = catalogId;
+    manga.catalog = this.catalogName;
+    manga.generateId();
+
+    return manga;
+  }
+}
+
+export default new ReadMangaToday();

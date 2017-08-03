@@ -1,0 +1,11 @@
+{
+  "presets": ["stage-2"],
+  "plugins": [
+    "transform-flow-strip-types"
+  ],
+  "env": {
+    "test": {
+      "presets": ["es2015", "stage-2"]
+    }
+  }
+}

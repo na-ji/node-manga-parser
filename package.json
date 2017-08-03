@@ -1,0 +1,74 @@
+{
+  "name": "manga-parser",
+  "version": "1.0.0",
+  "description": "A parser for manga online sources",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "babel-prepublish": "babel src/ -d lib",
+    "flow": "flow",
+    "flow-prepublish": "flow-copy-source src lib",
+    "precommit": "lint-staged",
+    "prepublish": "npm run babel-prepublish && npm run flow-prepublish",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "manga",
+    "parser"
+  ],
+  "homepage": "https://github.com/na-ji/node-manga-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/na-ji/node-manga-parser.git"
+  },
+  "author": {
+    "name": "Naji Astier",
+    "email": "naji.astier@gmail.com",
+    "url": "https://www.naji-astier.com/"
+  },
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/na-ji/node-manga-parser/issues"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/internals/**",
+      "!**/lib/**"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-base64-image": "^1.0.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "flow-bin": "^0.52.0",
+    "flow-copy-source": "^1.2.0",
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3"
+  }
+}

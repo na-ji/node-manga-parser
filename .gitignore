@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log.*
+
+# Coverage directory used by tools like istanbul or jest
+coverage
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+#output directoy
+lib
+
+# WebStorm IDE
+.idea
