@@ -21,8 +21,9 @@ addons:
 install:
   - export CXX="g++-4.8"
   - yarn
+  - yarn global add codecov
 
 script:
   - node --version
   - yarn test
-#  - yarn coverage
+  - codecov
