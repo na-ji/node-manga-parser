@@ -1,18 +1,18 @@
 // @flow
-import { parseDateAgo, trimSpaces } from "../utils";
-import AbstractCatalog from "../abstract-catalog";
-import ChapterRecognition from "../chapter-recognition";
-import { Chapter, Manga } from "../models";
+import { parseDateAgo, trimSpaces } from '../utils';
+import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
+import ChapterRecognition from '../chapter-recognition';
+import { Chapter, Manga } from '../models';
 
 type CheerioObject = any;
 
 class ReadMangaToday extends AbstractCatalog {
   constructor() {
     super();
-    this.name = "ReadMangaToday";
-    this.catalogName = "readmangatoday";
-    this.baseUrl = "http://www.readmanga.today";
-    this.lang = "en";
+    this.name = 'ReadMangaToday';
+    this.catalogName = 'readmangatoday';
+    this.baseUrl = 'http://www.readmanga.today';
+    this.lang = LANGUAGE_EN;
   }
 
   /**
@@ -31,7 +31,7 @@ class ReadMangaToday extends AbstractCatalog {
     let provider = this;
 
     $(
-      "div.hot-manga > div.style-list > div.box"
+      'div.hot-manga > div.style-list > div.box'
     ).each((i: number, elem: CheerioObject) => {
       let manga: Manga = this.extractMangaSummary(
         $,
@@ -53,15 +53,59 @@ class ReadMangaToday extends AbstractCatalog {
     $: CheerioObject
   ): { hasNext: boolean, nextUrl: string } {
     let pagination: CheerioObject = $(
-      "div.hot-manga > ul.pagination > li > a:contains(»)"
+      'div.hot-manga > ul.pagination > li > a:contains(»)'
     );
 
     this.popularPaginator = {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.attr("href")
+      nextUrl: pagination.attr('href')
     };
 
     return this.popularPaginator;
+  }
+
+  /**
+   * @returns {string}
+   */
+  latestUpdatesUrl(): string {
+    return `${this.baseUrl}/latest-releases/`;
+  }
+
+  /**
+   * @param $
+   * @returns {Array.<Manga>}
+   */
+  latestUpdatesList($: CheerioObject): Array<Manga> {
+    let mangas: Array<Manga> = [];
+
+    $(
+      'div.hot-manga > div.style-grid > div.box'
+    ).each((i: number, elem: CheerioObject) => {
+      let manga: Manga = this.extractMangaSummary($, elem, Infinity);
+
+      mangas.push(manga);
+    });
+
+    return mangas;
+  }
+
+  /**
+   * @param $
+   * @returns {{hasNext: boolean, nextUrl: string}}
+   */
+  latestUpdatesPaginator(
+    $: CheerioObject
+  ): { hasNext: boolean, nextUrl: string } {
+    let pagination: CheerioObject = $(
+      'div.hot-manga > ul.pagination > li > a:contains(»)'
+    );
+
+    this.latestPaginator = {
+      hasNext: Boolean(pagination.length),
+      nextUrl: pagination.attr('href')
+    };
+
+    return this.latestPaginator;
   }
 
   /**
@@ -70,23 +114,23 @@ class ReadMangaToday extends AbstractCatalog {
    * @returns {Manga}
    */
   mangaDetail($: CheerioObject, manga: Manga): Manga {
-    let container: CheerioObject = $("div.content-list").first();
+    let container: CheerioObject = $('div.content-list').first();
 
     manga.author = trimSpaces(
-      container.find("ul.cast-list li.director > ul a").text()
+      container.find('ul.cast-list li.director > ul a').text()
     );
     manga.artist = trimSpaces(
-      container.find("ul.cast-list li:not(.director) > ul a").text()
+      container.find('ul.cast-list li:not(.director) > ul a').text()
     );
     manga.genre = trimSpaces(
-      container.find("dl.dl-horizontal > dd").eq(2).text()
+      container.find('dl.dl-horizontal > dd').eq(2).text()
     );
-    manga.description = trimSpaces(container.find("li.movie-detail").text());
+    manga.description = trimSpaces(container.find('li.movie-detail').text());
     manga.status = trimSpaces(
-      container.find("dl.dl-horizontal > dd").eq(1).text()
+      container.find('dl.dl-horizontal > dd').eq(1).text()
     );
     manga.thumbnailUrl = trimSpaces(
-      container.find("img.img-responsive").attr("src")
+      container.find('img.img-responsive').attr('src')
     );
     manga.detailsFetched = true;
 
@@ -101,15 +145,15 @@ class ReadMangaToday extends AbstractCatalog {
   chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
-    $("ul.chp_lst > li").each((i, elem) => {
+    $('ul.chp_lst > li').each((i, elem) => {
       let chapter = new Chapter();
 
-      chapter.url = trimSpaces($(elem).find("a").first().attr("href"));
+      chapter.url = trimSpaces($(elem).find('a').first().attr('href'));
       chapter.title = trimSpaces(
-        $(elem).find("a").first().find("span.val").text()
+        $(elem).find('a').first().find('span.val').text()
       );
       chapter.publishedAt = parseDateAgo(
-        trimSpaces($(elem).find("span.dte").first().text())
+        trimSpaces($(elem).find('span.dte').first().text())
       );
 
       chapter.generateId();
@@ -128,12 +172,12 @@ class ReadMangaToday extends AbstractCatalog {
    */
   pageList($: CheerioObject): Array<string> {
     let pages: Array<string> = [];
-    let options = $("ul.list-switcher-2 > li > select.jump-menu")
+    let options = $('ul.list-switcher-2 > li > select.jump-menu')
       .first()
-      .find("option");
+      .find('option');
 
     options.each((i, elem) => {
-      let page = $(elem).attr("value");
+      let page = $(elem).attr('value');
 
       pages.push(page);
     });
@@ -146,7 +190,7 @@ class ReadMangaToday extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $("img.img-responsive-2").first().attr("src");
+    return $('img.img-responsive-2').first().attr('src');
   }
 
   /**
@@ -159,13 +203,13 @@ class ReadMangaToday extends AbstractCatalog {
     return {
       url: `${this.baseUrl}/service/advanced_search`,
       headers: {
-        "X-Requested-With": "XMLHttpRequest"
+        'X-Requested-With': 'XMLHttpRequest'
       },
-      method: "POST",
+      method: 'POST',
       form: {
-        type: "all",
-        status: "both",
-        "manga-name": query
+        type: 'all',
+        status: 'both',
+        'manga-name': query
       }
     };
   }
@@ -177,7 +221,7 @@ class ReadMangaToday extends AbstractCatalog {
   search($: CheerioObject): Array<Manga> {
     let mangas: Array<Manga> = [];
 
-    $("div.style-list > div.box").each((i, elem) => {
+    $('div.style-list > div.box').each((i, elem) => {
       let manga = this.extractMangaSummary($, elem, Infinity);
 
       mangas.push(manga);
@@ -198,11 +242,11 @@ class ReadMangaToday extends AbstractCatalog {
     catalogId: ?number
   ): Manga {
     let manga: Manga = new Manga();
-    let link: CheerioObject = $(elem).find("div.title > h2 > a");
+    let link: CheerioObject = $(elem).find('div.title > h2 > a');
 
-    manga.url = trimSpaces(link.attr("href"));
-    manga.title = trimSpaces(link.attr("title"));
-    manga.thumbnailUrl = trimSpaces($(elem).find("img").attr("src"));
+    manga.url = trimSpaces(link.attr('href'));
+    manga.title = trimSpaces(link.attr('title'));
+    manga.thumbnailUrl = trimSpaces($(elem).find('img').attr('src'));
     manga.catalogId = catalogId;
     manga.catalog = this.catalogName;
     manga.generateId();

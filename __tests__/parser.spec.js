@@ -1,13 +1,13 @@
-jest.mock("request");
+jest.mock('request');
 
-import Parser from "../src/parser";
+import Parser from '../src/parser';
 
 Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
-  describe("parser for " + catalogName, function() {
+  describe('parser for ' + catalogName, function() {
     var manga;
-    describe("getPopularMangaList", function() {
+    describe('getPopularMangaList', function() {
       let response;
-      it("expect response to be an object with keys", function(done) {
+      it('expect response to be an object with keys', function(done) {
         Parser.getPopularMangaList(catalogName)
           .then(function(resp) {
             response = resp;
@@ -29,9 +29,9 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
       });
     });
 
-    describe("getMangaDetail", function() {
+    describe('getMangaDetail', function() {
       let response;
-      it("expect manga to be an object with keys", function(done) {
+      it('expect manga to be an object with keys', function(done) {
         Parser.getMangaDetail(catalogName, manga)
           .then(function(resp) {
             response = resp;
@@ -44,6 +44,7 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
                 thumbnailUrl: expect.any(String)
               })
             );
+            console.log(manga);
             manga = response;
             done();
           })
@@ -56,8 +57,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
     });
 
     var chapter;
-    describe("getChapterList", function() {
-      it("expect chapters to be an array", function(done) {
+    describe('getChapterList', function() {
+      it('expect chapters to be an array', function(done) {
         Parser.getChapterList(catalogName, manga)
           .then(function(chapters) {
             manga.chapters = chapters;
@@ -84,8 +85,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
     });
 
     var page;
-    describe("getPageList", function() {
-      it("expect pages to be an array", function(done) {
+    describe('getPageList', function() {
+      it('expect pages to be an array', function(done) {
         Parser.getPageList(catalogName, chapter)
           .then(function(pages) {
             expect(pages).toEqual(expect.any(Array));
@@ -101,8 +102,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
       });
     });
 
-    describe("getImageURL", function() {
-      it("expect url to be a string", function(done) {
+    describe('getImageURL', function() {
+      it('expect url to be a string', function(done) {
         Parser.getImageURL(catalogName, page)
           .then(function(imageURL) {
             expect(imageURL).toEqual(expect.any(String));
@@ -116,10 +117,10 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
       });
     });
 
-    describe("searchManga", function() {
+    describe('searchManga', function() {
       let response;
-      it("expect response to be an object with keys", function(done) {
-        Parser.searchManga(catalogName, "naruto")
+      it('expect response to be an object with keys', function(done) {
+        Parser.searchManga(catalogName, 'naruto')
           .then(function(resp) {
             response = resp;
             expect(response).toEqual(
@@ -130,6 +131,28 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
               })
             );
             expect(response.mangas.length).toBeGreaterThanOrEqual(5);
+            done();
+          })
+          .catch(function(error) {
+            console.log(error);
+            expect(error).toBe(null);
+            done();
+          });
+      });
+    });
+
+    describe('getLatestUpdatesList', function() {
+      it('expect response to be an object with keys', function(done) {
+        Parser.getLatestUpdatesList(catalogName)
+          .then(function(paginator) {
+            expect(paginator).toEqual(
+              expect.objectContaining({
+                mangas: expect.any(Array),
+                hasNext: expect.any(Boolean),
+                nextUrl: expect.any(String)
+              })
+            );
+            expect(paginator.mangas.length).toBeGreaterThanOrEqual(5);
             done();
           })
           .catch(function(error) {

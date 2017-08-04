@@ -29,7 +29,7 @@ class Parser {
   }
 
   /**
-   * Fetch the popular manga on the catalog
+   * Fetch the popular mangas on the catalog
    * @param {string} catalogName
    * @param {boolean} fetchNextPage After being called once and if there is another page, will fetch the next page
    * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
@@ -61,6 +61,44 @@ class Parser {
         return resolve({
           mangas,
           ...catalog.popularPaginator
+        });
+      });
+    });
+  }
+
+  /**
+   * Fetch the latest updated manga on the catalog
+   * @param {string} catalogName
+   * @param {boolean} fetchNextPage After being called once and if there is another page, will fetch the next page
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
+   */
+  getLatestUpdatesList(
+    catalogName: string,
+    fetchNextPage: boolean = false
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
+    const catalog: AbstractCatalog = this.getCatalog(catalogName);
+
+    let url = catalog.latestUpdatesUrl();
+    if (fetchNextPage && catalog.latestPaginator.hasNext) {
+      url = catalog.latestPaginator.nextUrl;
+    } else if (fetchNextPage) {
+      return Promise.resolve({ mangas: [], hasNext: false, nextUrl: null });
+    }
+
+    return new Promise(function(resolve, reject) {
+      request(url, function(error, response, page) {
+        if (error) {
+          return reject(error);
+        }
+        let $ = cheerio.load(page);
+
+        let mangas = catalog.latestUpdatesList($);
+
+        catalog.latestUpdatesPaginator($);
+
+        return resolve({
+          mangas,
+          ...catalog.latestPaginator
         });
       });
     });

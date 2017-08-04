@@ -1,14 +1,18 @@
 // @flow
-import { Chapter, Manga } from "./models";
+import { Chapter, Manga } from './models';
+
+export const LANGUAGE_EN = 'en';
 
 type CheerioObject = any;
+type paginator = {
+  hasNext: boolean,
+  nextUrl: string
+};
 
 export default class AbstractCatalog {
   index: number;
-  popularPaginator: {
-    hasNext: boolean,
-    nextUrl: string
-  };
+  popularPaginator: paginator;
+  latestPaginator: paginator;
   name: string;
   catalogName: string;
   baseUrl: string;
@@ -18,7 +22,11 @@ export default class AbstractCatalog {
     this.index = 0;
     this.popularPaginator = {
       hasNext: false,
-      nextUrl: ""
+      nextUrl: ''
+    };
+    this.latestPaginator = {
+      hasNext: false,
+      nextUrl: ''
     };
   }
 
@@ -33,15 +41,19 @@ export default class AbstractCatalog {
    * @returns {string}
    */
   popularMangaUrl(): string {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
    * @param $
+   * @param {boolean} injectIndex Should an index injected
    * @returns {Array.<Manga>}
    */
-  popularMangaList($: CheerioObject): Array<Manga> {
-    throw new Error("Not implemented");
+  popularMangaList(
+    $: CheerioObject,
+    injectIndex: boolean = true
+  ): Array<Manga> {
+    throw new Error('Not implemented');
   }
 
   /**
@@ -51,7 +63,32 @@ export default class AbstractCatalog {
   popularMangaPaginator(
     $: CheerioObject
   ): { hasNext: boolean, nextUrl: string } {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
+  }
+
+  /**
+   * @returns {string}
+   */
+  latestUpdatesUrl(): string {
+    throw new Error('Not implemented');
+  }
+
+  /**
+   * @param $
+   * @returns {Array.<Manga>}
+   */
+  latestUpdatesList($: CheerioObject): Array<Manga> {
+    throw new Error('Not implemented');
+  }
+
+  /**
+   * @param $
+   * @returns {{hasNext: boolean, nextUrl: string}}
+   */
+  latestUpdatesPaginator(
+    $: CheerioObject
+  ): { hasNext: boolean, nextUrl: string } {
+    throw new Error('Not implemented');
   }
 
   /**
@@ -60,7 +97,7 @@ export default class AbstractCatalog {
    * @returns {Manga}
    */
   mangaDetail($: CheerioObject, manga: Manga): Manga {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
@@ -69,7 +106,7 @@ export default class AbstractCatalog {
    * @returns {Array}
    */
   chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
@@ -77,7 +114,7 @@ export default class AbstractCatalog {
    * @returns {Array}
    */
   pageList($: CheerioObject): Array<string> {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
@@ -85,7 +122,7 @@ export default class AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
@@ -95,7 +132,7 @@ export default class AbstractCatalog {
   searchOptions(
     query: string
   ): { url: string, headers: any, method: string, form: any } {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 
   /**
@@ -103,6 +140,6 @@ export default class AbstractCatalog {
    * @returns {Array}
    */
   search($: CheerioObject): Array<Manga> {
-    throw new Error("Not implemented");
+    throw new Error('Not implemented');
   }
 }
