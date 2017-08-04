@@ -67,7 +67,18 @@ Parser.searchManga('readmangatoday', 'naruto').then(paginator => {
 
 #### getPopularMangaList
 
-Fetch the popular manga on the catalog
+Fetch the popular mangas on the catalog
+
+**Parameters**
+
+-   `catalogName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `fetchNextPage` **[boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** After being called once and if there is another page, will fetch the next page (optional, default `false`)
+
+Returns **[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;{mangas: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Manga>, hasNext: [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean), nextUrl: [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)}>** 
+
+#### getLatestUpdatesList
+
+Fetch the latest updated manga on the catalog
 
 **Parameters**
 
