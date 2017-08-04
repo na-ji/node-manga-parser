@@ -23,7 +23,7 @@ import { Parser } from 'manga-parser';
 const Parser = require('manga-parser').Parser;
 ```
 
-Most of the `Parser` methods require the `catalogName`, you can found this name on each [catalog class](https://github.com/na-ji/node-manga-parser/tree/master/src/sites).
+Most of the `Parser` methods require the `catalogName`, you can find this name on each [catalog class](https://github.com/na-ji/node-manga-parser/tree/master/src/sites).
 
 ### Usage Examples
 
