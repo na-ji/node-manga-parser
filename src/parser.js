@@ -1,13 +1,13 @@
 // @flow
-import _ from "lodash";
-import Promise from "bluebird";
-import cheerio from "cheerio";
-import { encode } from "node-base64-image";
-let request = require("request");
+import _ from 'lodash';
+import Promise from 'bluebird';
+import cheerio from 'cheerio';
+import { encode } from 'node-base64-image';
+let request = require('request');
 
-import * as catalogs from "./sites";
-import type AbstractCatalog from "./abstract-catalog";
-import type { Chapter, Manga } from "./models";
+import * as catalogs from './sites';
+import type AbstractCatalog from './abstract-catalog';
+import type { Chapter, Manga } from './models';
 
 request = request.defaults({
   timeout: 10000
@@ -29,21 +29,22 @@ class Parser {
   }
 
   /**
+   * Fetch the popular manga on the catalog
    * @param {string} catalogName
-   * @param {boolean} fetchNextPage
-   * @returns {Promise}
+   * @param {boolean} fetchNextPage After being called once and if there is another page, will fetch the next page
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
    */
   getPopularMangaList(
     catalogName: string,
     fetchNextPage: boolean = false
-  ): Promise {
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
     let url = catalog.popularMangaUrl();
     if (fetchNextPage && catalog.popularPaginator.hasNext) {
       url = catalog.popularPaginator.nextUrl;
     } else if (fetchNextPage) {
-      // TODO : Manage the case when we reach the end of the list
+      return Promise.resolve({ mangas: [], hasNext: false, nextUrl: null });
     }
 
     return new Promise(function(resolve, reject) {
@@ -66,11 +67,12 @@ class Parser {
   }
 
   /**
+   * Fetch every information for a Manga
    * @param {string} catalogName
    * @param {Manga} manga
-   * @returns {Promise}
+   * @returns {Promise<Manga>}
    */
-  getMangaDetail(catalogName: string, manga: Manga): Promise {
+  getMangaDetail(catalogName: string, manga: Manga): Promise<Manga> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
     return new Promise(function(resolve, reject) {
@@ -94,11 +96,12 @@ class Parser {
   }
 
   /**
+   * Fetch the list of chapters for Manga
    * @param {string} catalogName
    * @param {Manga} manga
-   * @returns {Promise}
+   * @returns {Promise<Array<Chapter>>}
    */
-  getChapterList(catalogName: string, manga: Manga): Promise {
+  getChapterList(catalogName: string, manga: Manga): Promise<Array<Chapter>> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
     return new Promise(function(resolve, reject) {
@@ -112,8 +115,8 @@ class Parser {
 
         chapters = _.orderBy(
           chapters,
-          ["number", "publishedAt"],
-          ["asc", "asc"]
+          ['number', 'publishedAt'],
+          ['asc', 'asc']
         );
 
         resolve(chapters);
@@ -122,11 +125,12 @@ class Parser {
   }
 
   /**
+   * Fetch every pages URL for a manga
    * @param {string} catalogName
    * @param {Chapter} chapter
-   * @returns {Promise}
+   * @returns {Promise<Array<string>>}
    */
-  getPageList(catalogName: string, chapter: Chapter): Promise {
+  getPageList(catalogName: string, chapter: Chapter): Promise<Array<string>> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
     return new Promise((resolve, reject) => {
@@ -144,11 +148,12 @@ class Parser {
   }
 
   /**
+   * Fetch the image URL from a page URL
    * @param {string} catalogName
    * @param {string} pageURL
-   * @returns {Promise}
+   * @returns {Promise<string>}
    */
-  getImageURL(catalogName: string, pageURL: string): Promise {
+  getImageURL(catalogName: string, pageURL: string): Promise<string> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
     return new Promise((resolve, reject) => {
@@ -166,10 +171,15 @@ class Parser {
   }
 
   /**
+   * Search for Manga from a catalog
    * @param {string} catalogName
    * @param {string} query
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
    */
-  searchManga(catalogName: string, query: string): Promise {
+  searchManga(
+    catalogName: string,
+    query: string
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
     const options = catalog.searchOptions(query);
 
@@ -192,19 +202,21 @@ class Parser {
   }
 
   /**
-   * @returns {{}}
+   * Return the list of catalogs
+   * @returns {{name:AbstractCatalog}}
    */
   getCatalogs(): {} {
     return this.catalogs;
   }
 
   /**
+   * Return a catalog
    * @param {string} catalogName
    * @returns {AbstractCatalog}
    */
   getCatalog(catalogName: string): AbstractCatalog {
     if (!(catalogName in this.catalogs)) {
-      throw new Error("Catalog does not exist");
+      throw new Error('Catalog does not exist');
     }
 
     return this.catalogs[catalogName];
