@@ -15,7 +15,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
               expect.objectContaining({
                 mangas: expect.any(Array),
                 hasNext: expect.any(Boolean),
-                nextUrl: expect.any(String)
+                nextUrl: expect.any(String),
+                nextPage: expect.any(Number)
               })
             );
             manga = response.mangas[0];
@@ -44,7 +45,6 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
                 thumbnailUrl: expect.any(String)
               })
             );
-            console.log(manga);
             manga = response;
             done();
           })
@@ -127,7 +127,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
               expect.objectContaining({
                 mangas: expect.any(Array),
                 hasNext: false,
-                nextUrl: null
+                nextUrl: null,
+                nextPage: null
               })
             );
             expect(response.mangas.length).toBeGreaterThanOrEqual(5);
@@ -149,7 +150,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
               expect.objectContaining({
                 mangas: expect.any(Array),
                 hasNext: expect.any(Boolean),
-                nextUrl: expect.any(String)
+                nextUrl: expect.any(String),
+                nextPage: expect.any(Number)
               })
             );
             expect(paginator.mangas.length).toBeGreaterThanOrEqual(5);

@@ -31,24 +31,19 @@ class Parser {
   /**
    * Fetch the popular mangas on the catalog
    * @param {string} catalogName
-   * @param {boolean} fetchNextPage After being called once and if there is another page, will fetch the next page
-   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
+   * @param {number} page Page to fetch
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number}>}
    */
   getPopularMangaList(
     catalogName: string,
-    fetchNextPage: boolean = false
-  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
+    page: ?number = null
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
-    let url = catalog.popularMangaUrl();
-    if (fetchNextPage && catalog.popularPaginator.hasNext) {
-      url = catalog.popularPaginator.nextUrl;
-    } else if (fetchNextPage) {
-      return Promise.resolve({ mangas: [], hasNext: false, nextUrl: null });
-    }
+    let options = catalog.popularMangaRequest(page);
 
     return new Promise(function(resolve, reject) {
-      request(url, function(error, response, page) {
+      request(options, function(error, response, page) {
         if (error) {
           return reject(error);
         }
@@ -56,11 +51,11 @@ class Parser {
 
         let mangas = catalog.popularMangaList($);
 
-        catalog.popularMangaPaginator($);
+        const paginator = catalog.popularMangaPaginator($);
 
         return resolve({
           mangas,
-          ...catalog.popularPaginator
+          ...paginator
         });
       });
     });
@@ -69,24 +64,19 @@ class Parser {
   /**
    * Fetch the latest updated manga on the catalog
    * @param {string} catalogName
-   * @param {boolean} fetchNextPage After being called once and if there is another page, will fetch the next page
-   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
+   * @param {number} page Page to fetch
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number}>}
    */
   getLatestUpdatesList(
     catalogName: string,
-    fetchNextPage: boolean = false
-  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
+    page: ?number = null
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
 
-    let url = catalog.latestUpdatesUrl();
-    if (fetchNextPage && catalog.latestPaginator.hasNext) {
-      url = catalog.latestPaginator.nextUrl;
-    } else if (fetchNextPage) {
-      return Promise.resolve({ mangas: [], hasNext: false, nextUrl: null });
-    }
+    let options = catalog.latestUpdatesRequest(page);
 
     return new Promise(function(resolve, reject) {
-      request(url, function(error, response, page) {
+      request(options, function(error, response, page) {
         if (error) {
           return reject(error);
         }
@@ -94,11 +84,11 @@ class Parser {
 
         let mangas = catalog.latestUpdatesList($);
 
-        catalog.latestUpdatesPaginator($);
+        const paginator = catalog.latestUpdatesPaginator($);
 
         return resolve({
           mangas,
-          ...catalog.latestPaginator
+          ...paginator
         });
       });
     });
@@ -212,12 +202,12 @@ class Parser {
    * Search for Manga from a catalog
    * @param {string} catalogName
    * @param {string} query
-   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string}>}
+   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number}>}
    */
   searchManga(
     catalogName: string,
     query: string
-  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string }> {
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
     const options = catalog.searchOptions(query);
 
@@ -233,7 +223,8 @@ class Parser {
         return resolve({
           mangas,
           hasNext: false,
-          nextUrl: null
+          nextUrl: null,
+          nextPage: null
         });
       });
     });

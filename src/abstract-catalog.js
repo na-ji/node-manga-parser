@@ -4,15 +4,9 @@ import { Chapter, Manga } from './models';
 export const LANGUAGE_EN = 'en';
 
 type CheerioObject = any;
-type paginator = {
-  hasNext: boolean,
-  nextUrl: string
-};
 
 export default class AbstractCatalog {
   index: number;
-  popularPaginator: paginator;
-  latestPaginator: paginator;
   name: string;
   catalogName: string;
   baseUrl: string;
@@ -20,14 +14,6 @@ export default class AbstractCatalog {
 
   constructor() {
     this.index = 0;
-    this.popularPaginator = {
-      hasNext: false,
-      nextUrl: ''
-    };
-    this.latestPaginator = {
-      hasNext: false,
-      nextUrl: ''
-    };
   }
 
   /**
@@ -38,9 +24,11 @@ export default class AbstractCatalog {
   }
 
   /**
-   * @returns {string}
+   * Return request option object or an URL
+   * @param {number} page
+   * @returns {string|{url: string}}
    */
-  popularMangaUrl(): string {
+  popularMangaRequest(page: ?number): string | { url: string } {
     throw new Error('Not implemented');
   }
 
@@ -58,18 +46,20 @@ export default class AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
    */
   popularMangaPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
     throw new Error('Not implemented');
   }
 
   /**
-   * @returns {string}
+   * Return request option object or an URL
+   * @param {number} page
+   * @returns {string|{url: string}}
    */
-  latestUpdatesUrl(): string {
+  latestUpdatesRequest(page: ?number): string | { url: string } {
     throw new Error('Not implemented');
   }
 
@@ -83,11 +73,11 @@ export default class AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
    */
   latestUpdatesPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
     throw new Error('Not implemented');
   }
 

@@ -1,5 +1,5 @@
 // @flow
-import { parseDateAgo, trimSpaces } from '../utils';
+import { parseDateAgo, trimSpaces, toString } from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
 import ChapterRecognition from '../chapter-recognition';
 import { Chapter, Manga } from '../models';
@@ -16,10 +16,11 @@ class ReadMangaToday extends AbstractCatalog {
   }
 
   /**
+   * @param {number} page
    * @returns {string}
    */
-  popularMangaUrl(): string {
-    return `${this.baseUrl}/hot-manga/`;
+  popularMangaRequest(page: ?number): string {
+    return `${this.baseUrl}/hot-manga/${toString(page)}`;
   }
 
   /**
@@ -47,28 +48,32 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
    */
   popularMangaPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
     let pagination: CheerioObject = $(
       'div.hot-manga > ul.pagination > li > a:contains(»)'
     );
+    let nextPage = pagination.attr('href').match(/hot-manga\/(\d+)/);
+    if (nextPage && nextPage.length) {
+      nextPage = parseInt(nextPage[1]);
+    }
 
-    this.popularPaginator = {
+    return {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.attr('href')
+      nextUrl: pagination.attr('href'),
+      nextPage: nextPage
     };
-
-    return this.popularPaginator;
   }
 
   /**
+   * @param {number} page
    * @returns {string}
    */
-  latestUpdatesUrl(): string {
-    return `${this.baseUrl}/latest-releases/`;
+  latestUpdatesRequest(page: ?number): string {
+    return `${this.baseUrl}/latest-releases/${toString(page)}`;
   }
 
   /**
@@ -91,21 +96,24 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
    */
   latestUpdatesPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
     let pagination: CheerioObject = $(
       'div.hot-manga > ul.pagination > li > a:contains(»)'
     );
+    let nextPage = pagination.attr('href').match(/latest-releases\/(\d+)/);
+    if (nextPage && nextPage.length) {
+      nextPage = parseInt(nextPage[1]);
+    }
 
-    this.latestPaginator = {
+    return {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.attr('href')
+      nextUrl: pagination.attr('href'),
+      nextPage: nextPage
     };
-
-    return this.latestPaginator;
   }
 
   /**

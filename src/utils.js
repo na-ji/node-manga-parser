@@ -1,6 +1,6 @@
 // @flow
-import moment from "moment";
-import _ from "lodash";
+import moment from 'moment';
+import _ from 'lodash';
 
 /**
  * Parse string '8 months ago' to Date object
@@ -8,11 +8,11 @@ import _ from "lodash";
  * @returns {Date} Date object corresponding
  */
 export function parseDateAgo(date: string): Date {
-  let dateWords = date.toLowerCase().split(" ");
+  let dateWords = date.toLowerCase().split(' ');
 
   if (dateWords.length === 3) {
-    if (dateWords[1].substr(dateWords[1].length - 1) !== "s") {
-      dateWords[1] = dateWords[1] + "s";
+    if (dateWords[1].substr(dateWords[1].length - 1) !== 's') {
+      dateWords[1] = dateWords[1] + 's';
     }
 
     let date = moment().subtract(parseInt(dateWords[0]), dateWords[1]);
@@ -30,7 +30,15 @@ export function parseDateAgo(date: string): Date {
  */
 export function trimSpaces(str: string): string {
   if (_.isString(str)) {
-    return str.trim().replace(/ +(?= )/g, "");
+    return str.trim().replace(/ +(?= )/g, '');
   }
   return str;
+}
+
+/**
+ * @param str
+ * @returns {string}
+ */
+export function toString(str: ?string | ?number): string {
+  return _.toString(str);
 }
