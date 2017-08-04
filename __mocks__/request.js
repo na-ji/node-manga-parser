@@ -12,7 +12,7 @@ const request = (options, callback) => {
     throw new Error("Unhandled options");
   }
   // console.log(file);
-  const filePath = path.resolve(__dirname, `../__mockData__/${file}`);
+  const filePath = path.resolve(__dirname, `./__mockData__/${file}`);
 
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
