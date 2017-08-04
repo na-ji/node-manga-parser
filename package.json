@@ -44,6 +44,8 @@
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
+      "!src/**/abstract-*.{js,jsx}",
+      "!src/**/index.{js,jsx}",
       "!**/node_modules/**",
       "!**/internals/**",
       "!**/lib/**"
