@@ -124,7 +124,7 @@ class Parser {
 
         encode(manga.thumbnailUrl, { string: true }, (error, result) => {
           if (!error) {
-            manga.thumbnailUrl = result;
+            manga.thumbnailUrl = `data:;base64,${result}`;
           }
 
           resolve(manga);
