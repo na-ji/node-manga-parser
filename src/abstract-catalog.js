@@ -34,23 +34,21 @@ export default class AbstractCatalog {
 
   /**
    * @param $
-   * @param {boolean} injectIndex Should an index injected
    * @returns {Array.<Manga>}
    */
   popularMangaList(
-    $: CheerioObject,
-    injectIndex: boolean = true
+    $: CheerioObject
   ): Array<Manga> {
     throw new Error('Not implemented');
   }
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: ?number}}
    */
   popularMangaPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
     throw new Error('Not implemented');
   }
 
@@ -73,11 +71,11 @@ export default class AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: ?number}}
    */
   latestUpdatesPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
     throw new Error('Not implemented');
   }
 
@@ -117,11 +115,13 @@ export default class AbstractCatalog {
 
   /**
    * @param query
+   * @param page
    * @returns {{url: string, headers: any, method: string, form: any}}
    */
   searchOptions(
-    query: string
-  ): { url: string, headers: any, method: string, form: any } {
+    query: string,
+    page: ?number
+  ): { url: string, headers: any, method: string, form: any } | string {
     throw new Error('Not implemented');
   }
 
@@ -130,6 +130,16 @@ export default class AbstractCatalog {
    * @returns {Array}
    */
   search($: CheerioObject): Array<Manga> {
+    throw new Error('Not implemented');
+  }
+
+  /**
+   * @param $
+   * @returns {{ hasNext: boolean, nextUrl: ?string, nextPage: ?number }}
+   */
+  searchPaginator(
+    $: CheerioObject
+  ): { hasNext: boolean, nextUrl: ?string, nextPage: ?number } {
     throw new Error('Not implemented');
   }
 }

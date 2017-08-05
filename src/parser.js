@@ -95,6 +95,40 @@ class Parser {
   }
 
   /**
+   * Search for Manga from a catalog
+   * @param {string} catalogName
+   * @param {string} query
+   * @param {?number} page
+   * @returns {Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: ?string, nextPage: ?number }>}
+   */
+  searchManga(
+    catalogName: string,
+    query: string,
+    page: ?number = null
+  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: ?string, nextPage: ?number }> {
+    const catalog: AbstractCatalog = this.getCatalog(catalogName);
+    const options = catalog.searchOptions(query, page);
+
+    return new Promise(function(resolve, reject) {
+      request(options, function(error, response, page) {
+        if (error) {
+          return reject(error);
+        }
+
+        let $ = cheerio.load(page);
+        let mangas = catalog.search($);
+
+        const paginator = catalog.searchPaginator($);
+
+        return resolve({
+          mangas,
+          ...paginator
+        });
+      });
+    });
+  }
+
+  /**
    * Fetch every information for a Manga
    * @param {string} catalogName
    * @param {Manga} manga
@@ -194,38 +228,6 @@ class Parser {
         let imageURL = catalog.imageUrl($);
 
         resolve(imageURL);
-      });
-    });
-  }
-
-  /**
-   * Search for Manga from a catalog
-   * @param {string} catalogName
-   * @param {string} query
-   * @returns {Promise<{mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number}>}
-   */
-  searchManga(
-    catalogName: string,
-    query: string
-  ): Promise<{ mangas: Array<Manga>, hasNext: boolean, nextUrl: string, nextPage: number }> {
-    const catalog: AbstractCatalog = this.getCatalog(catalogName);
-    const options = catalog.searchOptions(query);
-
-    return new Promise(function(resolve, reject) {
-      request(options, function(error, response, page) {
-        if (error) {
-          return reject(error);
-        }
-
-        let $ = cheerio.load(page);
-        let mangas = catalog.search($);
-
-        return resolve({
-          mangas,
-          hasNext: false,
-          nextUrl: null,
-          nextPage: null
-        });
       });
     });
   }

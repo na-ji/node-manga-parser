@@ -24,6 +24,13 @@ export function parseDateAgo(date: string): Date {
   return new Date(1970, 0, 1);
 }
 
+export function resetDateTime(date: Date): Date {
+  let momentDate = moment(date);
+  momentDate.millisecond(0).second(0).minute(0).hour(0);
+
+  return momentDate.toDate();
+}
+
 /**
  * @param {string} str string to trim
  * @returns {string}

@@ -10,7 +10,7 @@ const request = (options, callback) => {
   } else if (typeof options === 'string') {
     file = encodeURIComponent(options.trim());
   } else {
-    throw new Error('Unhandled options');
+    throw new Error('Unhandled options: ' + options);
   }
   // console.log(file);
   const filePath = path.resolve(__dirname, `./__mockData__/${file}`);

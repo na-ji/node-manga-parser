@@ -9,7 +9,7 @@ type CheerioObject = any;
 class ReadMangaToday extends AbstractCatalog {
   constructor() {
     super();
-    this.name = 'ReadMangaToday';
+    this.name = 'Mangafox';
     this.catalogName = 'readmangatoday';
     this.baseUrl = 'http://www.readmanga.today';
     this.lang = LANGUAGE_EN;
@@ -48,17 +48,21 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: ?number}}
    */
   popularMangaPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
     let pagination: CheerioObject = $(
       'div.hot-manga > ul.pagination > li > a:contains(»)'
     );
-    let nextPage = pagination.attr('href').match(/hot-manga\/(\d+)/);
-    if (nextPage && nextPage.length) {
-      nextPage = parseInt(nextPage[1]);
+    let nextPage = null;
+
+    if (pagination.length) {
+      nextPage = pagination.attr('href').match(/hot-manga\/(\d+)/);
+      if (nextPage && nextPage.length) {
+        nextPage = parseInt(nextPage[1]);
+      }
     }
 
     return {
@@ -96,17 +100,21 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param $
-   * @returns {{hasNext: boolean, nextUrl: string, nextPage: number}}
+   * @returns {{hasNext: boolean, nextUrl: string, nextPage: ?number}}
    */
   latestUpdatesPaginator(
     $: CheerioObject
-  ): { hasNext: boolean, nextUrl: string, nextPage: number } {
+  ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
     let pagination: CheerioObject = $(
       'div.hot-manga > ul.pagination > li > a:contains(»)'
     );
-    let nextPage = pagination.attr('href').match(/latest-releases\/(\d+)/);
-    if (nextPage && nextPage.length) {
-      nextPage = parseInt(nextPage[1]);
+    let nextPage = null;
+
+    if (pagination.length) {
+      nextPage = pagination.attr('href').match(/latest-releases\/(\d+)/);
+      if (nextPage && nextPage.length) {
+        nextPage = parseInt(nextPage[1]);
+      }
     }
 
     return {
@@ -203,10 +211,12 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param query
+   * @param page
    * @returns {{url: string, headers: any, method: string, form: any}}
    */
   searchOptions(
-    query: string
+    query: string,
+    page: ?number
   ): { url: string, headers: any, method: string, form: any } {
     return {
       url: `${this.baseUrl}/service/advanced_search`,
@@ -236,6 +246,20 @@ class ReadMangaToday extends AbstractCatalog {
     });
 
     return mangas;
+  }
+
+  /**
+   * @param $
+   * @returns {{ hasNext: boolean, nextUrl: ?string, nextPage: ?number }}
+   */
+  searchPaginator(
+    $: CheerioObject
+  ): { hasNext: boolean, nextUrl: ?string, nextPage: ?number } {
+    return {
+      hasNext: false,
+      nextUrl: null,
+      nextPage: null
+    };
   }
 
   /**

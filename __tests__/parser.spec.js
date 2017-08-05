@@ -5,6 +5,7 @@ import Parser from '../src/parser';
 Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
   describe('parser for ' + catalogName, function() {
     var manga;
+
     describe('getPopularMangaList', function() {
       let response;
       it('expect response to be an object with keys', function(done) {

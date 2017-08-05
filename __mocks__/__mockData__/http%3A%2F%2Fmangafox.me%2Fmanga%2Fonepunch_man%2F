@@ -1,0 +1,1559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<meta name="keywords" content="Onepunch-Man,Onepunch Man manga,read Onepunch Man manga,Onepunch Man manga online,Onepunch Man manga series,Onepunch Man manga chapters" />
+<meta name="description" content="Onepunch Man manga - read Onepunch Man manga chapters for free, but no downloading Onepunch Man manga chapters required" />
+<title>Onepunch-Man Manga - Read Onepunch Man Manga Online for Free</title>
+<meta property="og:title" content="Onepunch Man Manga" />
+<meta property="og:site_name" content="Manga Fox" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://mangafox.me/manga/onepunch_man/" />
+<meta property="og:image" content="http://l.mfcdn.net/store/manga/11362/cover.jpg?token=37b42dd3ce876dd499a341442584dcb72e99cf3b&ttl=1502013600&v=1501552070" />
+<meta property="og:description" content="In this new action-comedy, everything about a young man named Saitama screams &quot;AVERAGE,&quot; from his lifeless expression, to his bald head, to his unimpressive physique. However, this average-looking fellow doesn't have your  ...  through his hilarious romps as he searches for new bad guys to challenge!" />
+<meta property="fb:admins" content="100008598698356"/>
+<meta property="fb:admins" content="100008320095886"/>
+<meta property="fb:app_id" content="105895693075169"/>
+
+<link rel="Shortcut Icon" href="http://mangafox.me/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://mangafox.me/apple-touch-icon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" title="Manga Fox Search" href="http://mangafox.me/opensearch.xml" />
+<meta name="google-site-verification" content="nYL050P9BCH5N_tE2hN4RuZXvCCAYkAr5pEQbApF6UU" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://mangafox.me/media/css/all.css?20170124143218" />
+<!--[if gt IE 7]><!-->
+<link rel="stylesheet" href="http://mangafox.me/media/css/all.img.css?20170124143218" type="text/css" media="all" />
+<!--<![endif]-->
+<script src="http://mangafox.me/media/js/LAB.js?20170124143218"></script>
+<script type="text/javascript">
+
+
+
+
+if (top.location != self.location) {
+	alert("This is a fraud site, the page will be redirected.");
+	top.location=self.location;
+}
+var img_url="http://mangafox.me/media/";
+var is_loggedin=false;
+
+$LAB
+.queueScript("http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js").queueWait()
+.queueScript("http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js").queueWait()
+.queueScript("http://mangafox.me/media/js/default.min.js?20170124143218")
+.queueScript("http://mangafox.me/media/js/tooltip.jquery.min.js?20170124143218")
+.queueScript("http://mangafox.me/media/js/raty.jquery.min.js?20170124143218")
+.queueScript("http://mangafox.me/media/js/manga.min.js?20170124143218")
+.queueWait();
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss/onepunch_man.xml"/><link rel="canonical" href="http://mangafox.me/manga/onepunch_man/"/>
+<script type="text/javascript">
+
+if(!getCookie) {
+    function setCookie(c_name,value,expiredays) {
+        var exdate=new Date()
+        exdate.setDate(exdate.getDate()+expiredays)
+        cookieVal=c_name+ "=" +escape(value)+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())+";domain=.mangafox.me;path=/";
+        console.log(cookieVal);
+        document.cookie=cookieVal;
+    }
+    function getCookie(c_name) {
+        if (document.cookie.length>0)
+        {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1)
+            {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1) c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+}
+
+function jumpMoible(){
+	var web_url = 'http://mangafox.me/';
+	var mobile_url = 'm.mangafox.me';
+	var local_url = document.location.href;
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+	        var hide = getCookie('MHNMB');
+	        if(hide == "" || hide != 1) {
+	        	if(document.location.href==web_url){
+	        		document.location.href='http://'+mobile_url;
+	        	}else{
+	        		var path_url = document.location.pathname;
+	        		if(path_url=='/'){
+	        			var search = document.location.search;
+	        			search = search.replace('?','');
+	        			search = search.replace('#','');
+	        			var search_params = search.split('&');
+	        			for (var i = search_params.length - 1; i >= 0; i--) {
+	        				if(search_params[i]=='f=mobile'){
+	        					 setCookie("MHNMB", 1, null);
+	        				}
+	        			};
+
+	        		}else if(/^(\/manga)\/(\w+\/?)+/i.test(path_url)){
+	        			document.location.href='http://'+mobile_url+path_url;
+	        		}
+	        	}
+	        }
+	}
+}
+jumpMoible();
+
+</script>
+</head>
+<body id="body">
+<a name="top"></a>
+<script type="text/javascript">
+$LAB
+.queueScript("http://forums.mangafox.me/clientscript/vbulletin_md5.js").queueWait(function(){
+	$('.loaded').show();
+	$("#login").dialog({
+		autoOpen: false,
+		width: 497,
+		height: 324,
+		modal: true,
+		dialogClass: 'login-dialog',
+		draggable: false,
+		resizable: false,
+		open: function(event, ui) { $('.ui-widget-overlay').bind('click', function(){ $("#login").dialog('close'); }); }
+	});
+});
+</script>
+<div id="login" style="display:none">
+<form action="/ajax/login.php" id="loginform" method="post">
+<input type="hidden" name="cookieuser" value="1" />
+<input type="hidden" name="s" value="" />
+<input type="hidden" name="securitytoken" value="guest" />
+<input type="hidden" name="do" value="login" />
+<input type="hidden" name="vb_login_md5password" />
+<input type="hidden" name="vb_login_md5password_utf" />
+
+<input type="text" class="textbox" name="vb_login_username" id="navbar_username" maxlength="100" size="10" accesskey="u" tabindex="101" value="" />
+<input type="password" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10" />
+
+<a href="javascript:void(0);"><button class="button login_button" type="button" id="dialog-login">Login</button></a>
+<a href="http://forums.mangafox.me/register.php"><button class="button signup_button" type="button">Sign Up</button></a>
+
+
+<!-- <span id="fb_headerbox" class="hidden"><a id="fb_loginbtn" href="javascript:void(0);"><button class="button facebook_button" type="button">Facebook Connect</button></a></span> -->
+</form>
+</div>
+    <a href="http://mangazoneapp.com/?utm_source=MangaFox&utm_medium=banner&utm_term=MangaZoneOfficial&utm_content=Android&utm_campaign=MF_PC_Skin" target="_blank" >
+    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1482302689.png?token=c8afe7162969f4258cc192d7e562e870e214db4a&ttl=1502013600&v=1482302689) no-repeat scroll right top transparent;height:768px;left:-475px;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <a href="http://mangazoneapp.com/?utm_source=MangaFox&utm_medium=banner&utm_term=MangaZoneOfficial&utm_content=Android&utm_campaign=MF_PC_Skin" target="_blank" >
+    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1482302681.png?token=beaf7439cb4506f263d54bfd126096e63daff7d9&ttl=1502013600&v=1482302681) no-repeat scroll 475px top transparent;height:768px;right:0;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <!--            <div class="test">-->
+<div id="header" class="clear">
+	<div class="widepage">
+		<a href="http://mangafox.me/" id="logo"><span>Manga Fox</span></a>
+		<div id="corner">
+			<form action="http://mangafox.me/search.php" id="lookupform" class="left" method="get">
+				<fieldset class="left" id="searchbox">
+					<input name="name" type="text" value="Enter Manga Name..." maxlength="100" class="ui-autocomplete-input" id="lookupwords" />
+					<a href="http://mangafox.me/search.php" rel="nofollow">Advanced</a>
+					<a href="http://mangafox.me/surprise.php" rel="nofollow">Surprise</a>
+				</fieldset>
+			</form>
+			<ul>
+															<li><a href="http://forums.mangafox.me/register.php" rel="nofollow">Register</a></li>
+						<li><a href="javascript:void(0);" onclick="$('#login').dialog('open');" class="loaded" rel="nofollow">Login</a></li>
+													</ul>
+		</div>
+		<div class="clear"></div>
+		<iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.facebook.com%2Fmangafoxlife&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=141149349292130" scrolling="no" frameborder="0" style="float:left;border:none;overflow:hidden;width:100px;height:21px;margin-top:22px;margin-left:10px;margin-top:30px" allowTransparency="true"></iframe>
+		<ul id="menu">
+			<li class="left"><a href="http://mangafox.me/" >Home</a></li>
+			<li><a href="http://mangafox.me/releases/" >Latest Releases</a></li>
+			<li><a href="http://mangafox.me/directory/" class="selected">Manga Directory</a></li>
+			<li><a href="http://forums.mangafox.me/" >Forums</a></li>
+			<li><a href="http://mangafox.me/bookmark/"  rel="nofollow">Bookmark</a></li>
+			<li class="new"><a href="http://mangafox.me/search/author/Saiko+Plus/"  rel="nofollow">Partner Manhua</a></li>
+			<li class="right"><a href="http://orzzzz.com/acg?utm_source=mf&utm_medium=nav&utm_campaign=mfnav"  target="_blank">ACG Topics</a></li>
+		</ul>
+	</div>
+</div>
+<div class="clear"></div>
+
+<!-- content -->
+<div class="widepage" id="page" style="position:relative"><div id="ad_top">
+	<div class="clear">
+		<div class="ad b728x90 left">
+		    <div id='ad_box_13'></div>
+<script src='//ads.z6.com/ad/13.js?r=17080510' type="text/javascript"></script>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+if(typeof ad_put13!="undefined") ad_put13();
+});
+</script>		</div>
+		<div class="ad b186x90 right">
+				<a href="http://www.mangahere.co/ecchi/?utm_source=mangafox&utm_medium=button&utm_campaign=mf_top_button" target="_blank"><img src="http://www.mangafox.me/media/ad/186-90b.jpg" border="0" /></a>
+				</div>
+	</div>
+</div><div class="left" style="width:930px;padding:0 10px 10px 10px">
+	<div id="series_info">
+    <div class="cover">
+        <img width="200" src="http://l.mfcdn.net/store/manga/11362/cover.jpg?token=37b42dd3ce876dd499a341442584dcb72e99cf3b&ttl=1502013600&v=1501552070" onerror="javascript:this.src='http://mangafox.me/media/cover.jpg';" alt="Onepunch-Man" />
+    </div>
+    <div class="gap"></div>
+
+    <div class="c">
+        <span class='st_twitter_vcount' displayText="Tweet" st_url="http://mangafox.me/manga/onepunch_man/"></span>
+        <span class='st_facebook_vcount' displayText="Facebook" st_url="http://mangafox.me/manga/onepunch_man/"></span>
+        <span class='st_sharethis_vcount' displayText="Share" st_url="http://mangafox.me/manga/onepunch_man/"></span>
+    </div>
+
+    <div class="gap"></div>
+
+    <div class="data">
+    <h5>Status:</h5>
+    <span>
+        Ongoing,
+        <i><h2 class="nostyle"><a href="http://mangafox.me/manga/onepunch_man/vTBD/c079/">Onepunch Man 79</a></h2> is coming next...</i><br />
+    <span class="ss"></span>
+        </span>
+    </div>
+
+    <div class="data">
+    <h5>Rank:</h5>
+    <span>
+        1st, it has 1,266,644 monthly views.
+        </span>
+    </div>
+
+    <div class="data">
+    <h5>Rating:</h5>
+    <span>Average 4.84 / 5 out of 2406 total votes.</span>
+    <div id="rating" rel="5"></div>
+    </div>
+
+        <p id="edition">
+        You're more than welcome to
+        <a href="javascript:;" class="edit" rel="nofollow">Edit</a> the info or <a href="javascript:;" class="upload" rel="nofollow">Upload</a> a manga chapter for share.
+        You can also keep track this manga by subscribe the <a href="/rss/onepunch_man.xml" class="like rss">RSS</a> feed or <a href="javascript:void(0);" class="like bookmark" id="bookmark">Bookmark</a> it.
+    </p>
+
+<script type="text/javascript">
+$LAB.queueWait(function(){
+    $(".upload").click(function(){
+        $('#login').dialog('open');    });
+    $(".edit").click(function(){
+        $('#login').dialog('open');        return false;
+    });
+});
+</script>
+	
+	<div id="ad_right">
+    	<div id='ad_box_15'></div>
+<script src='//ads.z6.com/ad/15.js?r=17080510' type="text/javascript"></script>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+if(typeof ad_put15!="undefined") ad_put15();
+});
+</script>	</div>
+</div>
+
+<div id="title">
+    <h1 style="font-size:28px">ONEPUNCH-MAN Manga</h1>
+            <h3>ВанПанчМен; ワンパンマン; 一拳超人; <a style="color:#666" href="http://mangafox.me/manga/one_punch_man/">One Punch Man</a>; <a style="color:#666" href="http://mangafox.me/manga/one_punch_man/">One-Punch Man</a>; <a style="color:#666" href="http://mangafox.me/manga/onepunchman/">Onepunchman</a>; رجل اللكمة الواحدة</h3>
+    
+    <table>
+        <tr>
+            <th>Released:</th>
+            <th>Author(s):</th>
+            <th>Artist(s):</th>
+            <th>Genre(s):</th>
+        </tr>
+        <tr>
+            <td valign="top">
+                                <a style="color:#666" href="/search/released/2012/">2012</a>
+                            </td>
+            <td valign="top" style="min-width:100px">
+                                                <a href="/search/author/ONE/" style="color:#666">One</a>                            </td>
+            <td valign="top" style="min-width:100px">
+                                                <a href="/search/artist/MURATA+Yuusuke/" style="color:#666">Murata Yuusuke</a>                            </td>
+            <td valign="top">
+                                <a href="http://mangafox.me/search/genres/Action/">Action</a>, <a href="http://mangafox.me/search/genres/Comedy/">Comedy</a>, <a href="http://mangafox.me/search/genres/Martial Arts/">Martial Arts</a>, <a href="http://mangafox.me/search/genres/Seinen/">Seinen</a>, <a href="http://mangafox.me/search/genres/Shounen/">Shounen</a>, <a href="http://mangafox.me/search/genres/Supernatural/">Supernatural</a>                            </td>
+        </tr>
+    </table>
+
+            <a href="http://www.mangatown.com/manga/onepunch_man/" class="downloadimage" target="_blank">Read Onepunch-Man Online</a>
+            <h2>Read <a href="http://www.mangahere.co/manga/onepunch_man/" style="font-size:14px;color:#669900;cursor:text;text-decoration:none">Onepunch-Man Manga</a> Online</h2>
+    <hr />
+    <p class="summary">In this new action-comedy, everything about a young man named Saitama screams &quot;AVERAGE,&quot; from his lifeless expression, to his bald head, to his unimpressive physique. However, this average-looking fellow doesn't have your average problem... He's actually a superhero that's looking for tough opponents! The problem is, every time he finds a promising candidate he beats the snot out of them in one punch. Can Saitama finally find an evil villain strong enough to challenge him? Follow Saitama through his hilarious romps as he searches for new bad guys to challenge!</p>
+    </div>
+	<div style="width:702px;float:left">
+		<div class="advimg72890" id="mfad600x90" style="border: none;width: 600px;margin: 0 auto;padding:15px;">
+		    <p style="font-weight: bolder;text-align: left;">Advertisement</p>
+    <a href="http://www.animesama.com/?utm_source=mfpcdetail&utm_medium=banner&utm_campaign=mfpcdetail" target="_blank">
+        <img src="http://l.mfcdn.net/store/mfbanners/pc.manga_1501579272.jpg?token=6c0277b22dcda14bf30278af763e1ec97401dfa7&ttl=1502013600&v=1501579272">
+    </a>
+		</div>
+	</div>
+	<div id="discussion_placeholder"></div>
+	
+	<div id="chapters" >
+    <a href="javascript:void(0);" id="all" class="expandall">Expand All</a>
+
+    <h2 style="font-size:20px"><a href="http://mangakoi.com/manga/onepunch_man/" target="_blank" style="font-size: 20px;color:#8b2f20;font-weight: normal;text-decoration:none;cursor: default"> ONEPUNCH-MAN </a> Chapters</h2><hr/>
+    <div class="slide"><span class="collapse"></span><h3 class="volume">Volume TBD<span> Chapter 68 - 78</span></h3></div><ul class="chlist" style="display:block">
+                    <li>
+                        <div>
+                            <span class="date">Jul 24, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=483403"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c078/1.html" title="Thanks for Contributing! - Mangastream, and monkey666" class="tips">Onepunch-Man 78</a>
+                                <span class="title nowrap">They Who Run In the Shadows</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 22, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=476289"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c077/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 77</a>
+                                <span class="title nowrap">Bored As Usual</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 8, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=472835"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c076/1.html" title="Thanks for Contributing! - MangaStream, and monkey666" class="tips">Onepunch-Man 76</a>
+                                <span class="title nowrap">Stagnation and Growth</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 26, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=469765"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c075/1.html" title="Thanks for Contributing! - /a/nonymous, and Dragonra" class="tips">Onepunch-Man 75</a>
+                                <span class="title nowrap">irregularity</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 12, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=466579"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c074.2/1.html" title="Thanks for Contributing! - /a/nonymous, and Dragonra" class="tips">Onepunch-Man 74.2</a>
+                                                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 23, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=462907"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c074/1.html" title="Thanks for Contributing! - nerieru-scans, and Dragonra" class="tips">Onepunch-Man 74</a>
+                                                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 23, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=462873"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c073.2/1.html" title="Thanks for Contributing! - Nerieru-scans, and Dragonra" class="tips">Onepunch-Man 73.2</a>
+                                <span class="title nowrap">Resistance Of The Strong (2)</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 5, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=458899"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c073/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 73</a>
+                                <span class="title nowrap">Resistance Of The Strong</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 5, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=458889"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c072.5/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 72.5</a>
+                                <span class="title nowrap">Young Jump Special 6</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 27, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=450923"><span class="miniedit"></span></a>
+                            <h3>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c072/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 72</a>
+                                <span class="title nowrap">Ch.72.2: Monster Transformation (2)</span>                                                            </h3>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 13, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=446841"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c071/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 71</a>
+                                <span class="title nowrap">Ch.72: Monster Transformation</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 23, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=462963"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c070.5/1.html" title="Thanks for Contributing! - Nerieru Scans, and Maractus" class="tips">Onepunch-Man 70.5</a>
+                                <span class="title nowrap">Extra [Star]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 17, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=448209"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c070/1.html" title="Thanks for Contributing! - Mangastream, and Napul" class="tips">Onepunch-Man 70</a>
+                                <span class="title nowrap">Ch.71: This Is Real Martial Arts!</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 16, 2017</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=439999"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c069/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 69</a>
+                                <span class="title nowrap">Ch.70.2: Being Strong Is Fun (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 26, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=434347"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/vTBD/c068/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 68</a>
+                                <span class="title nowrap">Ch.70: Being Strong Is Fun</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="collapse"></span><h3 class="volume">Volume 12<span> Chapter 62 - 67</span></h3></div><ul class="chlist" style="display:block">
+                    <li>
+                        <div>
+                            <span class="date">Dec 12, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=430345"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c067/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 67</a>
+                                <span class="title nowrap">Ch.69: Monster Cells</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 7, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=429419"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c066.5/1.html" title="Thanks for Contributing! - YonkouProd, and Maractus" class="tips">Onepunch-Man 66.5</a>
+                                <span class="title nowrap">Young Jump Special 5</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 28, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=426971"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c066/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 66</a>
+                                <span class="title nowrap">Ch.68.2: Great Battle Power (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 16, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=424385"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c065/1.html" title="Thanks for Contributing! - Mangastream, and Maractus" class="tips">Onepunch-Man 65</a>
+                                <span class="title nowrap">Ch.68: Great Battle Power</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 12, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=415769"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c064/1.html" title="Thanks for Contributing! - Nerieru-scans, and Dragonra" class="tips">Onepunch-Man 64</a>
+                                <span class="title nowrap">Ch.67: Outside the norm</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 22, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=410855"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c063/1.html" title="Thanks for Contributing! - mangastream, and firefly-lynn" class="tips">Onepunch-Man 63</a>
+                                <span class="title nowrap">CH66 The Strong</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 29, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=404721"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c062.2/1.html" title="Thanks for Contributing! - Nerieru-scans, and Dragonra" class="tips">Onepunch-Man 62.2</a>
+                                <span class="title nowrap">Sisters (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 5, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=398793"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v12/c062/1.html" title="Thanks for Contributing! - Nerieru-scans, and Dragonra" class="tips">Onepunch-Man 62</a>
+                                <span class="title nowrap">Sisters</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="collapse"></span><h3 class="volume">Volume 11<span> Chapter 56.1 - 61.4</span></h3></div><ul class="chlist" style="display:block">
+                    <li>
+                        <div>
+                            <span class="date">Jul 25, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=395257"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c061.4/1.html" title="Thanks for Contributing! - Nerieru-scans, and Dragonra" class="tips">Onepunch-Man 61.4</a>
+                                <span class="title nowrap">Limit (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 11, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=390971"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c061.3/1.html" title="Thanks for Contributing! - mangastream, and firefly-lynn" class="tips">Onepunch-Man 61.3</a>
+                                <span class="title nowrap">Limit</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 1, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=388295"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c061.2/1.html" title="Thanks for Contributing! - nerieru-scans, and Dragonra" class="tips">Onepunch-Man 61.2</a>
+                                <span class="title nowrap">Match And Battle Part 2 (V2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 5, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=381431"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c061.1/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 61.1</a>
+                                <span class="title nowrap">Match And Battle</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 23, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=378399"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c060.2/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 60.2</a>
+                                <span class="title nowrap">The Reason I Seek Part 2</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 7, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=374357"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c060/1.html" title="Thanks for Contributing! - MangaStream" class="tips">Onepunch-Man 60</a>
+                                <span class="title nowrap">The Reason I Seek</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 20, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=385583"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c059.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Maractus" class="tips">Onepunch-Man 59.5</a>
+                                <span class="title nowrap">Extra + Omake</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 30, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=364605"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c059.3/1.html" title="Thanks for Contributing! - Nerieru scans, and Haziq47" class="tips">Onepunch-Man 59.3</a>
+                                <span class="title nowrap">59th Punch [Dark Horse] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 14, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=361029"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c059.2/1.html" title="Thanks for Contributing! - mangastream, and firefly-lynn" class="tips">Onepunch-Man 59.2</a>
+                                <span class="title nowrap">59th Punch [Dark Horse] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 27, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=357329"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c059/1.html" title="Thanks for Contributing! - MangaStream" class="tips">Onepunch-Man 59</a>
+                                <span class="title nowrap">59th Punch [Dark Horse] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 28, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=372105"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c058.4/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 58.4</a>
+                                <span class="title nowrap">Young Jump Special 4</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 7, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=352511"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c058.1/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 58.1</a>
+                                <span class="title nowrap">58th Punch</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 25, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=349311"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c057.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and CreatorofWorlds" class="tips">Onepunch-Man 57.2</a>
+                                <span class="title nowrap">57th Punch [Only You] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 11, 2016</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=346109"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c057.1/1.html" title="Thanks for Contributing! - Bushido and PR, and MrhCow" class="tips">Onepunch-Man 57.1</a>
+                                <span class="title nowrap">57th Punch [Only You]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 10, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=338469"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c056.5/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 56.5</a>
+                                <span class="title nowrap">Extra [Tatsumaki's Day Off]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 28, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=342643"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c056.4/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 56.4</a>
+                                <span class="title nowrap">56th Punch [Creeping Darkness] (4)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 28, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=342651"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c056.3/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 56.3</a>
+                                <span class="title nowrap">56th Punch [Creeping Darkness] (3v2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 11, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=338761"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c056.2/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 56.2</a>
+                                <span class="title nowrap">56th Punch [Creeping Darkness] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 30, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=335863"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v11/c056.1/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 56.1</a>
+                                <span class="title nowrap">56th Punch [Creeping Darkness]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 10<span> Chapter 48 - 55</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Nov 16, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=332175"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c055/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 55</a>
+                                <span class="title nowrap">55th Punch [Meddling Continued]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 30, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=327981"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c054/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 54</a>
+                                <span class="title nowrap">54th Punch [Meddling]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 10, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=322601"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c053.3/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Joshua Ade" class="tips">Onepunch-Man 53.3</a>
+                                <span class="title nowrap">Young Jump Special 3</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 16, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=324353"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c053.2/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 53.2</a>
+                                <span class="title nowrap">53rd Punch [Fighting Spirit] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 10, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=322699"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c053.1/1.html" title="Thanks for Contributing! - Nerieru Scans, and Haziq47" class="tips">Onepunch-Man 53.1</a>
+                                <span class="title nowrap">53rd Punch [Fighting Spirit] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 9, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=315075"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c052/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 52</a>
+                                <span class="title nowrap">52nd Punch [Centipede]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 6, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=314309"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c051.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 51.5</a>
+                                <span class="title nowrap">Young Jump Special 2</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 31, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=312989"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c051.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 51.2</a>
+                                <span class="title nowrap">51st Punch [Waiting Room] (v2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 3, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=306897"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c051.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 51.1</a>
+                                <span class="title nowrap">51st Punch [Waiting Room] (v1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 20, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=303895"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c050.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 50.2</a>
+                                <span class="title nowrap">50th Punch [Don't Put It Back!] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 12, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=302173"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c050.1/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 50.1</a>
+                                <span class="title nowrap">50th Punch [Don't Put It Back!] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 5, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=300727"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c049.3/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 49.3</a>
+                                <span class="title nowrap">49th Punch [Cover] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 27, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=299061"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c049.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 49.2</a>
+                                <span class="title nowrap">49th Punch [Cover] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 21, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=297597"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c049.1/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 49.1</a>
+                                <span class="title nowrap">49th Punch [Cover] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 12, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=295743"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c048.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 48.5</a>
+                                <span class="title nowrap">After the Online Poll - Misinterpretation &amp; Misjudgement</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 6, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=294503"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v10/c048/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 48</a>
+                                <span class="title nowrap">48th Punch [I'm Bored Anyway]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 09<span> Chapter 40.1 - 47</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">May 29, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=292901"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c047/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 47</a>
+                                <span class="title nowrap">47th Punch [Banana]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 23, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=288448"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c046.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 46.5</a>
+                                <span class="title nowrap">Special [Taste] (Young Jump Special)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 16, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=310085"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c046.4/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 46.4</a>
+                                <span class="title nowrap">Extra [Struggle of the Blizzard Group]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 22, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=291523"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c046.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 46.2</a>
+                                <span class="title nowrap">46th Punch [Technique] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 18, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=290694"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c046.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 46.1</a>
+                                <span class="title nowrap">46th Punch [Technique] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 11, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=290147"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c045/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 45</a>
+                                <span class="title nowrap">45th Punch [Hero Hunt] + Omake</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 15, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=287284"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c044.3/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 44.3</a>
+                                <span class="title nowrap">44th Punch [Hero Name] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 3, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=285570"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c044.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 44.2</a>
+                                <span class="title nowrap">44th Punch [Hero Name] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 31, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=285092"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c044.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 44.1</a>
+                                <span class="title nowrap">44th Punch [Hero Name] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 30, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=284991"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c043.3/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 43.3</a>
+                                <span class="title nowrap">43rd Punch [Accelerate] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 21, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=278748"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c043.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 43.2</a>
+                                <span class="title nowrap">43rd Punch [Accelerate] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 8, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=276565"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c043.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Jodanari Lucifer" class="tips">Onepunch-Man 43.1</a>
+                                <span class="title nowrap">43rd Punch [Accelerate] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 23, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=273359"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c042/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 42</a>
+                                <span class="title nowrap">42nd Punch [Don't Look Down On It!]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 6, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=270833"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c041/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 41</a>
+                                <span class="title nowrap">41st Punch [Blizzard Group]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 22, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=268938"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c040.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 40.2</a>
+                                <span class="title nowrap">40th Punch [The Man Who Wants To Be A Monster] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 8, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=267843"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v09/c040.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 40.1</a>
+                                <span class="title nowrap">40th Punch [The Man Who Wants To Be A Monster] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 08<span> Chapter 37.1 - 39.7</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Aug 17, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=310175"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c039.7/1.html" title="Thanks for Contributing! - Nerieru-Scans, and shirley07" class="tips">Onepunch-Man 39.7</a>
+                                <span class="title nowrap">v8 Omake</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 30, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=284992"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c039.6/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 39.6</a>
+                                <span class="title nowrap">Extra [Stray Cat]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 1, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=267269"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c039.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 39.5</a>
+                                <span class="title nowrap">Extra [Hot Pot Side Story] (Miracle Jump Special)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 27, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=266961"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c039.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 39.2</a>
+                                <span class="title nowrap">39th Punch [Outlaw] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 27, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=266962"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c039.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 39.1</a>
+                                <span class="title nowrap">39th Punch [Outlaw] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 20, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=262654"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c038/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 38</a>
+                                <span class="title nowrap">38th Punch [That Person]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 10, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=261819"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c037.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 37.5</a>
+                                <span class="title nowrap">37th Punch [King] (5)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 10, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=261820"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c037.4/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 37.4</a>
+                                <span class="title nowrap">37th Punch [King] (4)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 22, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=259145"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c037.3/1.html" title="Thanks for Contributing! - Nerieru-scans, and leke900" class="tips">Onepunch-Man 37.3</a>
+                                <span class="title nowrap">37th Punch [King] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 26, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=259680"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c037.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 37.2</a>
+                                <span class="title nowrap">37th Punch [King] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 15, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=255450"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v08/c037.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 37.1</a>
+                                <span class="title nowrap">37th Punch [King] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 07<span> Chapter 34.1 - 36.7</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Sep 7, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=314477"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c036.7/1.html" title="Thanks for Contributing! - Nerieru-Scans, and FireSlime" class="tips">Onepunch-Man 36.7</a>
+                                <span class="title nowrap">Extra [Police Emergency]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 7, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=314479"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c036.6/1.html" title="Thanks for Contributing! - Nerieru-Scans, and FireSlime" class="tips">Onepunch-Man 36.6</a>
+                                <span class="title nowrap">Extra [Recollection Of A Most Sincere Apprentice]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 22, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=278917"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c036.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 36.5</a>
+                                <span class="title nowrap">Extra [Big Construction]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 15, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=255451"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c036.3/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 36.3</a>
+                                <span class="title nowrap">36th Punch [Crash] (v2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 16, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=252720"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c035.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and leke900" class="tips">Onepunch-Man 35.2</a>
+                                <span class="title nowrap">35th Punch [The Power of Boros] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 30, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=249599"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c035.1/1.html" title="Thanks for Contributing! - Nerieru-Scans" class="tips">Onepunch-Man 35.1</a>
+                                <span class="title nowrap">35th Punch [The Power of Boros] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 28, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=244318"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c034.4/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 34.4</a>
+                                <span class="title nowrap">34th Punch [Are You Stupid] (4)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 22, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=247253"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c034.3/1.html" title="Thanks for Contributing! - Nerieru-Scans, and zakkriel" class="tips">Onepunch-Man 34.3</a>
+                                <span class="title nowrap">34th Punch [Are You Stupid] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 14, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=242859"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c034.2/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 34.2</a>
+                                <span class="title nowrap">34th Punch [Are You Stupid] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 17, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=287465"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v07/c034.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and DarkSoulDrake" class="tips">Onepunch-Man 34.1</a>
+                                <span class="title nowrap">34th Punch [Are You Stupid] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 06<span> Chapter 29 - 34.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Apr 17, 2015</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=287466"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c034.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and DarkSoulDrake" class="tips">Onepunch-Man 34.5</a>
+                                <span class="title nowrap">Special Chapter</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 2, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=241617"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c033.1/1.html" title="Thanks for Contributing! - Nerieru-Scans, and Uryuu" class="tips">Onepunch-Man 33.1</a>
+                                <span class="title nowrap">33rd Punch [Guys Who Don't Listen] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 18, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=237365"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c032/1.html" title="Thanks for Contributing! - Nerieru-Scans, and ultimateking" class="tips">Onepunch-Man 32</a>
+                                <span class="title nowrap">32nd Punch [Counter]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Dec 6, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=232691"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c031/1.html" title="Thanks for Contributing! - Nerieru-Scans, and ultimateking" class="tips">Onepunch-Man 31</a>
+                                <span class="title nowrap">31st Punch [From Space...]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 29, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=231931"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c030/1.html" title="Thanks for Contributing! - Nerieru-Scans, and ultimateking" class="tips">Onepunch-Man 30</a>
+                                <span class="title nowrap">30th Punch [Great Prophecy]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 31, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=254053"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c029.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 29.5</a>
+                                <span class="title nowrap">Volume 6 Extra: Salmon</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 3, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=226348"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v06/c029/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 29</a>
+                                <span class="title nowrap">29th Punch [S-Class]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 05<span> Chapter 25.1 - 28.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Jul 31, 2014</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=254047"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c028.5/1.html" title="Thanks for Contributing! - Nerieru-Scans, and firefly-lynn" class="tips">Onepunch-Man 28.5</a>
+                                <span class="title nowrap">Extra [Things One Cannot Buy]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Sep 19, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=224996"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c028/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 28</a>
+                                <span class="title nowrap">28th Punch [B-Class]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 30, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=222864"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c027.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 27.2</a>
+                                <span class="title nowrap">27th Punch [Because It's Raining] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Aug 3, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=219956"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c027.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 27.1</a>
+                                <span class="title nowrap">27th Punch [Because It's Raining] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 20, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=218338"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c026/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 26</a>
+                                <span class="title nowrap">26th Punch [Beat-Up but Shining]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jul 4, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=216682"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c025.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and 0ldman" class="tips">Onepunch-Man 25.2</a>
+                                <span class="title nowrap">25th Punch [Glimmer of Hope] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 14, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=214461"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v05/c025.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 25.1</a>
+                                <span class="title nowrap">25th Punch [Glimmer of Hope] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 04<span> Chapter 21.1 - 24.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Aug 11, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=220840"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c024.5/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 24.5</a>
+                                <span class="title nowrap">Extra [Prison]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jun 8, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=213848"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c024.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and ultimateking" class="tips">Onepunch-Man 24.2</a>
+                                <span class="title nowrap">24th Punch [Sea King] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 17, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=211354"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c024.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 24.1</a>
+                                <span class="title nowrap">24th Punch [Sea King] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">May 3, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=209921"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c023.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 23.2</a>
+                                <span class="title nowrap">23rd Punch [Threat from the Sea] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 20, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=208367"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c023.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 23.1</a>
+                                <span class="title nowrap">23rd Punch [Threat from the Sea] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Apr 5, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=206565"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c022/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 22</a>
+                                <span class="title nowrap">22nd Punch [Voices]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Mar 23, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=204478"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c021.4/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 21.4</a>
+                                <span class="title nowrap">21st Punch [Giant Meteor] (4)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 28, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=201446"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c021.3/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 21.3</a>
+                                <span class="title nowrap">21st Punch [Giant Meteor] (3)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 19, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=200228"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c021.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and CloverD" class="tips">Onepunch-Man 21.2</a>
+                                <span class="title nowrap">21st Punch [Giant Meteor] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Feb 19, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=200232"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v04/c021.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and CloverD" class="tips">Onepunch-Man 21.1</a>
+                                <span class="title nowrap">21st Punch [Giant Meteor] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 03<span> Chapter 16 - 20.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Jan 31, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=197778"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c020.5/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 20.5</a>
+                                <span class="title nowrap">Special [Blowing Fresh Air]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195034"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c020.4/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 20.4</a>
+                                <span class="title nowrap">Extra [Recollection of a Summer]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 20, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=196102"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c020.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 20.2</a>
+                                <span class="title nowrap">20th Punch [Rumor] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 20, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=196103"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c020.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 20.1</a>
+                                <span class="title nowrap">20th Punch [Rumor] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195035"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c019/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 19</a>
+                                <span class="title nowrap">19th Punch [No Time For This]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195036"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c018/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 18</a>
+                                <span class="title nowrap">18th Punch [Business Activity]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195031"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c017.2/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 17.2</a>
+                                <span class="title nowrap">17th Punch [Sparring] (2)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195037"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c017.1/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 17.1</a>
+                                <span class="title nowrap">17th Punch [Sparring] (1)</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195033"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v03/c016/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 16</a>
+                                <span class="title nowrap">16th Punch [Passed The Exam]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 02<span> Chapter 9 - 15.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Jan 26, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=196980"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c015.5/1.html" title="Thanks for Contributing! - Boon Scanlations, and CloverD" class="tips">Onepunch-Man 15.5</a>
+                                <span class="title nowrap">Extra [Brushing Up Yourself]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 15, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=187191"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c015/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 15</a>
+                                <span class="title nowrap">15th Punch [Hobby &amp; Work]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 15, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=187195"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c014/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 14</a>
+                                <span class="title nowrap">14th Punch [Don't Know You]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 15, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=187193"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c013/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 13</a>
+                                <span class="title nowrap">13th Punch [Speed]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195032"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c012/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 12</a>
+                                <span class="title nowrap">12th Punch [Paradise Group]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Jan 15, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=195029"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c011/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 11</a>
+                                <span class="title nowrap">11th Punch [The Key To His Power]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 8, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=186267"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c010/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 10</a>
+                                <span class="title nowrap">10th Punch [Modern Art]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 7, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=186137"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v02/c009/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 9</a>
+                                <span class="title nowrap">9th Punch [House of Evolution]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+<div class="slide"><span class="expand"></span><h3 class="volume">Volume 01<span> Chapter 1 - 8.5</span></h3></div><ul class="chlist" style="display:none">
+                    <li>
+                        <div>
+                            <span class="date">Jan 22, 2013</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=196540"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c008.5/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 8.5</a>
+                                <span class="title nowrap">Extra [200 Yen]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 4, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=185893"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c008/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 8</a>
+                                <span class="title nowrap">8th Punch [You Mean This Guy?]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 4, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=185890"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c007/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 7</a>
+                                <span class="title nowrap">7th Punch [Mysterious Raid]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 3, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=185809"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c006/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 6</a>
+                                <span class="title nowrap">6th Punch [Saitama]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Nov 2, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=185725"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c005/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 5</a>
+                                <span class="title nowrap">5th Punch [Itch Explosion]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 26, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=185052"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c004/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 4</a>
+                                <span class="title nowrap">4th Punch [Dark Undergrounders]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 25, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=184829"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c003/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 3</a>
+                                <span class="title nowrap">3rd Punch [A Disastrous Being]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 23, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=184673"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c002/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 2</a>
+                                <span class="title nowrap">2nd Punch [Crab &amp; Job Hunting]</span>                                                            </h4>                                                    </div>
+                    </li>
+                                        <li>
+                        <div>
+                            <span class="date">Oct 23, 2012</span>
+                            <a class="edit" href="http://action.mangafox.me/chapter.php?chapter_id=184674"><span class="miniedit"></span></a>
+                            <h4>                                <a href="http://mangafox.me/manga/onepunch_man/v01/c001/1.html" title="Thanks for Contributing! - Boon Scanlations, and Uryuu" class="tips">Onepunch-Man 1</a>
+                                <span class="title nowrap">1st Punch [One Punch]</span>                                                            </h4>                                                    </div>
+                    </li>
+                    </ul>
+    </div>
+			<div id="discussion" >
+			<a href="http://forums.mangafox.me/forumdisplay.php?f=5215&prefixid=m11362" class="forum" rel="nofollow">Let's Go Discuss!!</a>
+			<h6 style="font-size:20px">ONEPUNCH-MAN Discussion</h6>
+			<hr/>
+			<ul class="tplist">					<li class="topic">
+						<span class="date">Jul 31, 2017 12:01am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=424435" target="_blank" title="Makes you wonder how they name other things in their village.
+
+Ninja Academy of Ninjutsu?
+
+Food Serving Restaurant?
+
+Grand Hotel of Lodging?
+
+And what's the name of the village? Townsville? Homevillage? Hometown?" rel="nofollow">Latest Chapter Discussion</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=424435" target="_blank" rel="nofollow">Menternor</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Jul 11, 2017 10:49pm</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=530533" target="_blank" title="i kinda like it, i tried reading the origional and well...it was a bit hard on the eyes, i dont mind the &quot;fillers&quot; or &quot;extra editions&quot; to the story too much. must say i havnt finished the origional so i am still in a haze to what is to come. the art ..." rel="nofollow">Did ONE actually write these chapters?</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=530533" target="_blank" rel="nofollow">Wigglebottom</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Jun 22, 2017 10:09am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=523123" target="_blank" title="Lovely foil hat you have there!
+
+I mean seriously.. yeah, manga tends to be little ridiculous most of the time with its plot twists but still... come on :P Thats some &quot;I'm your father&quot; level shit." rel="nofollow">Genos is who he seeks</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=523123" target="_blank" rel="nofollow">NekotaJiji</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Jun 21, 2017 8:57pm</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=516712" target="_blank" title="Well personally I prefer being at close range with the girl instead of the other side of the country while doing my stuff and the underlings can be dissmissed for private times, so again, Fubuki for me." rel="nofollow">Tatsumaki or Fubuki who do you prefer</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=516712" target="_blank" rel="nofollow">Molitzmos</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Jun 9, 2017 9:16am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=523041" target="_blank" title="On the webcomic Tatsumaki and Blast met briefly. Now let this thread die already!" rel="nofollow">Sweet Mask = Blast?</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=523041" target="_blank" rel="nofollow">Illanyss</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">May 26, 2017 2:57am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=530923" target="_blank" title="man, hype was MET
+this chapter's structure was just so amazing
+the effect of having *SPOILER* Gouketsu's head fall in front of him was beautiful" rel="nofollow">Holy shit the hype in chapter 74.2</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=530923" target="_blank" rel="nofollow">ribbonpangpang</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">May 25, 2017 9:46am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=522755" target="_blank" title="In the House of Evolution, that idea of the limiter was probably used a gag (which fits into the manga's spirit). As for that mention, seems like they could have been referring to monster cells. Or they could be extrapolating and considering that the..." rel="nofollow">Theories on Saitama's power</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=522755" target="_blank" rel="nofollow">Illanyss</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Apr 15, 2017 6:20pm</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=530593" target="_blank" title="Gouketsu is fast enough to blitz Suiryu if he wants to, and he managed to blitz Genos as well earlier.
+
+http://h.mfcdn.net/store/manga/11362/TBD-073.0/compressed/c073.002-011.jpg?token=0df4a5767cd5b40840223424ffa2c963&amp;ttl=1492358400" rel="nofollow">Top 10 Fastest Characters in One Punch Man (SPOILER WARNING)</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=530593" target="_blank" rel="nofollow">Orcen222</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Mar 19, 2017 9:07am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=519567" target="_blank" title="I think Saitama already knows a little martial arts but strength can hinder martial arts as martial arts limits strength. (Proper martial arts requires you to be fast and flexible. Bulging muscles aren't the way to go for it. Or in Saitama's case, ov..." rel="nofollow">Should Saitama learn fighting techniques</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=519567" target="_blank" rel="nofollow">Broken Ballad</a></span>
+					</li>
+										<li class="topic">
+						<span class="date">Feb 27, 2017 11:53am</span>
+						<span class="title">"<a href="http://forums.mangafox.me/showthread.php?t=467642" target="_blank" title="I doubt that. Pre-meteoric burst Boros was able to survive a normal punch from Saitama - something that most characters in the series are not able to do. Suiryu fought on par with Choze, but Choze is probably strong demon. When faced against dragon t..." rel="nofollow">Power Ranking Thread</a>"</span>
+						<span class="author">by <a href="http://forums.mangafox.me/member.php?find=lastposter&t=467642" target="_blank" rel="nofollow">Kronos7</a></span>
+					</li>
+					</ul>		</div>
+		</div>
+<script type="text/javascript">
+var sid=11362;
+var switchTo5x=true;
+$LAB
+.queueScript("http://w.sharethis.com/button/buttons.js")
+.queueWait(function(){
+	stLight.options({publisher:'2c989003-877d-472f-8054-0185c722ab72',servicePopup: true});
+});
+</script>
+	<div class="clear gap"></div>
+	<!-- footer -->
+	<div id="footer">
+							<p class="affiliates">
+						<a href="https://z6.com/">Z6 Shop</a> | <a href="http://mangazoneapp.com/?utm_source=MF&utm_medium=mobile%20link&utm_term=manga%20app&utm_content=keywords&utm_campaign=MFML">Manga App</a> | <a href="http://www.mangatown.com/">Hot Manga</a> | <a href="https://z6.com/">Anime Products</a> | <a href="http://www.mangahere.co/">Free Manga</a> | <a href="http://www.orzzzz.com/tag/top_series">Hot Topics</a> | <a href="http://www.xhunter.me/">Hunter Online</a> | <a href="http://mangahome.com/shoujo">Shojo Manga</a> | <a href="http://animesama.com/">Anime Community App</a>					</p>
+							<div class="clear gap"></div>
+		<p id="copyright">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law. &copy; 2017 MangaFox.me. Current Time is GMT 10:52am.<br/>
+		<a href="http://mangafox.me/privacy.php" rel="nofollow">Privacy Policy</a> | <a href="http://mangafox.me/disclamer.php" rel="nofollow">Legal Disclaimer</a> |
+		<a href="http://mangafox.me/terms.php" rel="nofollow">Terms of Service</a> | <a href="http://forums.mangafox.me/sendmessage.php" rel="nofollow">Contact Us</a> | <a href="http://m.mangafox.me/" rel="nofollow">Mobile Version</a> | <a href="http://mangafox.me/faq/" rel="nofollow">FAQ</a> | <a href="#top" onclick="self.scrollTo(0,0);return false;" rel="nofollow">Top</a></p>
+		<div class="clear"></div>
+	</div>
+</div>
+<div style="display:none">
+<script type="text/javascript">
+window.addEventListener('load', function() {
+	var dialogLogin = document.getElementById('dialog-login');
+	if (dialogLogin) {
+		dialogLogin.addEventListener('click', function() {
+			var xhr = new XMLHttpRequest,
+				url = document.getElementById('loginform').action,
+				data = new FormData,
+				username = document.getElementById('navbar_username').value,
+				password = document.getElementById('navbar_password').value;
+
+			if (!username || !password) {
+				// alert('username or password is required!');
+				return false;
+			}
+			data.append('vb_login_username', username);
+			data.append('vb_login_password', password);
+
+			xhr.open('POST', url);
+
+			xhr.onload = function() {
+				var res = JSON.parse(xhr.responseText);
+				switch(res.code) {
+					case 0:
+						window.location.reload(true);
+						break;
+					case 4:
+						if (confirm(res.message)) {
+							window.location.href = 'http://forums.mangafox.me/login.php?do=lostpw';
+						}
+						break;
+					case 1:
+					case 2:
+					case 3:
+					default:
+						alert(res.message);
+						break;
+				}
+			}
+			xhr.send(data);
+		});
+	}
+});
+$LAB.queueWait(function() {
+
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var hide = getCookie('MHNMB');
+        $(".sidetip").show();
+        $(".sidetip .sidetip-btn .app_link").click(function(){
+        		if(/Android/i.test(navigator.userAgent)){
+        			$(this).attr('href',$(this).data('android'));
+        			return true;
+        		}else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+        			$(this).attr('href',$(this).data('apple'));
+        			console.log($(this).data('apple'));
+        			return true;
+        		}else{
+        			return false;
+        		}
+        		return false;
+        });
+        $(".sidetip .setting-icon").click(function(){
+          $(".sidetip .sidetip-btn").toggleClass("slideout");
+        });
+    }
+
+});
+
+
+</script>
+
+<script type="text/javascript">
+$LAB
+.runQueue();
+</script><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11278446-13']);
+  _gaq.push(['_setDomainName', 'mangafox.me']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+
+</script>
+
+<script type="text/javascript">
+var is_mobile=false;
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+is_mobile=true;
+}else{
+}
+</script>
+
+<script type="text/javascript">
+    (function() {
+        function async_load(script_url){
+            var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+            var s = document.createElement('script'); s.src = protocol + script_url;
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        bm_website_code = '66C4D46F12E04DD5';
+        jQuery(document).ready(function(){async_load('asset.pagefair.com/measure.min.js')});
+        jQuery(document).ready(function(){async_load('asset.pagefair.net/ads.min.js')});
+    })();
+</script>
+</div>
+
+<div class="sidetip" style="display:none;">
+  <span class="setting-icon iconfont"></span>
+  <div class="sidetip-btn"><a href="#" class="app_link" data-apple="http://goo.gl/OSzKX4" data-android="http://goo.gl/C6oMfN" target="_blank">Manga<br>App</a><a href="http://m.mangafox.me" >For<br>Mobile</a></div>
+</div>
+</body>
+
+
+</html>
+<!-- 37.1.144.156 -->
