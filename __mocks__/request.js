@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import http from 'http';
+let request = require.requireActual('request');
 
-const request = (options, callback) => {
+const requestMock = (options, callback) => {
   // console.log(options);
   let file;
   if (typeof options === 'object') {
@@ -17,25 +17,12 @@ const request = (options, callback) => {
 
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err && 'errno' in err && err.errno === -2) {
+      request = request.defaults({
+        gzip: true
+      });
       let file = fs.createWriteStream(filePath);
 
-      return http
-        .request(options, res => {
-          res.pipe(file);
-
-          file.on('finish', () => {
-            file.close();
-          });
-
-          res.on('end', () => {
-            return callback(err, null, null);
-          });
-        })
-        .on('error', err => {
-          fs.unlink(filePath);
-          return callback(err, null, null);
-        })
-        .end();
+      return request(options).pipe(file);
     } else if (err) {
       return callback(err, null, null);
     }
@@ -44,8 +31,8 @@ const request = (options, callback) => {
   });
 };
 
-request.defaults = jest.fn(() => {
-  return request;
+requestMock.defaults = jest.fn(() => {
+  return requestMock;
 });
 
-module.exports = request;
+module.exports = requestMock;

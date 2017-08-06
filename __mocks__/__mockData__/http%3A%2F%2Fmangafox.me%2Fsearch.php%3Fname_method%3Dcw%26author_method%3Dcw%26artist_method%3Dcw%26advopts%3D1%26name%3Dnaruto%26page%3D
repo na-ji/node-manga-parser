@@ -140,10 +140,10 @@ $LAB
 <!-- <span id="fb_headerbox" class="hidden"><a id="fb_loginbtn" href="javascript:void(0);"><button class="button facebook_button" type="button">Facebook Connect</button></a></span> -->
 </form>
 </div>
-    <a href="https://z6.com/" target="_blank" >
-    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1501739728.png?token=72afaad0abe632e8ac969efe134ce5926a9feb7b&ttl=1502013600&v=1501739728) no-repeat scroll right top transparent;height:768px;left:-475px;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
-    <a href="https://z6.com/" target="_blank" >
-    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1501739740.png?token=178651869f55eece75011d66ef9729c45c0d8ecf&ttl=1502013600&v=1501739740) no-repeat scroll 475px top transparent;height:768px;right:0;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <a href="http://mangazoneapp.com/?utm_source=MangaFox&utm_medium=banner&utm_term=MangaZoneOfficial&utm_content=Android&utm_campaign=MF_PC_Skin" target="_blank" >
+    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1482302689.png?token=135b913513cb5a1e81569f0bdd04f12d0398de0d&ttl=1502114400&v=1482302689) no-repeat scroll right top transparent;height:768px;left:-475px;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <a href="http://mangazoneapp.com/?utm_source=MangaFox&utm_medium=banner&utm_term=MangaZoneOfficial&utm_content=Android&utm_campaign=MF_PC_Skin" target="_blank" >
+    <div style="background:url(http://l.mfcdn.net/store/mfbanners/pc.skin_1482302681.png?token=d0d23249a0cc2aee4c28a0ba340e4545888e8052&ttl=1502114400&v=1482302681) no-repeat scroll 475px top transparent;height:768px;right:0;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
     <!--            <div class="test">-->
 <div id="header" class="clear">
 	<div class="widepage">
@@ -600,7 +600,7 @@ $LAB
 		    <div id="mangalist">
 		        <ul class="list">
 	        												            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/boruto_naruto_next_generations/" rel="19939"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/19939/cover.jpg?token=914e071f74a61abdbee0ebf56ed70692951f458b&ttl=1502013600&v=1499664961" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/boruto_naruto_next_generations/" rel="19939"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/19939/cover.jpg?token=bdbe7a9292d4f53a31b1410b967b17834dbfbb4e&ttl=1502114400&v=1499664961" width="100" /></div>
 
 								 <em class="tag_hot"></em>																
 								</a>
@@ -608,12 +608,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/boruto_naruto_next_generations/" rel="19939">Boruto: Naruto Next Generations</a>
 				                    <p><span class="stars star50"></span><span class="rate">3.88</span></p>
 				                    <p class="info" title="Action, Adventure, Comedy, Drama, Fantasy, Shounen">Action, Adventure, C...</p>
-									<p class="info"><label>61st</label> 261,762 views</p>
+									<p class="info"><label>60th</label> 263,157 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/boruto_naruto_next_generations/c014/1.html"><span class="nowrap">Boruto: Naruto Next Generations</span> 14</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto/" rel="8"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/8/cover.jpg?token=dc7bdf5999953449cdca291005ac0e38eba9d290&ttl=1502013600&v=1461292031" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto/" rel="8"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/8/cover.jpg?token=0e0f91d01a19a905b5beb6f98dbb6146bee2b991&ttl=1502114400&v=1461292031" width="100" /></div>
 
 								 <em class="tag_hot"></em>																 <em class="tag_completed"></em>
 								</a>
@@ -621,12 +621,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto/" rel="8">Naruto</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.53</span></p>
 				                    <p class="info" title="Action, Adventure, Comedy, Drama, Fantasy, Martial Arts, Shounen">Action, Adventure, C...</p>
-									<p class="info"><label>78th</label> 221,635 views</p>
+									<p class="info"><label>78th</label> 223,040 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto/v72/c700.6/1.html"><span class="nowrap">Naruto</span> 700.6</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_family_wedding/" rel="25163"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/25163/cover.jpg?token=97c8da611b4f2d21b61101e86da34f83e1eef5b5&ttl=1502013600&v=1494399596" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_family_wedding/" rel="25163"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/25163/cover.jpg?token=034bb96df041799a50f68827515936cb247f1e3c&ttl=1502114400&v=1494399596" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -634,12 +634,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_family_wedding/" rel="25163">Naruto dj - Family Wedding</a>
 				                    <p><span class="stars star50"></span><span class="rate">3.43</span></p>
 				                    <p class="info" title="Comedy, Doujinshi, Shounen Ai">Comedy, Doujinshi, S...</p>
-									<p class="info"><label>7976th</label> 4,324 views</p>
+									<p class="info"><label>7993rd</label> 4,412 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_family_wedding/v01/c001/1.html"><span class="nowrap">Naruto dj - Family Wedding</span> 1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_golden_days/" rel="22797"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22797/cover.jpg?token=b5d9e7ac9d7a2ac605067cab5d9c02373fc6f65e&ttl=1502013600&v=1479869701" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_golden_days/" rel="22797"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22797/cover.jpg?token=2fca9e3c62a21d47b0de53d473ccf98a0d2ede1c&ttl=1502114400&v=1479869701" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -647,12 +647,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_golden_days/" rel="22797">Naruto dj - Golden Days</a>
 				                    <p><span class="stars star50"></span><span class="rate">5.00</span></p>
 				                    <p class="info" title="Comedy, Doujinshi, Fantasy, Shounen Ai">Comedy, Doujinshi, F...</p>
-									<p class="info"><label>7633rd</label> 4,717 views</p>
+									<p class="info"><label>7491st</label> 4,784 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_golden_days/c001/1.html"><span class="nowrap">Naruto dj - Golden Days</span> 1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_ijippari_holy_night/" rel="23177"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/23177/cover.jpg?token=db998f3fc04a16d997467521888df517fecdf594&ttl=1502013600&v=1482739801" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_ijippari_holy_night/" rel="23177"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/23177/cover.jpg?token=74bc2490e633d14158059a343840851a7007d9de&ttl=1502114400&v=1482739801" width="100" /></div>
 
 																								
 								</a>
@@ -660,12 +660,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_ijippari_holy_night/" rel="23177">Naruto dj - Ijippari Holy Night</a>
 				                    <p><span class="stars star50"></span><span class="rate">5.00</span></p>
 				                    <p class="info" title="Doujinshi, Shounen Ai">Doujinshi, Shounen A...</p>
-									<p class="info"><label>12074th</label> 2,351 views</p>
+									<p class="info"><label>11948th</label> 2,386 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_ijippari_holy_night/c003/1.html"><span class="nowrap">Naruto dj - Ijippari Holy Night</span> 3</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_respica/" rel="20271"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/20271/cover.jpg?token=e84dc27c64cda2e959fa520fc07bbc8d382fdfa4&ttl=1502013600&v=1464596401" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_respica/" rel="20271"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/20271/cover.jpg?token=30acb03ff7ccd54e40babe589703dc352679ed51&ttl=1502114400&v=1464596401" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -673,12 +673,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_respica/" rel="20271">Naruto dj - ReSpica</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.00</span></p>
 				                    <p class="info" title="Doujinshi, Shounen Ai">Doujinshi, Shounen A...</p>
-									<p class="info"><label>10922nd</label> 2,756 views</p>
+									<p class="info"><label>10915th</label> 2,774 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_respica/c002/1.html"><span class="nowrap">Naruto dj - ReSpica</span> 2</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_syasuke/" rel="22851"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22851/cover.jpg?token=6dd892b9ebc6ef2759a922cea5535069d303d6b8&ttl=1502013600&v=1480299781" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_syasuke/" rel="22851"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22851/cover.jpg?token=c71a4ff432db39e0e07ec0752baa9ba287cd9aaa&ttl=1502114400&v=1480299781" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -686,12 +686,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_syasuke/" rel="22851">Naruto dj - Syasuke</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.00</span></p>
 				                    <p class="info" title="Doujinshi, Shounen Ai">Doujinshi, Shounen A...</p>
-									<p class="info"><label>14669th</label> 1,605 views</p>
+									<p class="info"><label>14719th</label> 1,602 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_syasuke/c001/1.html"><span class="nowrap">Naruto dj - Syasuke</span> 1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_the_last_naruto_the_movie/" rel="15677"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/15677/cover.jpg?token=e3dc4e822a5a2d19156f987b0ce2c68771d4b1f7&ttl=1502013600&v=1429685825" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_the_last_naruto_the_movie/" rel="15677"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/15677/cover.jpg?token=3fc7f212d2f344242da0b507b15d762f6a72b73a&ttl=1502114400&v=1429685825" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -699,12 +699,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_the_last_naruto_the_movie/" rel="15677">Naruto dj - The Last - Naruto the Movi...</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.18</span></p>
 				                    <p class="info" title="Comedy, Doujinshi, Romance">Comedy, Doujinshi, R...</p>
-									<p class="info"><label>7783rd</label> 4,501 views</p>
+									<p class="info"><label>7838th</label> 4,521 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_the_last_naruto_the_movie/c001/1.html"><span class="nowrap">Naruto dj - The Last - Naruto the Movie</span> 1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_uzumaki_ninjutsu_chou_kakairu_hen/" rel="22977"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22977/cover.jpg?token=92310a1f190beb552269bdd9188cb5e1b8190490&ttl=1502013600&v=1481265421" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_dj_uzumaki_ninjutsu_chou_kakairu_hen/" rel="22977"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/22977/cover.jpg?token=f1b4546f85002269901f55ff75aadad986603a9c&ttl=1502114400&v=1481265421" width="100" /></div>
 
 																								
 								</a>
@@ -712,12 +712,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_dj_uzumaki_ninjutsu_chou_kakairu_hen/" rel="22977">Naruto dj - Uzumaki Ninjutsu Chou Kaka...</a>
 				                    <p><span class="stars star50"></span><span class="rate">0.00</span></p>
 				                    <p class="info" title="Comedy, Doujinshi, Shounen Ai">Comedy, Doujinshi, S...</p>
-									<p class="info"><label>13143rd</label> 1,992 views</p>
+									<p class="info"><label>13237th</label> 1,984 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_dj_uzumaki_ninjutsu_chou_kakairu_hen/c001/1.html"><span class="nowrap">Naruto dj - Uzumaki Ninjutsu Chou KakaIru Hen</span> 1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_gaiden_the_seventh_hokage/" rel="15684"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/15684/cover.jpg?token=8143b90198249ba3aa27e7bd990d9f08f98f97ff&ttl=1502013600&v=1437450860" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/naruto_gaiden_the_seventh_hokage/" rel="15684"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/15684/cover.jpg?token=5a04c1e0953488a255daf907811c115529c5532d&ttl=1502114400&v=1437450860" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -725,12 +725,12 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/naruto_gaiden_the_seventh_hokage/" rel="15684">Naruto Gaiden: The Seventh Hokage</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.52</span></p>
 				                    <p class="info" title="Action, Adventure, Comedy, Drama, Fantasy, Shounen">Action, Adventure, C...</p>
-									<p class="info"><label>114th</label> 176,622 views</p>
+									<p class="info"><label>112th</label> 177,987 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/naruto_gaiden_the_seventh_hokage/v01/c010.1/1.html"><span class="nowrap">Naruto Gaiden: The Seventh Hokage</span> 10.1</a></p>
 													                </div>
 				            </li>
 																					            <li>
-								<a class="manga_img series_preview top" href="http://mangafox.me/manga/road_to_naruto_the_movie/" rel="10807"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/10807/cover.jpg?token=0e2b20a87c4a6c1e7d27c973621f017f97f349fa&ttl=1502013600&v=1343773546" width="100" /></div>
+								<a class="manga_img series_preview top" href="http://mangafox.me/manga/road_to_naruto_the_movie/" rel="10807"><div style="float:left;overflow:hidden"><img src="http://l.mfcdn.net/store/manga/10807/cover.jpg?token=ba36c443599ae56ccd9223f8b057e6310c1c4cd6&ttl=1502114400&v=1343773546" width="100" /></div>
 
 																								 <em class="tag_completed"></em>
 								</a>
@@ -738,7 +738,7 @@ $LAB
 				                    <a class="title series_preview top" href="http://mangafox.me/manga/road_to_naruto_the_movie/" rel="10807">Road to Naruto The Movie</a>
 				                    <p><span class="stars star50"></span><span class="rate">4.79</span></p>
 				                    <p class="info" title="Action, Adventure, Comedy, Fantasy, One Shot, Shounen">Action, Adventure, C...</p>
-									<p class="info"><label>4082nd</label> 9,258 views</p>
+									<p class="info"><label>4137th</label> 9,301 views</p>
 				                    									<p class="nowrap latest"><a href="http://mangafox.me/manga/road_to_naruto_the_movie/c000/1.html"><span class="nowrap">Road to Naruto The Movie</span> 0</a></p>
 													                </div>
 				            </li>
@@ -748,8 +748,8 @@ $LAB
 				<a name="result"></a>
 				<div class="mfad860 mb10">
 				    <p style="font-weight: bolder;text-align: left;">Advertisement</p>
-    <a href="https://z6.com/Deals/c55/list-r1.html" target="_blank">
-        <img src="http://l.mfcdn.net/store/mfbanners/pc.search_1501826675.jpg?token=069b32211b37d96846186c636eb49bb9ebec038c&ttl=1502013600&v=1501826675">
+    <a href="http://mangazoneapp.com/?utm_source=mangafox&utm_medium=banner&utm_campaign=mfpcsearch" target="_blank">
+        <img src="http://l.mfcdn.net/store/mfbanners/pc.search_1482305320.jpg?token=512fc2239a839aa9ccdf5d6ddeeb12e957d6446a&ttl=1502114400&v=1482305320">
     </a>
 				</div>
 				<div style="float:left;margin:10px 0 0 10px;line-height:24px;">Total Manga Series: 11</div>
@@ -765,7 +765,7 @@ $LAB
 							<p class="affiliates">
 						<a href="https://z6.com/">Z6 Shop</a> | <a href="http://mangazoneapp.com/?utm_source=MF&utm_medium=mobile%20link&utm_term=manga%20app&utm_content=keywords&utm_campaign=MFML">Manga App</a> | <a href="http://www.mangatown.com/">Hot Manga</a> | <a href="https://z6.com/">Anime Products</a> | <a href="http://www.mangahere.co/">Free Manga</a> | <a href="http://www.orzzzz.com/tag/top_series">Hot Topics</a> | <a href="http://www.xhunter.me/">Hunter Online</a> | <a href="http://mangahome.com/shoujo">Shojo Manga</a> | <a href="http://animesama.com/">Anime Community App</a>					</p>
 							<div class="clear gap"></div>
-		<p id="copyright">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law. &copy; 2017 MangaFox.me. Current Time is GMT 10:39am.<br/>
+		<p id="copyright">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law. &copy; 2017 MangaFox.me. Current Time is GMT 02:22pm.<br/>
 		<a href="http://mangafox.me/privacy.php" rel="nofollow">Privacy Policy</a> | <a href="http://mangafox.me/disclamer.php" rel="nofollow">Legal Disclaimer</a> |
 		<a href="http://mangafox.me/terms.php" rel="nofollow">Terms of Service</a> | <a href="http://forums.mangafox.me/sendmessage.php" rel="nofollow">Contact Us</a> | <a href="http://m.mangafox.me/" rel="nofollow">Mobile Version</a> | <a href="http://mangafox.me/faq/" rel="nofollow">FAQ</a> | <a href="#top" onclick="self.scrollTo(0,0);return false;" rel="nofollow">Top</a></p>
 		<div class="clear"></div>
@@ -893,4 +893,4 @@ is_mobile=true;
 
 
 </html>
-<!-- 37.1.144.147 -->
+<!-- 37.1.144.156 -->
