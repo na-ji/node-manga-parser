@@ -13,8 +13,6 @@ request = request.defaults({
   timeout: 20000
 });
 
-// TODO : Manage manga status
-
 class Parser {
   catalogs: {};
 

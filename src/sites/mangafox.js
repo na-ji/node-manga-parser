@@ -1,19 +1,25 @@
 // @flow
-import moment from "moment";
+import moment from 'moment';
 
-import { resetDateTime, trimSpaces, toString } from "../utils";
-import AbstractCatalog, { LANGUAGE_EN } from "../abstract-catalog";
-import ChapterRecognition from "../chapter-recognition";
-import { Chapter, Manga } from "../models";
+import { resetDateTime, trimSpaces, toString } from '../utils';
+import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
+import ChapterRecognition from '../chapter-recognition';
+import {
+  Chapter,
+  Manga,
+  STATUS_ONGOING,
+  STATUS_COMPLETED,
+  STATUS_UNKNOWN
+} from '../models';
 
 type CheerioObject = any;
 
 class Mangafox extends AbstractCatalog {
   constructor() {
     super();
-    this.name = "Mangafox";
-    this.catalogName = "mangafox";
-    this.baseUrl = "http://mangafox.me";
+    this.name = 'Mangafox';
+    this.catalogName = 'mangafox';
+    this.baseUrl = 'http://mangafox.me';
     this.lang = LANGUAGE_EN;
   }
 
@@ -22,7 +28,7 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   popularMangaRequest(page: ?number): string {
-    let pageStr = page !== 1 ? `${toString(page)}.html` : "";
+    let pageStr = page !== 1 ? `${toString(page)}.html` : '';
     return `${this.baseUrl}/directory/${pageStr}`;
   }
 
@@ -34,7 +40,7 @@ class Mangafox extends AbstractCatalog {
     let mangas: Array<Manga> = [];
     let provider = this;
 
-    $("div#mangalist > ul.list > li").each((i: number, elem: CheerioObject) => {
+    $('div#mangalist > ul.list > li').each((i: number, elem: CheerioObject) => {
       let manga: Manga = this.extractMangaSummary(
         $,
         elem,
@@ -54,11 +60,11 @@ class Mangafox extends AbstractCatalog {
   popularMangaPaginator(
     $: CheerioObject
   ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
-    let pagination: CheerioObject = $("a:has(span.next)");
+    let pagination: CheerioObject = $('a:has(span.next)');
     let nextPage = null;
 
     if (pagination.length) {
-      nextPage = pagination.attr("href").match(/(\d+)\.htm/);
+      nextPage = pagination.attr('href').match(/(\d+)\.htm/);
       if (nextPage && nextPage.length) {
         nextPage = parseInt(nextPage[1]);
       }
@@ -66,7 +72,7 @@ class Mangafox extends AbstractCatalog {
 
     return {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.attr("href"),
+      nextUrl: pagination.attr('href'),
       nextPage: nextPage
     };
   }
@@ -76,7 +82,7 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   latestUpdatesRequest(page: ?number): string {
-    let pageStr = page !== 1 ? `${toString(page)}.html` : "";
+    let pageStr = page !== 1 ? `${toString(page)}.html` : '';
     return `${this.baseUrl}/directory/${pageStr}?latest`;
   }
 
@@ -87,7 +93,7 @@ class Mangafox extends AbstractCatalog {
   latestUpdatesList($: CheerioObject): Array<Manga> {
     let mangas: Array<Manga> = [];
 
-    $("div#mangalist > ul.list > li").each((i: number, elem: CheerioObject) => {
+    $('div#mangalist > ul.list > li').each((i: number, elem: CheerioObject) => {
       let manga: Manga = this.extractMangaSummary($, elem, Infinity);
 
       mangas.push(manga);
@@ -112,24 +118,40 @@ class Mangafox extends AbstractCatalog {
    * @returns {Manga}
    */
   mangaDetail($: CheerioObject, manga: Manga): Manga {
-    let container: CheerioObject = $("div#title").first();
+    let container: CheerioObject = $('div#title').first();
     let detailsContainer: CheerioObject = container
-      .find("table > tbody > tr")
+      .find('table > tbody > tr')
       .eq(1)
       .first();
-    let sideContainer: CheerioObject = $("#series_info").first();
+    let sideContainer: CheerioObject = $('#series_info').first();
 
-    manga.author = trimSpaces(detailsContainer.find("td").eq(1).text());
-    manga.artist = trimSpaces(detailsContainer.find("td").eq(2).text());
-    manga.genre = trimSpaces(detailsContainer.find("td").eq(3).text());
-    manga.description = trimSpaces(container.find("p.summary").first().text());
-    manga.status = trimSpaces(sideContainer.find(".data").first().text());
+    manga.author = trimSpaces(detailsContainer.find('td').eq(1).text());
+    manga.artist = trimSpaces(detailsContainer.find('td').eq(2).text());
+    manga.genre = trimSpaces(detailsContainer.find('td').eq(3).text());
+    manga.description = trimSpaces(container.find('p.summary').first().text());
+    manga.status = this.parseStatus(
+      trimSpaces(sideContainer.find('.data').first().text())
+    );
     manga.thumbnailUrl = trimSpaces(
-      sideContainer.find("div.cover > img").first().attr("src")
+      sideContainer.find('div.cover > img').first().attr('src')
     );
     manga.detailsFetched = true;
 
     return manga;
+  }
+
+  /**
+   * @private
+   * @param {string} status
+   * @returns {string}
+   */
+  parseStatus(status: string): string {
+    if (status.indexOf('Ongoing') > -1) {
+      return STATUS_ONGOING;
+    } else if (status.indexOf('Completed') > -1) {
+      return STATUS_COMPLETED;
+    }
+    return STATUS_UNKNOWN;
   }
 
   /**
@@ -140,15 +162,15 @@ class Mangafox extends AbstractCatalog {
   chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
-    $("div#chapters li div").each((i, elem) => {
+    $('div#chapters li div').each((i, elem) => {
       let chapter = new Chapter();
-      let url = $(elem).find("a.tips").first();
+      let url = $(elem).find('a.tips').first();
 
-      chapter.url = trimSpaces(url.attr("href"));
+      chapter.url = trimSpaces(url.attr('href'));
       chapter.title = trimSpaces(url.text());
       chapter.publishedAt = resetDateTime(
         this.parseChapterDate(
-          trimSpaces($(elem).find("span.date").first().text())
+          trimSpaces($(elem).find('span.date').first().text())
         )
       );
 
@@ -168,13 +190,13 @@ class Mangafox extends AbstractCatalog {
    * @returns {Date}
    */
   parseChapterDate(date: string): Date {
-    if (date.indexOf("Today") > -1 || date.indexOf(" ago") > -1) {
+    if (date.indexOf('Today') > -1 || date.indexOf(' ago') > -1) {
       return new Date();
-    } else if (date.indexOf("Yesterday") > -1) {
-      return moment().subtract(1, "days").toDate();
+    } else if (date.indexOf('Yesterday') > -1) {
+      return moment().subtract(1, 'days').toDate();
     }
 
-    let momentDate = moment(date, "MMM D, YYYY");
+    let momentDate = moment(date, 'MMM D, YYYY');
     if (momentDate.isValid()) {
       return momentDate.toDate();
     }
@@ -188,11 +210,11 @@ class Mangafox extends AbstractCatalog {
    */
   pageList($: CheerioObject): Array<string> {
     let pages: Array<string> = [];
-    let url: string = $("a#comments").attr("href");
-    let options = $("select.m").first().find("option:not([value=0])");
+    let url: string = $('a#comments').attr('href');
+    let options = $('select.m').first().find('option:not([value=0])');
 
     options.each((i, elem) => {
-      let page = $(elem).attr("value");
+      let page = $(elem).attr('value');
 
       pages.push(`${url}${page}.html`);
     });
@@ -205,7 +227,7 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $("#image").first().attr("src");
+    return $('#image').first().attr('src');
   }
 
   /**
@@ -225,7 +247,7 @@ class Mangafox extends AbstractCatalog {
   search($: CheerioObject): Array<Manga> {
     let mangas: Array<Manga> = [];
 
-    $("div#mangalist > ul.list > li").each((i, elem) => {
+    $('div#mangalist > ul.list > li').each((i, elem) => {
       let manga = this.extractMangaSummary($, elem, Infinity);
 
       mangas.push(manga);
@@ -241,11 +263,11 @@ class Mangafox extends AbstractCatalog {
   searchPaginator(
     $: CheerioObject
   ): { hasNext: boolean, nextUrl: ?string, nextPage: ?number } {
-    let pagination: CheerioObject = $("a:has(span.next)");
+    let pagination: CheerioObject = $('a:has(span.next)');
     let nextPage = null;
 
     if (pagination.length) {
-      nextPage = pagination.attr("href").match(/page=(\d+)/);
+      nextPage = pagination.attr('href').match(/page=(\d+)/);
       if (nextPage && nextPage.length) {
         nextPage = parseInt(nextPage[1]);
       }
@@ -253,7 +275,7 @@ class Mangafox extends AbstractCatalog {
 
     return {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.length ? pagination.attr("href") : null,
+      nextUrl: pagination.length ? pagination.attr('href') : null,
       nextPage: nextPage
     };
   }
@@ -270,11 +292,11 @@ class Mangafox extends AbstractCatalog {
     catalogId: ?number
   ): Manga {
     let manga: Manga = new Manga();
-    let link: CheerioObject = $(elem).find("a.title");
+    let link: CheerioObject = $(elem).find('a.title');
 
-    manga.url = trimSpaces(link.attr("href"));
+    manga.url = trimSpaces(link.attr('href'));
     manga.title = trimSpaces(link.text());
-    manga.thumbnailUrl = trimSpaces($(elem).find("img").attr("src"));
+    manga.thumbnailUrl = trimSpaces($(elem).find('img').attr('src'));
     manga.catalogId = catalogId;
     manga.catalog = this.catalogName;
     manga.generateId();

@@ -1,6 +1,10 @@
 // @flow
 import crypto from 'crypto';
 
+export const STATUS_ONGOING: string = 'ongoing';
+export const STATUS_COMPLETED: string = 'completed';
+export const STATUS_UNKNOWN: string = 'unknown';
+
 export class Manga {
   id: string;
   title: string;

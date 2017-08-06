@@ -2,7 +2,13 @@
 import { parseDateAgo, trimSpaces, toString } from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
 import ChapterRecognition from '../chapter-recognition';
-import { Chapter, Manga } from '../models';
+import {
+  Chapter,
+  Manga,
+  STATUS_ONGOING,
+  STATUS_COMPLETED,
+  STATUS_UNKNOWN
+} from '../models';
 
 type CheerioObject = any;
 
@@ -142,8 +148,8 @@ class ReadMangaToday extends AbstractCatalog {
       container.find('dl.dl-horizontal > dd').eq(2).text()
     );
     manga.description = trimSpaces(container.find('li.movie-detail').text());
-    manga.status = trimSpaces(
-      container.find('dl.dl-horizontal > dd').eq(1).text()
+    manga.status = this.parseStatus(
+      trimSpaces(container.find('dl.dl-horizontal > dd').eq(1).text())
     );
     manga.thumbnailUrl = trimSpaces(
       container.find('img.img-responsive').attr('src')
@@ -151,6 +157,20 @@ class ReadMangaToday extends AbstractCatalog {
     manga.detailsFetched = true;
 
     return manga;
+  }
+
+  /**
+   * @private
+   * @param {string} status
+   * @returns {string}
+   */
+  parseStatus(status: string): string {
+    if (status.indexOf('Ongoing') > -1) {
+      return STATUS_ONGOING;
+    } else if (status.indexOf('Completed') > -1) {
+      return STATUS_COMPLETED;
+    }
+    return STATUS_UNKNOWN;
   }
 
   /**
