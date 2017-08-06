@@ -10,7 +10,8 @@ import type AbstractCatalog from './abstract-catalog';
 import type { Chapter, Manga } from './models';
 
 request = request.defaults({
-  timeout: 20000
+  timeout: 20000,
+  gzip: true
 });
 
 class Parser {
