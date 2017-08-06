@@ -62,17 +62,14 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
       it('expect chapters to be an array', function(done) {
         Parser.getChapterList(catalogName, manga)
           .then(function(chapters) {
-            manga.chapters = chapters;
             expect(chapters).toEqual(expect.any(Array));
             expect(chapters.length).toBeGreaterThanOrEqual(1);
             if (chapters.length) {
               expect(chapters[0].id).toEqual(expect.any(String));
               expect(chapters[0].url).toEqual(expect.any(String));
               expect(chapters[0].title).toEqual(expect.any(String));
-              expect(chapters[0].read).toEqual(expect.any(Boolean));
               expect(chapters[0].number).toEqual(expect.any(Number));
               expect(chapters[0].publishedAt).toEqual(expect.any(Date));
-              expect(manga.getChapterUnreadCount()).toBeGreaterThanOrEqual(1);
             }
             chapter = chapters[0];
             done();
