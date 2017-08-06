@@ -15,7 +15,7 @@ type CheerioObject = any;
 class ReadMangaToday extends AbstractCatalog {
   constructor() {
     super();
-    this.name = 'Mangafox';
+    this.name = 'ReadMangaToday';
     this.catalogName = 'readmangatoday';
     this.baseUrl = 'http://www.readmanga.today';
     this.lang = LANGUAGE_EN;
