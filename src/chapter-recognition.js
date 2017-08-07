@@ -1,5 +1,5 @@
 var ChapterRecognition = {};
-var _ = require("lodash");
+var _ = require('lodash');
 
 /**
  * All cases with Ch.xx
@@ -41,13 +41,13 @@ ChapterRecognition.parseChapterNumber = function(chapter, manga) {
   let matches;
 
   // Remove comma's from chapter.
-  title = title.replace(",", ".");
+  title = title.replace(',', '.');
 
   // Remove unwanted white spaces.
-  title = title.replace(unwantedWhiteSpace, "$2");
+  title = title.replace(unwantedWhiteSpace, '$2');
 
   // Remove unwanted tags.
-  title = title.replace(unwanted, "");
+  title = title.replace(unwanted, '');
 
   // Check base case ch.xx
   matches = basic.exec(title);
@@ -71,7 +71,7 @@ ChapterRecognition.parseChapterNumber = function(chapter, manga) {
 
   if (manga && manga.title) {
     // Remove manga title from chapter title.
-    let titleWithoutManga = title.replace(manga.title.toLowerCase(), "").trim();
+    let titleWithoutManga = title.replace(manga.title.toLowerCase(), '').trim();
 
     // Check if first value is number after title remove.
     matches = withoutManga.exec(titleWithoutManga);
@@ -119,19 +119,19 @@ function checkForDecimal(decimal, alpha) {
   }
 
   if (!_.isUndefined(alpha) && !_.isNull(alpha)) {
-    if (alpha.includes("extra")) {
+    if (alpha.includes('extra')) {
       return 0.99;
     }
 
-    if (alpha.includes("omake")) {
+    if (alpha.includes('omake')) {
       return 0.98;
     }
 
-    if (alpha.includes("special")) {
+    if (alpha.includes('special')) {
       return 0.97;
     }
 
-    if (alpha[0] === ".") {
+    if (alpha[0] === '.') {
       // Take value after (.)
       return parseAlphaPostFix(alpha[1]);
     } else {
@@ -146,7 +146,7 @@ function checkForDecimal(decimal, alpha) {
  * x.a -> x.1, x.b -> x.2, etc
  */
 function parseAlphaPostFix(alpha) {
-  return parseFloat("0." + (alpha.charCodeAt(0) - 96));
+  return parseFloat('0.' + (alpha.charCodeAt(0) - 96));
 }
 
 module.exports = ChapterRecognition;

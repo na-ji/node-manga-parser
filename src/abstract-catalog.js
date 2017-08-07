@@ -36,9 +36,7 @@ export default class AbstractCatalog {
    * @param $
    * @returns {Array.<Manga>}
    */
-  popularMangaList(
-    $: CheerioObject
-  ): Array<Manga> {
+  popularMangaList($: CheerioObject): Array<Manga> {
     throw new Error('Not implemented');
   }
 

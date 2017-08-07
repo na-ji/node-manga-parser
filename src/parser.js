@@ -1,12 +1,12 @@
 // @flow
-import _ from "lodash";
-import Promise from "bluebird";
-import cheerio from "cheerio";
-let request = require("request");
+import _ from 'lodash';
+import Promise from 'bluebird';
+import cheerio from 'cheerio';
+let request = require('request');
 
-import * as catalogs from "./sites";
-import type AbstractCatalog from "./abstract-catalog";
-import type { Chapter, Manga } from "./models";
+import * as catalogs from './sites';
+import type AbstractCatalog from './abstract-catalog';
+import type { Chapter, Manga } from './models';
 
 request = request.defaults({
   timeout: 20000,
@@ -184,8 +184,8 @@ class Parser {
 
         chapters = _.orderBy(
           chapters,
-          ["number", "publishedAt"],
-          ["asc", "asc"]
+          ['number', 'publishedAt'],
+          ['asc', 'asc']
         );
 
         resolve(chapters);
@@ -254,7 +254,7 @@ class Parser {
    */
   getCatalog(catalogName: string): AbstractCatalog {
     if (!(catalogName in this.catalogs)) {
-      throw new Error("Catalog does not exist");
+      throw new Error('Catalog does not exist');
     }
 
     return this.catalogs[catalogName];
