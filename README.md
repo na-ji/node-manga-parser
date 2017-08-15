@@ -34,20 +34,21 @@ import { Parser } from 'manga-parser';
 Parser.getPopularMangaList('readmangatoday').then(paginator => {
   console.log(paginator);
   let manga = paginator.mangas[0];
+
   return Parser.getMangaDetail('readmangatoday', manga);
 }).then(manga => {
   console.log(manga);
-  
+
   return Parser.getChapterList('readmangatoday', manga);
 }).then(chapters => {
   console.log(chapters);
   let chapter = chapters[0];
-  
+
   return Parser.getPageList('readmangatoday', chapter);
 }).then(pages => {
   console.log(pages);
   let page = pages[0];
-  
+
   return Parser.getImageURL('readmangatoday', page);
 }).then(imageURL => {
   console.log(imageURL);
@@ -121,6 +122,17 @@ Fetch the list of chapters for Manga
 -   `manga` **Manga** 
 
 Returns **[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Chapter>>** 
+
+#### getChapterListByVolumes
+
+Fetch the list of chapters for a Manga sorted by volumes
+
+**Parameters**
+
+-   `catalogName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `manga` **Manga** 
+
+Returns **[Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)&lt;{}>** 
 
 #### getPageList
 
