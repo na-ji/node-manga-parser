@@ -50,11 +50,22 @@ class Parser {
         if (error) {
           return reject(error);
         }
+
         let $ = cheerio.load(page);
+        let mangas;
+        let paginator;
 
-        let mangas = catalog.popularMangaList($);
+        try {
+          mangas = catalog.popularMangaList($);
+        } catch (error) {
+          return reject(error);
+        }
 
-        const paginator = catalog.popularMangaPaginator($);
+        try {
+          paginator = catalog.popularMangaPaginator($);
+        } catch (error) {
+          return reject(error);
+        }
 
         return resolve({
           mangas,
@@ -88,11 +99,22 @@ class Parser {
         if (error) {
           return reject(error);
         }
+
         let $ = cheerio.load(page);
+        let mangas;
+        let paginator;
 
-        let mangas = catalog.latestUpdatesList($);
+        try {
+          mangas = catalog.latestUpdatesList($);
+        } catch (error) {
+          return reject(error);
+        }
 
-        const paginator = catalog.latestUpdatesPaginator($);
+        try {
+          paginator = catalog.latestUpdatesPaginator($);
+        } catch (error) {
+          return reject(error);
+        }
 
         return resolve({
           mangas,
@@ -129,9 +151,20 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        let mangas = catalog.search($);
+        let mangas;
+        let paginator;
 
-        const paginator = catalog.searchPaginator($);
+        try {
+          mangas = catalog.search($);
+        } catch (error) {
+          return reject(error);
+        }
+
+        try {
+          paginator = catalog.searchPaginator($);
+        } catch (error) {
+          return reject(error);
+        }
 
         return resolve({
           mangas,
@@ -157,7 +190,11 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        manga = catalog.mangaDetail($, manga);
+        try {
+          manga = catalog.mangaDetail($, manga);
+        } catch (error) {
+          return reject(error);
+        }
 
         resolve(manga);
       });
@@ -180,7 +217,12 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        let chapters = catalog.chapterList($, manga);
+        let chapters;
+        try {
+          chapters = catalog.chapterList($, manga);
+        } catch (error) {
+          return reject(error);
+        }
 
         chapters = _.orderBy(
           chapters,
@@ -213,7 +255,13 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        let volumes = catalog.chapterListByVolume($, manga);
+        let volumes;
+
+        try {
+          volumes = catalog.chapterListByVolume($, manga);
+        } catch (error) {
+          return reject(error);
+        }
 
         _.forEach(volumes, (chapters, volume) => {
           volumes[volume] = _.orderBy(
@@ -244,9 +292,14 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        let pages = catalog.pageList($);
+        let pages;
+        try {
+          pages = catalog.pageList($);
+        } catch (error) {
+          return reject(error);
+        }
 
-        resolve(pages);
+        return resolve(pages);
       });
     });
   }
@@ -267,9 +320,14 @@ class Parser {
         }
 
         let $ = cheerio.load(page);
-        let imageURL = catalog.imageUrl($);
+        let imageURL;
+        try {
+          imageURL = catalog.imageUrl($);
+        } catch (error) {
+          return reject(error);
+        }
 
-        resolve(imageURL);
+        return resolve(imageURL);
       });
     });
   }
