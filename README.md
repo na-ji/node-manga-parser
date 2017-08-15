@@ -2,7 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/manga-parser.svg?style=flat-square)](https://www.npmjs.com/package/manga-parser) [![Travis](https://img.shields.io/travis/na-ji/node-manga-parser.svg?style=flat-square)](https://travis-ci.org/na-ji/node-manga-parser) [![Codecov](https://img.shields.io/codecov/c/github/na-ji/node-manga-parser.svg?style=flat-square)](https://codecov.io/gh/na-ji/node-manga-parser) [![Gemnasium](https://img.shields.io/gemnasium/na-ji/node-manga-parser.svg?style=flat-square)](https://gemnasium.com/github.com/na-ji/node-manga-parser) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Manga Parser is a parser for online manga sources. It provides a simple API to extract data about manga hosted and their chapters. More sources are going to be added
+Manga Parser is a parser for online manga sources. It provides a simple API to extract data about manga hosted and their chapters. More sources are going to be added.
+
+The library is based on [Tachiyomi](https://github.com/inorichi/tachiyomi) for Android.
 
 ## Supported sources
 
