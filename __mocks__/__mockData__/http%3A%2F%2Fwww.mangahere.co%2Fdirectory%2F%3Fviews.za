@@ -1,0 +1,1136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="Shortcut Icon" href="http://www.mangahere.co/favicon32.ico" type="image/x-icon" />
+<meta name="author" content="Manga Here" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="mangahere" />
+<meta name="robots" content="index,follow" />
+<meta name="rating" content="general" />
+<meta name="revisit-after" content="1 day" />
+<meta property="fb:app_id" content="250769461611065"/>
+<meta property="fb:admins" content="100001376095179"/>
+
+<meta name="keywords" content="manga,read manga online,magna scans,english manga,naruto manga,bleach manga, one piece manga,manga chapter,manga online,read free manga,free manga,read free manga online,manga viewer" />
+<meta name="description" content="Browse free manga on line in alphabetical order, Hundreds of high-quality free manga for you, Like Naruto manga, Bleach manga, One Piece manga, Air Gear manga, Claymore manga, Fairy Tale manga, Inuyasha manga, and many more..." />
+<title>Manga Here - Read Manga Online for Free!</title>
+<meta property="og:title" content="Read Manga Online" />
+<meta property="og:site_name" content="Mange Here" />
+<meta property="og:image" content="http://www.mangahere.co/media/images/logotn.png" />
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="Manga Here Search" href="http://www.mangahere.co/opensearch.xml" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/207/oIeP"/>
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.mangahere.co/media/css/theme.css?v=20170616112357" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.mangahere.co/media/css/default.css?v=20170616112357" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://www.mangahere.co/media/css/ie6.css?v=20170616112357" /><![endif]-->
+<script type="text/javascript">
+
+
+if(!getCookie) {
+    function setCookie(c_name,value,expiredays) {
+        var exdate=new Date()
+        exdate.setDate(exdate.getDate()+expiredays)
+        cookieVal=c_name+ "=" +escape(value)+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())+";domain=.www.mangahere.co;path=/";
+        console.log(cookieVal);
+        document.cookie=cookieVal;
+    }
+    function getCookie(c_name) {
+        if (document.cookie.length>0)
+        {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1)
+            {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1) c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+}
+
+function jumpMoible(){
+	var web_url = 'http://www.mangahere.co/';
+	var mobile_url = 'http://m.mangahere.co/';
+	var mobile_url = 'http://m.mangahere.co';
+	var local_url = document.location.href;
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+	        var hide = getCookie('MHNMM');
+	        if(hide == "" || hide != 1) {
+	        	if(document.location.href==web_url){
+	        		document.location.href=mobile_url;
+	        	}else{
+	        		var path_url = document.location.pathname;
+	        		if(path_url=='/'){
+	        			var search = document.location.search;
+	        			search = search.replace('?','');
+	        			search = search.replace('#','');
+	        			var search_params = search.split('&');
+	        			for (var i = search_params.length - 1; i >= 0; i--) {
+	        				if(search_params[i]=='f=mobile'){
+	        					 setCookie("MHNMM", 1, null);
+	        				}
+	        			};
+
+	        		}else if(/^(\/manga)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}else if(/^(\/news)\/(\d+\/?)?/i.test(path_url)){
+	        			document.location.href=mobile_url+'/news/';
+	        		}else if(/^(\/news)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}else if(/^(\/spoilers)\/(\d+\/?)?/i.test(path_url)){
+	        			document.location.href=mobile_url+'/spoilers/';
+	        		}else if(/^(\/spoiler)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}
+	        	}
+	        }
+	}
+}
+jumpMoible();
+
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/LAB.min.js?v=20170616112357"></script>
+<!--[if IE]>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/html5.js?v=20170616112357"></script>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/css3-mediaqueries.js?v=20170616112357"></script>
+<![endif]-->
+
+<script type="text/javascript">
+var img_url = "http://www.mangahere.co/media/images/", options, a;
+var base_url = "http://www.mangahere.co/";
+var fb_app_id="250769461611065";
+if(top.location.protocol+"//"+top.location.host+"/" != base_url){
+	console.log(top.location.protocol+"//"+top.location.host+"/");
+	top.location=base_url+top.location.pathname;
+}else if (base_url == undefined){
+	top.location="http://www.mangahere.co";
+}
+$LAB
+.queueScript("http://www.mangahere.co/media/js/jquery.validate.js?v=20170616112357").queueWait()
+.queueScript("http://www.mangahere.co/media/js/jquery.autocomplete.js?v=20170616112357").queueWait(function () {
+	jQuery(function () {
+		options = {
+			serviceUrl: '/ajax/search.php',
+			minChars: 1,
+			delimiter: /(,|;)\s*/,
+			maxHeight: 400,
+			width: 300,
+			zIndex: 9999,
+			deferRequestBy: 0,
+			noCache: true
+		};
+		a = $('#query').autocomplete(options);
+	});
+})
+.queueWait()
+.queueScript("http://www.mangahere.co/media/js/fb_dialog.js?v=20170616112357").queueWait();
+function addFavorite() {
+	if (document.all) {
+		try {
+			window.external.addFavorite('http://www.mangahere.co', 'Manga Here - Read English Manga Free Online. Manga is Here!');
+		} catch (e) {
+			alert("Fail to add to your favorites, please press Ctrl + D to try again");
+		}
+	} else if (window.sidebar) {
+		window.sidebar.addPanel('Manga Here - Read English Manga Free Online. Manga is Here!', 'http://www.mangahere.co', "");
+	} else {
+		alert("Fail to add to your favorites, please press Ctrl + D to try again");
+	}
+}
+
+function setHomepage() {
+	if (document.all) {
+		document.body.style.behavior = 'url(#default#homepage)';
+		document.body.setHomePage('http://www.mangahere.co');
+	} else if (window.sidebar) {
+		if (window.netscape) {
+			try {
+				netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+			} catch (e) {
+				alert('This operation was rejected by your brower, please input “about:config”at address bar and turn "signed.applets.codebase_principal_support" to ture.');
+			}
+		}
+		var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+		prefs.setCharPref('browser.startup.homepage', 'http://www.mangahere.co');
+	} else {
+		alert('This funciton is not supported by your brower, please add manually');
+	}
+}
+</script>
+
+</head>
+<body>
+
+<!-- body-bg-top start -->
+	<div class="MHShuffleAd">
+		<a href="https://z6.com/back-to-school-sale.html"
+		   style="background:url(http://c.mhcdn.net/store/banner/pc.skin_1502781196.png?v=1502781196) no-repeat right 0"
+		   		   class="body-bg-left"></a>
+		<a href="https://z6.com/back-to-school-sale.html"
+		   style="background:url(http://c.mhcdn.net/store/banner/pc.skin_1502781184.png?v=1502781184) no-repeat 475px 0"
+		   		   class="body-bg-right"></a>
+	</div>
+	<!-- body-bg-top end -->
+
+<!-- header start -->
+<header>
+	<section class="header_top">
+		<a href="http://www.mangahere.co/" class="logo"></a>
+		<span class="sign" id="sign">
+
+		</span>
+        <span class="language"><a href="http://www.mangahere.co"><strong>English</strong></a>|<a href="http://es.mangahere.co">Español</a></span>
+		<div class="fb-like" data-href="https://www.facebook.com/mangaherelife/" data-width="30" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+	</section>
+	<nav>
+		<ul class="menu clearfix">
+			<li><a href="http://www.mangahere.co/" >Home</a></li>
+			<li><a href="http://www.mangahere.co/latest/" >Latest Releases</a></li>
+			<li><a href="http://www.mangahere.co/mangalist/" >Manga List</a></li>
+			<li><a href="http://www.mangahere.co/directory/?views.za" class="select">Hot Manga</a></li>
+			<li><a href="http://www.mangahere.co/spoilers/" >Spoilers &amp; News</a></li>
+			<li><a href="http://www.mangahere.co/manga/tokyo_ghoul_re/">Tokyo Ghoul:re</a></li>
+			<li class="new"><a href="http://www.mangahere.co/author/Saiko%20Plus">Partner Manhua</a></li>
+			<li class="right"><a href="http://orzzzz.com/acg?utm_source=mh&utm_medium=nav&utm_campaign=mhnav" target="_blank">ACG Topics</a></li>
+		</ul>
+		<section class="search_top clearfix">
+			<aside class="search_topR">
+					<span class="search_input">
+						<form action="/search.php" id="lookupform" name="lookupform" method="get">
+						<input type="text" id="query" name="name" value="Enter Manga Name..." class="search_text" autocomplete="off" />
+						<input type="submit" value="Search" class="search_button" />
+						</form>
+					</span>
+					<span class="sur_adv">
+                        						<a class="six_buttoon" href="http://www.mangahere.co/random.htm">Surprise</a>
+                        						<a class="six_buttoon" href="http://www.mangahere.co/advsearch.htm" rel="nofollow">Advanced</a>
+					</span>
+				<script type="text/javascript">
+				$LAB.queueWait(function () {
+					$(".search_text").focus(function () {
+						$(this).val("");
+					}).focusout(function () {
+						if ($(this).val() == "") {
+							$(this).val("Enter Manga Name...")
+						}
+					});
+				});
+				</script>
+			</aside>
+			<article class="search_topL">
+				<a href="/romance/">Romance</a>|<a href="/comedy/">Comedy</a>|<a href="/shoujo/">Shoujo</a>|<a href="/drama/">Drama</a>|<a href="/school_life/">School Life</a>|<a href="/shounen/">Shounen</a>|<a href="/action/">Action</a>|<a href="/fantasy/">Fantasy</a>|<a href="/seinen/">Seinen</a>
+				<a href="/directory/" class="more"></a>
+			</article>
+		</section>
+	</nav>
+</header>
+
+<div class="dialog_box" id="sign_up">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_up');" title="Close">x</a>
+  <div class="title">Sign Up</div>
+  <p class="mb10"><strong class="color_0077">Want to save time?</strong> Sign up with your facebook account now</p>
+  <a href="javascript:;" class="facebook_sign fb-login"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or complete the form below</p>
+  <div class="register">
+		 <form id="signupform">
+     <ul class="register_list">
+       <li><label>User Name</label><input type="text" class="text" name="username" id="username" /><span class="color_ff00">Required in 4 to 14 letters or numbers</span></li>
+       <li><label>Password</label><input type="password" class="text" name="password" id="password" /><span class="color_ff00">Required in 6-14 characters</span></li>
+       <li><label><span class="re_type">Re-type<br />Password</span></label><input type="password" class="text" name="password_confirm" id="password_confirm" /><span></span></li>
+       <li><label>Email</label><input type="text" class="text" name="email" id="email" /><span></span></li>
+       <li><label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" id="iagree" />I accept the <a class="color_0077" href="/registration_agreement.htm" target="_blank">terms of the agreement</a>.</label></li>
+       <li class="ml80"><a href="javascript:void(0);" class="one_buttoon mr15" id="do_singup"><span>Sign Up</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<div class="dialog_box" id="sign_in">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_in');" title="Close">x</a>
+  <div class="title">Sign In</div>
+  <p class="mb10"><strong class="color_0077">Sign in with your facebook account</strong></p>
+  <a href="javascript:;" class="facebook_sign fb-login"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or with mangahere account <a href="javascript:boxRemove('sign_in');boxShow('sign_up');" class="color_0077 tdu ml10">Don't have an account?</a></p>
+  <div class="login">
+		 <form id="signinform">
+     <ul class="login_list">
+       <li><label>Username</label><input type="text" class="text" name="name" /></li>
+       <li><label>Password</label><input type="password" class="text" name="pass" /></li>
+       <li>
+			 	<label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" name="remember" />Remember Me</label>
+				<a href="/forgotpassword.htm" class="color_0077 ml10">Forget User Name/Password?</a>
+			 </li>
+       <li class="ml80"><a href="javascript:void(0);" id="normal_login" class="one_buttoon mr15"><span>Sign In</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<form id="fbform" method="post" action="/connect/fb.php" style="display:none">
+	<input type="hidden" name="action" value="fb">
+	<input type="hidden" name="fbid">
+	<input type="hidden" name="email">
+</form>
+<div id="back_top"><span></span>Back to Top</div>
+<script type="text/javascript">
+$LAB.queueScript('/ajax/page_complex.php?modules=o&id=');
+$LAB.queueWait(function(){
+	$('#normal_login').click(function(){
+		$.post(
+			'http://www.mangahere.co/ajax/signin.php',
+			$("#signinform").serialize(),
+			function(r){if(r == 0) window.location.reload(); else alert('Sign in failed: please check your username or password.');}
+		);
+	});
+	$('#signinform input').blur(function(){});
+	$('#signupform #do_singup').click(function(){
+        if(!$("#iagree").attr("checked")) {
+            alert("You need to accept the terms of the agreement.");
+        } else {
+            if($('#signupform .msg-correct').length >=4) {
+                $.post(
+                    'http://www.mangahere.co/ajax/signup.php',
+                    $("#signupform").serialize(),
+                    function(r){
+                        if(r == 0) window.location.reload();
+                        else alert(r);
+                    }
+                );
+            }
+        }
+	});
+	jQuery.validator.addMethod("username", function(value, element) {
+		return this.optional(element) || /^[A-Za-z0-9]+$/.test(value);
+	}, "Only allowed letters or numbers");
+	$("#signupform").validate({
+		rules: {
+			username: {required: true,rangelength: [4,14],remote: "/ajax/user.php"},
+			password: {required: true,rangelength: [6,14]},
+			password_confirm: {required: true,rangelength: [6,14],equalTo:"#password"},
+            email: {required: true,email: true,remote: "/ajax/email.php"}
+		},
+		messages: {
+			username: {required: "Please input your username",rangelength:jQuery.format("Only allowed {0} to {1} letters or numbers"),remote: jQuery.format("This username has already exist")},
+			password: {required: "Please input your password",rangelength:jQuery.format("Only allowed {0} to {1} characters")},
+			password_confirm: {required: "Please input your password again",rangelength:jQuery.format("Only allowed {0} to {1} characters"),equalTo: "Please verify your password again"},
+            email: {required: "Please input your Email",email: "Please input an valid Email address",remote: jQuery.format("This Email has already been used")}
+		},
+		errorPlacement: function(error, element) {
+			element.next().addClass("msg-errors").html('');
+			element.next('span.msg-errors').append(error.html());
+		},
+		success: function(label,element) {
+			element.next().removeClass().addClass("msg-correct").html('');
+		}
+	});
+});
+</script>
+<section class="main clearfix">
+  <article class="widscreen left">
+  <div class="mr316">
+      <div class="box_w clearfix">
+        <a class="list_text_version" href="http://www.mangahere.co/mangalist/"></a>
+        <h1 class="title"><span class="title_icon"></span>Manga Directory</h1>
+      </div>
+            <div class="directory_list">
+        <div class="directory_title clearfix">
+           <span class="fz14 left"></span>
+           <span class="right"><span class="left">Sort by:</span><a class="four_buttoon  ml10" href="?name.az"><span>A-Z</span></a><a class="four_buttoon  ml10" href="?rating.az"><span>Rating</span></a><a class="four_buttoon select_sort ml10" href="?views.az"><span>Views</span></a><a class="four_buttoon  ml10" href="?last_chapter_time.az"><span>Latest Updated</span></a></span>
+        </div>
+	<ul>
+					<li>
+				<a href="http://www.mangahere.co/manga/hajimete_no_gal/c039/" title="Hajimete no Gal" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/22545/thumb_cover.jpg?token=ae5845254364ed33242f572b4611f239910b7e72&ttl=1502913600&v=1502760338" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Hajimete no Gal" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/hajimete_no_gal/" title="Hajimete no Gal">Hajimete no Gal</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.82</span></p>
+					<p>Comedy, Ecchi, Romance</p>
+					<p><label>Views:</label>1569788</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Hajimete no Gal 39" href="http://www.mangahere.co/manga/hajimete_no_gal/c039/">Hajimete no Gal 39</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/boku_no_hero_academia/c148/" title="Boku no Hero Academia" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15366/thumb_cover.jpg?token=038a5b515471f83e86e9f21f9ff0adf2750adcd8&ttl=1502913600&v=1502073176" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Boku no Hero Academia" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/boku_no_hero_academia/" title="Boku no Hero Academia">Boku no Hero Academia</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.85</span></p>
+					<p>Action, Comedy, Drama</p>
+					<p><label>Views:</label>1504325</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Boku no Hero Academia 148" href="http://www.mangahere.co/manga/boku_no_hero_academia/c148/">Boku no Hero Academia 148</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tate_no_yuusha_no_nariagari/c035/" title="Tate no Yuusha no Nariagari" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15063/thumb_cover.jpg?token=143fc1ba95119318a9592f30c0abeef684ae86a0&ttl=1502913600&v=1501641730" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tate no Yuusha no Nariagari" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tate_no_yuusha_no_nariagari/" title="Tate no Yuusha no Nariagari">Tate no Yuusha no Nariagari</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.91</span></p>
+					<p>Action, Adventure, Fantasy</p>
+					<p><label>Views:</label>919783</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tate no Yuusha no Nariagari 35" href="http://www.mangahere.co/manga/tate_no_yuusha_no_nariagari/c035/">Tate no Yuusha no Nariagari 35</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/the_gamer/c186/" title="The Gamer" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/13739/thumb_cover.jpg?token=799c7cb734bec7868c6014e683bb07819f89e671&ttl=1502913600&v=1502425922" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="The Gamer" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/the_gamer/" title="The Gamer">The Gamer</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.87</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>820486</p>
+					<p><i class="new_red"></i><a class="color_0077" title="The Gamer 186" href="http://www.mangahere.co/manga/the_gamer/c186/">The Gamer 186</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/fairy_tail/v38/c545/" title="Fairy Tail" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/246/thumb_cover.jpg?token=5e2c14daef28f3681c4a3438ec7a7e8e30273ade&ttl=1502913600&v=1501037605" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Fairy Tail" />					<em class="tag_hot"></em><em class="tag_completed"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/fairy_tail/" title="Fairy Tail">Fairy Tail</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-half"></i><span>4.72</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>748125</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Fairy Tail 545" href="http://www.mangahere.co/manga/fairy_tail/v38/c545/">Fairy Tail 545</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/monster_musume_no_iru_nichijou/c054/" title="Monster Musume no Iru Nichijou" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/11110/thumb_cover.jpg?token=f287535c2777be20306576d36cb3d9f487b67d28&ttl=1502913600&v=1502673181" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Monster Musume no Iru Nichijou" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/monster_musume_no_iru_nichijou/" title="Monster Musume no Iru Nichijou">Monster Musume no Iru Nichijou</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.91</span></p>
+					<p>Comedy, Ecchi, Fantasy</p>
+					<p><label>Views:</label>745725</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Monster Musume no Iru Nichijou 54" href="http://www.mangahere.co/manga/monster_musume_no_iru_nichijou/c054/">Monster Musume no Iru Nichijou 54</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darou_ka/c075/" title="Dungeon ni Deai o Motomeru no wa Machigatte Iru Darou ka" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/13613/thumb_cover.jpg?token=769e64d1fa8fcfa11ab4ce722a526cadd4ac4891&ttl=1502913600&v=1500273724" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Dungeon ni Deai o Motomeru no wa Machigatte Iru Darou ka" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darou_ka/" title="Dungeon ni Deai o Motomeru no wa Machigatte Iru Darou ka">Dungeon ni Deai o Motome ... Darou ka</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.87</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>738521</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Dungeon ni Deai o Motomeru no wa Machigatte Iru Darou ka 75" href="http://www.mangahere.co/manga/dungeon_ni_deai_o_motomeru_no_wa_machigatte_iru_darou_ka/c075/">Dungeon ni Deai o Motomeru no wa  ... ru Darou ka 75</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/horimiya/c081/" title="Horimiya" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/11715/thumb_cover.jpg?token=66365786856f5ebe084da872e0ddb3a8453de1cc&ttl=1502913600&v=1501654502" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Horimiya" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/horimiya/" title="Horimiya">Horimiya</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.92</span></p>
+					<p>Comedy, Romance, School Life</p>
+					<p><label>Views:</label>731793</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Horimiya 81" href="http://www.mangahere.co/manga/horimiya/c081/">Horimiya 81</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/uq_holder/c139/" title="UQ Holder!" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/13688/thumb_cover.jpg?token=22155cc0351445e9d1b8aa52cf834af1e6a8d5ac&ttl=1502913600&v=1502353683" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="UQ Holder!" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/uq_holder/" title="UQ Holder!">UQ Holder!</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.86</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>663291</p>
+					<p><i class="new_red"></i><a class="color_0077" title="UQ Holder! 139" href="http://www.mangahere.co/manga/uq_holder/c139/">UQ Holder! 139</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/the_new_gate/c030/" title="The New Gate" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15600/thumb_cover.jpg?token=6ba4c767824020811f5809148fe25ef0d0011d87&ttl=1502913600&v=1502440382" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="The New Gate" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/the_new_gate/" title="The New Gate">The New Gate</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.91</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>652536</p>
+					<p><i class="new_red"></i><a class="color_0077" title="The New Gate 30" href="http://www.mangahere.co/manga/the_new_gate/c030/">The New Gate 30</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/re_monster/c029.1/" title="Re:Monster" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/14821/thumb_cover.jpg?token=8c66d39afd3036c33efa543bbd23b12de7688fde&ttl=1502913600&v=1501836841" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Re:Monster" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/re_monster/" title="Re:Monster">Re:Monster</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.92</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>638748</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Re:Monster 29.1" href="http://www.mangahere.co/manga/re_monster/c029.1/">Re:Monster 29.1</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tales_of_demons_and_gods/c136.5/" title="Tales of Demons and Gods" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/18607/thumb_cover.jpg?token=3ad09b4bd93f63722e57de25cf96bd91c78f1fe1&ttl=1502913600&v=1502674085" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tales of Demons and Gods" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tales_of_demons_and_gods/" title="Tales of Demons and Gods">Tales of Demons and Gods</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.92</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>634394</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tales of Demons and Gods 136.5" href="http://www.mangahere.co/manga/tales_of_demons_and_gods/c136.5/">Tales of Demons and Gods 136.5</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tsuyokute_new_saga/c042/" title="Tsuyokute New Saga" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/14904/thumb_cover.jpg?token=2c957c420a7617cf2840c03298fe907c80b22a96&ttl=1502913600&v=1500721927" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tsuyokute New Saga" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tsuyokute_new_saga/" title="Tsuyokute New Saga">Tsuyokute New Saga</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.87</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>616802</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tsuyokute New Saga 42" href="http://www.mangahere.co/manga/tsuyokute_new_saga/c042/">Tsuyokute New Saga 42</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/minamoto_kun_monogatari/c207/" title="Minamoto-kun Monogatari" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/10005/thumb_cover.jpg?token=662a3d508afa66d90982e575803fb1fc40dc4ed4&ttl=1502913600&v=1498206242" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Minamoto-kun Monogatari" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/minamoto_kun_monogatari/" title="Minamoto-kun Monogatari">Minamoto-kun Monogatari</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.87</span></p>
+					<p>Comedy, Ecchi, Harem</p>
+					<p><label>Views:</label>613307</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Minamoto-kun Monogatari 207" href="http://www.mangahere.co/manga/minamoto_kun_monogatari/c207/">Minamoto-kun Monogatari 207</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/kangoku_gakuen/c261/" title="Kangoku Gakuen" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/9266/thumb_cover.jpg?token=194719892721cb4379888ceffe5896dea91a2933&ttl=1502913600&v=1502241785" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Kangoku Gakuen" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/kangoku_gakuen/" title="Kangoku Gakuen">Kangoku Gakuen</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.82</span></p>
+					<p>Comedy, Harem, Mature</p>
+					<p><label>Views:</label>610944</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Kangoku Gakuen 261" href="http://www.mangahere.co/manga/kangoku_gakuen/c261/">Kangoku Gakuen 261</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/mushoku_tensei_isekai_ittara_honki_dasu/c033/" title="Mushoku Tensei - Isekai Ittara Honki Dasu" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15229/thumb_cover.jpg?token=848c02b39c6d379255eac2f1e3c18e712a05d12e&ttl=1502913600&v=1499739783" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Mushoku Tensei - Isekai Ittara Honki Dasu" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/mushoku_tensei_isekai_ittara_honki_dasu/" title="Mushoku Tensei - Isekai Ittara Honki Dasu">Mushoku Tensei - Isekai  ... nki Dasu</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.92</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>608178</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Mushoku Tensei - Isekai Ittara Honki Dasu 33" href="http://www.mangahere.co/manga/mushoku_tensei_isekai_ittara_honki_dasu/c033/">Mushoku Tensei - Isekai Ittara Honki Dasu 33</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/black_clover/c120/" title="Black Clover" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/17375/thumb_cover.jpg?token=fb6affea02b580299f131e6c5b18c491d36aa547&ttl=1502913600&v=1501888981" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Black Clover" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/black_clover/" title="Black Clover">Black Clover</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.84</span></p>
+					<p>Action, Adventure, Drama</p>
+					<p><label>Views:</label>585732</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Black Clover 120" href="http://www.mangahere.co/manga/black_clover/c120/">Black Clover 120</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tomo_chan_wa_onnanoko/c606/" title="Tomo-chan wa Onnanoko!" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/18179/thumb_cover.jpg?token=4c6672e1902ae8caa371fd26ff60187cfbfda0be&ttl=1502913600&v=1502785922" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tomo-chan wa Onnanoko!" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tomo_chan_wa_onnanoko/" title="Tomo-chan wa Onnanoko!">Tomo-chan wa Onnanoko!</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.89</span></p>
+					<p>Comedy, Romance, School Life</p>
+					<p><label>Views:</label>580230</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tomo-chan wa Onnanoko! 606" href="http://www.mangahere.co/manga/tomo_chan_wa_onnanoko/c606/">Tomo-chan wa Onnanoko! 606</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/nanatsu_no_taizai/c229/" title="Nanatsu no Taizai" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/11925/thumb_cover.jpg?token=f501a0426e4f443792318638196142dff3dac115&ttl=1502913600&v=1501920183" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Nanatsu no Taizai" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/nanatsu_no_taizai/" title="Nanatsu no Taizai">Nanatsu no Taizai</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.90</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>578817</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Nanatsu no Taizai 229" href="http://www.mangahere.co/manga/nanatsu_no_taizai/c229/">Nanatsu no Taizai 229</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/kekkon_yubiwa_monogatari/c030/" title="Kekkon Yubiwa Monogatari" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/14587/thumb_cover.jpg?token=032ddad1fbee63048ead45c9d778dde3d200a7a7&ttl=1502913600&v=1501837750" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Kekkon Yubiwa Monogatari" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/kekkon_yubiwa_monogatari/" title="Kekkon Yubiwa Monogatari">Kekkon Yubiwa Monogatari</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.84</span></p>
+					<p>Action, Adventure, Ecchi</p>
+					<p><label>Views:</label>573839</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Kekkon Yubiwa Monogatari 30" href="http://www.mangahere.co/manga/kekkon_yubiwa_monogatari/c030/">Kekkon Yubiwa Monogatari 30</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/world_customize_creator/c042/" title="World Customize Creator" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/14898/thumb_cover.jpg?token=fd0f3a53ef602499dad4a45439dcf5c7be194c1d&ttl=1502913600&v=1502082361" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="World Customize Creator" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/world_customize_creator/" title="World Customize Creator">World Customize Creator</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.85</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>537055</p>
+					<p><i class="new_red"></i><a class="color_0077" title="World Customize Creator 42" href="http://www.mangahere.co/manga/world_customize_creator/c042/">World Customize Creator 42</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/c033/" title="Death March kara Hajimaru Isekai Kyousoukyoku" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/18443/thumb_cover.jpg?token=bb68840ba8937891363895d9119c0116af73c54d&ttl=1502913600&v=1502763721" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Death March kara Hajimaru Isekai Kyousoukyoku" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/" title="Death March kara Hajimaru Isekai Kyousoukyoku">Death March kara Hajimar ... soukyoku</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.85</span></p>
+					<p>Adventure, Fantasy, Harem</p>
+					<p><label>Views:</label>523751</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Death March kara Hajimaru Isekai Kyousoukyoku 33" href="http://www.mangahere.co/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/c033/">Death March kara Hajimaru Isekai Kyousoukyoku 33</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/shingeki_no_kyojin/c096/" title="Shingeki no Kyojin" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/8886/thumb_cover.jpg?token=f7bcf94790323149ea1385b9b1282287eb555b4a&ttl=1502913600&v=1502353692" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Shingeki no Kyojin" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/shingeki_no_kyojin/" title="Shingeki no Kyojin">Shingeki no Kyojin</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.89</span></p>
+					<p>Action, Drama, Fantasy</p>
+					<p><label>Views:</label>514312</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Shingeki no Kyojin 96" href="http://www.mangahere.co/manga/shingeki_no_kyojin/c096/">Shingeki no Kyojin 96</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/konjiki_no_moji_tsukai_yuusha_yonin_ni_makikomareta_unique_cheat/c027/" title="Konjiki no Moji Tsukai - Yuusha Yonin ni Makikomareta Unique Cheat" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/16105/thumb_cover.jpg?token=5544947b390908151a1d78bb7f2e52247db8eb13&ttl=1502913600&v=1501837681" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Konjiki no Moji Tsukai - Yuusha Yonin ni Makikomareta Unique Cheat" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/konjiki_no_moji_tsukai_yuusha_yonin_ni_makikomareta_unique_cheat/" title="Konjiki no Moji Tsukai - Yuusha Yonin ni Makikomareta Unique Cheat">Konjiki no Moji Tsukai - ... ue Cheat</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.90</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>511937</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Konjiki no Moji Tsukai - Yuusha Yonin ni Makikomareta Unique Cheat 27" href="http://www.mangahere.co/manga/konjiki_no_moji_tsukai_yuusha_yonin_ni_makikomareta_unique_cheat/c027/">Konjiki no Moji Tsukai - Yuusha Y ... nique Cheat 27</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tensei_shitara_slime_datta_ken/c026/" title="Tensei Shitara Slime Datta Ken" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/18003/thumb_cover.jpg?token=89ded08eaf039e90b0eccbaf86dc72a3cd348622&ttl=1502913600&v=1499047321" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tensei Shitara Slime Datta Ken" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tensei_shitara_slime_datta_ken/" title="Tensei Shitara Slime Datta Ken">Tensei Shitara Slime Datta Ken</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.97</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>510440</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tensei Shitara Slime Datta Ken 26" href="http://www.mangahere.co/manga/tensei_shitara_slime_datta_ken/c026/">Tensei Shitara Slime Datta Ken 26</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/overlord/c028/" title="Overlord" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15819/thumb_cover.jpg?token=257da1241a5bb2703d478dcad7347602201d2790&ttl=1502913600&v=1501486441" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Overlord" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/overlord/" title="Overlord">Overlord</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.88</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>506757</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Overlord 28" href="http://www.mangahere.co/manga/overlord/c028/">Overlord 28</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/trinity_seven/c064/" title="Trinity Seven" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/9272/thumb_cover.jpg?token=9cf12af5ce5a2bff9d7902aec463c696bee70455&ttl=1502913600&v=1500600137" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Trinity Seven" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/trinity_seven/" title="Trinity Seven">Trinity Seven</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.89</span></p>
+					<p>Action, Comedy, Ecchi</p>
+					<p><label>Views:</label>496562</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Trinity Seven 64" href="http://www.mangahere.co/manga/trinity_seven/c064/">Trinity Seven 64</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/goblin_slayer/c014/" title="Goblin Slayer" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/22705/thumb_cover.jpg?token=0b8f12e0cbc2eba0d0dc1d91c610a9a8e43d81a7&ttl=1502913600&v=1501118106" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Goblin Slayer" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/goblin_slayer/" title="Goblin Slayer">Goblin Slayer</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.89</span></p>
+					<p>Action, Ecchi, Fantasy</p>
+					<p><label>Views:</label>492514</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Goblin Slayer 14" href="http://www.mangahere.co/manga/goblin_slayer/c014/">Goblin Slayer 14</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/berserk/c351/" title="Berserk" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/176/thumb_cover.jpg?token=f06417ff9064c959dfb2ee06a96439b41344c1b8&ttl=1502913600&v=1498549994" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Berserk" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/berserk/" title="Berserk">Berserk</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.93</span></p>
+					<p>Action, Adventure, Fantasy</p>
+					<p><label>Views:</label>489282</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Berserk 351" href="http://www.mangahere.co/manga/berserk/c351/">Berserk 351</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/the_legendary_moonlight_sculptor/c107/" title="The Legendary Moonlight Sculptor" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/16611/thumb_cover.jpg?token=f157792dcc56257267288a1b19e3b12f73f101f4&ttl=1502913600&v=1502718722" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="The Legendary Moonlight Sculptor" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/the_legendary_moonlight_sculptor/" title="The Legendary Moonlight Sculptor">The Legendary Moonlight Sculptor</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.92</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>484295</p>
+					<p><i class="new_red"></i><a class="color_0077" title="The Legendary Moonlight Sculptor 107" href="http://www.mangahere.co/manga/the_legendary_moonlight_sculptor/c107/">The Legendary Moonlight Sculptor 107</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/arifureta_shokugyou_de_sekai_saikyou/c014/" title="Arifureta Shokugyou de Sekai Saikyou" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/21107/thumb_cover.jpg?token=494a80599aab5f3d3781644bb446f3ccb3073803&ttl=1502913600&v=1501466221" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Arifureta Shokugyou de Sekai Saikyou" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/arifureta_shokugyou_de_sekai_saikyou/" title="Arifureta Shokugyou de Sekai Saikyou">Arifureta Shokugyou de Sekai Saikyou</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.91</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>476235</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Arifureta Shokugyou de Sekai Saikyou 14" href="http://www.mangahere.co/manga/arifureta_shokugyou_de_sekai_saikyou/c014/">Arifureta Shokugyou de Sekai Saikyou 14</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/tokyo_ghoul_re/c136/" title="Tokyo Ghoul:re" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/15429/thumb_cover.jpg?token=e6cdb39f91bc2247564adf3450a511051720e459&ttl=1502913600&v=1502547782" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Tokyo Ghoul:re" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/tokyo_ghoul_re/" title="Tokyo Ghoul:re">Tokyo Ghoul:re</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.89</span></p>
+					<p>Action, Horror, Mature</p>
+					<p><label>Views:</label>472386</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Tokyo Ghoul:re 136" href="http://www.mangahere.co/manga/tokyo_ghoul_re/c136/">Tokyo Ghoul:re 136</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/noragami/c074/" title="Noragami" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/9205/thumb_cover.jpg?token=6cc55789e27c4f0341f098ebf20f55461db992b1&ttl=1502913600&v=1488786728" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Noragami" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/noragami/" title="Noragami">Noragami</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.93</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>460370</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Noragami 74" href="http://www.mangahere.co/manga/noragami/c074/">Noragami 74</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/relife/c191/" title="ReLIFE" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/16143/thumb_cover.jpg?token=f5f5c95404f510216dae79885ff480d214c3f7c3&ttl=1502913600&v=1502673242" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="ReLIFE" />					<em class="tag_hot"></em><em class="tag_updated"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/relife/" title="ReLIFE">ReLIFE</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.91</span></p>
+					<p>Comedy, Romance, School Life</p>
+					<p><label>Views:</label>455332</p>
+					<p><i class="new_red"></i><a class="color_0077" title="ReLIFE 191" href="http://www.mangahere.co/manga/relife/c191/">ReLIFE 191</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/kenja_no_mago/c016/" title="Kenja no Mago" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/22443/thumb_cover.jpg?token=7cc1efb234c910076360c8e554e15c2b50dc598a&ttl=1502913600&v=1502068082" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Kenja no Mago" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/kenja_no_mago/" title="Kenja no Mago">Kenja no Mago</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.85</span></p>
+					<p>Action, Adventure, Comedy</p>
+					<p><label>Views:</label>453563</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Kenja no Mago 16" href="http://www.mangahere.co/manga/kenja_no_mago/c016/">Kenja no Mago 16</a></p>
+				</div>
+			</li>
+						<li>
+				<a href="http://www.mangahere.co/manga/masamune_kun_no_revenge/c042/" title="Masamune-kun no Revenge" class="manga_img">
+                    <img src="http://l.mhcdn.net/store/manga/12223/thumb_cover.jpg?token=c9f8e3c906adb17ddfa9e4d8a8dcfa371df5dfe1&ttl=1502913600&v=1502355174" onerror="this.src='http://www.mangahere.co/media/images/nopicture_small.jpg'" alt="Masamune-kun no Revenge" />					<em class="tag_hot"></em>				</a>
+				<div class="manga_text">
+					<div class="title"><a href="http://www.mangahere.co/manga/masamune_kun_no_revenge/" title="Masamune-kun no Revenge">Masamune-kun no Revenge</a></div>
+					<p><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><i class="star-full"></i><span>4.80</span></p>
+					<p>Comedy, Ecchi, Harem</p>
+					<p><label>Views:</label>450855</p>
+					<p><i class="new_red"></i><a class="color_0077" title="Masamune-kun no Revenge 42" href="http://www.mangahere.co/manga/masamune_kun_no_revenge/c042/">Masamune-kun no Revenge 42</a></p>
+				</div>
+			</li>
+				</ul>
+	<div class="directory_footer"><div class="next-page"><a href="javascript:void(0);" class="noprew"><i></i>Prev</a><a href="javascript:void(0);" class="hover">1</a><a href="2.htm">2</a><a href="3.htm">3</a><a href="4.htm">4</a><a href="5.htm">5</a><a href="6.htm">6</a><a href="7.htm">7</a><a href="8.htm">8</a><a href="9.htm">9</a><span>...</span><a href="531.htm">531</a><a href="532.htm">532</a><a href="2.htm" class="next"><i></i>Next</a></div></div><div class="next-page mt10 mr10"><a href="10.htm">10</a><a href="20.htm">20</a><a href="30.htm">30</a><a href="40.htm">40</a><a href="50.htm">50</a><a href="60.htm">60</a><a href="70.htm">70</a><a href="80.htm">80</a><a href="90.htm">90</a><a href="100.htm">100</a><a href="110.htm">110</a><a href="120.htm">120</a><a href="130.htm">130</a><a href="140.htm">140</a><a href="150.htm">150</a></div>      </div>
+    </div>
+  </article>
+<!--------------------left end-------------------->
+<aside class="wid306 right ml0316 disnone"><div class="advimg300250 mb10">
+<div id='ad_box_1'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  jQuery.getScript("//ads.z6.com/ad/1.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put1!="undefined") ad_put1();
+  });
+});
+</script>
+</div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<div class="title">Browse Manga by</div>
+</div>
+<div class="browse_manga">
+	<div class="title"><span></span>Categories</div>
+	<ul class="by_categories clearfix">
+		<li><a id="All" href="/directory/" >All</a></li>
+		<li><a id="Action" href="/action/" >Action</a></li>
+		<!--<li><a href="/adult/" >Adult</a></li>-->
+		<li><a id="Adventure" href="/adventure/" >Adventure</a></li>
+		<li><a id="Comedy" href="/comedy/" >Comedy</a></li>
+		<li><a id="Doujinshi" href="/doujinshi/" >Doujinshi</a></li>
+		<li><a id="Drama" href="/drama/" >Drama</a></li>
+		<li><a id="Ecchi" href="/ecchi/" >Ecchi</a></li>
+		<li><a id="Fantasy" href="/fantasy/" >Fantasy</a></li>
+		<li><a id="GenderBender" href="/gender_bender/" >Gender Bender</a></li>
+		<li><a id="Harem" href="/harem/" >Harem</a></li>
+		<li><a id="Historical" href="/historical/" >Historical</a></li>
+		<li><a id="Horror" href="/horror/" >Horror</a></li>
+		<li><a id="Josei" href="/josei/" >Josei</a></li>
+		<!--<li><a href="/lolicon/" >Lolicon</a></li>-->
+		<li><a id="MartialArts" href="/martial_arts/" >Martial Arts</a></li>
+		<li><a id="Mature" href="/mature/" >Mature</a></li>
+		<li><a id="Mecha" href="/mecha/" >Mecha</a></li>
+		<li><a id="Mystery" href="/mystery/" >Mystery</a></li>
+		<li><a id="OneShot" href="/one_shot/" >One Shot</a></li>
+		<li><a id="Psychological" href="/psychological/" >Psychological</a></li>
+		<li><a id="Romance" href="/romance/" >Romance</a></li>
+		<li><a id="SchoolLife" href="/school_life/" >School Life</a></li>
+		<li><a id="Sci-fi" href="/sci-fi/" >Sci-fi</a></li>
+		<li><a id="Seinen" href="/seinen/" >Seinen</a></li>
+		<!-- <li><a id="Shotacon" href="/shotacon/" >Shotacon</a></li> -->
+		<li><a id="Shoujo" href="/shoujo/" >Shoujo</a></li>
+		<li><a id="ShoujoAi" href="/shoujo_ai/" >Shoujo Ai</a></li>
+		<li><a id="Shounen" href="/shounen/" >Shounen</a></li>
+		<li><a id="ShounenAi" href="/shounen_ai/" >Shounen Ai</a></li>
+		<li><a id="SliceofLife" href="/slice_of_life/" >Slice of Life</a></li>
+		<!-- <li><a id="Smut" href="/smut/" >Smut</a></li> -->
+		<li><a id="Sports" href="/sports/" >Sports</a></li>
+		<li><a id="Supernatural" href="/supernatural/" >Supernatural</a></li>
+		<li><a id="Tragedy" href="/tragedy/" >Tragedy</a></li>
+		<li><a href="/yaoi/" >Yaoi</a></li>
+		<li><a href="/yuri/" >Yuri</a></li>
+	</ul>
+	<div class="title"><span></span>Initial Alphabetic</div>
+	<div class="by_initial">
+		<a href="/directory/" >All</a><a href="/9/" >#</a><a href="/a/" >A</a><a href="/b/" >B</a><a href="/c/" >C</a> <a href="/d/" >D</a><a href="/e/" >E</a><a href="/f/" >F</a><a href="/g/" >G</a><a href="/h/" >H</a><a href="/i/" >I</a><a href="/j/" >J</a><a href="/k/" >K</a><a href="/l/" >L</a><a href="/m/" >M</a><a href="/n/" >N</a><a href="/o/" >O</a><a href="/p/" >P</a><a href="/q/" >Q</a><a href="/r/" >R</a><a href="/s/" >S</a><a href="/t/" >T</a><a href="/u/" >U</a><a href="/v/" >V</a><a href="/w/" >W</a><a href="/x/" >X</a><a href="/y/" >Y</a><a href="/z/" >Z</a>
+	</div>
+
+    	<div class="title"><span></span>Year Of Released</div>
+	<div class="by_year">
+		<a href="/directory/"  >All</a>
+                    <a href="/2017/" >2017</a>
+                    <a href="/2016/" >2016</a>
+                    <a href="/2015/" >2015</a>
+                    <a href="/2014/" >2014</a>
+                    <a href="/2013/" >2013</a>
+                    <a href="/2012/" >2012</a>
+                    <a href="/2011/" >2011</a>
+                    <a href="/2010/" >2010</a>
+                    <a href="/2009/" >2009</a>
+                    <a href="/2008/" >2008</a>
+                    <a href="/2007/" >2007</a>
+                    <a href="/2006/" >2006</a>
+                    <a href="/2005/" >2005</a>
+                    <a href="/2004/" >2004</a>
+                    <a href="/2003/" >2003</a>
+                    <a href="/2002/" >2002</a>
+                    <a href="/2001/" >2001</a>
+                    <a href="/2000/" >2000</a>
+                    <a href="/1999/" >1999</a>
+                    <a href="/1998/" >1998</a>
+                <a href="/others/" >Others</a>
+	</div>
+
+	<div class="title"><span></span>Status</div>
+	<div class="by_status">
+		<a href="/directory/"  >All</a><a href="/completed/"  >Completed</a><a href="/on_going/"  >On Going </a><a href="/new/"  >New</a>
+	</div>
+</div>
+</div>
+<div class="box_radius mb10">
+    <div class="box_o clearfix">
+        <div class="title">Partner Content</div>
+    </div>
+    <span id="orznews" orz-width="284px" orz-height="429px" style="margin: 5px 10px;" orz-source="mangahere"></span>
+    <script type="text/javascript" src="https://z6.com/res/front/newdefault/statics/js/manga.js"></script>
+</div><div class="box_radius mb10">
+<div class="box_o clearfix">
+	<a href="/directory/?views.za" class="more right"></a>
+	<div class="title">Manga Ranking</div>
+</div>
+<div class="manga_ranking">			<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/boku_no_hero_academia/" >
+					Boku no Hero Academia				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/boku_no_hero_academia/c148/">Boku no Hero Academia 148</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/tate_no_yuusha_no_nariagari/" >
+					Tate no Yuusha no Nariagari				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/tate_no_yuusha_no_nariagari/c035/">Tate no Yuusha no Nariagari 35</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/the_gamer/" >
+					The Gamer				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/the_gamer/c186/">The Gamer 186</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/horimiya/" >
+					Horimiya				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/horimiya/c081/">Horimiya 81</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/the_new_gate/" >
+					The New Gate				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/the_new_gate/c030/">The New Gate 30</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/tales_of_demons_and_gods/" >
+					Tales of Demons and Gods				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/tales_of_demons_and_gods/c136.5/">Tales of Demons and Gods 136.5</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/tsuyokute_new_saga/" >
+					Tsuyokute New Saga				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/tsuyokute_new_saga/c042/">Tsuyokute New Saga 42</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/black_clover/" >
+					Black Clover				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/black_clover/c120/">Black Clover 120</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/tomo_chan_wa_onnanoko/" >
+					Tomo-chan wa Onnanoko!				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/tomo_chan_wa_onnanoko/c606/">Tomo-chan wa Onnanoko! 606</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/world_customize_creator/" >
+					World Customize Creator				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/world_customize_creator/c042/">World Customize Creator 42</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/" >
+					Death March kara Hajimaru Isek ... 				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/c033/">Death March kara Hajimaru Isek ...  33</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/konjiki_no_moji_tsukai_yuusha_yonin_ni_makikomareta_unique_cheat/" >
+					Konjiki no Moji Tsukai - Yuush ... 				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/konjiki_no_moji_tsukai_yuusha_yonin_ni_makikomareta_unique_cheat/c027/">Konjiki no Moji Tsukai - Yuush ...  27</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/tensei_shitara_slime_datta_ken/" >
+					Tensei Shitara Slime Datta Ken				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/tensei_shitara_slime_datta_ken/c026/">Tensei Shitara Slime Datta Ken 26</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/overlord/" >
+					Overlord				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/overlord/c028/">Overlord 28</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/the_legendary_moonlight_sculptor/" >
+					The Legendary Moonlight Sculpt ... 				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/the_legendary_moonlight_sculptor/c107/">The Legendary Moonlight Sculpt ...  107</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/arifureta_shokugyou_de_sekai_saikyou/" >
+					Arifureta Shokugyou de Sekai S ... 				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/arifureta_shokugyou_de_sekai_saikyou/c014/">Arifureta Shokugyou de Sekai S ...  14</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/noragami/" >
+					Noragami				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/noragami/c074/">Noragami 74</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/relife/" >
+					ReLIFE				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/relife/c191/">ReLIFE 191</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/kenja_no_mago/" >
+					Kenja no Mago				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/kenja_no_mago/c016/">Kenja no Mago 16</a>			</dd>
+						</dl>
+						<dl class="last">
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.co/manga/douluo_dalu/" >
+					Douluo Dalu				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.co/manga/douluo_dalu/c182/">Douluo Dalu 182</a>			</dd>
+			<span class="updated"></span>			</dl>
+			</div></div>
+<div class="wid166 mt10">
+<div class="advimg160600">
+<div id='ad_box_3'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  jQuery.getScript("//ads.z6.com/ad/3.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put3!="undefined") ad_put3();
+  });
+});
+</script>
+</div>
+</div>
+</aside><!--------------------right end-------------------->
+</section>
+<!--------------------two main end-------------------->
+
+<!--------------------footer start-------------------->
+<footer>
+	<ul class="footer_nav clearfix">
+    <li><a href="http://www.mangahere.co/">Home</a>|</li>
+    <li><a href="http://www.mangahere.co/latest/">Latest Releases</a>|</li>
+    <li><a href="http://www.mangahere.co/mangalist/">Manga List</a>|</li>
+    <li><a href="http://www.mangahere.co/directory/?views.za">Hot Manga</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/akame_ga_kiru/">Akame ga Kiru!</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/noragami/">Noragami</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/haikyu/">Haikyu!!</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/last_game/">Last Game</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/the_gamer/">The Gamer</a></li>
+</ul>
+	<ul class="footer_chapters clearfix">
+<li class="nowrap"><a href="http://www.mangahere.co/manga/akame_ga_kiru/c078/" title="Akame ga Kiru! 78" >Akame ga Kiru! 78</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/namaikizakari/c057/" title="Namaikizakari. 57" >Namaikizakari. 57</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/noblesse/v04/c472/" title="Noblesse 472" >Noblesse 472</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/skip_beat/v37/c225.5/" title="Skip Beat 225.5" >Skip Beat 225.5</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/ao_haru_ride/c049.4/" title="Ao Haru Ride 49.4" >Ao Haru Ride 49.4</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/overlord/c028/" title="Overlord 28" >Overlord 28</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/toukyou_kushu/c001.2/" title="Toukyou Kushu 1.2" >Toukyou Kushu 1.2</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/magi/v20/c361/" title="Magi 361" >Magi 361</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/black_clover/c120/" title="Black Clover 120" >Black Clover 120</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/soul_eater/v15/c061/" title="Soul Eater 61" >Soul Eater 61</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/akatsuki_no_yona/c144/" title="Akatsuki No Yona 144" >Akatsuki No Yona 144</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/kuroko_no_basket/v03/c022/" title="Kuroko no Basket 22" >Kuroko no Basket 22</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/ansatsu_kyoushitsu/c180.4/" title="Ansatsu Kyoushitsu 180.4" >Ansatsu Kyoushitsu 180.4</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/kimi_ni_todoke/v15/c112/" title="Kimi ni Todoke 112" >Kimi ni Todoke 112</a></li></ul>
+			<div class="mb20"></div>
+		<div class="footer_links">
+		<a href="http://www.mangahere.co/donation.htm">Donation</a>
+		<a rel="nofollow" href="http://www.mangahere.co/request-manga.htm">Request Manga</a>
+		<a rel="nofollow" href="http://www.mangahere.co/terms.htm">Terms</a>
+		<a rel="nofollow" href="http://www.mangahere.co/contact-us.htm">Contact Us</a>
+		<a rel="nofollow" href="http://www.mangahere.co/affiliates.htm">Affiliates</a>
+		<a href="http://www.mangahere.co/sitemap.htm">Sitemap</a>
+			</div>
+	<div class="footer_copy">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the<br />Copyright Law. &copy; 2017 MangaHere.co.</div>
+</footer>
+<div id="fb-root"></div>
+<div class="mobile-banner" id="mobile-banner" style="display:none;">
+    <a href="http://m.mangahere.co/"><img src="http://www.mangahere.co/media/images/mobilebanner.png?v=20170616112357" /></a>
+    <a href="javascript:void(0);" class="close">✕</a>
+</div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : "250769461611065",
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  
+$('.fb-login').click(function(){
+    FB.login(function(response){
+    	if (response.authResponse) {
+		    FB.api('/me?fields=id,email', function(response) {
+          if($('#sign_in').is(':visible')) {
+		    	 boxRemove('sign_in');
+          }
+		    	console.log(response);
+		    	var email = '';
+		    	if(response.email) {
+		    		email = response.email;
+		    	}
+		    	$('#fbform input[name="fbid"]').val(response.id);
+		    	$('#fbform input[name="email"]').val(email);
+		    	$('#fbform').submit();
+	     	});
+	    } else {
+	    	console.log('User cancelled login or did not fully authorize.');
+	    }
+    });
+})
+</script>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var hide = getCookie('MHNMB');
+        if(hide == "" || hide != 1) {
+            $("#mobile-banner").show();
+        }
+    }
+    $("#mobile-banner a.close").click(function(){
+        setCookie("MHNMB", 1, null);
+        $("#mobile-banner").fadeOut();
+    });
+});
+</script>
+
+<div style="display:none;">
+<!--[if IE 6]>
+<script type="text/javascript">
+$LAB.queueScript("http://www.mangahere.co/media/js/DD_belatedPNG.js?v=20170616112357").queueWait(function () {
+	DD_belatedPNG.fix('.logo, nav, .hot_manga_icon, .banner_pic .thumb li.select');
+});
+</script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11278446-4']);
+_gaq.push(['_setDomainName', '.mangahere.co']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? '  https://ssl' : '  http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+$LAB.runQueue();
+</script>
+</div>
+</body>
+<!-- 144.51 -->
+</html>

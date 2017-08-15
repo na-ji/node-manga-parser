@@ -1,0 +1,1056 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="Shortcut Icon" href="http://www.mangahere.co/favicon32.ico" type="image/x-icon" />
+<meta name="author" content="Manga Here" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="mangahere" />
+<meta name="robots" content="index,follow" />
+<meta name="rating" content="general" />
+<meta name="revisit-after" content="1 day" />
+<meta property="fb:app_id" content="250769461611065"/>
+<meta property="fb:admins" content="100001376095179"/>
+
+<meta name="keywords" content="Hajimete no Gal manga,Hajimete no Gal manga series, Hajimete no Gal manga chapters,read manga,free manga,Read free manga online" />
+<meta name="description" content="Read Hajimete no Gal manga chapters for free.Hajimete no Gal manga scans.You could read the latest and hottest Hajimete no Gal manga in MangaHere." />
+<title>Hajimete no Gal Manga - Read Hajimete no Gal Online at MangaHere.co</title>
+<meta property="og:title" content="Hajimete no Gal" />
+<meta property="og:site_name" content="Manga Here" />
+<meta property="og:image" content="http://l.mhcdn.net/store/manga/22545/cover.jpg?token=7644459554c1da66ddda9fda952c30b60468df5a&ttl=1502913600&v=1502760338" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.mangahere.co/manga/hajimete_no_gal/" />
+<meta property="og:admins" content="100001376095179" />
+<meta property="og:description" content="Spring. The &quot;season of love&quot; has arrived and it seems that finding himself a girlfriend was harder than Jun'ichi believed. To break the status quo, Jun'ichi's friends have forced him into confessing to the gyaru, Yame Yukana. Howe..." />
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="Manga Here Search" href="http://www.mangahere.co/opensearch.xml" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss/hajimete_no_gal.xml"/>
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.mangahere.co/media/css/theme.css?v=20170616112357" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.mangahere.co/media/css/default.css?v=20170616112357" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://www.mangahere.co/media/css/ie6.css?v=20170616112357" /><![endif]-->
+<script type="text/javascript">
+
+
+if(!getCookie) {
+    function setCookie(c_name,value,expiredays) {
+        var exdate=new Date()
+        exdate.setDate(exdate.getDate()+expiredays)
+        cookieVal=c_name+ "=" +escape(value)+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())+";domain=.www.mangahere.co;path=/";
+        console.log(cookieVal);
+        document.cookie=cookieVal;
+    }
+    function getCookie(c_name) {
+        if (document.cookie.length>0)
+        {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1)
+            {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1) c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+}
+
+function jumpMoible(){
+	var web_url = 'http://www.mangahere.co/';
+	var mobile_url = 'http://m.mangahere.co/';
+	var mobile_url = 'http://m.mangahere.co';
+	var local_url = document.location.href;
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+	        var hide = getCookie('MHNMM');
+	        if(hide == "" || hide != 1) {
+	        	if(document.location.href==web_url){
+	        		document.location.href=mobile_url;
+	        	}else{
+	        		var path_url = document.location.pathname;
+	        		if(path_url=='/'){
+	        			var search = document.location.search;
+	        			search = search.replace('?','');
+	        			search = search.replace('#','');
+	        			var search_params = search.split('&');
+	        			for (var i = search_params.length - 1; i >= 0; i--) {
+	        				if(search_params[i]=='f=mobile'){
+	        					 setCookie("MHNMM", 1, null);
+	        				}
+	        			};
+
+	        		}else if(/^(\/manga)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}else if(/^(\/news)\/(\d+\/?)?/i.test(path_url)){
+	        			document.location.href=mobile_url+'/news/';
+	        		}else if(/^(\/news)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}else if(/^(\/spoilers)\/(\d+\/?)?/i.test(path_url)){
+	        			document.location.href=mobile_url+'/spoilers/';
+	        		}else if(/^(\/spoiler)\/([\w\-]+\/?)+/i.test(path_url)){
+	        			document.location.href=mobile_url+path_url;
+	        		}
+	        	}
+	        }
+	}
+}
+jumpMoible();
+
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/LAB.min.js?v=20170616112357"></script>
+<!--[if IE]>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/html5.js?v=20170616112357"></script>
+<script type="text/javascript" src="http://www.mangahere.co/media/js/css3-mediaqueries.js?v=20170616112357"></script>
+<![endif]-->
+
+<script type="text/javascript">
+var img_url = "http://www.mangahere.co/media/images/", options, a;
+var base_url = "http://www.mangahere.co/";
+var fb_app_id="250769461611065";
+if(top.location.protocol+"//"+top.location.host+"/" != base_url){
+	console.log(top.location.protocol+"//"+top.location.host+"/");
+	top.location=base_url+top.location.pathname;
+}else if (base_url == undefined){
+	top.location="http://www.mangahere.co";
+}
+$LAB
+.queueScript("http://www.mangahere.co/media/js/jquery.validate.js?v=20170616112357").queueWait()
+.queueScript("http://www.mangahere.co/media/js/jquery.autocomplete.js?v=20170616112357").queueWait(function () {
+	jQuery(function () {
+		options = {
+			serviceUrl: '/ajax/search.php',
+			minChars: 1,
+			delimiter: /(,|;)\s*/,
+			maxHeight: 400,
+			width: 300,
+			zIndex: 9999,
+			deferRequestBy: 0,
+			noCache: true
+		};
+		a = $('#query').autocomplete(options);
+	});
+})
+.queueScript("http://www.mangahere.co/media/js/history.js?v=20170616112357")
+.queueWait()
+.queueScript("http://www.mangahere.co/media/js/fb_dialog.js?v=20170616112357").queueWait();
+function addFavorite() {
+	if (document.all) {
+		try {
+			window.external.addFavorite('http://www.mangahere.co', 'Manga Here - Read English Manga Free Online. Manga is Here!');
+		} catch (e) {
+			alert("Fail to add to your favorites, please press Ctrl + D to try again");
+		}
+	} else if (window.sidebar) {
+		window.sidebar.addPanel('Manga Here - Read English Manga Free Online. Manga is Here!', 'http://www.mangahere.co', "");
+	} else {
+		alert("Fail to add to your favorites, please press Ctrl + D to try again");
+	}
+}
+
+function setHomepage() {
+	if (document.all) {
+		document.body.style.behavior = 'url(#default#homepage)';
+		document.body.setHomePage('http://www.mangahere.co');
+	} else if (window.sidebar) {
+		if (window.netscape) {
+			try {
+				netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+			} catch (e) {
+				alert('This operation was rejected by your brower, please input “about:config”at address bar and turn "signed.applets.codebase_principal_support" to ture.');
+			}
+		}
+		var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+		prefs.setCharPref('browser.startup.homepage', 'http://www.mangahere.co');
+	} else {
+		alert('This funciton is not supported by your brower, please add manually');
+	}
+}
+</script>
+
+</head>
+<body>
+
+<!-- body-bg-top start -->
+	<div class="MHShuffleAd">
+		<a href="https://z6.com/back-to-school-sale.html"
+		   style="background:url(http://c.mhcdn.net/store/banner/pc.skin_1502781196.png?v=1502781196) no-repeat right 0"
+		   		   class="body-bg-left"></a>
+		<a href="https://z6.com/back-to-school-sale.html"
+		   style="background:url(http://c.mhcdn.net/store/banner/pc.skin_1502781184.png?v=1502781184) no-repeat 475px 0"
+		   		   class="body-bg-right"></a>
+	</div>
+	<!-- body-bg-top end -->
+
+<!-- header start -->
+<header>
+	<section class="header_top">
+		<a href="http://www.mangahere.co/" class="logo"></a>
+		<span class="sign" id="sign">
+
+		</span>
+        <span class="language"><a href="http://www.mangahere.co"><strong>English</strong></a>|<a href="http://es.mangahere.co">Español</a></span>
+		<div class="fb-like" data-href="https://www.facebook.com/mangaherelife/" data-width="30" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+	</section>
+	<nav>
+		<ul class="menu clearfix">
+			<li><a href="http://www.mangahere.co/" >Home</a></li>
+			<li><a href="http://www.mangahere.co/latest/" >Latest Releases</a></li>
+			<li><a href="http://www.mangahere.co/mangalist/" >Manga List</a></li>
+			<li><a href="http://www.mangahere.co/directory/?views.za" >Hot Manga</a></li>
+			<li><a href="http://www.mangahere.co/spoilers/" >Spoilers &amp; News</a></li>
+			<li><a href="http://www.mangahere.co/manga/tokyo_ghoul_re/">Tokyo Ghoul:re</a></li>
+			<li class="new"><a href="http://www.mangahere.co/author/Saiko%20Plus">Partner Manhua</a></li>
+			<li class="right"><a href="http://orzzzz.com/acg?utm_source=mh&utm_medium=nav&utm_campaign=mhnav" target="_blank">ACG Topics</a></li>
+		</ul>
+		<section class="search_top clearfix">
+			<aside class="search_topR">
+					<span class="search_input">
+						<form action="/search.php" id="lookupform" name="lookupform" method="get">
+						<input type="text" id="query" name="name" value="Enter Manga Name..." class="search_text" autocomplete="off" />
+						<input type="submit" value="Search" class="search_button" />
+						</form>
+					</span>
+					<span class="sur_adv">
+                        						<a class="six_buttoon" href="http://www.mangahere.co/random.htm">Surprise</a>
+                        						<a class="six_buttoon" href="http://www.mangahere.co/advsearch.htm" rel="nofollow">Advanced</a>
+					</span>
+				<script type="text/javascript">
+				$LAB.queueWait(function () {
+					$(".search_text").focus(function () {
+						$(this).val("");
+					}).focusout(function () {
+						if ($(this).val() == "") {
+							$(this).val("Enter Manga Name...")
+						}
+					});
+				});
+				</script>
+			</aside>
+			<article class="search_topL">
+				<a href="/romance/">Romance</a>|<a href="/comedy/">Comedy</a>|<a href="/shoujo/">Shoujo</a>|<a href="/drama/">Drama</a>|<a href="/school_life/">School Life</a>|<a href="/shounen/">Shounen</a>|<a href="/action/">Action</a>|<a href="/fantasy/">Fantasy</a>|<a href="/seinen/">Seinen</a>
+				<a href="/directory/" class="more"></a>
+			</article>
+		</section>
+	</nav>
+</header>
+
+<div class="dialog_box" id="sign_up">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_up');" title="Close">x</a>
+  <div class="title">Sign Up</div>
+  <p class="mb10"><strong class="color_0077">Want to save time?</strong> Sign up with your facebook account now</p>
+  <a href="javascript:;" class="facebook_sign fb-login"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or complete the form below</p>
+  <div class="register">
+		 <form id="signupform">
+     <ul class="register_list">
+       <li><label>User Name</label><input type="text" class="text" name="username" id="username" /><span class="color_ff00">Required in 4 to 14 letters or numbers</span></li>
+       <li><label>Password</label><input type="password" class="text" name="password" id="password" /><span class="color_ff00">Required in 6-14 characters</span></li>
+       <li><label><span class="re_type">Re-type<br />Password</span></label><input type="password" class="text" name="password_confirm" id="password_confirm" /><span></span></li>
+       <li><label>Email</label><input type="text" class="text" name="email" id="email" /><span></span></li>
+       <li><label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" id="iagree" />I accept the <a class="color_0077" href="/registration_agreement.htm" target="_blank">terms of the agreement</a>.</label></li>
+       <li class="ml80"><a href="javascript:void(0);" class="one_buttoon mr15" id="do_singup"><span>Sign Up</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<div class="dialog_box" id="sign_in">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_in');" title="Close">x</a>
+  <div class="title">Sign In</div>
+  <p class="mb10"><strong class="color_0077">Sign in with your facebook account</strong></p>
+  <a href="javascript:;" class="facebook_sign fb-login"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or with mangahere account <a href="javascript:boxRemove('sign_in');boxShow('sign_up');" class="color_0077 tdu ml10">Don't have an account?</a></p>
+  <div class="login">
+		 <form id="signinform">
+     <ul class="login_list">
+       <li><label>Username</label><input type="text" class="text" name="name" /></li>
+       <li><label>Password</label><input type="password" class="text" name="pass" /></li>
+       <li>
+			 	<label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" name="remember" />Remember Me</label>
+				<a href="/forgotpassword.htm" class="color_0077 ml10">Forget User Name/Password?</a>
+			 </li>
+       <li class="ml80"><a href="javascript:void(0);" id="normal_login" class="one_buttoon mr15"><span>Sign In</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<form id="fbform" method="post" action="/connect/fb.php" style="display:none">
+	<input type="hidden" name="action" value="fb">
+	<input type="hidden" name="fbid">
+	<input type="hidden" name="email">
+</form>
+<div id="back_top"><span></span>Back to Top</div>
+<script type="text/javascript">
+$LAB.queueScript('/ajax/page_complex.php?modules=o&id=22545');
+$LAB.queueWait(function(){
+	$('#normal_login').click(function(){
+		$.post(
+			'http://www.mangahere.co/ajax/signin.php',
+			$("#signinform").serialize(),
+			function(r){if(r == 0) window.location.reload(); else alert('Sign in failed: please check your username or password.');}
+		);
+	});
+	$('#signinform input').blur(function(){});
+	$('#signupform #do_singup').click(function(){
+        if(!$("#iagree").attr("checked")) {
+            alert("You need to accept the terms of the agreement.");
+        } else {
+            if($('#signupform .msg-correct').length >=4) {
+                $.post(
+                    'http://www.mangahere.co/ajax/signup.php',
+                    $("#signupform").serialize(),
+                    function(r){
+                        if(r == 0) window.location.reload();
+                        else alert(r);
+                    }
+                );
+            }
+        }
+	});
+	jQuery.validator.addMethod("username", function(value, element) {
+		return this.optional(element) || /^[A-Za-z0-9]+$/.test(value);
+	}, "Only allowed letters or numbers");
+	$("#signupform").validate({
+		rules: {
+			username: {required: true,rangelength: [4,14],remote: "/ajax/user.php"},
+			password: {required: true,rangelength: [6,14]},
+			password_confirm: {required: true,rangelength: [6,14],equalTo:"#password"},
+            email: {required: true,email: true,remote: "/ajax/email.php"}
+		},
+		messages: {
+			username: {required: "Please input your username",rangelength:jQuery.format("Only allowed {0} to {1} letters or numbers"),remote: jQuery.format("This username has already exist")},
+			password: {required: "Please input your password",rangelength:jQuery.format("Only allowed {0} to {1} characters")},
+			password_confirm: {required: "Please input your password again",rangelength:jQuery.format("Only allowed {0} to {1} characters"),equalTo: "Please verify your password again"},
+            email: {required: "Please input your Email",email: "Please input an valid Email address",remote: jQuery.format("This Email has already been used")}
+		},
+		errorPlacement: function(error, element) {
+			element.next().addClass("msg-errors").html('');
+			element.next('span.msg-errors').append(error.html());
+		},
+		success: function(label,element) {
+			element.next().removeClass().addClass("msg-correct").html('');
+		}
+	});
+});
+</script>
+<section id="main" class="main clearfix">
+
+  <article class="widscreen left">
+  <div class="mr316">
+      <div class="box_w clearfix">
+          <h1 class="title"><span class="title_icon"></span>HAJIMETE NO GAL</h1>
+      </div>
+
+      <div class="manga_detail">
+        <div class="manga_detail_top clearfix">
+        <img src="http://l.mhcdn.net/store/manga/22545/cover.jpg?token=7644459554c1da66ddda9fda952c30b60468df5a&ttl=1502913600&v=1502760338" onerror="this.src='http://www.mangahere.co/media/images/nopicture.jpg'" class="img" />        <ul class="detail_topText">
+                     <li id="rate" class="star_write">
+                 <span id="current_rating" class="scores">4<em>.82</em></span><i id="s1" gid="1" class="star-full"></i><i id="s2" gid="2" class="star-full"></i><i id="s3" gid="3" class="star-full"></i><i id="s4" gid="4" class="star-half"></i><i id="s5" gid="5" class="star-empty"></i><span class="ml5">(460 votes)</span>
+             </li>
+             <li class="posR">
+               <a href="javascript:void(0);" id="bookmark" class="five_buttoon mr5"><span>Bookmark</span></a>
+               <a href="javascript:void(0);" id="subscribe" title="Click to get email notification for the latest updates" class="five_buttoon mr5"><span>Subscribe</span></a>
+               <a href="http://www.mangahere.co/manga/hajimete_no_gal/comments" class="five_buttoon mr5" rel="nofollow"><span>Comment</span></a>
+               <a href="javascript:;" id="upload" class="five_buttoon"><span>Upload</span></a>
+        <div class="email_sub" id="email_post" style="display:none;">
+          <span></span>
+          <a href="javascript:void(0);" id="close_email_post">X</a>
+          <p>Please enter the email.</p>
+          <input type="text" id="subemail" value="" class="text_input mr5" /><input type="button" value="Send" id="subscribe_b" />
+        </div>
+             </li>
+             <li><label>Alternative Name:</label>はじめてのギャル; 第一次的Gal; 첫 갸루</li>
+             <li><label>Genre(s):</label>Comedy, Ecchi, Romance, School Life, Shounen</li>
+             <li><label>Author(s):</label><a class="color_0077" href="http://www.mangahere.co/author/UENO Meguru">Ueno Meguru</a></li>
+             <li><label>Artist(s):</label><a class="color_0077" href="http://www.mangahere.co/artist/UENO Meguru">Ueno Meguru</a></li>
+             <li><label>Status:</label>Ongoing&nbsp;<a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c040/">Hajimete no Gal 40</a> will coming next<br/><span class="ss"></span></li>
+             <li><label>Rank:</label>1st</li>
+             <li><label><h2>Hajimete no Gal Manga</h2> Summary:</label>
+                 <p id="hide" class="clearfix">Spring. The &quot;season of love&quot; has arrived and it seems that finding himself a girlfriend was harder than Jun'ichi believed. To break the status quo, Jun'ichi's friends have forced him into confessing to the gyaru, Yame Yukana. However, things do not go quite as he expect...&nbsp;<a href="javascript:void(0);" onclick="cut_show()" class="more right"></a> </p>
+                 <p id="show" style="display:none;">Spring. The &quot;season of love&quot; has arrived and it seems that finding himself a girlfriend was harder than Jun'ichi believed. To break the status quo, Jun'ichi's friends have forced him into confessing to the gyaru, Yame Yukana. However, things do not go quite as he expected. A series of &quot;firsts&quot; begins!&nbsp;<a href="javascript:void(0);" onclick="cut_hide()" class="color_0077">Show less</a></p>
+             </li>
+           </ul>
+           <div class="mt10 clearfix">
+                <span class="right">
+                  <span class="left"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMangaHerecom-Read-Manga-Online%2F133868876648613&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=verdana&amp;height=21&amp;appId=250769461611065" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe></span>
+                  <span  class='st_twitter_hcount' displayText='Tweet'></span>
+                  <span  class='st_facebook_hcount' displayText='Facebook'></span>
+                  <span  class='st_sharethis_hcount' displayText='Share'></span>
+                  <span  class='st_plusone_hcount' ></span>
+                  <script type="text/javascript">
+                  var switchTo5x=true;
+                  $LAB.queueScript('http://w.sharethis.com/button/buttons.js').queueWait(function(){
+                     stLight.options({publisher:'e47efe7d-147b-4731-ac42-9838ccdc52f2',servicePopup: true});
+                  });
+                  </script>
+                </span>
+           </div>
+        </div>
+          <div class="advimg72890" style="border: none;margin-top: 15px;width: 600px;">
+                                          <p style="font-weight: bolder;text-align: left;">Advertisement</p>
+              <a href="http://www.mangazoneapp.com/?utm_source=MHmd&utm_medium=banner&utm_campaign=MHmd" target="_blank" >
+                  <img src="http://c.mhcdn.net/store/banner/pc.manga_1482306570.jpg?v=1482306570" >
+
+              </a>
+                        </div>
+
+                <div class="detail_list">
+        <div class="title"><span></span><h3>Read Hajimete no Gal Online</h3></div>
+<ul>        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c039/" >
+              Hajimete no Gal 39            </a>
+          <span class="mr6"></span>The First Trip Schedule</span>
+          <i class="new">new</i>          <span class="right">Yesterday</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c038/" >
+              Hajimete no Gal 38            </a>
+          <span class="mr6"></span>The First Opinion</span>
+                    <span class="right">Jul 30, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c037/" >
+              Hajimete no Gal 37            </a>
+          <span class="mr6"></span>The First XXX</span>
+                    <span class="right">Jul 30, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c036/" >
+              Hajimete no Gal 36            </a>
+          <span class="mr6"></span>The First Sudden Change HQ</span>
+                    <span class="right">Jul 30, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c035/" >
+              Hajimete no Gal 35            </a>
+          <span class="mr6"></span>The First Time at the Crossroads HQ</span>
+                    <span class="right">Jul 16, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c034/" >
+              Hajimete no Gal 34            </a>
+          <span class="mr6"></span>The First Sighting HQ</span>
+                    <span class="right">Jul 13, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c033/" >
+              Hajimete no Gal 33            </a>
+          <span class="mr6"></span>The First True Character HQ</span>
+                    <span class="right">Jul 12, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c032/" >
+              Hajimete no Gal 32            </a>
+          <span class="mr6"></span>The First Attack HQ</span>
+                    <span class="right">Jul 12, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c031/" >
+              Hajimete no Gal 31            </a>
+          <span class="mr6"></span>The First Promise HQ</span>
+                    <span class="right">Jul 12, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c030/" >
+              Hajimete no Gal 30            </a>
+          <span class="mr6"></span>THE FIRST SNEAK INTO ROOM AT NIGHT</span>
+                    <span class="right">May 30, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c029/" >
+              Hajimete no Gal 29            </a>
+          <span class="mr6"></span>The First Rampage</span>
+                    <span class="right">Apr 30, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c028/" >
+              Hajimete no Gal 28            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Apr 27, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c027/" >
+              Hajimete no Gal 27            </a>
+          <span class="mr6"></span>The First Bentou</span>
+                    <span class="right">Mar 20, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c026/" >
+              Hajimete no Gal 26            </a>
+          <span class="mr6"></span>The First Request</span>
+                    <span class="right">Feb 26, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c025/" >
+              Hajimete no Gal 25            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jan 26, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c024/" >
+              Hajimete no Gal 24            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jan 14, 2017</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c023/" >
+              Hajimete no Gal 23            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Dec 15, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c022/" >
+              Hajimete no Gal 22            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Dec 11, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c021/" >
+              Hajimete no Gal 21            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Oct 29, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c020/" >
+              Hajimete no Gal 20            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Oct 19, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c019/" >
+              Hajimete no Gal 19            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Oct 8, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c018/" >
+              Hajimete no Gal 18            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Sep 1, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c017/" >
+              Hajimete no Gal 17            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Sep 1, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c016/" >
+              Hajimete no Gal 16            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jul 31, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c015/" >
+              Hajimete no Gal 15            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jul 31, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c014/" >
+              Hajimete no Gal 14            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jul 4, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c013/" >
+              Hajimete no Gal 13            </a>
+          <span class="mr6"></span></span>
+                    <span class="right">Jul 4, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c012/" >
+              Hajimete no Gal 12            </a>
+          <span class="mr6"></span>My First Touch</span>
+                    <span class="right">Jun 16, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c011/" >
+              Hajimete no Gal 11            </a>
+          <span class="mr6"></span>My First P.E. Storage</span>
+                    <span class="right">Jun 13, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c010/" >
+              Hajimete no Gal 10            </a>
+          <span class="mr6"></span>My First...</span>
+                    <span class="right">Jun 12, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c009/" >
+              Hajimete no Gal 9            </a>
+          <span class="mr6"></span>My First Movie</span>
+                    <span class="right">Jun 12, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c008/" >
+              Hajimete no Gal 8            </a>
+          <span class="mr6"></span>v2: My First Promise</span>
+                    <span class="right">Jun 11, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c007/" >
+              Hajimete no Gal 7            </a>
+          <span class="mr6"></span>My First Invitation</span>
+                    <span class="right">Jun 11, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c006/" >
+              Hajimete no Gal 6            </a>
+          <span class="mr6"></span>My First Karaoke</span>
+                    <span class="right">Jun 10, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c005/" >
+              Hajimete no Gal 5            </a>
+          <span class="mr6"></span>My First Chance</span>
+                    <span class="right">Jun 8, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c004/" >
+              Hajimete no Gal 4            </a>
+          <span class="mr6"></span>My First Kissing Practice</span>
+                    <span class="right">Jun 7, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c003/" >
+              Hajimete no Gal 3            </a>
+          <span class="mr6"></span>My First Indirect Kiss</span>
+                    <span class="right">Jun 7, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c002/" >
+              Hajimete no Gal 2            </a>
+          <span class="mr6"></span>My First Confession</span>
+                    <span class="right">Jun 6, 2016</span>
+        </li>
+        <li>
+               <span class="left">
+            <a class="color_0077" href="http://www.mangahere.co/manga/hajimete_no_gal/c001/" >
+              Hajimete no Gal 1            </a>
+          <span class="mr6"></span>My First Dogeza</span>
+                    <span class="right">Jun 5, 2016</span>
+        </li>
+</ul><ul class="tab_comment clearfix">
+    <li class="select">Facebook Comments</li>
+    <li class="">MH Comments <span class="color_0077">
+		(<script src="/ajax/comment_count.php?type=manga&id=22545"></script>)
+	</span></li>
+</ul>
+<div class="all_commet">
+    <div class="fb_comment mt10" style="display: block;">
+        <div class="fb-comments" data-href="http://www.mangahere.com/manga/hajimete_no_gal/" data-num-posts="10"  data-width="614" data-version="v2.3"></div>
+    </div>
+    <div id="commentArea" style="display:none;" class="website_comment">
+        <div class="mt10 center">
+            <img src="http://www.mangahere.co/media/images/info-loader.gif"/>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$LAB.queueScript("http://www.mangahere.co/media/js/comments.js?v=20170616112357").queueWait(function () {
+    iflogined = 0;
+    $(function () {
+        var $div_li = $(".tab_comment li");
+        $div_li.click(function () {
+            $(this).addClass("select").siblings().removeClass("select");
+            var index = $div_li.index(this);
+            if (index > 0 && !commentLoaded) {
+                getfirst("manga", "22545");
+                commentLoaded = true;
+            }
+            $("div.all_commet > div").eq(index).show().siblings().hide();
+        });
+    });
+});
+</script>        </div>
+      </div>
+  </div>
+  </article>
+<!--------------------left end-------------------->
+<aside class="wid306 ml0316 right">
+<div class="advimg300250 mb10">
+<div id='ad_box_1'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  jQuery.getScript("//ads.z6.com/ad/1.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put1!="undefined") ad_put1();
+  });
+});
+</script>
+</div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<div class="title">Latest Manga Updates</div>
+</div>
+<ul class="right_aside">			<li>
+				<a href="http://www.mangahere.co/manga/witch_hunter/v12/c176/" title="Witch Hunter">
+					Witch Hunter 176				</a>
+			</li>
+			<li>
+				<a href="http://www.mangahere.co/manga/bucchigiri/c017/" title="Bucchigiri">
+					Bucchigiri 17				</a>
+			</li>
+			<li>
+				<a href="http://www.mangahere.co/manga/tamen_de_gushi/c042/" title="Tamen De Gushi">
+					Tamen De Gushi 42				</a>
+			</li>
+			<li>
+				<a href="http://www.mangahere.co/manga/escha_logy_no_atelier_tasogare_no_sora_no_renkinjutsushi/c001/" title="Escha & Logy no Atelier - Tasogare no Sora no Renkinjutsushi">
+					Escha &amp; Logy no At ... tsushi 1				</a>
+			</li>
+			<li>
+				<a href="http://www.mangahere.co/manga/sidooh/v10/c146/" title="Sidooh">
+					Sidooh 146				</a>
+			</li>
+</ul></div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<div class="title">You may also like</div>
+</div>
+	<ul class="right_aside">
+					<li>
+				<a href="http://www.mangahere.co/manga/naruto/" title="Naruto">
+					Naruto				</a>
+			</li>
+					<li>
+				<a href="http://www.mangahere.co/manga/bleach/" title="Bleach">
+					Bleach				</a>
+			</li>
+					<li>
+				<a href="http://www.mangahere.co/manga/fruits_basket/" title="Fruits Basket">
+					Fruits Basket				</a>
+			</li>
+					<li>
+				<a href="http://www.mangahere.co/manga/20th_century_boys/" title="20th Century Boys">
+					20th Century Boys				</a>
+			</li>
+					<li>
+				<a href="http://www.mangahere.co/manga/air_gear/" title="Air Gear">
+					Air Gear				</a>
+			</li>
+			</ul>
+	</div>
+<div class="box_radius mb10">
+    <div class="box_o clearfix">
+        <div class="title">Partner Content</div>
+    </div>
+    <span id="orznews" orz-width="284px" orz-height="429px" style="margin: 5px 10px;" orz-source="mangahere"></span>
+    <script type="text/javascript" src="https://z6.com/res/front/newdefault/statics/js/manga.js"></script>
+</div>
+<div id="detail_rightfb" class="center mt10">
+    <div class="fb-page" data-href="https://www.facebook.com/mangaherelife/" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mangaherelife/"><a href="https://www.facebook.com/mangaherelife/">MangaHere.com - Read Manga Online</a></blockquote></div></div></div>
+<div class="wid166 mt10">
+<div class="advimg160600">
+<div id='ad_box_3'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  jQuery.getScript("//ads.z6.com/ad/3.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put3!="undefined") ad_put3();
+  });
+});
+</script>
+</div>
+</div>
+</aside>
+<!--------------------right end-------------------->
+</section>
+<script type="text/javascript">
+$LAB.queueWait(function(){
+    //rating
+    $(function(){
+        rate(50);
+        $("#rate").mouseout(function(){
+            for(var i=1;i<=5;i++){
+                $("#s"+i).removeClass();
+                $("#s"+i).addClass("star-full");
+            }
+            rate(50);
+            $("#current_rating").html("4<em>.82</em>");
+        });
+        var $div_li =$(".chapters_points a");
+        $div_li.click(function(){
+            $(this).addClass("select").siblings().removeClass("select");
+            var index =  $div_li.index(this);
+            $("div.detail_tablist > ul").eq(index).show().siblings().hide();
+        });
+        $(".star_write i").each(function(){
+            $(this).mouseover(function(){
+                for(var i=1;i<=5;i++){
+                    $("#s"+i).removeClass();
+                    $("#s"+i).addClass("star-empty");
+                }
+                var k = $(this).attr("gid");
+                k = parseInt(k);
+                for(var i=1;i<=k;i++){
+                    $("#s"+i).removeClass();
+                    $("#s"+i).addClass("star-full");
+                }
+                $("#current_rating").html(k+'<em>.00</em>');
+            }).click(function(){
+                var score = $(this).attr("gid");
+                $.ajax({
+                    type: "POST",
+                    url: "/ajax/rating.php",
+                    data:"score="+score+"&series_id=22545&user_id=0",
+                    success: function(msg){alert(msg);}
+                });
+            })
+        });
+    });
+    $("#bookmark").bind("click", function(){
+        $.ajax({
+            type: "POST",
+            url: "/ajax/bookmark.php",
+            data: "action=add&series_id=22545",
+            success: function(msg){
+                if(msg==1){alert("You need to login first!");location.href='/login.htm';}
+                else{alert(msg);}
+            }
+        });
+    });
+        $("#upload").bind("click", function(){
+        if(is_login){
+            popUp(p_upload, 388, 400);
+        }else{
+            alert("You need to login first!");
+            location.href='/login.htm';
+        }
+    });
+    $("#subscribe").bind("click", function () {
+    $('#email_post').show();
+    $('#subemail').val('');
+    $('#subemail').focus();
+    });
+  $("#subscribe_b").bind("click", function(){
+        var email = $("#subemail")
+        if(!email.val()) {
+            alert('Please input an email address.');
+            return false;
+        }
+        $.ajax({
+            type: "POST",
+            url: "/ajax/subscribe.php",
+            data: "action=subscribe&series_id=22545&email="+email.val(),
+            success: function (msg) {
+                if (msg == 1) {
+          email.focus();
+          alert("Please input an email address.");
+                } else if (msg == 2) {
+          email.focus();
+                    alert("Invalid email address!");
+                } else {
+          $('#email_post').hide();
+                    alert(msg);
+                }
+            }
+        });
+  });
+    $("#close_email_post").bind("click", function () {
+    $('#email_post').hide();
+    });
+    $(window).scroll(function(a){
+        var image_h = $("#main").height();
+        y = $(window).scrollTop();
+        if (y >= 0 && y< image_h ) {
+            $('#detail_rightfb').css({ 'top':'0px', "position":"fixed" });
+        }
+        if (y < 1100 ) {
+            $('#detail_rightfb').css({ 'top':'auto', "position":"static" });
+        }
+    });
+});
+function rate(rating) {
+    var s,g;
+    rating = rating.toString();
+    if(rating=="0"){
+        var j=1;
+        while(j<=5){
+            $("#s"+j).removeClass();
+            $("#s"+j).addClass("star-empty");
+            j++;
+        }
+    }else{
+        s=rating.substr(0,1);
+        g=rating.substr(1,1);
+        for(var i=1;i<=parseInt(s);i++){
+            $("#s"+i).removeClass();
+            $("#s"+i).addClass("star-full");
+        }
+        if(parseInt(g)==5){
+            $("#s"+i).removeClass();
+            $("#s"+i).addClass("star-half");
+            i++;
+        }
+        while(i<=5){
+            $("#s"+i).removeClass();
+            $("#s"+i).addClass("star-empty");
+            i++;
+        }
+    }
+}
+function cut_hide() {
+    $("#hide").show();
+    $("#show").hide();
+}
+function cut_show() {
+    $("#hide").hide();
+    $("#show").show();
+}
+function popUp(a, w, h) {
+    day = new Date();
+    id = day.getTime();
+//    window.open(a, id, 'toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=0,resizable=0,width=' + w + ',height=' + h)
+    window.location.href = a;
+}
+</script>
+<!--------------------footer start-------------------->
+<footer>
+	<ul class="footer_nav clearfix">
+    <li><a href="http://www.mangahere.co/">Home</a>|</li>
+    <li><a href="http://www.mangahere.co/latest/">Latest Releases</a>|</li>
+    <li><a href="http://www.mangahere.co/mangalist/">Manga List</a>|</li>
+    <li><a href="http://www.mangahere.co/directory/?views.za">Hot Manga</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/akame_ga_kiru/">Akame ga Kiru!</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/noragami/">Noragami</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/haikyu/">Haikyu!!</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/last_game/">Last Game</a>|</li>
+    <li><a href="http://www.mangahere.co/manga/the_gamer/">The Gamer</a></li>
+</ul>
+	<ul class="footer_chapters clearfix">
+<li class="nowrap"><a href="http://www.mangahere.co/manga/akame_ga_kiru/c078/" title="Akame ga Kiru! 78" >Akame ga Kiru! 78</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/namaikizakari/c057/" title="Namaikizakari. 57" >Namaikizakari. 57</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/noblesse/v04/c472/" title="Noblesse 472" >Noblesse 472</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/skip_beat/v37/c225.5/" title="Skip Beat 225.5" >Skip Beat 225.5</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/ao_haru_ride/c049.4/" title="Ao Haru Ride 49.4" >Ao Haru Ride 49.4</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/overlord/c028/" title="Overlord 28" >Overlord 28</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/toukyou_kushu/c001.2/" title="Toukyou Kushu 1.2" >Toukyou Kushu 1.2</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/magi/v20/c361/" title="Magi 361" >Magi 361</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/black_clover/c120/" title="Black Clover 120" >Black Clover 120</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/soul_eater/v15/c061/" title="Soul Eater 61" >Soul Eater 61</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/akatsuki_no_yona/c144/" title="Akatsuki No Yona 144" >Akatsuki No Yona 144</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/kuroko_no_basket/v03/c022/" title="Kuroko no Basket 22" >Kuroko no Basket 22</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/ansatsu_kyoushitsu/c180.4/" title="Ansatsu Kyoushitsu 180.4" >Ansatsu Kyoushitsu 180.4</a></li><li class="nowrap"><a href="http://www.mangahere.co/manga/kimi_ni_todoke/v15/c112/" title="Kimi ni Todoke 112" >Kimi ni Todoke 112</a></li></ul>
+			<div class="mb20"></div>
+		<div class="footer_links">
+		<a href="http://www.mangahere.co/donation.htm">Donation</a>
+		<a rel="nofollow" href="http://www.mangahere.co/request-manga.htm">Request Manga</a>
+		<a rel="nofollow" href="http://www.mangahere.co/terms.htm">Terms</a>
+		<a rel="nofollow" href="http://www.mangahere.co/contact-us.htm">Contact Us</a>
+		<a rel="nofollow" href="http://www.mangahere.co/affiliates.htm">Affiliates</a>
+		<a href="http://www.mangahere.co/sitemap.htm">Sitemap</a>
+			</div>
+	<div class="footer_copy">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the<br />Copyright Law. &copy; 2017 MangaHere.co.</div>
+</footer>
+<div id="fb-root"></div>
+<div class="mobile-banner" id="mobile-banner" style="display:none;">
+    <a href="http://m.mangahere.co/manga/hajimete_no_gal/"><img src="http://www.mangahere.co/media/images/mobilebanner.png?v=20170616112357" /></a>
+    <a href="javascript:void(0);" class="close">✕</a>
+</div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : "250769461611065",
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  
+$('.fb-login').click(function(){
+    FB.login(function(response){
+    	if (response.authResponse) {
+		    FB.api('/me?fields=id,email', function(response) {
+          if($('#sign_in').is(':visible')) {
+		    	 boxRemove('sign_in');
+          }
+		    	console.log(response);
+		    	var email = '';
+		    	if(response.email) {
+		    		email = response.email;
+		    	}
+		    	$('#fbform input[name="fbid"]').val(response.id);
+		    	$('#fbform input[name="email"]').val(email);
+		    	$('#fbform').submit();
+	     	});
+	    } else {
+	    	console.log('User cancelled login or did not fully authorize.');
+	    }
+    });
+})
+</script>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var hide = getCookie('MHNMB');
+        if(hide == "" || hide != 1) {
+            $("#mobile-banner").show();
+        }
+    }
+    $("#mobile-banner a.close").click(function(){
+        setCookie("MHNMB", 1, null);
+        $("#mobile-banner").fadeOut();
+    });
+});
+</script>
+
+<div style="display:none;">
+<!--[if IE 6]>
+<script type="text/javascript">
+$LAB.queueScript("http://www.mangahere.co/media/js/DD_belatedPNG.js?v=20170616112357").queueWait(function () {
+	DD_belatedPNG.fix('.logo, nav, .hot_manga_icon, .banner_pic .thumb li.select');
+});
+</script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11278446-4']);
+_gaq.push(['_setDomainName', '.mangahere.co']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? '  https://ssl' : '  http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+$LAB.runQueue();
+</script>
+</div>
+</body>
+<!-- 144.51 -->
+</html>
