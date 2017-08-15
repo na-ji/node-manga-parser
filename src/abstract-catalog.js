@@ -11,9 +11,11 @@ export default class AbstractCatalog {
   catalogName: string;
   baseUrl: string;
   lang: string;
+  hasVolumeInfos: boolean;
 
   constructor() {
     this.index = 0;
+    this.hasVolumeInfos = false;
   }
 
   /**
@@ -92,6 +94,15 @@ export default class AbstractCatalog {
    * @returns {Array}
    */
   chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
+    throw new Error('Not implemented');
+  }
+
+  /**
+   * @param $
+   * @param manga
+   * @returns {{}}
+   */
+  chapterListByVolume($: CheerioObject, manga: Manga): {} {
     throw new Error('Not implemented');
   }
 

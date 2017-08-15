@@ -21,6 +21,7 @@ class Mangafox extends AbstractCatalog {
     this.catalogName = 'mangafox';
     this.baseUrl = 'http://mangafox.me';
     this.lang = LANGUAGE_EN;
+    this.hasVolumeInfos = true;
   }
 
   /**
@@ -160,9 +161,50 @@ class Mangafox extends AbstractCatalog {
    * @returns {Array}
    */
   chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
+    return this.extractChapterSummary($, $('div#chapters'), manga);
+  }
+
+  /**
+   * @param $
+   * @param manga
+   * @returns {{}}
+   */
+  chapterListByVolume($: CheerioObject, manga: Manga): {} {
+    let volumes = {};
+
+    $('h3.volume').each((i, elem) => {
+      let chapters: Array<Chapter> = this.extractChapterSummary(
+        $,
+        $(elem).parent().next('ul.chlist'),
+        manga
+      );
+      let volumeNumber = $(elem).text().match(/Volume ([\d|TBD]+)/)[1];
+
+      if (!isNaN(parseInt(volumeNumber))) {
+        volumeNumber = parseInt(volumeNumber);
+      }
+
+      volumes[volumeNumber] = chapters;
+    });
+
+    return volumes;
+  }
+
+  /**
+   * @private
+   * @param $
+   * @param container
+   * @param manga
+   * @returns {Array<Chapter>}
+   */
+  extractChapterSummary(
+    $: CheerioObject,
+    container: CheerioObject,
+    manga: Manga
+  ): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
-    $('div#chapters li div').each((i, elem) => {
+    container.find('li div').each((i, elem) => {
       let chapter = new Chapter();
       let url = $(elem).find('a.tips').first();
 
@@ -281,6 +323,7 @@ class Mangafox extends AbstractCatalog {
   }
 
   /**
+   * @private
    * @param $
    * @param elem
    * @param catalogId

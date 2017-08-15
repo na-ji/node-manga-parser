@@ -194,6 +194,41 @@ class Parser {
   }
 
   /**
+   * Fetch the list of chapters for a Manga sorted by volumes
+   * @param {string} catalogName
+   * @param {Manga} manga
+   * @returns {Promise<{}>}
+   */
+  getChapterListByVolumes(catalogName: string, manga: Manga): Promise<{}> {
+    const catalog: AbstractCatalog = this.getCatalog(catalogName);
+
+    if (!catalog.hasVolumeInfos) {
+      return Promise.reject(`${catalogName} does not have volume infos`);
+    }
+
+    return new Promise(function(resolve, reject) {
+      request(manga.url, function(error, response, page) {
+        if (error) {
+          return reject(error);
+        }
+
+        let $ = cheerio.load(page);
+        let volumes = catalog.chapterListByVolume($, manga);
+
+        _.forEach(volumes, (chapters, volume) => {
+          volumes[volume] = _.orderBy(
+            chapters,
+            ['number', 'publishedAt'],
+            ['asc', 'asc']
+          );
+        });
+
+        resolve(volumes);
+      });
+    });
+  }
+
+  /**
    * Fetch every pages URL for a manga
    * @param {string} catalogName
    * @param {Chapter} chapter

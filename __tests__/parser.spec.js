@@ -1,4 +1,8 @@
-jest.mock('request');
+if (process.env.UNMOCK_REQUEST) {
+  console.log('unmock request');
+  jest.resetModules();
+  jest.unmock('request');
+}
 
 import Parser from '../src/parser';
 
@@ -77,6 +81,35 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
           .catch(function(error) {
             console.log(error);
             expect(error).toBe(null);
+            done();
+          });
+      });
+    });
+
+    describe('getChapterListByVolumes', function() {
+      it('expect chapters to be an object', function(done) {
+        Parser.getChapterListByVolumes(catalogName, manga)
+          .then(function(volumes) {
+            expect(volumes).toEqual(expect.any(Object));
+            let chapters = volumes['TBD'];
+            expect(chapters).toEqual(expect.any(Array));
+            expect(chapters.length).toBeGreaterThanOrEqual(1);
+            if (chapters.length) {
+              expect(chapters[0].id).toEqual(expect.any(String));
+              expect(chapters[0].url).toEqual(expect.any(String));
+              expect(chapters[0].title).toEqual(expect.any(String));
+              expect(chapters[0].number).toEqual(expect.any(Number));
+              expect(chapters[0].publishedAt).toEqual(expect.any(Date));
+            }
+            done();
+          })
+          .catch(function(error) {
+            let catalog = Parser.getCatalog(catalogName);
+            if (!catalog.hasVolumeInfos) {
+              expect(error).toBe(`${catalogName} does not have volume infos`);
+            } else {
+              expect(error).toBe(null);
+            }
             done();
           });
       });
