@@ -10,6 +10,7 @@ The library is based on [Tachiyomi](https://github.com/inorichi/tachiyomi) for A
 
 -   [ReadMangaToday](http://www.readmanga.today/)
 -   [Mangafox](http://mangafox.me/)
+-   [Mangahere](http://www.mangahere.co/)
 
 ## Contributing
 
