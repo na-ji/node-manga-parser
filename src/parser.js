@@ -5,6 +5,7 @@ import cheerio from 'cheerio';
 let request = require('request');
 
 import * as catalogs from './sites';
+import ChapterRecognition from './chapter-recognition';
 import type AbstractCatalog from './abstract-catalog';
 import type { Chapter, Manga } from './models';
 
@@ -219,10 +220,17 @@ class Parser {
         let $ = cheerio.load(page);
         let chapters;
         try {
-          chapters = catalog.chapterList($, manga);
+          chapters = catalog.chapterList($);
         } catch (error) {
           return reject(error);
         }
+
+        _.forEach(chapters, (chapter, index) => {
+          chapters[index] = ChapterRecognition.parseChapterNumber(
+            chapter,
+            manga
+          );
+        });
 
         chapters = _.orderBy(
           chapters,
@@ -258,12 +266,19 @@ class Parser {
         let volumes;
 
         try {
-          volumes = catalog.chapterListByVolume($, manga);
+          volumes = catalog.chapterListByVolume($);
         } catch (error) {
           return reject(error);
         }
 
         _.forEach(volumes, (chapters, volume) => {
+          _.forEach(chapters, (chapter, index) => {
+            chapters[index] = ChapterRecognition.parseChapterNumber(
+              chapter,
+              manga
+            );
+          });
+
           volumes[volume] = _.orderBy(
             chapters,
             ['number', 'publishedAt'],

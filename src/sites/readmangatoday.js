@@ -1,7 +1,6 @@
 // @flow
 import { parseDateAgo, trimSpaces, toString } from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
-import ChapterRecognition from '../chapter-recognition';
 import {
   Chapter,
   Manga,
@@ -175,10 +174,9 @@ class ReadMangaToday extends AbstractCatalog {
 
   /**
    * @param $
-   * @param manga
    * @returns {Array}
    */
-  chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
+  chapterList($: CheerioObject): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
     $('ul.chp_lst > li').each((i, elem) => {
@@ -193,8 +191,6 @@ class ReadMangaToday extends AbstractCatalog {
       );
 
       chapter.generateId();
-
-      ChapterRecognition.parseChapterNumber(chapter, manga);
 
       chapters.push(chapter);
     });

@@ -90,19 +90,17 @@ export default class AbstractCatalog {
 
   /**
    * @param $
-   * @param manga
    * @returns {Array}
    */
-  chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
+  chapterList($: CheerioObject): Array<Chapter> {
     throw new Error('Not implemented');
   }
 
   /**
    * @param $
-   * @param manga
    * @returns {{}}
    */
-  chapterListByVolume($: CheerioObject, manga: Manga): {} {
+  chapterListByVolume($: CheerioObject): {} {
     throw new Error('Not implemented');
   }
 

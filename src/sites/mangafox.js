@@ -3,7 +3,6 @@ import moment from 'moment';
 
 import { resetDateTime, trimSpaces, toString } from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
-import ChapterRecognition from '../chapter-recognition';
 import {
   Chapter,
   Manga,
@@ -157,26 +156,23 @@ class Mangafox extends AbstractCatalog {
 
   /**
    * @param $
-   * @param manga
    * @returns {Array}
    */
-  chapterList($: CheerioObject, manga: Manga): Array<Chapter> {
-    return this.extractChapterSummary($, $('div#chapters'), manga);
+  chapterList($: CheerioObject): Array<Chapter> {
+    return this.extractChapterSummary($, $('div#chapters'));
   }
 
   /**
    * @param $
-   * @param manga
    * @returns {{}}
    */
-  chapterListByVolume($: CheerioObject, manga: Manga): {} {
+  chapterListByVolume($: CheerioObject): {} {
     let volumes = {};
 
     $('h3.volume').each((i, elem) => {
       let chapters: Array<Chapter> = this.extractChapterSummary(
         $,
-        $(elem).parent().next('ul.chlist'),
-        manga
+        $(elem).parent().next('ul.chlist')
       );
       let volumeNumber = $(elem).text().match(/Volume ([\d|TBD]+)/)[1];
 
@@ -194,13 +190,11 @@ class Mangafox extends AbstractCatalog {
    * @private
    * @param $
    * @param container
-   * @param manga
    * @returns {Array<Chapter>}
    */
   extractChapterSummary(
     $: CheerioObject,
-    container: CheerioObject,
-    manga: Manga
+    container: CheerioObject
   ): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
@@ -217,8 +211,6 @@ class Mangafox extends AbstractCatalog {
       );
 
       chapter.generateId();
-
-      ChapterRecognition.parseChapterNumber(chapter, manga);
 
       chapters.push(chapter);
     });
