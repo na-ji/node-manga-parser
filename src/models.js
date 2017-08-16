@@ -36,6 +36,7 @@ export class Chapter {
   title: string;
   url: string;
   number: number;
+  volume: ?number | ?string;
   publishedAt: ?Date;
 
   generateId() {

@@ -1,5 +1,6 @@
 // @flow
 import moment from 'moment';
+import _ from 'lodash';
 
 import { resetDateTime, trimSpaces, toString } from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
@@ -159,7 +160,35 @@ class Mangafox extends AbstractCatalog {
    * @returns {Array}
    */
   chapterList($: CheerioObject): Array<Chapter> {
-    return this.extractChapterSummary($, $('div#chapters'));
+    let chapters: Array<Chapter> = [];
+
+    $('h3.volume').each((i, elem) => {
+      let volumeNumber = $(elem).text().match(/Volume ([\d|TBD]+)/)[1];
+
+      if (!isNaN(parseInt(volumeNumber))) {
+        volumeNumber = parseInt(volumeNumber);
+      }
+
+      $(elem).parent().next('ul.chlist').find('li div').each((i, elem) => {
+        let chapter = new Chapter();
+        let url = $(elem).find('a.tips').first();
+
+        chapter.url = trimSpaces(url.attr('href'));
+        chapter.title = trimSpaces(url.text());
+        chapter.publishedAt = resetDateTime(
+          this.parseChapterDate(
+            trimSpaces($(elem).find('span.date').first().text())
+          )
+        );
+        chapter.volume = volumeNumber;
+
+        chapter.generateId();
+
+        chapters.push(chapter);
+      });
+    });
+
+    return chapters;
   }
 
   /**
@@ -167,55 +196,9 @@ class Mangafox extends AbstractCatalog {
    * @returns {{}}
    */
   chapterListByVolume($: CheerioObject): {} {
-    let volumes = {};
+    let chapters = this.chapterList($);
 
-    $('h3.volume').each((i, elem) => {
-      let chapters: Array<Chapter> = this.extractChapterSummary(
-        $,
-        $(elem).parent().next('ul.chlist')
-      );
-      let volumeNumber = $(elem).text().match(/Volume ([\d|TBD]+)/)[1];
-
-      if (!isNaN(parseInt(volumeNumber))) {
-        volumeNumber = parseInt(volumeNumber);
-      }
-
-      volumes[volumeNumber] = chapters;
-    });
-
-    return volumes;
-  }
-
-  /**
-   * @private
-   * @param $
-   * @param container
-   * @returns {Array<Chapter>}
-   */
-  extractChapterSummary(
-    $: CheerioObject,
-    container: CheerioObject
-  ): Array<Chapter> {
-    let chapters: Array<Chapter> = [];
-
-    container.find('li div').each((i, elem) => {
-      let chapter = new Chapter();
-      let url = $(elem).find('a.tips').first();
-
-      chapter.url = trimSpaces(url.attr('href'));
-      chapter.title = trimSpaces(url.text());
-      chapter.publishedAt = resetDateTime(
-        this.parseChapterDate(
-          trimSpaces($(elem).find('span.date').first().text())
-        )
-      );
-
-      chapter.generateId();
-
-      chapters.push(chapter);
-    });
-
-    return chapters;
+    return _.groupBy(chapters, 'volume');
   }
 
   /**
