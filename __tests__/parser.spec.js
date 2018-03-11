@@ -25,6 +25,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
               })
             );
             manga = response.mangas[0];
+            expect(manga.url).toMatch(/^http/);
+            expect(manga.thumbnailUrl).toMatch(/^http/);
             done();
           })
           .catch(function(error) {
@@ -50,6 +52,8 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
                 thumbnailUrl: expect.any(String)
               })
             );
+            expect(response.url).toMatch(/^http/);
+            expect(response.thumbnailUrl).toMatch(/^http/);
             manga = response;
             done();
           })
@@ -71,6 +75,7 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
             if (chapters.length) {
               expect(chapters[0].id).toEqual(expect.any(String));
               expect(chapters[0].url).toEqual(expect.any(String));
+              expect(chapters[0].url).toMatch(/^http/);
               expect(chapters[0].title).toEqual(expect.any(String));
               expect(chapters[0].number).toEqual(expect.any(Number));
               expect(chapters[0].publishedAt).toEqual(expect.any(Date));
@@ -91,12 +96,13 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
         Parser.getChapterListByVolumes(catalogName, manga)
           .then(function(volumes) {
             expect(volumes).toEqual(expect.any(Object));
-            let chapters = volumes['TBD'];
+            let chapters = volumes['1'];
             expect(chapters).toEqual(expect.any(Array));
             expect(chapters.length).toBeGreaterThanOrEqual(1);
             if (chapters.length) {
               expect(chapters[0].id).toEqual(expect.any(String));
               expect(chapters[0].url).toEqual(expect.any(String));
+              expect(chapters[0].url).toMatch(/^http/);
               expect(chapters[0].title).toEqual(expect.any(String));
               expect(chapters[0].number).toEqual(expect.any(Number));
               expect(chapters[0].publishedAt).toEqual(expect.any(Date));
@@ -123,6 +129,7 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
             expect(pages).toEqual(expect.any(Array));
             expect(pages.length).toBeGreaterThanOrEqual(1);
             page = pages[0];
+            expect(page).toMatch(/^http/);
             done();
           })
           .catch(function(error) {
@@ -138,6 +145,7 @@ Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
         Parser.getImageURL(catalogName, page)
           .then(function(imageURL) {
             expect(imageURL).toEqual(expect.any(String));
+            expect(imageURL).toMatch(/^http/);
             done();
           })
           .catch(function(error) {

@@ -1,0 +1,1819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="manga,read manga,manga online,magna scans,manga volume,manga chapter,online manga,read free manga,free manga,read free manga online,manga viewer,manga download,manga downloads,japanese comic" />
+<meta name="description" content="Read your favorite mangas online! Hundreds of high-quality free manga for you, with a list being updated daily. Naruto manga, Bleach manga, One Piece manga, Air Gear manga, Claymore manga, Fairy Tail manga, Inuyasha manga, and many more..." />
+<title>Manga Directory Page 1 - Manga Fox</title>
+<meta property="og:title" content="Read Manga Online" />
+<meta property="og:site_name" content="Manga Fox" />
+<meta property="og:image" content="http://c.mfcdn.net/media/logotn.png" />
+<meta property="fb:admins" content="100008598698356"/>
+<meta property="fb:admins" content="100008320095886"/>
+<meta property="fb:app_id" content="105895693075169"/>
+
+<link rel="Shortcut Icon" href="//fanfox.net/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="//fanfox.net/apple-touch-icon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" title="Manga Fox Search" href="//fanfox.net/opensearch.xml" />
+<meta name="google-site-verification" content="nYL050P9BCH5N_tE2hN4RuZXvCCAYkAr5pEQbApF6UU" />
+<link rel="stylesheet" type="text/css" media="screen" href="//c.mfcdn.net/media/css/all.css?20180307154315" />
+<!--[if gt IE 7]><!-->
+<link rel="stylesheet" href="//c.mfcdn.net/media/css/all.img.css?20180307154315" type="text/css" media="all" />
+<!--<![endif]-->
+<script src="//c.mfcdn.net/media/js/LAB.js?20180307154315"></script>
+<script type="text/javascript">
+
+if (top.location != self.location) {
+	alert("This is a fraud site, the page will be redirected.");
+	top.location=self.location;
+}
+var img_url="//c.mfcdn.net/media/";
+var is_loggedin=false;
+
+$LAB
+.queueScript("//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js").queueWait()
+.queueScript("//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js").queueWait()
+.queueScript("//c.mfcdn.net/media/js/default.min.js?20180307154315")
+.queueScript("//c.mfcdn.net/media/js/fb_dialog.js?20180307154315")
+.queueScript("//c.mfcdn.net/media/js/history.js?20180307154315")
+.queueScript("//c.mfcdn.net/media/js/tooltip.jquery.min.js?20180307154315")
+.queueScript("//c.mfcdn.net/media/js/directory.min.js?20180307154315")
+.queueWait();
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds2.feedburner.com/mangafox/latest_manga_chapters"/><link rel="canonical" href="//fanfox.net/directory/?latest"/>
+<script type="text/javascript">
+    var cookie = {
+        set:function(key,val,time){
+            var date=new Date();
+            var expiresDays=time;
+            date.setTime(date.getTime()+expiresDays*24*3600*1000);
+            document.cookie=key + "=" + val +";path=/;expires="+date.toGMTString();
+            return true;
+        },
+        get:function(key){
+            var getCookie = document.cookie.replace(/[ ]/g,"");
+            var arrCookie = getCookie.split(";")
+            var v = null;
+            for(var i=0;i<arrCookie.length;i++){
+                var arr=arrCookie[i].split("=");
+                if(key==arr[0]){
+                    v=arr[1];
+                    break;
+                }
+            }
+            return v;
+        },
+        delete:function(key){
+            var date = new Date();
+            date.setTime(date.getTime()-10000);
+            document.cookie = key + "='';path=/;expires =" +date.toGMTString();
+            return true;
+        }
+    }
+
+    function jumpMoible() {
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            if (document.location.href.indexOf('f=mobile')>0) {
+                cookie.set("MHNMM", 1, 1);
+            } else if (!cookie.get('MHNMM')) {
+                console.log('jump mobile site.');
+                window.location.href = "http://m.fanfox.net/" + window.location.href.split(window.location.host)[1];
+            }
+        }
+    }
+    jumpMoible();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113384367-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113384367-1');
+</script>
+</head>
+<body id="body">
+<a name="top"></a>
+    <a href="https://z6store.com/crazy-carnival-sale.html" target="_blank" >
+    <div style="background:url(http://a.fanfox.net/store/mfbanners/pc.skin_1519528716.png?token=2aed629aa2876de7c28b6ff7ecc46e1d6e823ae6&ttl=1520881200&v=1519528716) no-repeat scroll right top transparent;height:768px;left:-475px;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <a href="https://z6store.com/crazy-carnival-sale.html" target="_blank" >
+    <div style="background:url(http://a.fanfox.net/store/mfbanners/pc.skin_1519528729.png?token=e4da1efbfc89e9d54ed248602495dbb2554dab88&ttl=1520881200&v=1519528729) no-repeat scroll 475px top transparent;height:768px;right:0;top:94px;position:fixed;width:50%;cursor:pointer"></div></a>
+    <!--            <div class="test">-->
+<div id="header" class="clear">
+	<div class="widepage">
+		<a href="//fanfox.net/" id="logo"><span>Manga Fox</span></a>
+		<div id="corner">
+			<form action="//fanfox.net/search.php" id="lookupform" class="left" method="get">
+				<fieldset class="left" id="searchbox">
+					<input name="name" type="text" value="Enter Manga Name..." maxlength="100" class="ui-autocomplete-input" id="lookupwords" />
+					<a href="//fanfox.net/search.php" rel="nofollow">Advanced</a>
+					<a href="//fanfox.net/surprise.php" rel="nofollow">Surprise</a>
+				</fieldset>
+			</form>
+			<span class="sign" id="sign">
+    			<script type="text/javascript">
+    			$LAB.queueScript('/ajax/is_login.php');
+    			</script>
+		    </span>
+		</div>
+		<div class="clear"></div>
+		<iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.facebook.com%2Fmangafoxgo&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=141149349292130" scrolling="no" frameborder="0" style="float:left;border:none;overflow:hidden;width:100px;height:21px;margin-top:22px;margin-left:10px;margin-top:30px" allowTransparency="true"></iframe>
+		<ul id="menu">
+			<li class="left"><a href="//fanfox.net/" >Home</a></li>
+			<li><a href="//fanfox.net/releases/" >Latest Releases</a></li>
+			<li><a href="//fanfox.net/directory/" class="selected">Manga Directory</a></li>
+			<li><a href="//fanfox.net/bookmark/"  rel="nofollow">Bookmark</a></li>
+
+		</ul>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="dialog_box" id="sign_up">
+    <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_up');" title="Close">x</a>
+    <div class="title">Sign Up</div>
+    <p class="mb10"><strong class="color_0077">Want to save time?</strong> Sign up with your facebook account now</p>
+    <a href="/connect/facebookSignin.php" class="facebook_sign"><span>f</span>Login with Facebook</a>
+    <p class="color_0077 mt10">Or complete the form below</p>
+    <div class="register">
+        <form id="signupform">
+        <ul class="register_list">
+        <li><label>User Name</label><input type="text" class="text" name="username" id="username" /><span class="color_ff00">Required in 4 to 14 letters or numbers</span></li>
+        <li><label>Password</label><input type="password" class="text" name="password" id="password" /><span class="color_ff00">Required in 6-14 characters</span></li>
+        <li><label><span class="re_type">Re-type<br />Password</span></label><input type="password" class="text" name="password_confirm" id="password_confirm" /><span></span></li>
+        <li><label>Email</label><input type="text" class="text" name="email" id="email" /><span></span></li>
+        <li><label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" id="iagree" checked="checked" />I accept the <a class="color_0077" href="/privacy.htm" target="_blank">Privacy Policy</a>.</label></li>
+        <li class="ml80"><a href="javascript:void(0);" class="one_buttoon mr15" id="do_singup"><span>Sign Up</span></a></li>
+        </ul>
+        </form>
+    </div>
+</div>
+<div class="dialog_box" id="sign_in">
+<a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_in');" title="Close">x</a>
+<div class="title">Member Login</div>
+<p class="mb10"><strong class="color_0077">Log in with your facebook account</strong></p>
+<a href="/connect/facebookSignin.php" class="facebook_sign"><span>f</span>Login with Facebook</a>
+<p class="color_0077 mt10">Or with mangafox account <a href="javascript:boxRemove('sign_in');boxShow('sign_up');" class="color_0077 tdu ml10">Don't have an account?</a></p>
+  <div class="login">
+	 <form id="signinform">
+         <ul class="login_list">
+           <li><label>Username</label><input type="text" class="text" name="vb_login_username" /></li>
+           <li><label>Password</label><input type="password" class="text" name="vb_login_password" /></li>
+           <li>
+    			 	<!-- <label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" name="remember" />Remember Me</label> -->
+    				<a href="/forgotpassword.htm" class="color_0077 ml10">Forget User Name/Password?</a>
+    			 </li>
+           <li class="ml80"><a href="javascript:void(0);" id="normal_login" class="one_buttoon mr15"><span>Login</span></a></li>
+         </ul>
+	 </form>
+  </div>
+</div>
+<script>
+$LAB.queueScript("//c.mfcdn.net/media/js/jquery.validate.js?20180307154315").queueWait()
+$LAB.queueWait(function(){
+	$('#normal_login').click(function(){
+		$.post(
+			'/ajax/login.php',
+			$("#signinform").serialize(),
+			function(r){
+				var r = eval('(' + r + ')');
+				if(r.code == 0){
+					window.location.reload();
+				}  else {
+					alert(r.message);
+				}
+			}
+		);
+	});
+	$('#signinform input').blur(function(){});
+	$('#signupform #do_singup').click(function(){
+        if(!$("#iagree").attr("checked")) {
+            alert("You need to accept the Privacy Policy.");
+        } else {
+            if($('#signupform .msg-correct').length >=4) {
+                $.post(
+                    '/ajax/signup.php',
+                    $("#signupform").serialize(),
+                    function(r){
+                        if(r == 0) window.location.reload();
+                        else alert(r);
+                    }
+                );
+            }
+        }
+	});
+	jQuery.validator.addMethod("username", function(value, element) {
+		return this.optional(element) || /^[A-Za-z0-9]+$/.test(value);
+	}, "Only allowed letters or numbers");
+	$("#signupform").validate({
+		rules: {
+			username: {required: true,rangelength: [4,14],remote: "/ajax/user.php"},
+			password: {required: true,rangelength: [6,14]},
+			password_confirm: {required: true,rangelength: [6,14],equalTo:"#password"},
+            email: {required: true,email: true,remote: "/ajax/email.php"}
+		},
+		messages: {
+			username: {required: "Please input your username",rangelength:jQuery.format("Only allowed {0} to {1} letters or numbers"),remote: jQuery.format("This username has already exist")},
+			password: {required: "Please input your password",rangelength:jQuery.format("Only allowed {0} to {1} characters")},
+			password_confirm: {required: "Please input your password again",rangelength:jQuery.format("Only allowed {0} to {1} characters"),equalTo: "Please verify your password again"},
+            email: {required: "Please input your Email",email: "Please input an valid Email address",remote: jQuery.format("This Email has already been used")}
+		},
+		errorPlacement: function(error, element) {
+			element.next().removeClass().addClass("msg-errors").html('');
+			element.next('span.msg-errors').append(error.html());
+		},
+		success: function(label,element) {
+			element.next().removeClass().addClass("msg-correct").html('');
+		}
+	});
+});
+</script><!-- content -->
+<div class="widepage" id="page" style="position:relative">
+<div id="ad_top">
+	<div class="clear">
+		<div class="ad b728x90 left">
+		    <div id='ad_box_13'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  $.ajaxSetup({
+    cache: true
+  });
+  $.getScript("//ad.bakubaku.com/ad/13.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put13!="undefined") ad_put13();
+  });
+});
+</script>		</div>
+		<div class="ad b186x90 right">
+				<a href="https://www.mangahere.co/ecchi/?utm_source=mangafox&utm_medium=button&utm_campaign=mf_top_button" target="_blank"><img src="//www.mangafox.me/media/ad/186-90b.jpg" border="0" /></a>
+				</div>
+	</div>
+</div><div class="left" style="padding:0 10px 10px 10px;width:930px">
+<!-- search -->
+<form action="//fanfox.net/search.php" method="get" id="searchform">
+	<fieldset id="searchbar" >
+		<ol>
+			<li>
+				<label for="searchform_name">Series Name</label>
+				<button class="button options_botton right" id="optbtn" type="button">Options</button>
+				<select name="name_method" class="select">
+					<option value="cw" >contain</option>
+					<option value="bw" >begin</option>
+					<option value="ew" >end</option>
+				</select>
+				<input name="name" id="searchform_name" type="text" class="text" size="30" maxlength="150" value="" />
+				<button class="button search_button" type="submit">Search</button>
+							</li>
+		</ol>
+	</fieldset>
+	<fieldset id="advoptions" style="display:none;position:relative">
+		<div id="searcharea" class="left">
+			<ol>
+				<li>
+					<label>Type</label>
+					<ul class="radios">
+						<li class="clear">
+							<input name="type" type="radio" value="1" />
+							<label>Japanese Manga</label>
+						</li>
+						<li class="clear">
+							<input name="type" type="radio" value="2" />
+							<label>Korean Manhwa</label>
+						</li>
+						<li class="clear">
+							<input name="type" type="radio" value="3" />
+							<label>Chinese Manhua</label>
+						</li>
+						<li class="clear">
+							<input name="type" type="radio" value="" checked="checked"/>
+							<label>Any</label>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<label for="searchform_author">Author Name</label>
+					<select name="author_method" class="select">
+						<option value="cw" >contain</option>
+						<option value="bw" >begin</option>
+						<option value="ew" >end</option>
+					</select>
+					<input name="author" id="searchform_author" type="text" class="text" size="30" maxlength="50" value="" />
+				</li>
+				<li>
+					<label for="searchform_artist">Artist Name</label>
+					<select name="artist_method" class="select">
+						<option value="cw" >contain</option>
+						<option value="bw" >begin</option>
+						<option value="ew" >end</option>
+					</select>
+					<input name="artist" id="searchform_artist" type="text" class="text" size="30" maxlength="50" value="" />
+				</li>
+				<li>
+					<label>Genres<br/><span style="font-size:10px;font-weight:normal;line-height:16px">Click to include<br/>genre, or double clicks<br/>to exclude genre.</span></label>
+										<ul id="genres" style="clear:right">
+						<li>
+							<select class="genres" id="genres_action" name="genres[Action]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'action')" title="Action - Featuring fast paced action, i.e. fighting, violence, or some other form of aggressive activity." class="tips">Action</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_adult" name="genres[Adult]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'adult')" title="Adult - Like adult movie, an adult manga often features depictions of intense violence and/or erotica activity." class="tips">Adult</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_adventure" name="genres[Adventure]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'adventure')" title="Adventure - Titles included in this genre usually revolve around a character going on a trip or exploring the world to find his/her luck." class="tips">Adventure</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_comedy" name="genres[Comedy]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'comedy')" title="Comedy - A piece of work generally intended to amuse. Light, humorous, sometimes even riduculous...ly funny. Have a good laugh. :p" class="tips">Comedy</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_doujinshi" name="genres[Doujinshi]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'doujinshi')" title="Doujinshi - Literally, doujin means &quot;same person&quot; and shi &quot;magazine&quot;. It's fan-art inspired by published anime or manga by professional artists." class="tips">Doujinshi</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_drama" name="genres[Drama]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'drama')" title="Drama - If a manga's labeled as drama, it's usually meant to bring on strong emotional response from its reader, i.e. tension and/or sadness." class="tips">Drama</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_ecchi" name="genres[Ecchi]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'ecchi')" title="Ecchi - Ecchi manga's rather a grey area or borderline between hentai and non-hentai. Sexy and juicy? Yeah. Nudity? Not that over the edge. The sexy part just adds some spice to the work to attract fans of this specific genre." class="tips">Ecchi</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_fantasy" name="genres[Fantasy]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'fantasy')" title="Fantasy - Fancy stuff, magical creatures, dream land... Anything but routine." class="tips">Fantasy</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_gender_bender" name="genres[Gender Bender]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'gender_bender')" title="Gender Bender - It's all about changing genders - by dressing in the opposite sex, wearing make-ups, or even switching bodies in some cases." class="tips">Gender Bender</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_harem" name="genres[Harem]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'harem')" title="Harem - Usually in a harem manga, you can see one male character and many female characters who're apparently or less obviously attracted to him. At times the genders can be other way around and is referred to as a 'Reverse Harem'." class="tips">Harem</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_historical" name="genres[Historical]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'historical')" title="Historical - Historical works show you glimpses of our own history by leading you along the ancient lane." class="tips">Historical</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_horror" name="genres[Horror]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'horror')" title="Horror - Horror mangas are not for the faint of heart. It's for those who enjoy fear and terror inspired by frightful scenes from the work." class="tips">Horror</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_josei" name="genres[Josei]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'josei')" title="Josei - &quot;Ladies' comics&quot;. Target women from 18 to 30. The male equivalent to josei is seinen. Most of the times, the stories tend to be about everyday experiences of women living in Japan - style tends to be a more restrained, realistic version of shoujo manga." class="tips">Josei</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_martial_arts" name="genres[Martial Arts]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'martial_arts')" title="Martial Arts - Aikido, judo, tae kwon do, karate, kendo... One word in general to sum up its theme: arts of combat." class="tips">Martial Arts</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_mature" name="genres[Mature]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'mature')" title="Mature - Contains subject matter which may be too extreme for people under the age of 17. Titles in this category may contain intense violence, blood and gore, sexual content and/or strong language." class="tips">Mature</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_mecha" name="genres[Mecha]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'mecha')" title="Mecha - The term itself refers to walking vehicles controlled by a pilot. Titles under this genre're usually with some fantastic or futuristic element and always have something to do with large robotic machines." class="tips">Mecha</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_mystery" name="genres[Mystery]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'mystery')" title="Mystery - An unsolved case, a mysterious event... Keep you guessing right to the end while catching all the clues and riddles along the way." class="tips">Mystery</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_one_shot" name="genres[One Shot]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'one_shot')" title="One Shot - Manga that denotes series that are short, usually consisting of just one chapter." class="tips">One Shot</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_psychological" name="genres[Psychological]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'psychological')" title="Psychological - Usually deals with the philosophy or a state of mind - nine cases out of ten, the crazy kind. May contain some disturbing contents." class="tips">Psychological</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_romance" name="genres[Romance]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'romance')" title="Romance - L-O-V-E, love! Closely related to the shoujo genre." class="tips">Romance</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_school_life" name="genres[School Life]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'school_life')" title="School Life - Set in campus or some sort of school." class="tips">School Life</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_sci_fi" name="genres[Sci-fi]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'sci_fi')" title="Sci-fi - Short for science fiction, series labeled as sci-fi often involves speculation based on current or future science or technology. There're no boundaries where imagination may carry you." class="tips">Sci-fi</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_seinen" name="genres[Seinen]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'seinen')" title="Seinen - For young men 18 to 30 years old. Often involving male heroes, themes of honor, slapstick humor, and sometimes explicit sexuality, etc." class="tips">Seinen</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_shoujo" name="genres[Shoujo]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'shoujo')" title="Shoujo - Targeted for girls roughly between the ages of 10 to 18. Covers many subjects in a variety of styles, often closely tied to romance and love." class="tips">Shoujo</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_shoujo_ai" name="genres[Shoujo Ai]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'shoujo_ai')" title="Shoujo Ai - Often synonymous with yuri. You can consider it a mild case of yuri, aka. &quot;Girls love&quot;." class="tips">Shoujo Ai</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_shounen" name="genres[Shounen]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'shounen')" title="Shounen - Also known as Shonen, it's primarily written for boys. Fighting and/or violence can often be seen in these works. Closely tied to genres like action, adventure and/or martial arts." class="tips">Shounen</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_shounen_ai" name="genres[Shounen Ai]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'shounen_ai')" title="Shounen Ai - Often synonymous with yaoi, you can consider it a mild case of yaoi, aka. &quot;Boys love&quot;." class="tips">Shounen Ai</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_slice_of_life" name="genres[Slice of Life]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'slice_of_life')" title="Slice of Life - Usually portrays a &quot;cut-out&quot; sequence of events in a character's life. It usually tends to depict the everday life of ordinary people, sometimes with fantasy or sci-fi elements involved." class="tips">Slice of Life</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_smut" name="genres[Smut]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'smut')" title="Smut - Series in this genre contain offensive contents, especially sexually profane materials." class="tips">Smut</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_sports" name="genres[Sports]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'sports')" title="Sports - Centers around any kind of sports. As the name suggests, anything sports related. Baseball, football, roller blading, soccer...sports manga depicts the stories of loss and gain in the world of a specific sport." class="tips">Sports</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_supernatural" name="genres[Supernatural]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'supernatural')" title="Supernatural - Superman, UFOs... Deals with unexplained powers or things that do not happen in nature." class="tips">Supernatural</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_tragedy" name="genres[Tragedy]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'tragedy')" title="Tragedy - Get yourself a handy or some tissue paper beforehand. That's all I've got to say." class="tips">Tragedy</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_webtoons" name="genres[Webtoons]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'webtoons')" title="Webtoons - Web + Cartoon, Internet Manhwa in Korea." class="tips">Webtoons</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_yaoi" name="genres[Yaoi]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'yaoi')" title="Yaoi - &quot;Boys love&quot;. Focuses on homoerotic or homoromantic relationships between men." class="tips">Yaoi</a></label>
+						</li>
+						<li>
+							<select class="genres" id="genres_yuri" name="genres[Yuri]">
+															<option value="0" selected="selected"></option>
+							<option value="1">include</option>
+							<option value="2">exclude</option>
+														</select>
+							<label><a href="javascript:void(0);" onclick="clickGenre(this,'yuri')" title="Yuri - &quot;Girls love&quot;. Usually involves intimate relationships between women. The male equivalence of yuri is yaoi." class="tips">Yuri</a></label>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<label for="searchform_released">Year of Released</label>
+					<select name="released_method" class="select">
+						<option value="eq" >on</option>
+						<option value="lt" >before</option>
+						<option value="gt" >after</option>
+					</select>
+					<input name="released" id="searchform_released" type="text" class="text" size="5" maxlength="4" value="" />
+				</li>
+				<li>
+					<label>Rating</label>
+					<select name="rating_method" class="select">
+						<option value="eq" >is</option>
+						<option value="lt" >less than</option>
+						<option value="gt" >more than</option>
+					</select>
+					<select name="rating" class="select">
+						<option value="" selected="selected">any star</option>
+						<option value="0" >no star</option>
+						<option value="1" >1 star</option>
+						<option value="2" >2 stars</option>
+						<option value="3" >3 stars</option>
+						<option value="4" >4 stars</option>
+						<option value="5" >5 stars</option>
+					</select>
+				</li>
+				<li>
+					<label>Completed Series</label>
+					<ul class="radios">
+						<li>
+							<input name="is_completed" type="radio" value="1" />
+							<label>Yes</label>
+						</li>
+						<li>
+							<input name="is_completed" type="radio" value="0"  />
+							<label>No</label>
+						</li>
+						<li>
+							<input name="is_completed" type="radio" value="" checked="checked"/>
+							<label>Either</label>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div class="center clear" id="buttonarea">
+			<input type="hidden" name="advopts" id="advopts" value="0" />
+			<button class="button search_button" type="submit"></button>
+			<button class="button reset_button" type="reset" onclick="reset();reprocess();"></button>
+		</div>
+	</fieldset>
+</form>
+<!-- end of search -->
+</div>
+<div class="left" id="content">
+	<div id="mangalist">
+		<div class="mfad600 mb10">
+			    <p style="font-weight: bolder;text-align: left;">Advertisement</p>
+    <a href="http://www.mangahome.com/shoujo" target="_blank">
+        <img src="http://a.fanfox.net/store/mfbanners/pc.directory_1487743560.jpg?token=b7b79abf8e4b4fb25680a784d6d4ee02d7804430&ttl=1520881200&v=1487743560">
+    </a>
+		</div>
+		<div class="head clrfix"><h1 class="left">Manga Directory  Page 1</h1><span class="line_black"></span><a class="text_list_button" href="/manga/"></a></div>
+		<div class="sort_by clrfix">
+				<div class="right">
+			<span class="left">Sort by</span>
+			<a class="sort_btns" href="?az" rel="nofollow"><span>Alphabetical</span></a>
+			<a class="sort_btns" href="./"><span>Popularity</span></a>
+			<a class="sort_btns" href="?rating" rel="nofollow"><span>Rating</span></a>
+			<a class="sort_btns select" href="?latest" rel="nofollow"><span>Latest Chapters</span></a>
+			</div>
+		</div>
+						<ul class="list">
+												<li>
+						<a class="manga_img" href="//fanfox.net/manga/non_non_biyori/" rel="7896"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/7896/cover.jpg?token=d75bbc820f5f0f9ec711f5fea82cefcfdfb14b83&ttl=1520881200&v=1520784601" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/non_non_biyori/" rel="7896">Non Non Biyori</a>
+							<p><span class="stars star50"></span><span class="rate">4.86</span></p>
+							<p class="info" title="Comedy, School Life, Slice of Life">Comedy, School Life,...</p>
+							<p class="info"><label>1044th</label> 17,695 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/non_non_biyori/v06/c063/1.html"><span class="nowrap">Non Non Biyori</span> 63</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/pumpkin_scissors/" rel="6457"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/6457/cover.jpg?token=b88d61021a4d0c263200b1d332ff3d5dabc51700&ttl=1520881200&v=1520784541" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/pumpkin_scissors/" rel="6457">Pumpkin Scissors</a>
+							<p><span class="stars star50"></span><span class="rate">4.91</span></p>
+							<p class="info" title="Action, Comedy, Fantasy, Historical, Shounen">Action, Comedy, Fant...</p>
+							<p class="info"><label>1814th</label> 9,718 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/pumpkin_scissors/v12/c077/1.html"><span class="nowrap">Pumpkin Scissors</span> 77</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/shingeki_no_kyojin_before_the_fall/" rel="13061"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/13061/cover.jpg?token=b061494cebad2141d34bc2e312f7092934b546d9&ttl=1520881200&v=1520784481" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/shingeki_no_kyojin_before_the_fall/" rel="13061">Shingeki no Kyojin - Before the Fall</a>
+							<p><span class="stars star45"></span><span class="rate">4.67</span></p>
+							<p class="info" title="Action, Adventure, Drama, Fantasy, Horror, Shounen">Action, Adventure, D...</p>
+							<p class="info"><label>346th</label> 41,955 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/shingeki_no_kyojin_before_the_fall/v08/c029/1.html"><span class="nowrap">Shingeki no Kyojin - Before the Fall</span> 29</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/sword_art_online_progressive/" rel="12787"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/12787/cover.jpg?token=83d891546fb068a9bf2ee0a2ba3d3b1e309401b8&ttl=1520881200&v=1520784361" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/sword_art_online_progressive/" rel="12787">Sword Art Online - Progressive</a>
+							<p><span class="stars star45"></span><span class="rate">4.68</span></p>
+							<p class="info" title="Action, Fantasy, Shounen">Action, Fantasy, Sho...</p>
+							<p class="info"><label>445th</label> 34,439 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/sword_art_online_progressive/c034/1.html"><span class="nowrap">Sword Art Online - Progressive</span> 34</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/moekare_wa_orenji_iro/" rel="26943"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26943/cover.jpg?token=31ff1dff9f890391d166f17d6f6c6e36afbcf2d7&ttl=1520881200&v=1520784302" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/moekare_wa_orenji_iro/" rel="26943">Moekare wa orenji-iro</a>
+							<p><span class="stars star45"></span><span class="rate">4.50</span></p>
+							<p class="info" title="Drama, Romance, School Life, Shoujo">Drama, Romance, Scho...</p>
+							<p class="info"><label>2683rd</label> 6,489 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/moekare_wa_orenji_iro/v01/c005/1.html"><span class="nowrap">Moekare wa orenji-iro</span> 5</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/nigeru_wa_haji_da_ga_yaku_ni_tatsu/" rel="27131"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27131/cover.jpg?token=638413e8a9098a3897662b1356355cda74c2b1ac&ttl=1520881200&v=1520784241" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/nigeru_wa_haji_da_ga_yaku_ni_tatsu/" rel="27131">Nigeru wa Haji da ga Yaku ni Tatsu</a>
+							<p><span class="stars star50"></span><span class="rate">5.00</span></p>
+							<p class="info" title="Drama, Josei, Romance, Slice of Life">Drama, Josei, Romanc...</p>
+							<p class="info"><label>5962nd</label> 2,620 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/nigeru_wa_haji_da_ga_yaku_ni_tatsu/c040/1.html"><span class="nowrap">Nigeru wa Haji da ga Yaku ni Tatsu</span> 40</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/no_game_no_life_desu/" rel="16245"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/16245/cover.jpg?token=887c0346adfcbd8c05dc87167fe81a8b7d3401b4&ttl=1520881200&v=1520784181" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/no_game_no_life_desu/" rel="16245">No Game No Life Desu!</a>
+							<p><span class="stars star45"></span><span class="rate">4.50</span></p>
+							<p class="info" title="Seinen">Seinen</p>
+							<p class="info"><label>3946th</label> 4,227 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/no_game_no_life_desu/c011/1.html"><span class="nowrap">No Game No Life Desu!</span> 11</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/you_re_so_noisy_please_give_me_a_peace_of_mind/" rel="27180"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27180/cover.jpg?token=fded3ef58c5341c870241896f3b9aff5a2754e38&ttl=1520881200&v=1520783041" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/you_re_so_noisy_please_give_me_a_peace_of_mind/" rel="27180">You're So Noisy! Please Give Me a Peace of Mind</a>
+							<p><span class="stars star0"></span><span class="rate">0.00</span></p>
+							<p class="info" title="Comedy, Shoujo, Slice of Life">Comedy, Shoujo, Slic...</p>
+							<p class="info"><label>2744th</label> 5,110 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/you_re_so_noisy_please_give_me_a_peace_of_mind/c013/1.html"><span class="nowrap">You're So Noisy! Please Give Me a Peace of Mind</span> 13</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/flying_witch_ishizuka_chihiro/" rel="11591"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/11591/cover.jpg?token=2597b46be7e021bc7e6796cffc5961205b4e20ff&ttl=1520881200&v=1520782621" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/flying_witch_ishizuka_chihiro/" rel="11591">Flying Witch (ISHIZUKA Chihiro)</a>
+							<p><span class="stars star50"></span><span class="rate">4.77</span></p>
+							<p class="info" title="Comedy, Fantasy, Shounen, Slice of Life, Supernatural">Comedy, Fantasy, Sho...</p>
+							<p class="info"><label>380th</label> 40,178 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/flying_witch_ishizuka_chihiro/c040/1.html"><span class="nowrap">Flying Witch (ISHIZUKA Chihiro)</span> 40</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/golden_kamui/" rel="17215"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/17215/cover.jpg?token=179ea666ff3fba4075870e4d11b41de8bc3d7e36&ttl=1520881200&v=1520782561" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/golden_kamui/" rel="17215">Golden Kamui</a>
+							<p><span class="stars star50"></span><span class="rate">4.86</span></p>
+							<p class="info" title="Action, Adventure, Drama, Historical, Romance, Seinen">Action, Adventure, D...</p>
+							<p class="info"><label>417th</label> 37,037 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/golden_kamui/v12/c150/1.html"><span class="nowrap">Golden Kamui</span> 150</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/horimiya/" rel="11147"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/11147/cover.jpg?token=cf149c2cc86d242e05760d6b1a13c69c35ab0476&ttl=1520881200&v=1520782501" width="100" /></div>
+
+						 <em class="tag_hot"></em>						 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/horimiya/" rel="11147">Horimiya</a>
+							<p><span class="stars star50"></span><span class="rate">4.87</span></p>
+							<p class="info" title="Comedy, Romance, School Life, Shounen, Slice of Life">Comedy, Romance, Sch...</p>
+							<p class="info"><label>17th</label> 230,643 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/horimiya/v12/c088/1.html"><span class="nowrap">Horimiya</span> 88</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/kannou_sensei/" rel="25953"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/25953/cover.jpg?token=3bc358d12216d14e4151c292f0082059d362059e&ttl=1520881200&v=1520782441" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/kannou_sensei/" rel="25953">Kannou Sensei</a>
+							<p><span class="stars star45"></span><span class="rate">4.56</span></p>
+							<p class="info" title="Drama, Romance, Seinen, Slice of Life, Supernatural">Drama, Romance, Sein...</p>
+							<p class="info"><label>1506th</label> 11,545 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/kannou_sensei/c009/1.html"><span class="nowrap">Kannou Sensei</span> 9</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/king_of_hell/" rel="958"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/958/cover.jpg?token=8f03fca11635558161e92f213a2ae93350cb8923&ttl=1520881200&v=1520782381" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/king_of_hell/" rel="958">King of Hell</a>
+							<p><span class="stars star50"></span><span class="rate">4.77</span></p>
+							<p class="info" title="Action, Adventure, Comedy, Martial Arts, Shounen, Supernatural">Action, Adventure, C...</p>
+							<p class="info"><label>328th</label> 43,478 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/king_of_hell/v51/c354/1.html"><span class="nowrap">King of Hell</span> 354</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/tales_of_demons_and_gods/" rel="16627"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/16627/cover.jpg?token=f3bda8e9c4d3d5459b5913672dd8d6f293114f4e&ttl=1520881200&v=1520765761" width="100" /></div>
+
+						 <em class="tag_hot"></em>						 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/tales_of_demons_and_gods/" rel="16627">Tales of Demons and Gods</a>
+							<p><span class="stars star50"></span><span class="rate">4.80</span></p>
+							<p class="info" title="Action, Adventure, Comedy, Drama, Fantasy, Harem, Romance, Shounen">Action, Adventure, C...</p>
+							<p class="info"><label>2nd</label> 512,674 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/tales_of_demons_and_gods/c165.5/1.html"><span class="nowrap">Tales of Demons and Gods</span> 165.5</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/ake_no_tobari/" rel="19065"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/19065/cover.jpg?token=64461737222201ced279faa795dac3e9499babdd&ttl=1520881200&v=1520765041" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/ake_no_tobari/" rel="19065">Ake no Tobari</a>
+							<p><span class="stars star45"></span><span class="rate">4.71</span></p>
+							<p class="info" title="Action, Comedy, Drama, Fantasy, Shounen, Supernatural">Action, Comedy, Dram...</p>
+							<p class="info"><label>1663rd</label> 10,424 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/ake_no_tobari/c113/1.html"><span class="nowrap">Ake no Tobari</span> 113</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/yong_heng_zhi_zun/" rel="26261"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26261/cover.jpg?token=a34aa01039523a8f3d744a3154f4cfb54f67dcea&ttl=1520881200&v=1520764681" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/yong_heng_zhi_zun/" rel="26261">Yong Heng Zhi Zun</a>
+							<p><span class="stars star45"></span><span class="rate">4.58</span></p>
+							<p class="info" title="Action, Adult, Drama, Fantasy, Martial Arts, Shounen">Action, Adult, Drama...</p>
+							<p class="info"><label>961st</label> 20,933 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/yong_heng_zhi_zun/c023/1.html"><span class="nowrap">Yong Heng Zhi Zun</span> 23</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/atom_the_beginning/" rel="20881"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/20881/cover.jpg?token=437260163456236eade406f5a0a479b0b1069706&ttl=1520881200&v=1520757421" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/atom_the_beginning/" rel="20881">Atom - The Beginning</a>
+							<p><span class="stars star50"></span><span class="rate">4.91</span></p>
+							<p class="info" title="Comedy, Drama, School Life, Sci-fi, Seinen">Comedy, Drama, Schoo...</p>
+							<p class="info"><label>2456th</label> 7,123 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/atom_the_beginning/v04/c018/1.html"><span class="nowrap">Atom - The Beginning</span> 18</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/boku_dake_shitteru_ichinomiya_san/" rel="25061"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/25061/cover.jpg?token=ba904ab94f06cd244bc413609f1de142a43ff017&ttl=1520881200&v=1520757361" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/boku_dake_shitteru_ichinomiya_san/" rel="25061">Boku Dake Shitteru Ichinomiya-san</a>
+							<p><span class="stars star45"></span><span class="rate">4.58</span></p>
+							<p class="info" title="Ecchi, Romance, School Life">Ecchi, Romance, Scho...</p>
+							<p class="info"><label>650th</label> 24,902 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/boku_dake_shitteru_ichinomiya_san/c016/1.html"><span class="nowrap">Boku Dake Shitteru Ichinomiya-san</span> 16</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/full_ahead_coco/" rel="3076"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/3076/cover.jpg?token=3d00066b960c02c06f23d8ef8e00e735c151ec31&ttl=1520881200&v=1520757302" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/full_ahead_coco/" rel="3076">Full Ahead! Coco</a>
+							<p><span class="stars star50"></span><span class="rate">4.76</span></p>
+							<p class="info" title="Action, Adventure, Comedy, Fantasy, Shounen">Action, Adventure, C...</p>
+							<p class="info"><label>1647th</label> 10,590 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/full_ahead_coco/v24/c208/1.html"><span class="nowrap">Full Ahead! Coco</span> 208</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/gal_gohan/" rel="23737"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/23737/cover.jpg?token=3e7370196535ad85ea96b1c600e9ed4bd259df1f&ttl=1520881200&v=1520757242" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/gal_gohan/" rel="23737">Gal Gohan</a>
+							<p><span class="stars star45"></span><span class="rate">4.71</span></p>
+							<p class="info" title="Comedy, Romance, School Life">Comedy, Romance, Sch...</p>
+							<p class="info"><label>253rd</label> 52,696 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/gal_gohan/v04/c024/1.html"><span class="nowrap">Gal Gohan</span> 24</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/happy_sugar_life/" rel="17977"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/17977/cover.jpg?token=4a39f4ea934b36c196339d6f84e33b67df89900c&ttl=1520881200&v=1520757182" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/happy_sugar_life/" rel="17977">Happy Sugar Life</a>
+							<p><span class="stars star45"></span><span class="rate">4.39</span></p>
+							<p class="info" title="Drama, Horror, Mystery, School Life, Shoujo Ai, Shounen">Drama, Horror, Myste...</p>
+							<p class="info"><label>3498th</label> 4,852 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/happy_sugar_life/v05/c021/1.html"><span class="nowrap">Happy Sugar Life</span> 21</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/killing_morph/" rel="26529"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26529/cover.jpg?token=01981a1532df3de2b6225acc7a8ebd69b4c5043e&ttl=1520881200&v=1520757121" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/killing_morph/" rel="26529">Killing Morph</a>
+							<p><span class="stars star50"></span><span class="rate">4.87</span></p>
+							<p class="info" title="Action, Horror, Mystery, Psychological, Tragedy">Action, Horror, Myst...</p>
+							<p class="info"><label>2653rd</label> 9,267 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/killing_morph/c011/1.html"><span class="nowrap">Killing Morph</span> 11</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/my_boyfriend_is_a_jinyiwei/" rel="25581"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/25581/cover.jpg?token=725ccab5c81e4a86c57ff52af35f5b451b83ed5f&ttl=1520881200&v=1520755621" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/my_boyfriend_is_a_jinyiwei/" rel="25581">My Boyfriend is a Jinyiwei</a>
+							<p><span class="stars star45"></span><span class="rate">4.74</span></p>
+							<p class="info" title="Drama, Gender Bender, Historical, Romance, Shoujo">Drama, Gender Bender...</p>
+							<p class="info"><label>1094th</label> 15,562 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/my_boyfriend_is_a_jinyiwei/c057/1.html"><span class="nowrap">My Boyfriend is a Jinyiwei</span> 57</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/zero_point_idol/" rel="26219"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26219/cover.jpg?token=342175d6979d1c118b464e2ebfba82184307554b&ttl=1520881200&v=1520754901" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/zero_point_idol/" rel="26219">Zero Point Idol</a>
+							<p><span class="stars star50"></span><span class="rate">4.75</span></p>
+							<p class="info" title="Comedy, Romance, Shoujo, Webtoons">Comedy, Romance, Sho...</p>
+							<p class="info"><label>1509th</label> 11,253 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/zero_point_idol/c054/1.html"><span class="nowrap">Zero Point Idol</span> 54</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/fukaku_ni_mo_kyun_to_kita/" rel="27279"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27279/cover.jpg?token=ea2c7cbef253282ccf829f5ec11585488c771448&ttl=1520881200&v=1520753521" width="100" /></div>
+
+						 <em class="tag_hot"></em>						 <em class="tag_new"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/fukaku_ni_mo_kyun_to_kita/" rel="27279">Fukaku ni mo Kyun to Kita</a>
+							<p><span class="stars star0"></span><span class="rate">0.00</span></p>
+							<p class="info" title="Romance, School Life, Shoujo">Romance, School Life...</p>
+							<p class="info"><label>0th</label> 0 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/fukaku_ni_mo_kyun_to_kita/c001/1.html"><span class="nowrap">Fukaku ni mo Kyun to Kita</span> 1</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/kento_ankokuden_cestvs/" rel="6476"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/6476/cover.jpg?token=318aa38157ee2880d1adda695d7d4950c10e3d7a&ttl=1520881200&v=1520750701" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/kento_ankokuden_cestvs/" rel="6476">Kento Ankokuden Cestvs</a>
+							<p><span class="stars star45"></span><span class="rate">4.52</span></p>
+							<p class="info" title="Action, Historical, Martial Arts, Mature, Seinen, Tragedy">Action, Historical,...</p>
+							<p class="info"><label>1642nd</label> 9,354 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/kento_ankokuden_cestvs/v13/c122/1.html"><span class="nowrap">Kento Ankokuden Cestvs</span> 122</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/dokgo_2/" rel="26991"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26991/cover.jpg?token=64796edec52a2feaf0f77e39679ba1c4af2f1f2b&ttl=1520881200&v=1520750101" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/dokgo_2/" rel="26991">Dokgo 2</a>
+							<p><span class="stars star50"></span><span class="rate">5.00</span></p>
+							<p class="info" title="Action, Drama, School Life, Shounen">Action, Drama, Schoo...</p>
+							<p class="info"><label>2907th</label> 5,539 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/dokgo_2/c019/1.html"><span class="nowrap">Dokgo 2</span> 19</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/ninkoi_karenbo_hichou/" rel="15831"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/15831/cover.jpg?token=b39f4a0a0aeda31dbdc6ba54b50a8913e5716e79&ttl=1520881200&v=1520749201" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/ninkoi_karenbo_hichou/" rel="15831">Ninkoi - Karenbo Hichou</a>
+							<p><span class="stars star45"></span><span class="rate">4.69</span></p>
+							<p class="info" title="Action, Comedy, Ecchi, Harem, Mature, Romance, School Life, Seinen">Action, Comedy, Ecch...</p>
+							<p class="info"><label>743rd</label> 23,411 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/ninkoi_karenbo_hichou/v03/c015.5/1.html"><span class="nowrap">Ninkoi - Karenbo Hichou</span> 15.5</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/eggnoid/" rel="26763"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26763/cover.jpg?token=e4a26eff61551c1adc470abb3193d0ac196b7e10&ttl=1520881200&v=1520747641" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/eggnoid/" rel="26763">Eggnoid</a>
+							<p><span class="stars star35"></span><span class="rate">3.60</span></p>
+							<p class="info" title="Fantasy, School Life, Seinen, Supernatural">Fantasy, School Life...</p>
+							<p class="info"><label>958th</label> 18,538 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/eggnoid/v02/c055/1.html"><span class="nowrap">Eggnoid</span> 55</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/lorna/" rel="27087"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27087/cover.jpg?token=a150f3a21f7d1ed6d075a12dc398f77d8ae77fae&ttl=1520881200&v=1520747581" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/lorna/" rel="27087">LORNA</a>
+							<p><span class="stars star0"></span><span class="rate">0.00</span></p>
+							<p class="info" title="Comedy, Webtoons">Comedy, Webtoons</p>
+							<p class="info"><label>1598th</label> 11,542 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/lorna/c027/1.html"><span class="nowrap">LORNA</span> 27</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/denma/" rel="10877"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/10877/cover.jpg?token=a1e7eef671ad94f319fafdcd083df388a7b4c896&ttl=1520881200&v=1520747521" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/denma/" rel="10877">Denma</a>
+							<p><span class="stars star35"></span><span class="rate">3.27</span></p>
+							<p class="info" title="Action, Adventure, Fantasy, Sci-fi, Shounen, Webtoons">Action, Adventure, F...</p>
+							<p class="info"><label>843rd</label> 19,172 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/denma/v01/c317/1.html"><span class="nowrap">Denma</span> 317</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/saphie_the_one_eyed_cat/" rel="20137"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/20137/cover.jpg?token=04c94624dcad10e8c8b84a7199e6e028eec98f99&ttl=1520881200&v=1520747461" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/saphie_the_one_eyed_cat/" rel="20137">Saphie: The One-Eyed Cat</a>
+							<p><span class="stars star45"></span><span class="rate">4.43</span></p>
+							<p class="info" title="Slice of Life, Webtoons">Slice of Life, Webto...</p>
+							<p class="info"><label>2238th</label> 8,469 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/saphie_the_one_eyed_cat/c191/1.html"><span class="nowrap">Saphie: The One-Eyed Cat</span> 191</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/ayakashi_utahime_karuta/" rel="23097"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/23097/cover.jpg?token=473bb64e444fd76e5c84cde4ab5cc8cd5ecf625e&ttl=1520881200&v=1520747402" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/ayakashi_utahime_karuta/" rel="23097">Ayakashi Utahime Karuta</a>
+							<p><span class="stars star45"></span><span class="rate">4.50</span></p>
+							<p class="info" title="Fantasy">Fantasy</p>
+							<p class="info"><label>4848th</label> 3,416 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/ayakashi_utahime_karuta/v02/c009/1.html"><span class="nowrap">Ayakashi Utahime Karuta</span> 9</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/death_field/" rel="26395"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26395/cover.jpg?token=98164b17cd34c6632e37664e6ea39106afb3fcdf&ttl=1520881200&v=1520746382" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/death_field/" rel="26395">Death Field</a>
+							<p><span class="stars star40"></span><span class="rate">4.18</span></p>
+							<p class="info" title="Horror, Mystery, Seinen, Supernatural">Horror, Mystery, Sei...</p>
+							<p class="info"><label>978th</label> 17,164 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/death_field/c033/1.html"><span class="nowrap">Death Field</span> 33</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/bio_luminescence/" rel="21143"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/21143/cover.jpg?token=deb08be25ae6ade7419188b5cf77cc3ff2de8f41&ttl=1520881200&v=1520746201" width="100" /></div>
+
+												 <em class="tag_updated"></em>						 <em class="tag_completed"></em>
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/bio_luminescence/" rel="21143">Bio Luminescence</a>
+							<p><span class="stars star40"></span><span class="rate">4.00</span></p>
+							<p class="info" title=""></p>
+							<p class="info"><label>3157th</label> 5,517 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/bio_luminescence/v01/c037/1.html"><span class="nowrap">Bio Luminescence</span> 37</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/my_dear_cold_blooded_king/" rel="24555"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/24555/cover.jpg?token=5867edc3f70db7b672d97e1e3a13ae25e283d25c&ttl=1520881200&v=1520746081" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/my_dear_cold_blooded_king/" rel="24555">My Dear Cold-Blooded King</a>
+							<p><span class="stars star45"></span><span class="rate">4.37</span></p>
+							<p class="info" title="Romance">Romance</p>
+							<p class="info"><label>1443rd</label> 12,007 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/my_dear_cold_blooded_king/c055/1.html"><span class="nowrap">My Dear Cold-Blooded King</span> 55</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/gwijeongudam/" rel="25417"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/25417/cover.jpg?token=6c0d0617a20983cb955c6c266cda44b33ce3dc77&ttl=1520881200&v=1520745841" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/gwijeongudam/" rel="25417">Gwijeongudam</a>
+							<p><span class="stars star40"></span><span class="rate">4.00</span></p>
+							<p class="info" title="Drama, Horror, Mystery, Psychological, Supernatural">Drama, Horror, Myste...</p>
+							<p class="info"><label>2579th</label> 6,845 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/gwijeongudam/c008/1.html"><span class="nowrap">Gwijeongudam</span> 8</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/cheese_in_the_trap/" rel="8480"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/8480/cover.jpg?token=541b21fef238b58ecc87a56124143a29364a6e4c&ttl=1520881200&v=1520745781" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/cheese_in_the_trap/" rel="8480">Cheese in the Trap</a>
+							<p><span class="stars star50"></span><span class="rate">4.86</span></p>
+							<p class="info" title="Comedy, Drama, Josei, Mystery, Psychological, Romance, School Life, Slice of Life, Webtoons">Comedy, Drama, Josei...</p>
+							<p class="info"><label>823rd</label> 19,870 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/cheese_in_the_trap/v03/c197/1.html"><span class="nowrap">Cheese in the Trap</span> 197</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/new_normal_class_8/" rel="14058"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/14058/cover.jpg?token=f1e887efeb1ed30dcc2d24599ec30cf9b357f65e&ttl=1520881200&v=1520745722" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/new_normal_class_8/" rel="14058">New Normal: Class 8</a>
+							<p><span class="stars star45"></span><span class="rate">4.43</span></p>
+							<p class="info" title="Comedy, Romance, School Life, Slice of Life, Webtoons">Comedy, Romance, Sch...</p>
+							<p class="info"><label>2149th</label> 8,130 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/new_normal_class_8/v03/c191/1.html"><span class="nowrap">New Normal: Class 8</span> 191</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/she_is_a_vampire/" rel="23025"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/23025/cover.jpg?token=e80d11d11c2e21b576f3dfc17a7b145a159f6d49&ttl=1520881200&v=1520745662" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/she_is_a_vampire/" rel="23025">She is a Vampire!</a>
+							<p><span class="stars star40"></span><span class="rate">4.00</span></p>
+							<p class="info" title="Romance, Webtoons">Romance, Webtoons</p>
+							<p class="info"><label>2534th</label> 6,944 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/she_is_a_vampire/c074/1.html"><span class="nowrap">She is a Vampire!</span> 74</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/average_adventures_of_an_average_girl/" rel="15345"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/15345/cover.jpg?token=edb3aa019abf8d99e72b42ebcf08867c4b87b16e&ttl=1520881200&v=1520745601" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/average_adventures_of_an_average_girl/" rel="15345">Average Adventures of an Average Girl</a>
+							<p><span class="stars star35"></span><span class="rate">3.50</span></p>
+							<p class="info" title="Slice of Life, Webtoons">Slice of Life, Webto...</p>
+							<p class="info"><label>3482nd</label> 4,970 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/average_adventures_of_an_average_girl/c159/1.html"><span class="nowrap">Average Adventures of an Average Girl</span> 159</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/shouraiteki_ni_shinde_kure/" rel="26923"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/26923/cover.jpg?token=eb6c5d496f99f6b5d729a3fd67e36b61cbc9ac37&ttl=1520881200&v=1520743442" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/shouraiteki_ni_shinde_kure/" rel="26923">Shouraiteki ni Shinde kure</a>
+							<p><span class="stars star40"></span><span class="rate">4.00</span></p>
+							<p class="info" title="Comedy, School Life, Shoujo Ai, Shounen">Comedy, School Life,...</p>
+							<p class="info"><label>5217th</label> 3,505 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/shouraiteki_ni_shinde_kure/c005/1.html"><span class="nowrap">Shouraiteki ni Shinde kure</span> 5</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/marry_grave/" rel="27025"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27025/cover.jpg?token=a980ba81a2bc8893c07057aaaf58e3e3cf379c31&ttl=1520881200&v=1520742781" width="100" /></div>
+
+												 <em class="tag_updated"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/marry_grave/" rel="27025">Marry Grave</a>
+							<p><span class="stars star45"></span><span class="rate">4.69</span></p>
+							<p class="info" title="Action, Adventure, Comedy, Drama, Fantasy, Shounen">Action, Adventure, C...</p>
+							<p class="info"><label>1917th</label> 8,950 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/marry_grave/c011/1.html"><span class="nowrap">Marry Grave</span> 11</a></p>
+													</div>
+					</li>
+																				<li>
+						<a class="manga_img" href="//fanfox.net/manga/aruite_ippo/" rel="27278"><div style="float:left;overflow:hidden"><img src="http://a.fanfox.net/store/manga/27278/cover.jpg?token=c203dc9517be55de1e599cc2f5f9ff82de256a58&ttl=1520881200&v=1520739241" width="100" /></div>
+
+												 <em class="tag_new"></em>						
+						</a>
+						<div class="manga_text">
+							<a class="title" href="//fanfox.net/manga/aruite_ippo/" rel="27278">Aruite Ippo!!</a>
+							<p><span class="stars star20"></span><span class="rate">2.00</span></p>
+							<p class="info" title="Comedy, Ecchi, Romance, School Life, Seinen">Comedy, Ecchi, Roman...</p>
+							<p class="info"><label>21046th</label> 1,075 views</p>
+														<p class="nowrap latest"><a href="//fanfox.net/manga/aruite_ippo/v01/c003/1.html"><span class="nowrap">Aruite Ippo!!</span> 3</a></p>
+													</div>
+					</li>
+												</ul>
+		<div class="clear"></div>
+		<div id="nav">
+			<ul><li id="navprev"><span class="disable"><span class="prev">Prev</span></span></li><li class="red">1</li> <li><a href="2.htm?latest">2</a></li><li><a href="3.htm?latest">3</a></li><li><a href="4.htm?latest">4</a></li><li><a href="5.htm?latest">5</a></li><li><a href="6.htm?latest">6</a></li><li><a href="7.htm?latest">7</a></li><li>...</li><li><a href="453.htm?latest">453</a></li><li><a href="454.htm?latest">454</a></li><li><a href="2.htm?latest"><span class="next">Next</span></a></li></ul><div class="page_parts"><a href="8.htm?latest">8</a>, <a href="18.htm?latest">18</a>, <a href="28.htm?latest">28</a>, <a href="38.htm?latest">38</a>, <a href="48.htm?latest">48</a>, <a href="58.htm?latest">58</a>, <a href="68.htm?latest">68</a>, <a href="78.htm?latest">78</a>, <a href="88.htm?latest">88</a>, <a href="98.htm?latest">98</a>, <a href="108.htm?latest">108</a>, <a href="118.htm?latest">118</a>, <a href="128.htm?latest">128</a>, <a href="138.htm?latest">138</a>, <a href="148.htm?latest">148</a></div>		</div>
+			</div>
+</div>
+<div class="left" id="sidebar">
+	<div id="advertisment" class="toplessad center">
+		<div id='ad_box_14'></div>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+  $.ajaxSetup({
+    cache: true
+  });
+  $.getScript("//ad.bakubaku.com/ad/14.js?r="+(new Date()).toString().split(':')[0].replace(/ /g,''), function() {
+    if(typeof ad_put14!="undefined") ad_put14();
+  });
+});
+</script>	</div>
+	<div id="manga_genres">
+		<h2>Browse Manga by Genres</h2>
+		<ul class="clrfix" id="genre_filter">
+			<li><a class="select" href="/directory/?latest">All</a></li>
+						<li><a  href="/directory/action/?latest">Action</a></li>
+						<li><a  href="/directory/adult/?latest">Adult</a></li>
+						<li><a  href="/directory/adventure/?latest">Adventure</a></li>
+						<li><a  href="/directory/comedy/?latest">Comedy</a></li>
+						<li><a  href="/directory/doujinshi/?latest">Doujinshi</a></li>
+						<li><a  href="/directory/drama/?latest">Drama</a></li>
+						<li><a  href="/directory/ecchi/?latest">Ecchi</a></li>
+						<li><a  href="/directory/fantasy/?latest">Fantasy</a></li>
+						<li><a  href="/directory/gender-bender/?latest">Gender Bender</a></li>
+						<li><a  href="/directory/harem/?latest">Harem</a></li>
+						<li><a  href="/directory/historical/?latest">Historical</a></li>
+						<li><a  href="/directory/horror/?latest">Horror</a></li>
+						<li><a  href="/directory/josei/?latest">Josei</a></li>
+						<li><a  href="/directory/martial-arts/?latest">Martial Arts</a></li>
+						<li><a  href="/directory/mature/?latest">Mature</a></li>
+						<li><a  href="/directory/mecha/?latest">Mecha</a></li>
+						<li><a  href="/directory/mystery/?latest">Mystery</a></li>
+						<li><a  href="/directory/one-shot/?latest">One Shot</a></li>
+						<li><a  href="/directory/psychological/?latest">Psychological</a></li>
+						<li><a  href="/directory/romance/?latest">Romance</a></li>
+						<li><a  href="/directory/school-life/?latest">School Life</a></li>
+						<li><a  href="/directory/sci-fi/?latest">Sci-fi</a></li>
+						<li><a  href="/directory/seinen/?latest">Seinen</a></li>
+						<li><a  href="/directory/shoujo/?latest">Shoujo</a></li>
+						<li><a  href="/directory/shoujo-ai/?latest">Shoujo Ai</a></li>
+						<li><a  href="/directory/shounen/?latest">Shounen</a></li>
+						<li><a  href="/directory/shounen-ai/?latest">Shounen Ai</a></li>
+						<li><a  href="/directory/slice-of-life/?latest">Slice of Life</a></li>
+						<li><a  href="/directory/smut/?latest">Smut</a></li>
+						<li><a  href="/directory/sports/?latest">Sports</a></li>
+						<li><a  href="/directory/supernatural/?latest">Supernatural</a></li>
+						<li><a  href="/directory/tragedy/?latest">Tragedy</a></li>
+						<li><a  href="/directory/webtoons/?latest">Webtoons</a></li>
+						<li><a  href="/directory/yaoi/?latest">Yaoi</a></li>
+						<li><a  href="/directory/yuri/?latest">Yuri</a></li>
+					</ul>
+		<h2>Browse Manga by Initial Alphabetic</h2>
+		<ul class="clrfix" id="alphabetical_filter">
+			<li><a class="select" href="/directory/?latest">All</a></li>
+						<li><a  href="/directory/9/?latest">#</a></li>
+						<li><a  href="/directory/a/?latest">A</a></li>
+						<li><a  href="/directory/b/?latest">B</a></li>
+						<li><a  href="/directory/c/?latest">C</a></li>
+						<li><a  href="/directory/d/?latest">D</a></li>
+						<li><a  href="/directory/e/?latest">E</a></li>
+						<li><a  href="/directory/f/?latest">F</a></li>
+						<li><a  href="/directory/g/?latest">G</a></li>
+						<li><a  href="/directory/h/?latest">H</a></li>
+						<li><a  href="/directory/i/?latest">I</a></li>
+						<li><a  href="/directory/j/?latest">J</a></li>
+						<li><a  href="/directory/k/?latest">K</a></li>
+						<li><a  href="/directory/l/?latest">L</a></li>
+						<li><a  href="/directory/m/?latest">M</a></li>
+						<li><a  href="/directory/n/?latest">N</a></li>
+						<li><a  href="/directory/o/?latest">O</a></li>
+						<li><a  href="/directory/p/?latest">P</a></li>
+						<li><a  href="/directory/q/?latest">Q</a></li>
+						<li><a  href="/directory/r/?latest">R</a></li>
+						<li><a  href="/directory/s/?latest">S</a></li>
+						<li><a  href="/directory/t/?latest">T</a></li>
+						<li><a  href="/directory/u/?latest">U</a></li>
+						<li><a  href="/directory/v/?latest">V</a></li>
+						<li><a  href="/directory/w/?latest">W</a></li>
+						<li><a  href="/directory/x/?latest">X</a></li>
+						<li><a  href="/directory/y/?latest">Y</a></li>
+						<li><a  href="/directory/z/?latest">Z</a></li>
+					</ul>
+		<h2>Browse Manga by Year of Released</h2>
+		<ul class="clrfix" id="released_filter">
+			<li><a class="select" href="/directory/?latest">All</a></li>
+						<li><a  href="/directory/2018/?latest">2018</a></li>
+						<li><a  href="/directory/2017/?latest">2017</a></li>
+						<li><a  href="/directory/2016/?latest">2016</a></li>
+						<li><a  href="/directory/2015/?latest">2015</a></li>
+						<li><a  href="/directory/2014/?latest">2014</a></li>
+						<li><a  href="/directory/2013/?latest">2013</a></li>
+						<li><a  href="/directory/2012/?latest">2012</a></li>
+						<li><a  href="/directory/2011/?latest">2011</a></li>
+						<li><a  href="/directory/2010/?latest">2010</a></li>
+						<li><a  href="/directory/2009/?latest">2009</a></li>
+						<li><a  href="/directory/2008/?latest">2008</a></li>
+						<li><a  href="/directory/2007/?latest">2007</a></li>
+						<li><a  href="/directory/2006/?latest">2006</a></li>
+						<li><a  href="/directory/2005/?latest">2005</a></li>
+						<li><a  href="/directory/2004/?latest">2004</a></li>
+						<li><a  href="/directory/2003/?latest">2003</a></li>
+						<li><a  href="/directory/2002/?latest">2002</a></li>
+						<li><a  href="/directory/2001/?latest">2001</a></li>
+						<li><a  href="/directory/2000/?latest">2000</a></li>
+						<li><a  href="/directory/1999/?latest">1999</a></li>
+						<li><a  href="/directory/older/?latest">Older</a></li>
+		</ul>
+		<h2>Browse Manga by Status</h2>
+		<ul class="clrfix" id="status_filter" style="margin-bottom:0">
+			<li><a class="select" href="/directory/?latest">All</a></li>
+						<li><a  href="/directory/new/?latest">New</a></li>
+						<li><a  href="/directory/updated/?latest">Updated</a></li>
+						<li><a  href="/directory/completed/?latest">Completed</a></li>
+						<li><a  href="/directory/ongoing/?latest">Ongoing</a></li>
+					</ul>
+	</div>
+	<style>
+	#top{border-bottom:1px solid #DECF92 !important}
+	</style>
+		<div id="popular" class="topless">
+		<h2>Most Popular Manga</h2>
+					<ol>
+								<li>
+						<div class="icon" style="background-position:-4px -4px;">
+						<div class="pop1"></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tales_of_demons_and_gods/" rel="16627" class="series_preview top">Tales of Demons and Gods</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/tales_of_demons_and_gods/c155.5/1.html" class="chapter">Tales of Demons and Gods 155.5</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -53px;">
+						<div class="pop2"></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/the_gamer/" rel="13088" class="series_preview top">The Gamer</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/the_gamer/v04/c203/1.html" class="chapter">The Gamer 203</a> v04</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -102px;">
+						<div class="pop3"></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/witch_hunter/" rel="987" class="series_preview top">Witch Hunter</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/witch_hunter/v15/c178/1.html" class="chapter">Witch Hunter 178</a> v15</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -151px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/black_clover/" rel="15291" class="series_preview top">Black Clover</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/black_clover/vTBD/c139/1.html" class="chapter">Black Clover 139</a> vTBD</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -200px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tate_no_yuusha_no_nariagari/" rel="14036" class="series_preview top">Tate no Yuusha no Nariagari</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/tate_no_yuusha_no_nariagari/v09/c039/1.html" class="chapter">Tate no Yuusha no Nariagari 39</a> v09</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -249px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/star_martial_god_technique/" rel="22443" class="series_preview top">Star Martial God Technique</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/star_martial_god_technique/c108/1.html" class="chapter">Star Martial God Technique 108</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -298px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tomo_chan_wa_onnanoko/" rel="16159" class="series_preview top">Tomo-chan wa Onnanoko!</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/tomo_chan_wa_onnanoko/c722/1.html" class="chapter">Tomo-chan wa Onnanoko! 722</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -347px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/overlord/" rel="14765" class="series_preview top">Overlord</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/overlord/v08/c032/1.html" class="chapter">Overlord 32</a> v08</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -396px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/the_new_gate/" rel="14588" class="series_preview top">The New Gate</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/the_new_gate/c034/1.html" class="chapter">The New Gate 34</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -445px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/kingdom/" rel="8198" class="series_preview top">Kingdom</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/kingdom/v50/c543/1.html" class="chapter">Kingdom 543</a> v50</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -494px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/the_legendary_moonlight_sculptor/" rel="15177" class="series_preview top">The Legendary Moonlight Sculptor</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/the_legendary_moonlight_sculptor/c117/1.html" class="chapter">The Legendary Moonlight Sculptor 117</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -543px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/horimiya/" rel="11147" class="series_preview top">Horimiya</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/horimiya/v12/c085/1.html" class="chapter">Horimiya 85</a> v12</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -592px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tower_of_god/" rel="8207" class="series_preview top">Tower of God</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/tower_of_god/v02/c362/1.html" class="chapter">Tower of God 362</a> v02</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -641px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/relife/" rel="14948" class="series_preview top">ReLIFE</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/relife/vTBD/c212/1.html" class="chapter">ReLIFE 212</a> vTBD</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -690px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/noblesse/" rel="6770" class="series_preview top">Noblesse</a>
+							 <span class="updatedch">updated</span>							</div>
+							<span class="chapter nowrap updated"><a href="//fanfox.net/manga/noblesse/v07/c492/1.html" class="chapter">Noblesse 492</a> v07</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -739px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tensei_shitara_slime_datta_ken/" rel="15975" class="series_preview top">Tensei Shitara Slime Datta Ken</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/tensei_shitara_slime_datta_ken/c034/1.html" class="chapter">Tensei Shitara Slime Datta Ken 34</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -788px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/panlong/" rel="15216" class="series_preview top">Panlong</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/panlong/c130/1.html" class="chapter">Panlong 130</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -837px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/" rel="16457" class="series_preview top">Death March kara Hajimaru Isekai Kyousoukyoku</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/death_march_kara_hajimaru_isekai_kyousoukyoku/v06/c037/1.html" class="chapter">Death March kara Hajimaru Isekai Kyousoukyoku 37</a> v06</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -886px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/arifureta_shokugyou_de_sekai_saikyou/" rel="18953" class="series_preview top">Arifureta Shokugyou de Sekai Saikyou</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/arifureta_shokugyou_de_sekai_saikyou/vTBD/c017/1.html" class="chapter">Arifureta Shokugyou de Sekai Saikyou 17</a> vTBD</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -935px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/akatsuki_no_yona/" rel="9126" class="series_preview top">Akatsuki no Yona</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/akatsuki_no_yona/v26/c152/1.html" class="chapter">Akatsuki no Yona 152</a> v26</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -984px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/doupo_cangqiong/" rel="14225" class="series_preview top">Doupo Cangqiong</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/doupo_cangqiong/c211/1.html" class="chapter">Doupo Cangqiong 211</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -1033px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tsuyokute_new_saga/" rel="13930" class="series_preview top">Tsuyokute New Saga</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/tsuyokute_new_saga/c047/1.html" class="chapter">Tsuyokute New Saga 47</a> </span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -1082px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/the_god_of_high_school/" rel="9017" class="series_preview top">The God of High School</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/the_god_of_high_school/v05/c342/1.html" class="chapter">The God of High School 342</a> v05</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -1131px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/lv999_no_murabito/" rel="25773" class="series_preview top">LV999 no Murabito</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/lv999_no_murabito/v01/c008/1.html" class="chapter">LV999 no Murabito 8</a> v01</span>
+							</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -1180px;">
+						<div></div>						</div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/hunter_x_hunter/" rel="44" class="series_preview top">Hunter X Hunter</a>
+														</div>
+							<span class="chapter nowrap"><a href="//fanfox.net/manga/hunter_x_hunter/vTBD/c370/1.html" class="chapter">Hunter X Hunter 370</a> vTBD</span>
+							</div>
+					</li>
+								</ol>
+				</div>
+	<style>
+		#popular .icon{background-image:url(//icons.fanfox.net/16627,13088,987,15291,14036,22443,16159,14765,14588,8198,15177,11147,8207,14948,6770,15975,15216,16457,18953,9126,14225,13930,9017,25773,44.jpg?v=20180307154315)}
+	</style>
+		<div id="rss" style="position:relative" class="topless">
+	<h3>Subscribe to be Updated</h3>
+	<ul>
+		<li><a href="https://feeds2.feedburner.com/mangafox/latest_manga_chapters" class="rss">Latest Manga Chapters Feed</a></li>
+	</ul>
+	<form action="https://feedburner.google.com/fb/a/mailverify" id="subscribeform" method="post" class="left" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mangafox/latest_manga_chapters', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+		<fieldset >
+			<label>Enter your email address:</label>
+			<input name="email" type="text" value="" maxlength="100" class="box" />
+			<input type="hidden" value="mangafox/latest_manga_chapters" name="uri"/>
+			<input type="hidden" name="loc" value="en_US"/>
+			<button class="button" type="submit">Subscribe</button>
+		</fieldset>
+	</form>
+	<iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=MangaFoxLife&lang=en&show_count=true" style="width:300px;height:20px;margin-top:10px"></iframe>
+	<a href="https://feeds2.feedburner.com/mangafox/latest_manga_chapters" style="position:absolute;top:10px;right:10px"><img src="//feeds2.feedburner.com/~fc/mangafox/latest_manga_chapters?bg=FF9900&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+</div>		<div id="new" class="topless">
+		<h2>New Manga</h2>
+					<ol>
+								<li>
+						<div class="icon" style="background-position:-4px -4px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/secret_order/" rel="27041" class="series_preview top">Secret Order</a></div>
+							<span><a href="//fanfox.net/search/genres/Drama/">Drama</a>, <a href="//fanfox.net/search/genres/Martial Arts/">Martial Arts</a>, <a href="//fanfox.net/search/genres/Seinen/">Seinen</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -53px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/shuuten_unknown_gaiden/" rel="27040" class="series_preview top">Shuuten Unknown Gaiden</a></div>
+							<span><a href="//fanfox.net/search/genres/Adventure/">Adventure</a>, <a href="//fanfox.net/search/genres/Fantasy/">Fantasy</a>, <a href="//fanfox.net/search/genres/Shoujo/">Shoujo</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -102px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/janki_hokutosei/" rel="27037" class="series_preview top">Janki Hokutosei</a></div>
+							<span><a href="//fanfox.net/search/genres/Seinen/">Seinen</a>, <a href="//fanfox.net/search/genres/Sports/">Sports</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -151px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/peach_girl_next/" rel="27036" class="series_preview top">Peach Girl Next</a></div>
+							<span><a href="//fanfox.net/search/genres/Josei/">Josei</a>, <a href="//fanfox.net/search/genres/Romance/">Romance</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -200px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/tokyo_kari_niku_teppoutai/" rel="27035" class="series_preview top">Tokyo Kari-niku Teppoutai</a></div>
+							<span><a href="//fanfox.net/search/genres/Comedy/">Comedy</a>, <a href="//fanfox.net/search/genres/Shounen/">Shounen</a>, <a href="//fanfox.net/search/genres/Slice of Life/">Slice Of Life</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -249px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/idolm_ster_cinderella_girls_cinderella_girls_gekijou/" rel="27034" class="series_preview top">IDOLM@STER - Cinderella Girls - Cinderella Girls Gekijou</a></div>
+							<span><a href="//fanfox.net/search/genres/Seinen/">Seinen</a>, <a href="//fanfox.net/search/genres/Slice of Life/">Slice Of Life</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -298px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/isekai_ni_tobasareta_ossan_wa_doko_e_iku/" rel="27033" class="series_preview top">Isekai ni Tobasareta Ossan wa Doko e Iku?</a></div>
+							<span><a href="//fanfox.net/search/genres/Action/">Action</a>, <a href="//fanfox.net/search/genres/Comedy/">Comedy</a>, <a href="//fanfox.net/search/genres/Fantasy/">Fantasy</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -347px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/kanata_no_astra/" rel="27032" class="series_preview top">Kanata no Astra</a></div>
+							<span><a href="//fanfox.net/search/genres/Action/">Action</a>, <a href="//fanfox.net/search/genres/Adventure/">Adventure</a>, <a href="//fanfox.net/search/genres/Comedy/">Comedy</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -396px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/isekai_ryouridou/" rel="27031" class="series_preview top">Isekai Ryouridou</a></div>
+							<span><a href="//fanfox.net/search/genres/Action/">Action</a>, <a href="//fanfox.net/search/genres/Adventure/">Adventure</a>, <a href="//fanfox.net/search/genres/Comedy/">Comedy</a></span>
+						</div>
+					</li>
+										<li>
+						<div class="icon" style="background-position:-4px -445px"><div></div></div>
+						<div class="manga">
+							<div class="nowrap"><a href="//fanfox.net/manga/himouto_umaru_chan_g/" rel="27029" class="series_preview top">Himouto! Umaru-chan G</a></div>
+							<span><a href="//fanfox.net/search/genres/Comedy/">Comedy</a>, <a href="//fanfox.net/search/genres/Slice of Life/">Slice Of Life</a></span>
+						</div>
+					</li>
+								</ol>
+				</div>
+	<style>
+		#new .icon{background-image:url(//icons.fanfox.net/27041,27040,27037,27036,27035,27034,27033,27032,27031,27029.jpg?v=20180307154315)}
+	</style>
+	</div>
+	<div class="clear"></div>
+	<!-- footer -->
+	<div id="footer">
+							<p class="affiliates">
+						<a href="https://z6.com/">Z6 Shop</a> | <a href="http://mangazoneapp.com/?utm_source=MF&utm_medium=mobile%20link&utm_term=manga%20app&utm_content=keywords&utm_campaign=MFML">Manga App</a> | <a href="http://www.mangatown.com/">Hot Manga</a> | <a href="https://z6.com/">Anime Products</a> | <a href="http://www.mangahere.co/">Free Manga</a> | <a href="http://mangahome.com/shoujo">Shojo Manga</a> | <a href="http://animesama.com/">Anime Community App</a>					</p>
+							<div class="clear gap"></div>
+		<p id="copyright">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law. &copy; 2018 MangaFox.la. Current Time is GMT 07:18pm.<br/>
+		<a href="//fanfox.net/privacy.htm" rel="nofollow">Privacy Policy</a> | <a href="//fanfox.net/disclamer.htm" rel="nofollow">Legal Disclaimer</a> |
+		<a href="//fanfox.net/terms.htm" rel="nofollow">Terms of Service</a> | <a href="//fanfox.net/contact-us.htm" rel="nofollow">Contact Us</a> | <a href="http://m.fanfox.net/" rel="nofollow">Mobile Version</a> | <a href="//fanfox.net/faq/" rel="nofollow">FAQ</a> | <a href="#top" onclick="self.scrollTo(0,0);return false;" rel="nofollow">Top</a></p>
+		<div class="clear"></div>
+	</div>
+</div>
+<div style="display:none">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : "105895693075169",
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+/* $LAB.queueWait(function() {  
+	$('.fb-login').click(function(){
+	    FB.login(function(response){
+	    	if (response.authResponse) {	
+		    	console.log(response.authResponse.userID);
+		    	//var id = response.authResponse.userID;
+			    FB.api('/me?fields=id,email', function(response) {
+				    console.log(response);
+	          		if($('#sign_in').is(':visible')) {
+    			    	boxRemove('sign_in');
+    	          	}
+			    	var email = '';
+			    	if(response.email) {
+			    		email = response.email;
+			    	}
+			    	$('#fbform input[name="fbid"]').val(response.id);
+			    	$('#fbform input[name="email"]').val(email);
+			    	$('#fbform input[name="r"]').val(window.location);
+			    	$('#fbform').submit();
+		     	});
+		    } else {
+		    	console.log('User cancelled login or did not fully authorize.');
+		    }
+	    }, {scope:'email'});
+	})
+}) */
+</script>
+<script type="text/javascript">
+$LAB.queueWait(function() {
+
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var hide = getCookie('MHNMB');
+        $(".sidetip").show();
+        $(".sidetip .sidetip-btn .app_link").click(function(){
+        		if(/Android/i.test(navigator.userAgent)){
+        			$(this).attr('href',$(this).data('android'));
+        			return true;
+        		}else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+        			$(this).attr('href',$(this).data('apple'));
+        			console.log($(this).data('apple'));
+        			return true;
+        		}else{
+        			return false;
+        		}
+        		return false;
+        });
+        $(".sidetip .setting-icon").click(function(){
+          $(".sidetip .sidetip-btn").toggleClass("slideout");
+        });
+    }
+
+});
+
+
+</script>
+
+<script type="text/javascript">
+$LAB
+.runQueue();
+</script><script type="text/javascript">
+var is_mobile=false;
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){
+is_mobile=true;
+}else{
+}
+</script>
+    
+</div>
+<div class="sidetip" style="display:none;">
+  <span class="setting-icon iconfont"></span>
+  <div class="sidetip-btn"><a href="#" class="app_link" data-apple="http://goo.gl/OSzKX4" data-android="http://goo.gl/C6oMfN" target="_blank">Manga<br>App</a><a href="http://m.mangafox.la" >For<br>Mobile</a></div>
+</div>
+    <!-- Begin js tags AdTrue for fanfox.net_slider - Do not Modify -->
+    <div id="adtrue_vpage_tag_9274"></div>
+    <script data-cfasync='false' type='text/javascript' src='//cdn.adtrue.com/v/async_v2.js' async></script>
+    <script type="text/javascript">
+      var adtrue_vpage_tags = window.adtrue_vpage_tags || [];
+      adtrue_vpage_tags.push({
+        tag_id: 9274,
+        width: 370,
+        height: 320,
+        slider: true
+      });
+    </script>
+    <!-- End Tags -->
+</body>
+<form id="fbform" method="post" action="/fb.php" style="display:none">
+	<input type="hidden" name="action" value="fb">
+	<input type="hidden" name="fbid">
+	<input type="hidden" name="email">
+	<input type="hidden" name="r">
+</form>
+<script type='text/javascript' src='//pl14450092.puserving.com/e9/ca/a9/e9caa97d52d2b43da67c76e9f60cf090.js'></script>
+</html>
+<!-- 10.0.0.237 -->
