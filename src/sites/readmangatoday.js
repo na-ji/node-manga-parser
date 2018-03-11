@@ -1,5 +1,10 @@
 // @flow
-import { parseDateAgo, trimSpaces, toString } from '../utils';
+import {
+  parseDateAgo,
+  trimSpaces,
+  toString,
+  sanitizeUrlProtocol
+} from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
 import {
   Chapter,
@@ -188,7 +193,7 @@ class ReadMangaToday extends AbstractCatalog {
     $('ul.chp_lst > li').each((i, elem) => {
       let chapter = new Chapter();
 
-      chapter.url = trimSpaces(
+      chapter.setUrl(
         $(elem)
           .find('a')
           .first()
@@ -231,7 +236,7 @@ class ReadMangaToday extends AbstractCatalog {
     options.each((i, elem) => {
       let page = $(elem).attr('value');
 
-      pages.push(page);
+      pages.push(sanitizeUrlProtocol(page));
     });
 
     return pages;

@@ -214,7 +214,7 @@ class Mangafox extends AbstractCatalog {
             .find('a.tips')
             .first();
 
-          chapter.url = trimSpaces(url.attr('href'));
+          chapter.setUrl(url.attr('href'));
           chapter.title = trimSpaces(url.text());
           chapter.publishedAt = resetDateTime(
             this.parseChapterDate(
@@ -283,7 +283,7 @@ class Mangafox extends AbstractCatalog {
     options.each((i, elem) => {
       let page = $(elem).attr('value');
 
-      pages.push(`${url}${page}.html`);
+      pages.push(sanitizeUrlProtocol(`${url}${page}.html`));
     });
 
     return pages;

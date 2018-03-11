@@ -60,4 +60,8 @@ export class Chapter {
           .digest('hex')
       : this.id;
   }
+
+  setUrl(url: string) {
+    this.url = sanitizeUrlProtocol(trimSpaces(url));
+  }
 }

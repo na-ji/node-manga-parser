@@ -1,7 +1,12 @@
 // @flow
 import moment from 'moment';
 
-import { resetDateTime, trimSpaces, toString } from '../utils';
+import {
+  resetDateTime,
+  trimSpaces,
+  toString,
+  sanitizeUrlProtocol
+} from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
 import {
   Chapter,
@@ -182,7 +187,7 @@ class Mangahere extends AbstractCatalog {
     $('.detail_list > ul:not([class]) > li').each((i, elem) => {
       let chapter = new Chapter();
 
-      chapter.url = trimSpaces(
+      chapter.setUrl(
         $(elem)
           .find('a')
           .first()
@@ -253,7 +258,7 @@ class Mangahere extends AbstractCatalog {
     options.each((i, elem) => {
       let page = $(elem).attr('value');
 
-      pages.push(page);
+      pages.push(sanitizeUrlProtocol(page));
     });
 
     return pages;
