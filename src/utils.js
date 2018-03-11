@@ -16,7 +16,11 @@ export function parseDateAgo(date: string): Date {
     }
 
     let date = moment().subtract(parseInt(dateWords[0]), dateWords[1]);
-    date.millisecond(0).second(0).minute(0).hour(0);
+    date
+      .millisecond(0)
+      .second(0)
+      .minute(0)
+      .hour(0);
 
     return date.toDate();
   }
@@ -26,7 +30,11 @@ export function parseDateAgo(date: string): Date {
 
 export function resetDateTime(date: Date): Date {
   let momentDate = moment(date);
-  momentDate.millisecond(0).second(0).minute(0).hour(0);
+  momentDate
+    .millisecond(0)
+    .second(0)
+    .minute(0)
+    .hour(0);
 
   return momentDate.toDate();
 }
@@ -48,4 +56,12 @@ export function trimSpaces(str: string): string {
  */
 export function toString(str: ?string | ?number): string {
   return _.toString(str);
+}
+
+export function sanitizeUrlProtocol(url: string): string {
+  if (_.startsWith(url, '//')) {
+    return `http:${url}`;
+  }
+
+  return url;
 }

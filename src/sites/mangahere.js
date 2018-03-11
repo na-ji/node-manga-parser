@@ -121,16 +121,37 @@ class Mangahere extends AbstractCatalog {
     let infos: CheerioObject = container.find('.detail_topText').first();
 
     manga.author = trimSpaces(
-      infos.find('a[href^="http://www.mangahere.co/author/"]').first().text()
+      infos
+        .find('a[href^="http://www.mangahere.co/author/"]')
+        .first()
+        .text()
     );
     manga.artist = trimSpaces(
-      infos.find('a[href^="http://www.mangahere.co/artist/"]').first().text()
+      infos
+        .find('a[href^="http://www.mangahere.co/artist/"]')
+        .first()
+        .text()
     );
-    manga.genre = trimSpaces(infos.find('li').eq(3).contents()[1].data);
+    manga.genre = trimSpaces(
+      infos
+        .find('li')
+        .eq(3)
+        .contents()[1].data
+    );
     manga.description = trimSpaces(infos.find('#show').contents()[0].data);
-    manga.status = this.parseStatus(trimSpaces(infos.find('li').eq(6).text()));
-    manga.thumbnailUrl = trimSpaces(
-      container.find('img.img').first().attr('src')
+    manga.status = this.parseStatus(
+      trimSpaces(
+        infos
+          .find('li')
+          .eq(6)
+          .text()
+      )
+    );
+    manga.setThumbnailUrl(
+      container
+        .find('img.img')
+        .first()
+        .attr('src')
     );
     manga.detailsFetched = true;
 
@@ -161,11 +182,26 @@ class Mangahere extends AbstractCatalog {
     $('.detail_list > ul:not([class]) > li').each((i, elem) => {
       let chapter = new Chapter();
 
-      chapter.url = trimSpaces($(elem).find('a').first().attr('href'));
-      chapter.title = trimSpaces($(elem).find('a').first().text());
+      chapter.url = trimSpaces(
+        $(elem)
+          .find('a')
+          .first()
+          .attr('href')
+      );
+      chapter.title = trimSpaces(
+        $(elem)
+          .find('a')
+          .first()
+          .text()
+      );
       chapter.publishedAt = resetDateTime(
         this.parseChapterDate(
-          trimSpaces($(elem).find('span.right').first().text())
+          trimSpaces(
+            $(elem)
+              .find('span.right')
+              .first()
+              .text()
+          )
         )
       );
 
@@ -186,7 +222,9 @@ class Mangahere extends AbstractCatalog {
     if (date.indexOf('Today') > -1) {
       return new Date();
     } else if (date.indexOf('Yesterday') > -1) {
-      return moment().subtract(1, 'days').toDate();
+      return moment()
+        .subtract(1, 'days')
+        .toDate();
     }
 
     let momentDate = moment(date, 'MMM D, YYYY');
@@ -208,7 +246,9 @@ class Mangahere extends AbstractCatalog {
     }
 
     let pages: Array<string> = [];
-    let options = $('select.wid60').first().find('option');
+    let options = $('select.wid60')
+      .first()
+      .find('option');
 
     options.each((i, elem) => {
       let page = $(elem).attr('value');
@@ -224,7 +264,9 @@ class Mangahere extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $('#image').first().attr('src');
+    return $('#image')
+      .first()
+      .attr('src');
   }
 
   /**
@@ -233,8 +275,9 @@ class Mangahere extends AbstractCatalog {
    * @returns {string}
    */
   searchOptions(query: string, page: ?number): string {
-    return `${this
-      .baseUrl}/search.php?name_method=cw&author_method=cw&artist_method=cw&advopts=1&name=${query}&page=${toString(
+    return `${
+      this.baseUrl
+    }/search.php?name_method=cw&author_method=cw&artist_method=cw&advopts=1&name=${query}&page=${toString(
       page
     )}`;
   }
@@ -301,14 +344,19 @@ class Mangahere extends AbstractCatalog {
       link = $(elem).find('a.manga_info');
     }
 
-    manga.url = trimSpaces(link.attr('href'));
+    manga.setUrl(link.attr('href'));
     manga.title = trimSpaces(
       link.attr('title')
         ? link.attr('title')
         : link.attr('rel') ? link.attr('rel') : link.text()
     );
     if ($(elem).find('img').length) {
-      manga.thumbnailUrl = trimSpaces($(elem).find('img').first().attr('src'));
+      manga.setThumbnailUrl(
+        $(elem)
+          .find('img')
+          .first()
+          .attr('src')
+      );
     }
     manga.catalogId = catalogId;
     manga.catalog = this.catalogName;

@@ -36,17 +36,17 @@ class ReadMangaToday extends AbstractCatalog {
     let mangas: Array<Manga> = [];
     let provider = this;
 
-    $(
-      'div.hot-manga > div.style-list > div.box'
-    ).each((i: number, elem: CheerioObject) => {
-      let manga: Manga = this.extractMangaSummary(
-        $,
-        elem,
-        provider.getNextIndex()
-      );
+    $('div.hot-manga > div.style-list > div.box').each(
+      (i: number, elem: CheerioObject) => {
+        let manga: Manga = this.extractMangaSummary(
+          $,
+          elem,
+          provider.getNextIndex()
+        );
 
-      mangas.push(manga);
-    });
+        mangas.push(manga);
+      }
+    );
 
     return mangas;
   }
@@ -92,13 +92,13 @@ class ReadMangaToday extends AbstractCatalog {
   latestUpdatesList($: CheerioObject): Array<Manga> {
     let mangas: Array<Manga> = [];
 
-    $(
-      'div.hot-manga > div.style-grid > div.box'
-    ).each((i: number, elem: CheerioObject) => {
-      let manga: Manga = this.extractMangaSummary($, elem, Infinity);
+    $('div.hot-manga > div.style-grid > div.box').each(
+      (i: number, elem: CheerioObject) => {
+        let manga: Manga = this.extractMangaSummary($, elem, Infinity);
 
-      mangas.push(manga);
-    });
+        mangas.push(manga);
+      }
+    );
 
     return mangas;
   }
@@ -144,15 +144,21 @@ class ReadMangaToday extends AbstractCatalog {
       container.find('ul.cast-list li:not(.director) > ul a').text()
     );
     manga.genre = trimSpaces(
-      container.find('dl.dl-horizontal > dd').eq(2).text()
+      container
+        .find('dl.dl-horizontal > dd')
+        .eq(2)
+        .text()
     );
     manga.description = trimSpaces(container.find('li.movie-detail').text());
     manga.status = this.parseStatus(
-      trimSpaces(container.find('dl.dl-horizontal > dd').eq(1).text())
+      trimSpaces(
+        container
+          .find('dl.dl-horizontal > dd')
+          .eq(1)
+          .text()
+      )
     );
-    manga.thumbnailUrl = trimSpaces(
-      container.find('img.img-responsive').attr('src')
-    );
+    manga.setThumbnailUrl(container.find('img.img-responsive').attr('src'));
     manga.detailsFetched = true;
 
     return manga;
@@ -182,12 +188,26 @@ class ReadMangaToday extends AbstractCatalog {
     $('ul.chp_lst > li').each((i, elem) => {
       let chapter = new Chapter();
 
-      chapter.url = trimSpaces($(elem).find('a').first().attr('href'));
+      chapter.url = trimSpaces(
+        $(elem)
+          .find('a')
+          .first()
+          .attr('href')
+      );
       chapter.title = trimSpaces(
-        $(elem).find('a').first().find('span.val').text()
+        $(elem)
+          .find('a')
+          .first()
+          .find('span.val')
+          .text()
       );
       chapter.publishedAt = parseDateAgo(
-        trimSpaces($(elem).find('span.dte').first().text())
+        trimSpaces(
+          $(elem)
+            .find('span.dte')
+            .first()
+            .text()
+        )
       );
 
       chapter.generateId();
@@ -222,7 +242,9 @@ class ReadMangaToday extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $('img.img-responsive-2').first().attr('src');
+    return $('img.img-responsive-2')
+      .first()
+      .attr('src');
   }
 
   /**
@@ -292,9 +314,13 @@ class ReadMangaToday extends AbstractCatalog {
     let manga: Manga = new Manga();
     let link: CheerioObject = $(elem).find('div.title > h2 > a');
 
-    manga.url = trimSpaces(link.attr('href'));
+    manga.setUrl(link.attr('href'));
     manga.title = trimSpaces(link.attr('title'));
-    manga.thumbnailUrl = trimSpaces($(elem).find('img').attr('src'));
+    manga.setThumbnailUrl(
+      $(elem)
+        .find('img')
+        .attr('src')
+    );
     manga.catalogId = catalogId;
     manga.catalog = this.catalogName;
     manga.generateId();

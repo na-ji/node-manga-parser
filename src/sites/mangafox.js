@@ -2,7 +2,12 @@
 import moment from 'moment';
 import _ from 'lodash';
 
-import { resetDateTime, trimSpaces, toString } from '../utils';
+import {
+  resetDateTime,
+  trimSpaces,
+  toString,
+  sanitizeUrlProtocol
+} from '../utils';
 import AbstractCatalog, { LANGUAGE_EN } from '../abstract-catalog';
 import {
   Chapter,
@@ -19,7 +24,7 @@ class Mangafox extends AbstractCatalog {
     super();
     this.name = 'Mangafox';
     this.catalogName = 'mangafox';
-    this.baseUrl = 'http://mangafox.me';
+    this.baseUrl = 'http://fanfox.net/';
     this.lang = LANGUAGE_EN;
     this.hasVolumeInfos = true;
   }
@@ -126,15 +131,43 @@ class Mangafox extends AbstractCatalog {
       .first();
     let sideContainer: CheerioObject = $('#series_info').first();
 
-    manga.author = trimSpaces(detailsContainer.find('td').eq(1).text());
-    manga.artist = trimSpaces(detailsContainer.find('td').eq(2).text());
-    manga.genre = trimSpaces(detailsContainer.find('td').eq(3).text());
-    manga.description = trimSpaces(container.find('p.summary').first().text());
-    manga.status = this.parseStatus(
-      trimSpaces(sideContainer.find('.data').first().text())
+    manga.author = trimSpaces(
+      detailsContainer
+        .find('td')
+        .eq(1)
+        .text()
     );
-    manga.thumbnailUrl = trimSpaces(
-      sideContainer.find('div.cover > img').first().attr('src')
+    manga.artist = trimSpaces(
+      detailsContainer
+        .find('td')
+        .eq(2)
+        .text()
+    );
+    manga.genre = trimSpaces(
+      detailsContainer
+        .find('td')
+        .eq(3)
+        .text()
+    );
+    manga.description = trimSpaces(
+      container
+        .find('p.summary')
+        .first()
+        .text()
+    );
+    manga.status = this.parseStatus(
+      trimSpaces(
+        sideContainer
+          .find('.data')
+          .first()
+          .text()
+      )
+    );
+    manga.setThumbnailUrl(
+      sideContainer
+        .find('div.cover > img')
+        .first()
+        .attr('src')
     );
     manga.detailsFetched = true;
 
@@ -163,29 +196,42 @@ class Mangafox extends AbstractCatalog {
     let chapters: Array<Chapter> = [];
 
     $('h3.volume').each((i, elem) => {
-      let volumeNumber = $(elem).text().match(/Volume ([\d|TBD]+)/)[1];
+      let volumeNumber = $(elem)
+        .text()
+        .match(/Volume ([\d|TBD]+)/)[1];
 
       if (!isNaN(parseInt(volumeNumber))) {
         volumeNumber = parseInt(volumeNumber);
       }
 
-      $(elem).parent().next('ul.chlist').find('li div').each((i, elem) => {
-        let chapter = new Chapter();
-        let url = $(elem).find('a.tips').first();
+      $(elem)
+        .parent()
+        .next('ul.chlist')
+        .find('li div')
+        .each((i, elem) => {
+          let chapter = new Chapter();
+          let url = $(elem)
+            .find('a.tips')
+            .first();
 
-        chapter.url = trimSpaces(url.attr('href'));
-        chapter.title = trimSpaces(url.text());
-        chapter.publishedAt = resetDateTime(
-          this.parseChapterDate(
-            trimSpaces($(elem).find('span.date').first().text())
-          )
-        );
-        chapter.volume = volumeNumber;
+          chapter.url = trimSpaces(url.attr('href'));
+          chapter.title = trimSpaces(url.text());
+          chapter.publishedAt = resetDateTime(
+            this.parseChapterDate(
+              trimSpaces(
+                $(elem)
+                  .find('span.date')
+                  .first()
+                  .text()
+              )
+            )
+          );
+          chapter.volume = volumeNumber;
 
-        chapter.generateId();
+          chapter.generateId();
 
-        chapters.push(chapter);
-      });
+          chapters.push(chapter);
+        });
     });
 
     return chapters;
@@ -210,7 +256,9 @@ class Mangafox extends AbstractCatalog {
     if (date.indexOf('Today') > -1 || date.indexOf(' ago') > -1) {
       return new Date();
     } else if (date.indexOf('Yesterday') > -1) {
-      return moment().subtract(1, 'days').toDate();
+      return moment()
+        .subtract(1, 'days')
+        .toDate();
     }
 
     let momentDate = moment(date, 'MMM D, YYYY');
@@ -228,7 +276,9 @@ class Mangafox extends AbstractCatalog {
   pageList($: CheerioObject): Array<string> {
     let pages: Array<string> = [];
     let url: string = $('a#comments').attr('href');
-    let options = $('select.m').first().find('option:not([value=0])');
+    let options = $('select.m')
+      .first()
+      .find('option:not([value=0])');
 
     options.each((i, elem) => {
       let page = $(elem).attr('value');
@@ -244,7 +294,9 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $('#image').first().attr('src');
+    return $('#image')
+      .first()
+      .attr('src');
   }
 
   /**
@@ -312,9 +364,13 @@ class Mangafox extends AbstractCatalog {
     let manga: Manga = new Manga();
     let link: CheerioObject = $(elem).find('a.title');
 
-    manga.url = trimSpaces(link.attr('href'));
+    manga.setUrl(link.attr('href'));
     manga.title = trimSpaces(link.text());
-    manga.thumbnailUrl = trimSpaces($(elem).find('img').attr('src'));
+    manga.setThumbnailUrl(
+      $(elem)
+        .find('img')
+        .attr('src')
+    );
     manga.catalogId = catalogId;
     manga.catalog = this.catalogName;
     manga.generateId();
