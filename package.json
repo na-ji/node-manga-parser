@@ -16,7 +16,10 @@
   },
   "keywords": [
     "manga",
-    "parser"
+    "parser",
+    "mangafox",
+    "mangahere",
+    "readmanga.today"
   ],
   "homepage": "https://github.com/na-ji/node-manga-parser",
   "repository": {
