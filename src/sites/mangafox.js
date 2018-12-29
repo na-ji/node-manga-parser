@@ -24,7 +24,7 @@ class Mangafox extends AbstractCatalog {
     super();
     this.name = 'Mangafox';
     this.catalogName = 'mangafox';
-    this.baseUrl = 'http://fanfox.net/';
+    this.baseUrl = 'http://fanfox.net';
     this.lang = LANGUAGE_EN;
     this.hasVolumeInfos = true;
   }
@@ -34,6 +34,9 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   popularMangaRequest(page: ?number): string {
+    if (page === null) {
+      page = 1;
+    }
     let pageStr = page !== 1 ? `${toString(page)}.html` : '';
     return `${this.baseUrl}/directory/${pageStr}`;
   }
@@ -46,15 +49,17 @@ class Mangafox extends AbstractCatalog {
     let mangas: Array<Manga> = [];
     let provider = this;
 
-    $('div#mangalist > ul.list > li').each((i: number, elem: CheerioObject) => {
-      let manga: Manga = this.extractMangaSummary(
-        $,
-        elem,
-        provider.getNextIndex()
-      );
+    $('div.manga-list-1 > ul.manga-list-1-list > li').each(
+      (i: number, elem: CheerioObject) => {
+        let manga: Manga = this.extractMangaSummary(
+          $,
+          elem,
+          provider.getNextIndex()
+        );
 
-      mangas.push(manga);
-    });
+        mangas.push(manga);
+      }
+    );
 
     return mangas;
   }
@@ -66,10 +71,13 @@ class Mangafox extends AbstractCatalog {
   popularMangaPaginator(
     $: CheerioObject
   ): { hasNext: boolean, nextUrl: string, nextPage: ?number } {
-    let pagination: CheerioObject = $('a:has(span.next)');
+    let pagination: CheerioObject = $('.pager-list a:contains(">")');
     let nextPage = null;
 
-    if (pagination.length) {
+    if (
+      pagination.length &&
+      pagination.attr('href').indexOf('javascript') === -1
+    ) {
       nextPage = pagination.attr('href').match(/(\d+)\.htm/);
       if (nextPage && nextPage.length) {
         nextPage = parseInt(nextPage[1]);
@@ -78,7 +86,7 @@ class Mangafox extends AbstractCatalog {
 
     return {
       hasNext: Boolean(pagination.length),
-      nextUrl: pagination.attr('href'),
+      nextUrl: this.baseUrl + pagination.attr('href'),
       nextPage: nextPage
     };
   }
@@ -124,48 +132,30 @@ class Mangafox extends AbstractCatalog {
    * @returns {Manga}
    */
   mangaDetail($: CheerioObject, manga: Manga): Manga {
-    let container: CheerioObject = $('div#title').first();
-    let detailsContainer: CheerioObject = container
-      .find('table > tbody > tr')
-      .eq(1)
-      .first();
-    let sideContainer: CheerioObject = $('#series_info').first();
+    let container: CheerioObject = $('div.detail-info').first();
 
     manga.author = trimSpaces(
-      detailsContainer
-        .find('td')
-        .eq(1)
-        .text()
-    );
-    manga.artist = trimSpaces(
-      detailsContainer
-        .find('td')
-        .eq(2)
-        .text()
+      container.find('.detail-info-right-say a').text()
     );
     manga.genre = trimSpaces(
-      detailsContainer
-        .find('td')
-        .eq(3)
-        .text()
+      container.find('.detail-info-right-tag-list').text()
     );
     manga.description = trimSpaces(
-      container
-        .find('p.summary')
+      $('.fullcontent')
         .first()
         .text()
     );
     manga.status = this.parseStatus(
       trimSpaces(
-        sideContainer
-          .find('.data')
+        container
+          .find('.detail-info-right-title-tip')
           .first()
           .text()
       )
     );
     manga.setThumbnailUrl(
-      sideContainer
-        .find('div.cover > img')
+      container
+        .find('.detail-info-cover-img')
         .first()
         .attr('src')
     );
@@ -195,43 +185,46 @@ class Mangafox extends AbstractCatalog {
   chapterList($: CheerioObject): Array<Chapter> {
     let chapters: Array<Chapter> = [];
 
-    $('h3.volume').each((i, elem) => {
-      let volumeNumber = $(elem)
+    $('.detail-main-list li').each((i, elem) => {
+      const volumeNumberMatches = $(elem)
         .text()
-        .match(/Volume ([\d|TBD]+)/)[1];
+        .match(/Vol.([\d|TBD]+)/);
+      let volumeNumber;
+
+      if (volumeNumberMatches.length > 1) {
+        volumeNumber = volumeNumberMatches[1];
+      }
 
       if (!isNaN(parseInt(volumeNumber))) {
         volumeNumber = parseInt(volumeNumber);
       }
 
-      $(elem)
-        .parent()
-        .next('ul.chlist')
-        .find('li div')
-        .each((i, elem) => {
-          let chapter = new Chapter();
-          let url = $(elem)
-            .find('a.tips')
-            .first();
+      let chapter = new Chapter();
+      let url = $(elem)
+        .find('a')
+        .first();
 
-          chapter.setUrl(url.attr('href'));
-          chapter.title = trimSpaces(url.text());
-          chapter.publishedAt = resetDateTime(
-            this.parseChapterDate(
-              trimSpaces(
-                $(elem)
-                  .find('span.date')
-                  .first()
-                  .text()
-              )
-            )
-          );
-          chapter.volume = volumeNumber;
+      chapter.setUrl(this.baseUrl + url.attr('href'));
+      chapter.title = trimSpaces(
+        $(elem)
+          .find('.title3')
+          .text()
+      );
+      chapter.publishedAt = resetDateTime(
+        this.parseChapterDate(
+          trimSpaces(
+            $(elem)
+              .find('.title2')
+              .first()
+              .text()
+          )
+        )
+      );
+      chapter.volume = volumeNumber;
 
-          chapter.generateId();
+      chapter.generateId();
 
-          chapters.push(chapter);
-        });
+      chapters.push(chapter);
     });
 
     return chapters;
@@ -274,17 +267,27 @@ class Mangafox extends AbstractCatalog {
    * @returns {Array}
    */
   pageList($: CheerioObject): Array<string> {
-    let pages: Array<string> = [];
-    let url: string = $('a#comments').attr('href');
-    let options = $('select.m')
-      .first()
-      .find('option:not([value=0])');
+    const pages: Array<string> = [];
+    const pager = $('.pager-list-left > span');
+    const currentPage = $('meta[name="og:url"]').attr('content');
 
-    options.each((i, elem) => {
-      let page = $(elem).attr('value');
+    if (pager.length === 0) {
+      pages.push(currentPage);
 
-      pages.push(sanitizeUrlProtocol(`${url}${page}.html`));
-    });
+      return pages;
+    }
+
+    const lastPage = parseInt(
+      pager
+        .first()
+        .find('a:not(:contains(">"))')
+        .last()
+        .text()
+    );
+
+    for (let page = 1; page <= lastPage; page++) {
+      pages.push(sanitizeUrlProtocol(`${currentPage}${page}.html`));
+    }
 
     return pages;
   }
@@ -294,7 +297,7 @@ class Mangafox extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $('#image')
+    return $('.reader-main-img')
       .first()
       .attr('src');
   }
@@ -362,10 +365,10 @@ class Mangafox extends AbstractCatalog {
     catalogId: ?number
   ): Manga {
     let manga: Manga = new Manga();
-    let link: CheerioObject = $(elem).find('a.title');
+    let link: CheerioObject = $(elem).find('a');
 
-    manga.setUrl(link.attr('href'));
-    manga.title = trimSpaces(link.text());
+    manga.setUrl(this.baseUrl + link.attr('href'));
+    manga.title = trimSpaces(link.attr('title'));
     manga.setThumbnailUrl(
       $(elem)
         .find('img')

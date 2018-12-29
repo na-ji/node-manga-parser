@@ -21,7 +21,7 @@ class ReadMangaToday extends AbstractCatalog {
     super();
     this.name = 'ReadMangaToday';
     this.catalogName = 'readmangatoday';
-    this.baseUrl = 'http://www.readmanga.today';
+    this.baseUrl = 'https://www.readmng.com';
     this.lang = LANGUAGE_EN;
   }
 
@@ -247,7 +247,7 @@ class ReadMangaToday extends AbstractCatalog {
    * @returns {string}
    */
   imageUrl($: CheerioObject): string {
-    return $('img.img-responsive-2')
+    return $('img#chapter_img')
       .first()
       .attr('src');
   }
