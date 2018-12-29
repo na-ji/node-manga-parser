@@ -1,10 +1,12 @@
-if (process.env.UNMOCK_REQUEST) {
-  console.log('unmock request');
-  jest.resetModules();
-  jest.unmock('request');
-}
+// if (process.env.UNMOCK_REQUEST) {
+console.log('unmock request');
+jest.resetModules();
+jest.unmock('request');
+// }
 
 import Parser from '../src/parser';
+
+jest.setTimeout(10000); // 10 second timeout
 
 Object.keys(Parser.getCatalogs()).forEach(function(catalogName) {
   describe('parser for ' + catalogName, function() {
