@@ -2,6 +2,7 @@
 import _ from 'lodash';
 import Promise from 'bluebird';
 import cheerio from 'cheerio';
+import axios from 'axios';
 let request = require('request');
 
 import * as catalogs from './sites';
@@ -12,6 +13,9 @@ import type { Chapter, Manga } from './models';
 request = request.defaults({
   timeout: 20000,
   gzip: true
+});
+const http = axios.create({
+  timeout: 20000
 });
 
 class Parser {
@@ -43,36 +47,29 @@ class Parser {
     nextPage: number
   }> {
     const catalog: AbstractCatalog = this.getCatalog(catalogName);
+    const options = catalog.popularMangaRequest(page);
 
-    let options = catalog.popularMangaRequest(page);
+    return new Promise((resolve, reject) => {
+      http
+        .get(options)
+        .then(response => {
+          const $ = cheerio.load(response.data);
 
-    return new Promise(function(resolve, reject) {
-      request(options, function(error, response, page) {
-        if (error) {
-          return reject(error);
-        }
+          try {
+            const mangas = catalog.popularMangaList($);
+            const paginator = catalog.popularMangaPaginator($);
 
-        let $ = cheerio.load(page);
-        let mangas;
-        let paginator;
-
-        try {
-          mangas = catalog.popularMangaList($);
-        } catch (error) {
-          return reject(error);
-        }
-
-        try {
-          paginator = catalog.popularMangaPaginator($);
-        } catch (error) {
-          return reject(error);
-        }
-
-        return resolve({
-          mangas,
-          ...paginator
+            resolve({
+              mangas,
+              ...paginator
+            });
+          } catch (error) {
+            reject(error);
+          }
+        })
+        .catch(error => {
+          reject(error);
         });
-      });
     });
   }
 
